@@ -1,0 +1,53 @@
+README for the stix package, version 2014-01-01
+
+The Scientific and Technical Information eXchange (STIX) font is
+intended to solve the publishing needs of authors, publishers,
+printers, and others working in the scientific, medical, and
+technical fields. It is intended as a comprehensive Unicode based
+font of mathematical symbols and alphabets. The intent is to provide
+a single font that can be used throughout the production process.
+The production process can be a traditional print one, be entirely
+electronic, or be a combination. 
+
+The project began through the joint efforts of American Mathematical
+Society (AMS), American Institute of Physics Publishing (AIP),
+American Physical Society (APS), American Chemical Society (ACS),
+Institute of Electrical and Electronic Engineers (IEEE), and Elsevier
+Science. These companies are collectively known as the STI Pub
+companies.
+
+This distribution provides a new packaging format of the STIX
+fonts suitable for use with LaTeX. The glyph set is based on the
+previously released Version 1.1.0 glyph set.
+
+The stix package provides LaTeX support for using STIX fonts in both
+text and math. While the primary focus of this release is the math
+portion of the fonts, text fonts are provided as well. The text
+fonts are provided in both T1 (default) and OT1 encodings, as well
+as TS1 symbol font encoding, which cover only a subset of Latin
+characters supported by STIX fonts. The math support covers nearly
+every mathematical symbol in STIX fonts, around 2400 symbols in 11
+regular fonts, in addition to around 1950 symbols in 10 bold fonts.
+There are also three fonts containing extra miscellaneous symbols,
+stix-extra1, stix-extra2 and stix-extra3, provided as TFM and PFB
+files without support from the macro package.
+
+To install this package, unzip the /install/fonts/stix.tds.zip
+archive at the root of any suitable texmf tree and, if necessary,
+update the file-name database (e.g., texhash texmf).  Update
+the font maps by doing updmap[-sys] -enable Map stix.map.
+For usage instructions, see the stix.pdf document.
+
+This distribution also includes the version 1.1.1 OpenType font
+files for use with XeLaTeX or LuaLaTeX. Previously released versions
+of the fonts are not included, but are available from 
+http://sourceforge.net/projects/stixfonts/.
+
+The STIX fonts are licensed under the SIL Open Font License, 
+Version 1.1. The support software is licensed under the terms of the
+LaTeX Project Public License. The maintainer of this package is Mark
+Doyle (doyle@aps.org). STI Pub would like to acknowledge the significant
+work Khaled Hosny performed in preparing the LaTeX fonts. We would
+also like to thank Bob Tennent for his assistance in packaging the fonts
+and updating the README for distribution on CTAN. 
+

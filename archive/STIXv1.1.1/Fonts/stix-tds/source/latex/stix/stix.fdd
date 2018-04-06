@@ -1,0 +1,239 @@
+% \iffalse
+%<*driver>
+\begingroup
+\input docstrip
+\keepsilent
+\askforoverwritefalse
+
+\preamble
+
+Copyright (c) 2001-2013 by the STI Pub Companies, consisting of the
+American Chemical Society, the American Institute of Physics, the American
+Mathematical Society, the American Physical Society, Elsevier, Inc., and
+The Institute of Electrical and Electronic Engineers, Inc. Portions
+copyright (c) 1998-2003 by MicroPress, Inc. Portions copyright (c) 1990 by
+Elsevier, Inc. All rights reserved.
+
+This work may be distributed and/or modified under the conditions of the LaTeX
+Project Public License, either version 1.3 of this license or (at your option)
+any later version.  The latest version of this license is in
+  http://www.latex-project.org/lppl.txt
+and version 1.3 or later is part of all distributions of LaTeX version
+2005/12/01 or later.
+
+This work has the LPPL maintenance status `maintained'.
+
+The Current Maintainer of this work is the STI Pub Companies.
+
+This work consists of the files stix.fdd and and the derived files ls1stix.fd,
+ls1stixbb.fd, ls1stixfrak.fd, ls1stixscr.fd, ls1stixsf.fd, ls2stixcal.fd,
+ls2stixex.fd, ls2stix.fd, ls2stixtt.fd, ot1stix.fd, ot2stix.fd, t1stix.fd,
+ts1stix.fd.
+
+\endpreamble
+
+\generate{\file{ls1stix.fd}{\from{stix.fdd}{ls1stix}}}
+\generate{\file{ls1stixbb.fd}{\from{stix.fdd}{ls1stixbb}}}
+\generate{\file{ls1stixfrak.fd}{\from{stix.fdd}{ls1stixfrak}}}
+\generate{\file{ls1stixscr.fd}{\from{stix.fdd}{ls1stixscr}}}
+\generate{\file{ls1stixsf.fd}{\from{stix.fdd}{ls1stixsf}}}
+\generate{\file{ls2stixcal.fd}{\from{stix.fdd}{ls2stixcal}}}
+\generate{\file{ls2stixex.fd}{\from{stix.fdd}{ls2stixex}}}
+\generate{\file{ls2stix.fd}{\from{stix.fdd}{ls2stix}}}
+\generate{\file{ls2stixtt.fd}{\from{stix.fdd}{ls2stixtt}}}
+\generate{\file{ot1stix.fd}{\from{stix.fdd}{ot1stix}}}
+\generate{\file{ot2stix.fd}{\from{stix.fdd}{ot2stix}}}
+\generate{\file{t1stix.fd}{\from{stix.fdd}{t1stix}}}
+\generate{\file{ts1stix.fd}{\from{stix.fdd}{ts1stix}}}
+
+\endgroup
+\end
+%</driver>
+%\fi
+%<ls1stix>\ProvidesFile{ls1stix.fd}
+%<ls1stixbb>\ProvidesFile{ls1stixbb.fd}
+%<ls1stixfrak>\ProvidesFile{ls1stixfrak.fd}
+%<ls1stixscr>\ProvidesFile{ls1stixscr.fd}
+%<ls1stixsf>\ProvidesFile{ls1stixsf.fd}
+%<ls2stixcal>\ProvidesFile{ls2stixcal.fd}
+%<ls2stixex>\ProvidesFile{ls2stixex.fd}
+%<ls2stix>\ProvidesFile{ls2stix.fd}
+%<ls2stixtt>\ProvidesFile{ls2stixtt.fd}
+%<ot1stix>\ProvidesFile{ot1stix.fd}
+%<ot2stix>\ProvidesFile{ot2stix.fd}
+%<t1stix>\ProvidesFile{t1stix.fd}
+%<ts1stix>\ProvidesFile{ts1stix.fd}
+[2012/12/23 v1.1.0-latex STIX %
+%<ls1stix>LS1 %
+%<ls1stixbb>blackboard LS1 %
+%<ls1stixfrak>fraktur LS1 %
+%<ls1stixscr>script LS1 %
+%<ls1stixsf>sans-serif LS1 %
+%<ls2stixcal>calligraphic LS2 %
+%<ls2stixex>extentions LS2 %
+%<ls2stix>LS2 %
+%<ls2stixtt>typewriter LS2 %
+%<ot1stix>OT1 %
+%<ot2stix>OT2 %
+%<t1stix>T1 %
+%<ts1stix>TS1 %
+font definitions]
+%<*ls1stixbb>
+\DeclareFontFamily{LS1}{stixbb}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixbb}{m}{n} {<-> stix-mathbb}{}
+\DeclareFontShape{LS1}{stixbb}{m}{it}{<-> stix-mathbbit}{}
+\DeclareFontShape{LS1}{stixbb}{b}{n} {<-> stix-mathbb-bold}{}
+\DeclareFontShape{LS1}{stixbb}{b}{it}{<-> stix-mathbbit-bold}{}
+%</ls1stixbb>
+%
+%<*ls1stix>
+\DeclareFontFamily{LS1}{stix}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stix}{m}{n} {<-> stix-mathrm}{}
+\DeclareFontShape{LS1}{stix}{m}{it}{<-> stix-mathit}{}
+\DeclareFontShape{LS1}{stix}{b}{n} {<-> stix-mathrm-bold}{}
+\DeclareFontShape{LS1}{stix}{b}{it}{<-> stix-mathit-bold}{}
+
+\DeclareFontShape{LS1}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+%</ls1stix>
+%
+%<*ls1stixfrak>
+\DeclareFontFamily{LS1}{stixfrak}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixfrak}{m}{n} {<-> stix-mathfrak}{}
+\DeclareFontShape{LS1}{stixfrak}{b}{n} {<-> stix-mathfrak-bold}{}
+%</ls1stixfrak>
+%
+%<*ls1stixscr>
+\DeclareFontFamily{LS1}{stixscr}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixscr}{m}{n} {<-> stix-mathscr}{}
+\DeclareFontShape{LS1}{stixscr}{b}{n} {<-> stix-mathscr-bold}{}
+\DeclareFontShape{LS1}{stixscr}{bx}{n} {<->ssub * stixscr/b/n}{}
+%</ls1stixscr>
+%
+%<*ls1stixsf>
+\DeclareFontFamily{LS1}{stixsf}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixsf}{m}{n} {<-> stix-mathsf}{}
+\DeclareFontShape{LS1}{stixsf}{m}{it}{<-> stix-mathsfit}{}
+\DeclareFontShape{LS1}{stixsf}{b}{n} {<-> stix-mathsf-bold}{}
+\DeclareFontShape{LS1}{stixsf}{b}{it}{<-> stix-mathsfit-bold}{}
+
+\DeclareFontShape{LS1}{stixsf}{bx}{it}{<->ssub * stixsf/b/it}{}
+%</ls1stixsf>
+%
+%<*ls2stixcal>
+\DeclareFontFamily{LS2}{stixcal}{\skewchar\font127 }
+
+\DeclareFontShape{LS2}{stixcal}{m}{n} {<-> stix-mathcal}{}
+\DeclareFontShape{LS2}{stixcal}{b}{n} {<-> stix-mathcal-bold}{}
+%</ls2stixcal>
+%
+%<*ls2stixex>
+\DeclareFontFamily{LS2}{stixex}{}
+
+\DeclareFontShape{LS2}{stixex}{m}{n} {<-> stix-mathex}{}
+\DeclareFontShape{LS2}{stixex}{b}{n} {<-> stix-mathex-bold}{}
+%</ls2stixex>
+%
+%<*ls2stix>
+\DeclareFontFamily{LS2}{stix}{\skewchar\font127 }
+
+\DeclareFontShape{LS2}{stix}{m}{n} {<-> stix-mathrm}{}
+\DeclareFontShape{LS2}{stix}{m}{it}{<-> stix-mathit}{}
+\DeclareFontShape{LS2}{stix}{b}{n} {<-> stix-mathrm-bold}{}
+\DeclareFontShape{LS2}{stix}{b}{it}{<-> stix-mathit-bold}{}
+
+\DeclareFontShape{LS2}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+%</ls2stix>
+%
+%<*ls2stixtt>
+\DeclareFontFamily{LS2}{stixtt}{\skewchar\font127 }
+
+\DeclareFontShape{LS2}{stixtt}{m}{n} {<-> stix-mathtt}{}
+\DeclareFontShape{LS2}{stixtt}{b}{n} {<-> stix-mathtt-bold}{}
+%</ls2stixtt>
+%
+%<*ot1stix>
+\DeclareFontFamily{OT1}{stix}{}
+
+\DeclareFontShape{OT1}{stix}{m}{n} {<-> ot1-stixgeneral}{}
+\DeclareFontShape{OT1}{stix}{b}{n} {<-> ot1-stixgeneral-bold}{}
+\DeclareFontShape{OT1}{stix}{m}{it}{<-> ot1-stixgeneral-italic}{}
+\DeclareFontShape{OT1}{stix}{b}{it}{<-> ot1-stixgeneral-bolditalic}{}
+
+\DeclareFontShape{OT1}{stix}{m}{sc}{<-> ot1-stixgeneralsc}{}
+\DeclareFontShape{OT1}{stix}{b}{sc}{<-> ot1-stixgeneralsc-bold}{}
+
+\DeclareFontShape{OT1}{stix}{m}{sl}{<->ssub * stix/m/it}{}
+\DeclareFontShape{OT1}{stix}{b}{sl}{<->ssub * stix/b/it}{}
+
+\DeclareFontShape{OT1}{stix}{bx}{n} {<->ssub * stix/b/n}{}
+\DeclareFontShape{OT1}{stix}{bx}{sc}{<->ssub * stix/b/sc}{}
+\DeclareFontShape{OT1}{stix}{bx}{sl}{<->ssub * stix/b/sl}{}
+\DeclareFontShape{OT1}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+%</ot1stix>
+%
+%<*ot2stix>
+\DeclareFontFamily{OT2}{stix}{}
+
+\DeclareFontShape{OT2}{stix}{m}{n} {<-> ot2-stixgeneral}{}
+\DeclareFontShape{OT2}{stix}{b}{n} {<-> ot2-stixgeneral-bold}{}
+\DeclareFontShape{OT2}{stix}{m}{it}{<-> ot2-stixgeneral-italic}{}
+\DeclareFontShape{OT2}{stix}{b}{it}{<-> ot2-stixgeneral-bolditalic}{}
+
+\DeclareFontShape{OT2}{stix}{m}{sc}{<-> ot2-stixgeneralsc}{}
+\DeclareFontShape{OT2}{stix}{b}{sc}{<-> ot2-stixgeneralsc-bold}{}
+
+\DeclareFontShape{OT2}{stix}{m}{sl}{<->ssub * stix/m/it}{}
+\DeclareFontShape{OT2}{stix}{b}{sl}{<->ssub * stix/b/it}{}
+
+\DeclareFontShape{OT2}{stix}{bx}{n} {<->ssub * stix/b/n}{}
+\DeclareFontShape{OT2}{stix}{bx}{sc}{<->ssub * stix/b/sc}{}
+\DeclareFontShape{OT2}{stix}{bx}{sl}{<->ssub * stix/b/sl}{}
+\DeclareFontShape{OT2}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+%</ot2stix>
+%
+%<*t1stix>
+\DeclareFontFamily{T1}{stix}{}
+
+\DeclareFontShape{T1}{stix}{m}{n} {<-> t1-stixgeneral}{}
+\DeclareFontShape{T1}{stix}{b}{n} {<-> t1-stixgeneral-bold}{}
+\DeclareFontShape{T1}{stix}{m}{it}{<-> t1-stixgeneral-italic}{}
+\DeclareFontShape{T1}{stix}{b}{it}{<-> t1-stixgeneral-bolditalic}{}
+
+\DeclareFontShape{T1}{stix}{m}{sc}{<-> t1-stixgeneralsc}{}
+\DeclareFontShape{T1}{stix}{b}{sc}{<-> t1-stixgeneralsc-bold}{}
+
+\DeclareFontShape{T1}{stix}{m}{sl}{<->ssub * stix/m/it}{}
+\DeclareFontShape{T1}{stix}{b}{sl}{<->ssub * stix/b/it}{}
+
+\DeclareFontShape{T1}{stix}{bx}{n} {<->ssub * stix/b/n}{}
+\DeclareFontShape{T1}{stix}{bx}{sc}{<->ssub * stix/b/sc}{}
+\DeclareFontShape{T1}{stix}{bx}{sl}{<->ssub * stix/b/sl}{}
+\DeclareFontShape{T1}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+%</t1stix>
+%
+%<*ts1stix>
+\DeclareFontFamily{TS1}{stix}{}
+
+\DeclareFontShape{TS1}{stix}{m}{n} {<-> ts1-stixgeneral}{}
+\DeclareFontShape{TS1}{stix}{b}{n} {<-> ts1-stixgeneral-bold}{}
+\DeclareFontShape{TS1}{stix}{m}{it}{<-> ts1-stixgeneral-italic}{}
+\DeclareFontShape{TS1}{stix}{b}{it}{<-> ts1-stixgeneral-bolditalic}{}
+
+\DeclareFontShape{TS1}{stix}{m}{sc}{<->ssub * stix/m/n}{}
+\DeclareFontShape{TS1}{stix}{b}{sc}{<->ssub * stix/b/n}{}
+
+\DeclareFontShape{TS1}{stix}{m}{sl}{<->ssub * stix/m/it}{}
+\DeclareFontShape{TS1}{stix}{b}{sl}{<->ssub * stix/b/it}{}
+
+\DeclareFontShape{TS1}{stix}{bx}{n} {<->ssub * stix/b/n}{}
+\DeclareFontShape{TS1}{stix}{bx}{sc}{<->ssub * stix/b/sc}{}
+\DeclareFontShape{TS1}{stix}{bx}{sl}{<->ssub * stix/b/sl}{}
+\DeclareFontShape{TS1}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+%</ts1stix>
+%
+% \Finale
