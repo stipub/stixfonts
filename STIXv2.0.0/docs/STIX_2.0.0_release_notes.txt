@@ -1,0 +1,293 @@
+                   STIX Font Release Documentation
+                         OpenType/WOFF/WOFF2
+
+                            Version 2.0.0
+
+                           1 December 2016
+
+INTRODUCTION
+
+The Scientific and Technical Information eXchange (STIX) fonts are
+intended to satisfy the demanding needs of authors, publishers,
+printers, and others working in the scientific, medical, and technical
+fields.  They combine a comprehensive Unicode-based collection of
+mathematical symbols and alphabets with a set of text faces suitable
+for professional publishing.  The fonts are available royalty-free
+under the SIL Open Font License.
+
+Version 2.0.0 of the STIX fonts, now known as "STIX Two", is a
+thorough revision undertaken by the renowned type house Tiro
+Typeworks.  The STIX Two fonts consist of four text fonts (Regular,
+Italic, Bold, and Bold Italic) and one Math font.  Together, they
+provide a uniform set of fonts that can be used throughout the
+production process, whether that be a traditional print-only process,
+an entirely electronic one, or a combination of the two.
+
+The STIX project began through the joint efforts of American
+Mathematical Society (AMS), American Institute of Physics (AIP),
+American Physical Society (APS), American Chemical Society (ACS),
+Institute of Electrical and Electronic Engineers (IEEE), and Elsevier.
+These companies are collectively known as the STI Pub companies.
+
+A FRESH TAKE ON TIMES ROMAN
+
+The original version of STIX was based on Times Roman, which has now
+been updated for the digital age.
+
+As is well known, Times Roman was originally intended for printing the
+London Times.  What is not generally appreciated is the fact that the
+Times was a very atypically produced newspaper: It was printed on very
+high quality paper run through presses that operated more slowly than
+most newspaper presses.  This allowed for the design of a typeface
+that could benefit from this level of printing: serifs could be very
+fine (much finer than other newspaper typefaces) and small counters
+(enclosed areas) such as in the lowercase e could be much smaller than
+in other newspaper typefaces.  Another anomaly is that the bold font
+for Times Roman is, in many respects, strikingly dissimilar to the
+roman font.
+
+Tiro Typeworks explain their approach to updating the Times Roman
+basis of STIX as follows:
+
+    "Our principal goal in approaching STIX Two was to address several
+    inherent deficiencies in the Times New Roman model as well as
+    expand the typographic features.  This process necessarily
+    involved diverging somewhat from Times, given that many features
+    of that typeface are either incompatible with current printing
+    methods and electronic reading environments, and some others too
+    esoteric to repeat.  That said, the essential 'Times-ness'
+    remains, we believe, and such changes won't distract readers and
+    users in any negative way.
+
+    "At the core of Times' problems was inappropriate digitization,
+    using an optical size model too large to be scaled down to text
+    sizes, with compensations appropriate to its original purpose and
+    printing technique, but not for 21st century conditions.  We have
+    also re-thought somewhat overall proportions and spacing, with
+    changes made in varying degrees to both the Roman and the Italic
+    (and we have begun to harmonize the Bold, which has always been a
+    major shortcoming with Times New Roman)."
+
+WHAT IS NEW IN THIS RELEASE?
+
+In addition to the overall visual redesign, STIX Two incorporates a
+number of significant improvements and additions.  Special attention
+has been given to implementing accepted best practices for OpenType
+fonts, such as the use of font features to access variant glyph shapes
+that were previously only available via the Unicode Private Use Areas.
+
+The letterspacing and kerning of the text fonts have been
+significantly improved.
+
+True small capital variants (Latin, Cyrillic, and Greek), accessible
+via the OpenType font feature smcp, have been added for all text
+fonts.
+
+Text (lowercase or oldstyle) numerals, available via the font features
+pnum and onum, have been added, in addition to natural-spacing
+figures.
+
+Alphabetic superscripts and numeric sub- and superscripts, accessible
+via the subs and sups font features, have been added.
+
+Fractions are available via the frac feature, as well as numerators
+(numr) and denominators (dnom).
+
+The OpenType MATH table has been completely rewritten and extended.
+
+Additions have been made to these Unicode blocks:
+    Latin-1 Supplement          U+0080 - U+00FF
+    Latin Extended-A            U+0100 - U+017F
+    Latin Extended Additional   U+0180 - U+024F
+    Cyrillic                    U+0400 - U+04FF
+    Greek and Coptic            U+0370 - U+03FF
+    IPA blocks                  U+0250 - U+02AF
+
+Full details of included glyphs and supported font features are
+available in the included spreadsheet.
+
+BACKWARDS COMPATIBILITY
+
+Because of the scope of the changes, especially to the text fonts,
+STIX Two is not a drop-in replacement for earlier versions.  While we
+understand and sympathize with the difficulties caused by the
+incompatibilities we have introduced, we nevertheless felt they were
+necessary to address some of the shortcomings of earlier versions of
+the fonts and to position us to respond to the needs of modern
+publishing.
+
+Earlier versions of the STIX fonts are deprecated and no longer
+supported.  We urge all users of the STIX fonts to upgrade to the new
+versions as soon as possible.
+
+To enable the new and old versions of the fonts to coexist during the
+transition phase, the fonts have been renamed as follows:
+
+    STIX 1.1.0              STIX 2.0.0
+
+    STIX-Regular            STIX Two Text
+    STIX-Italic             STIX Two Text Italic
+    STIX-Bold               STIX Two Text Bold
+    STIX-BoldItalic         STIX Two Text Bold Italic
+
+    STIX Math Regular       STIX Two Math 
+
+The four text fonts contain glyphs from Unicode text blocks only.  For
+example, all characters from the range U+2190 to U+3063 and U+E000 to
+U+E368 and all plane 1 characters have been removed from the text
+fonts and are now found only in STIX Two Math.  Whenever possible,
+characters have been removed from the Private Use Area (U+E000-U+F8FF)
+and made available via font features instead.
+
+The STIX-General packaging of the fonts is no longer supported.
+
+WHAT IS PROVIDED IN THIS RELEASE?
+
+The contents of this distribution are as follows
+
+    Fonts/
+        OTF/
+            STIX2Math.otf
+            STIX2Text-BoldItalic.otf
+            STIX2Text-Bold.otf
+            STIX2Text-Italic.otf
+            STIX2Text-Regular.otf
+        WOFF/
+            STIX2Math.woff
+            STIX2Text-BoldItalic.woff
+            STIX2Text-Bold.woff
+            STIX2Text-Italic.woff
+            STIX2Text-Regular.woff
+        WOFF2/
+            STIX2Math.woff2
+            STIX2Text-BoldItalic.woff2
+            STIX2Text-Bold.woff2
+            STIX2Text-Italic.woff2
+            STIX2Text-Regular.woff2
+    docs/
+        STIX_2.0.0_glyph_sets.xlsx
+        STIX_2.0.0_license.pdf
+        STIX_2.0.0_release_notes.txt
+        STIX_2.0.0_stylistic_sets.pdf
+
+The font is distributed under the "SIL Open Font License, Version
+1.1", a copy of which is included in the License folder.
+
+Support for 8-bit, DVI-based TeX in the form of TFM files and Type 1
+fonts is not yet available.
+
+We also hope to provide a version of the WOFF fonts broken down into
+smaller, more web-download-friendly chunks.
+
+FONT IMPLEMENTATION DECISIONS
+
+The STIX fonts do not contain fixed-width or sans serif text faces.
+
+The sans serif, fraktur, script, etc., alphabets in Plane 1
+(U+1D400-U+1D4FF) are intended to be used only as technical symbols.
+
+These fonts are designed to support left-to-right typesetting in
+Latin-based scripts, with additional support for Greek and Cyrillic
+text.  Extensions to support other writing directions have been
+considered, but are currently deemed to be outside the scope of the
+STIX project.
+
+The font contains:
+
+1. Kerning pairs for characters suitable for use with sizes 8pt
+   through 12pt.
+
+2. Standard ligature support for those ligatures included in the font.
+
+NOTE TO TEX USERS
+
+As mentioned above, there is no support for DVI-based TeX at present.
+However, the fonts have been tested with both XeTeX and luaTeX with
+good results.  For best results, XeTeX users will want to upgrade to
+the latest development version from
+
+    http://xetex.sourceforge.net/
+
+This version fixes a number of bugs that are present in the version
+shipped with TeX Live 2016.  Our thanks go out to Jonathan Kew and
+Khaled Hosny for their generous help in identifying and fixing these
+bugs.  LaTeX users should also make sure they have the latest version
+of the amsmath package available on CTAN.
+
+There are some known issues with kerning of second-order subscripts
+that we hope to address in a future release.
+
+FEEDBACK
+
+Please direct any questions or general comments to the STIX Fonts
+project.  Bug reports and technical support issues should be reported
+through https://sourceforge.net/projects/stixfonts/support.
+
+===========================================================================
+
+                               APPENDIX
+
+               Summary of OpenType Features and Scripts
+
+Full details on all features can be found in the docs folder in
+STIX_2.0.0_stylistic_sets.pdf and STIX_2.0.0_glyph_sets.xlsx.
+
+The four text fonts support the following OpenType script tags:
+
+    DFLT            Default
+    cyrl            Cyrillic
+    cyrl.MKD        Cyrillic/Macedonian
+    cyrl.SRB        Cyrillic/Serbian
+    grek            Greek
+    latn            Latin
+    latn.ROM        Latin/Romanian
+    latn.TRK        Latin/Turkish
+
+and the following OpenType font features:
+
+    c2sc    Small Capitals From Capitals
+    case    Case-Sensitive Forms
+    ccmp    Glyph Composition/Decomposition
+    cv01    Character Variants 1 -- lambda with horizontal crossbar (U+019B)
+    cv02    Character Variants 2 -- serifed ramshorn (U+0264)
+    dnom    Denominators
+    frac    Fractions
+    kern    Kerning
+    liga    Standard Ligatures
+    numr    Numerators
+    onum    Oldstyle Figures
+    pnum    Proportional Figures
+    smcp    Small Capitals
+    subs    Subscript
+    sups    Superscript
+
+The Italic and BoldItalic fonts also support the following feature:
+
+    ss01    Stylistic Set 1 -- alternate lowercase g
+
+The following font features are supported by STIX Two Math:
+
+Supported features:
+
+    aalt    Access All Alternates
+    ccmp    Glyph Composition/Decomposition
+    cv01    Character Variants 1 -- lambda with horizontal crossbar (U+019B)
+    cv02    Character Variants 2 -- serifed ramshorn (U+0264)
+    kern    Kerning
+    ss01    Stylistic Set 1 -- Math chancery to roundhand (\mathcal -> \mathscr)
+    ss02    Stylistic Set 2 -- Alternate italic forms: g, u, v, w, z
+    ss03    Stylistic Set 3 -- Horizontal crossbar variants
+    ss04    Stylistic Set 4 -- Minute, second and primes to long variants
+    ss05    Stylistic Set 5 -- Short arrow variants
+    ss06    Stylistic Set 6 -- Short/narrow variants
+    ss07    Stylistic Set 7 -- Alternate math symbols (product, summation, etc)
+    ss08    Stylistic Set 8 -- Upright integral variants; XITS compatible
+    ss09    Stylistic Set 9 -- Vertical slash variants; XITS compatible
+    ss10    Stylistic Set 10 -- Diagonal greater/lesser combination variants
+    ss11    Stylistic Set 11 -- Long slash not-equal combination variants
+    ss12    Stylistic Set 12 -- Low contrast (sans-like) variants
+    ss13    Stylistic Set 13 -- Horizontally flipped sine wave glyph
+    ss14    Stylistic Set 14 -- Tall variants
+    ss15    Stylistic Set 15 -- Slab serif symbol variants
+    ss16    Stylistic Set 16 -- Circled operator variants
+    ss20    Stylistic Set 20 -- Miscellaneous variants
