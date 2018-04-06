@@ -1,0 +1,323 @@
+%!PS-Adobe-3.0 Resource-Encoding
+% OML+
+/stix2mathit [
+% 0x0
+/u1D6E4  % Gamma
+/u1D6E5  % Delta
+/u1D6E9  % Theta
+/u1D6EC  % Lamda
+/u1D6EF  % Xi
+/u1D6F1  % Pi
+/u1D6F4  % Sigma
+/u1D6F6  % Upsilon
+
+% 0x8
+/u1D6F7  % Phi
+/u1D6F9  % Psi
+/u1D6FA  % Omega
+/u1D6FC  % alpha
+/u1D6FD  % beta
+/u1D6FE  % gamma
+/u1D6FF  % delta
+/u1D716  % epsilon1
+
+% 0x10
+/u1D701  % zeta
+/u1D702  % eta
+/u1D703  % theta
+/u1D704  % iota
+/u1D705  % kappa
+/u1D706  % lamda
+/u1D707  % mu
+/u1D708  % nu
+
+% 0x18
+/u1D709  % xi
+/u1D70B  % pi
+/u1D70C  % rho
+/u1D70E  % sigma
+/u1D70F  % tau
+/u1D710  % upsilon
+/u1D719  % phi
+/u1D712  % chi
+
+% 0x20
+/u1D713  % psi
+/u1D714  % omega
+/u1D700  % epsilon
+/u1D717  % theta1
+/u1D71B  % pi1
+/u1D71A  % rho1
+/u1D70D  % sigma1
+/u1D711  % phi1
+
+% 0x28
+/u1D6FB % nabla
+/u1D715 % partialdiff
+/uni2135
+/uni2136
+/uni2137
+/uni2138
+/uni22B3 % triangleright
+/uni22B2 % triangleleft
+
+% 0x30
+/zero
+/one
+/two
+/three
+/four
+/five
+/six
+/seven
+
+% 0x38
+/eight
+/nine
+/period
+/comma
+/less
+/uni210F % hslash
+/greater
+/uni22C6 % star
+
+% 0x40
+/uni2268
+/u1D434  % A
+/u1D435  % B
+/u1D436  % C
+/u1D437  % D
+/u1D438  % E
+/u1D439  % F
+/u1D43A  % G
+
+% 0x48
+/u1D43B  % H
+/u1D43C  % I
+/u1D43D  % J
+/u1D43E  % K
+/u1D43F  % L
+/u1D440  % M
+/u1D441  % N
+/u1D442  % O
+
+% 0x50
+/u1D443  % P
+/u1D444  % Q
+/u1D445  % R
+/u1D446  % S
+/u1D447  % T
+/u1D448  % U
+/u1D449  % V
+/u1D44A  % W
+
+% 0x58
+/u1D44B  % X
+/u1D44C  % Y
+/u1D44D  % Z
+/uni266D % flat
+/uni266E % natural
+/uni266F % sharp
+/uni2323 % slurbelow
+/uni2322 % slurabove
+
+% 0x60
+/uni210F.var % hbar
+/u1D44E  % a
+/u1D44F  % b
+/u1D450  % c
+/u1D451  % d
+/u1D452  % e
+/u1D453  % f
+/u1D454  % g
+
+% 0x68
+/uni210E % h
+/u1D456  % i
+/u1D457  % j
+/u1D458  % k
+/u1D459  % l
+/u1D45A  % m
+/u1D45B  % n
+/u1D45C  % o
+
+% 0x70
+/u1D45D  % p
+/u1D45E  % q
+/u1D45F  % r
+/u1D460  % s
+/u1D461  % t
+/u1D462  % u
+/u1D463  % v
+/u1D464  % w
+
+% 0x78
+/u1D465  % x
+/u1D466  % y
+/u1D467  % z
+/u1D6A4  % dotlessi
+/u1D6A5  % dotlessj
+/uni2269
+/uni226A
+/uni2040 % tie
+
+% 0x80
+/uni0300
+/uni0301
+/uni0302
+/uni0303
+/uni0304
+/uni0306
+/uni0307
+/uni0308
+
+% 0x88
+/uni0309
+/uni030A
+/uni030C
+/uni0310
+/uni0312
+/uni0315
+/uni031A
+/uni20D0
+
+% 0x90
+/uni20D1
+/uni20D6
+/uni20D7
+/uni20DB
+/uni20DC
+/uni20E1
+/uni20E7
+/uni20E9
+
+% 0x98
+/uni20F0
+/uni20D6.x
+/circumflex.s1
+/tilde.s1
+/caroncomb.s1
+/circumflex.s2
+/tilde.s2
+/caroncomb.s2
+
+% 0xA0
+/circumflex.s3
+/tilde.s3
+/caroncomb.s3
+/circumflex.s4
+/tilde.s4
+/caroncomb.s4
+/circumflex.s5
+/tilde.s5
+
+% 0xA8
+/caroncomb.s5
+/uni23DE.l % bracehtipdownleft
+/uni23DE.r % bracehtipdownright
+/uni23DF.l % bracehtipupleft
+/uni23DF.r % bracehtipupright
+/uni23B4.x % bracehex
+/uni23DE.m
+/uni23DF.m
+
+% 0xB0
+/uni23DC.l
+/uni23DC.r
+/uni23DD.l
+/uni23DD.r
+/uni23B4.l
+/uni23B4.r
+/uni23B5.l
+/uni23B5.r
+
+% 0xB8
+/uni226B
+/uni226C
+/uni226D
+/uni226E
+/uni226F
+/uni2270
+/uni2271
+/uni2272
+
+% 0xC0
+/uni2273
+/uni2274
+/uni2275
+/uni2276
+/uni2277
+/uni2278
+/uni2279
+/uni227A
+
+% 0xC8
+/uni227B
+/uni227C
+/uni227D
+/uni227E
+/uni227F
+/uni2280
+/uni2281
+/uni2282
+
+% 0xD0
+/uni2283
+/uni2284
+/uni2285
+/uni2286
+/uni2287
+/uni2288
+/uni2289
+/uni228A
+
+% 0xD8
+/uni228B
+/uni228C
+/uni228D
+/uni228E
+/uni228F
+/uni2290
+/uni2291
+/uni2292
+
+% 0xE0
+/uni2293
+/uni2294
+/uni2295
+/uni2296
+/uni2297
+/uni2298
+/uni2299
+/uni229A
+
+% 0xE8
+/uni229B
+/uni229C
+/uni229D
+/uni229E
+/uni229F
+/uni22A0
+/uni22A1
+/uni22A2
+
+% 0xF0
+/uni22A3
+/uni22A4
+/uni22A5
+/uni22A6
+/uni22A7
+/uni22A8
+/uni22A9
+/uni22AA
+
+% 0xF8
+/uni22AB
+/uni22AC
+/uni22AD
+/uni22AE
+/uni22AF
+/uni22B0
+/uni22B1
+/uni22B4
+] def

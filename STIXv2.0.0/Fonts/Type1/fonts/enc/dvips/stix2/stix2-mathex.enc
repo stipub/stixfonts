@@ -1,0 +1,323 @@
+%!PS-Adobe-3.0 Resource-Encoding
+%
+/stix2mathex [
+% 0x0
+/parenleft.s1
+/parenright.s1
+/uni2985.s1
+/uni2986.s1
+/bracketleft.s1
+/bracketright.s1
+/uni27E6.s1
+/uni27E7.s1
+
+% 0x8
+/uni230A.s1
+/uni230B.s1
+/uni2308.s1
+/uni2309.s1
+/braceleft.s1
+/braceright.s1
+/uni2983.s1
+/uni2984.s1
+
+% 0x10
+/uni27E8.s1
+/uni27E9.s1
+/uni27EA.s1
+/uni27EB.s1
+/uni2772.s1
+/uni2773.s1
+/slash.s1
+/backslash.s1
+
+% 0x18
+/parenleft.s3
+/parenright.s3
+/uni2985.s2
+/uni2986.s2
+/bracketleft.s3
+/bracketright.s3
+/uni27E6.s2
+/uni27E7.s2
+
+% 0x20
+/uni230A.s2
+/uni230B.s2
+/uni2308.s2
+/uni2309.s2
+/braceleft.s3
+/braceright.s3
+/uni2983.s2
+/uni2984.s2
+
+% 0x28
+/uni27E8.s2
+/uni27E9.s2
+/uni27EA.s2
+/uni27EB.s2
+/uni2772.s2
+/uni2773.s2
+/slash.s2
+/backslash.s2
+
+% 0x30
+/parenleft.s5
+/parenright.s5
+/uni2985.s3
+/uni2986.s3
+/bracketleft.s5
+/bracketright.s5
+/uni27E6.s3
+/uni27E7.s3
+
+% 0x38
+/uni230A.s3
+/uni230B.s3
+/uni2308.s3
+/uni2309.s3
+/braceleft.s5
+/braceright.s5
+/uni2983.s3
+/uni2984.s3
+
+% 0x40
+/uni27E8.s3
+/uni27E9.s3
+/uni27EA.s3
+/uni27EB.s3
+/uni2772.s3
+/uni2773.s3
+/slash.s3
+/backslash.s3
+
+% 0x48
+/parenleft.s8
+/parenright.s8
+/uni2985.s4
+/uni2986.s4
+/bracketleft.s8
+/bracketright.s8
+/uni27E6.s4
+/uni27E7.s4
+
+% 0x50
+/uni230A.s4
+/uni230B.s4
+/uni2308.s4
+/uni2309.s4
+/braceleft.s8
+/braceright.s8
+/uni2983.s4
+/uni2984.s4
+
+% 0x58
+/uni27E8.s4
+/uni27E9.s4
+/uni27EA.s4
+/uni27EB.s4
+/uni2772.s4
+/uni2773.s4
+/slash.s4
+/backslash.s4
+
+% 0x60
+/uni239B % parenlefttp
+/uni239E % parenrighttp
+/uni23A1 % bracketlefttp
+/uni23A4 % bracketrighttp
+/uni23A3 % bracketleftbt
+/uni23A6 % bracketrightbt
+/uni23A2 % bracketleftex
+/uni23A5 % bracketrightex
+
+% 0x68
+/uni23A7 % bracelefttp
+/uni23AB % bracerighttp
+/uni23A9 % braceleftbt
+/uni23AD % bracerightbt
+/uni23A8 % braceleftmid
+/uni23AC % bracerightmid
+/uni23AA % braceex
+/.notdef
+
+% 0x70
+/uni239D % parenleftbt
+/uni23A0 % parenrightbt
+/uni239C % parenleftex
+/uni239F % parenrightex
+/uni221A.s1
+/uni221A.s2
+/uni221A.s3
+/uni221A.s4
+
+% 0x78
+/uni221A.x % radicalvertex
+/uni221A.t % radicaltp
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x80
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x88
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x90
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x98
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xA0
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xA8
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xB0
+/uni2140
+/uni220F
+/uni2210
+/uni2211
+/uni22C0
+/uni22C1
+/uni22C2
+/uni22C3
+
+% 0xB8
+/uni29F8
+/uni29F9
+/uni2A00
+/uni2A01
+/uni2A02
+/uni2A03
+/uni2A04
+/uni2A05
+
+% 0xC0
+/uni2A06
+/uni2A07
+/uni2A08
+/uni2A09
+/uni2A0A
+/uni2AFF
+/uni2140.s1
+/uni220F.s1
+
+% 0xC8
+/uni2210.s1
+/uni2211.s1
+/uni22C0.s1
+/uni22C1.s1
+/uni22C2.s1
+/uni22C3.s1
+/uni29F8.s1
+/uni29F9.s1
+
+% 0xD0
+/uni2A00.s1
+/uni2A01.s1
+/uni2A02.s1
+/uni2A03.s1
+/uni2A04.s1
+/uni2A05.s1
+/uni2A06.s1
+/uni2A07.s1
+
+% 0xD8
+/uni2A08.s1
+/uni2A09.s1
+/uni2A0A.s1
+/uni2AFF.s1
+/uni27EE
+/uni27EF
+/uni2985
+/uni2986
+
+% 0xE0
+/uni27E6
+/uni27E7
+/uni230A
+/uni230B
+/uni2308
+/uni2309
+/uni23B0
+/uni23B1
+
+% 0xE8
+/uni2983
+/uni2984
+/uni27E8
+/uni27E9
+/uni27EA
+/uni27EB
+/uni2772
+/uni2773
+
+% 0xF0
+/bar.var
+/uni2016
+/uni2980
+/bar.x
+/uni2016.x
+/uni2980.x
+/.notdef
+/.notdef
+
+% 0xF8
+/.notdef
+/uni221A
+/uni27CC
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+] def

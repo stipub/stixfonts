@@ -1,0 +1,322 @@
+%!PS-Adobe-3.0 Resource-Encoding
+/stix2ts1 [
+% 0x0
+/uni0300.cap % capitalgrave
+/uni0301.cap % capitalacute
+/uni0302.cap % capitalcircumflex
+/uni0303.cap % capitaltilde
+/uni0308.cap % capitaldieresis
+/uni030B.cap % capitalhungarumlaut
+/uni030A.cap % capitalring
+/uni030C.cap % capitalcaron
+
+% 0x8
+/uni0306.cap % capitalbreve
+/uni0304.cap % capitalmacron
+/uni0307.cap % capitaldotaccent
+/cedilla
+/ogonek
+/quotesinglbase
+/.notdef
+/.notdef
+
+% 0x10
+/.notdef
+/.notdef
+/quotedblbase
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x18
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x20
+/uni2423 % blank
+/.notdef
+/.notdef
+/.notdef
+/dollar
+/.notdef
+/.notdef
+/quotesingle
+
+% 0x28
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/comma
+/.notdef
+/period
+/fraction
+
+% 0x30
+/zero.OT
+/one.OT
+/two.OT
+/three.OT
+/four.OT
+/five.OT
+/six.OT
+/seven.OT
+
+% 0x38
+/eight.OT
+/nine.OT
+/.notdef
+/.notdef
+/.notdef
+/uni2212
+/.notdef
+/.notdef
+
+% 0x40
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x48
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/uni2127
+/.notdef
+/.notdef
+
+% 0x50
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/uni2126
+
+% 0x58
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x60
+/grave
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x68
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x70
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x78
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/uni0330
+/.notdefchar
+
+% 0x80
+/breve
+/caron
+/hungarumlaut
+/uni030F % XXXX
+/dagger
+/daggerdbl
+/uni2016
+/perthousand
+
+% 0x88
+/bullet
+/.notdef
+/dollar
+/cent
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x90
+/.notdef
+/.notdef
+/uni20A4
+/uni211E
+/.notdef
+/.notdefdown
+/.notdef
+/trademark
+
+% 0x98
+/uni2031
+/paragraph % pilcrow
+/.notdef
+/uni2116
+/uni2052
+/estimated
+/.notdef
+/.notdef
+
+% 0xA0
+/.notdef
+/.notdef
+/cent
+/sterling
+/currency
+/yen
+/brokenbar
+/section
+
+% 0xA8
+/dieresis
+/copyright
+/ordfeminine
+/.notdef
+/logicalnot
+/.notdef
+/registered
+/macron
+
+% 0xB0
+/degree
+/plusminus
+/twosuperior
+/threesuperior
+/acute
+/mu
+/paragraph
+/periodcentered
+
+% 0xB8
+/uni203B
+/onesuperior
+/ordmasculine
+/.notdef
+/onequarter
+/onehalf
+/threequarters
+/Euro
+
+% 0xC0
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xC8
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xD0
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/multiply
+/.notdef
+
+% 0xD8
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xE0
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xE8
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0xF0
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/divide
+/.notdef
+
+% 0xF8
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+] def

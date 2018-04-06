@@ -1,0 +1,323 @@
+%!PS-Adobe-3.0 Resource-Encoding
+% 
+/stix2mathbbit [
+% 0x0
+/uniE004.nu
+/uniE005.nu
+/uniE00E.nu
+/uniE00F.nu
+/uniE010.nu
+/uniE011.nu
+/uniE016.nu
+/uniE018.nu
+
+% 0x8
+/uniE01E.nu
+/uniE023.nu
+/uniE025.nu
+/uniE028.nu
+/uniE029.nu
+/uniE02A.nu
+/uniE02B.nu
+/uniE035.nu
+
+% 0x10
+/uniE03A.nu
+/uniE03B.nu
+/uniE03C.nu
+/uniE03D.nu
+/uniE045.nu
+/uniE046.nu
+/uniE04B.nu
+/uniE04C.nu
+
+% 0x18
+/uniE04E.nu
+/uniE04F.nu
+/uniE050.nu
+/uniE051.nu
+/uniE052.nu
+/uniE059.nu
+/uniE05A.nu
+/uniE05B.nu
+
+% 0x20
+/uniE05C.nu
+/uniE06D.nu
+/uniE06E.nu
+/uniE075.nu
+/uniE07C.nu
+/uniE082.nu
+/uniE083.nu
+/uniE086.nu
+
+% 0x28
+/uniE087.nu
+/uniE094.nu
+/uniE095.nu
+/uniE098.nu
+/uniE14C.nu
+/uniE14D.nu
+/uniE14E.nu
+/uniE14F.nu
+
+% 0x30
+/.notdef % 0
+/.notdef % 1
+/.notdef % 2
+/.notdef % 3
+/.notdef % 4
+/.notdef % 5
+/.notdef % 6
+/.notdef % 7
+
+% 0x38
+/.notdef % 8
+/.notdef % 9
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x40
+/.notdef
+/.notdef % A
+/.notdef % B
+/.notdef % C
+/.notdef % D
+/.notdef % E
+/.notdef % F
+/.notdef % G
+
+% 0x48
+/.notdef % H
+/.notdef % I
+/.notdef % J
+/.notdef % K
+/.notdef % L
+/.notdef % M
+/.notdef % N
+/.notdef % O
+
+% 0x50
+/.notdef % P
+/.notdef % Q
+/.notdef % R
+/.notdef % S
+/.notdef % T
+/.notdef % U
+/.notdef % V
+/.notdef % W
+
+% 0x58
+/.notdef % X
+/.notdef % Y
+/.notdef % Z
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+/.notdef
+
+% 0x60
+/.notdef
+/.notdef % a
+/.notdef % b
+/.notdef % c
+/.notdef % d
+/.notdef % e
+/.notdef % f
+/.notdef % g
+
+% 0x68
+/.notdef % h
+/.notdef % i
+/.notdef % j
+/.notdef % k
+/.notdef % l
+/.notdef % m
+/.notdef % n
+/.notdef % o
+
+% 0x70
+/.notdef % p
+/.notdef % q
+/.notdef % r
+/.notdef % s
+/.notdef % t
+/.notdef % u
+/.notdef % v
+/.notdef % w
+
+% 0x78
+/.notdef % x
+/.notdef % y
+/.notdef % z
+/.notdef % dotlessi
+/.notdef % dotlessj
+/sterling
+/.notdef
+/uni2040 % tie
+
+% 0x80
+/uni0300
+/uni0301
+/uni0302
+/uni0303
+/uni0304
+/uni0306
+/uni0307
+/uni0308
+
+% 0x88
+/uni0309
+/uni030A
+/uni030C
+/uni0310
+/uni0312
+/uni0315
+/uni031A
+/uni20D0
+
+% 0x90
+/uni20D1
+/uni20D6
+/uni20D7
+/uni20DB
+/uni20DC
+/uni20E1
+/uni20E7
+/uni20E9
+
+% 0x98
+/uni20F0
+/uni2ACB
+/uni2ACC
+/uni2ACD
+/uni2ACE
+/uni2ACF
+/uni2AD0
+/uni2AD1
+
+% 0xA0
+/uni2AD2
+/uni2AD3
+/uni2AD4
+/uni2AD5
+/uni2AD6
+/uni2AD7
+/uni2AD8
+/uni2AD9
+
+% 0xA8
+/uni2ADA
+/uni2ADB
+/uni2ADC
+/uni2ADD
+/uni2ADE
+/uni2ADF
+/uni2AE0
+/uni2AE1
+
+% 0xB0
+/uni2AE2
+/uni2AE3
+/uni2AE4
+/uni2AE5
+/uni2AE6
+/uni2AE7
+/uni2AE8
+/uni2AE9
+
+% 0xB8
+/uni2AEA
+/uni2AEB
+/uni2AEC
+/uni2AED
+/uni2AEE
+/uni2AEF
+/uni2AF0
+/uni2AF1
+
+% 0xC0
+/uni2AF2
+/uni2AF3
+/uni2AF4
+/uni2AF5
+/uni2AF6
+/uni2AF7
+/uni2AF8
+/uni2AF9
+
+% 0xC8
+/uni2AFA
+/uni2AFB
+/uni2AFC
+/uni2AFD
+/uni2AFE
+/uni2B12
+/uni2B13
+/uni2B14
+
+% 0xD0
+/uni2B15
+/uni2B16
+/uni2B17
+/uni2B18
+/uni2B19
+/uni2B1A
+/uni2B1B
+/uni2B1C
+
+% 0xD8
+/uni2B1D
+/uni2B1E
+/uni2B1F
+/uni2B20
+/uni2B21
+/uni2B22
+/uni2B23
+/uni2B24
+
+% 0xE0
+/uni2B25
+/uni2B26
+/uni2B27
+/uni2B28
+/uni2B29
+/uni2B2A
+/uni2B2B
+/uni2B2C
+
+% 0xE8
+/uni2B2D
+/uni2B2E
+/uni2B2F
+/uni2B50
+/uni2B51
+/uni2B52
+/uni2B53
+/uni2B54
+
+% 0xF0
+/uni3012
+/uni3030
+/uni23B6
+/uni23E0
+/uni23E1
+/uni2609
+/uni2621
+/uni263B
+
+% 0xF8
+/uni263C
+/uni263D
+/uni263E
+/uni2640
+/uni2642
+/uni2664
+/uni2665
+/uni2666
+] def

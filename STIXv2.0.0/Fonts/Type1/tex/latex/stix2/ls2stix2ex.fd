@@ -1,0 +1,42 @@
+%%
+%% This is file `ls2stix2ex.fd',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% stix2.fdd  (with options: `ls2stix2ex')
+%% 
+%% Copyright (c) 2001-2018 by the STI Pub Companies, consisting of the
+%% American Chemical Society, the American Institute of Physics, the American
+%% Mathematical Society, the American Physical Society, Elsevier, Inc., and
+%% The Institute of Electrical and Electronic Engineers, Inc. Portions
+%% copyright (c) 1998-2003 by MicroPress, Inc. Portions copyright (c) 1990 by
+%% Elsevier, Inc. All rights reserved.
+%% 
+%% This work may be distributed and/or modified under the conditions of the LaTeX
+%% Project Public License, either version 1.3 of this license or (at your option)
+%% any later version.  The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX version
+%% 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the STI Pub Companies.
+%% 
+%% This work consists of the files stix2.fdd and and the derived files
+%% ls1stix2.fd, ls1stix2bb.fd, ls1stix2frak.fd, ls1stix2scr.fd, ls1stix2sf.fd,
+%% ls2stix2cal.fd, ls2stix2ex.fd, ls2stix2.fd, ls2stix2tt.fd, ot1stix2.fd,
+%% ot2stix2.fd, t1stix2.fd, ts1stix2.fd.
+%% 
+\ProvidesFile{ls2stix2ex.fd}
+[2018/04/02 v2.0.0-latex stix2 %
+extentions LS2 %
+font definitions]
+\DeclareFontFamily{LS2}{stix2ex}{}
+
+\DeclareFontShape{LS2}{stix2ex}{m}{n} {<-> stix2-mathex}{}
+\DeclareFontShape{LS2}{stix2ex}{b}{n} {<->sub * stix2ex/m/n}{}
+\endinput
+%%
+%% End of file `ls2stix2ex.fd'.

@@ -1,0 +1,246 @@
+%!PS-Adobe-3.0 Resource-Encoding
+% 
+/stix2mathtt [
+% 0x0
+/uni27F3
+/uni27F4
+/uni27F5
+/uni27F6
+/uni27F7
+/uni27F8
+/uni27F9
+/uni27FA
+
+% 0x8
+/uni27FB
+/uni27FC
+/uni27FD
+/uni27FE
+/uni27FF
+/uni27F2
+/uni2B47
+/uni2660
+
+% 0x10
+/uni2661
+/uni2662
+/uni2663
+/paragraph
+/section
+/uni2967
+/uni2968
+/uni2969
+
+% 0x18
+/uni296A
+/uni296B
+/uni296C
+/uni296D
+/uni296E
+/uni296F
+/uni2970
+/uni2971
+
+% 0x20
+/uni2972
+/uni2973
+/uni2974
+/uni2975
+/uni2976
+/uni2977
+/uni2978
+/uni2979
+
+% 0x28
+/uni297A
+/uni297B
+/uni297C
+/uni297D
+/uni297E
+/uni297F
+/uni2667
+/uni2669
+
+% 0x30
+/u1D7F6 % 0
+/u1D7F7 % 1
+/u1D7F8 % 2
+/u1D7F9 % 3
+/u1D7FA % 4
+/u1D7FB % 5
+/u1D7FC % 6
+/u1D7FD % 7
+
+% 0x38
+/u1D7FE % 8
+/u1D7FF % 9
+/uni266A
+/uni266B
+/uni2680
+/uni2681
+/uni2682
+/uni2683
+
+% 0x40
+/uni2684
+/u1D670  % A
+/u1D671  % B
+/u1D672  % C
+/u1D673  % D
+/u1D674  % E
+/u1D675  % F
+/u1D676  % G
+
+% 0x48
+/u1D677  % H
+/u1D678  % I
+/u1D679  % J
+/u1D67A  % K
+/u1D67B  % L
+/u1D67C  % M
+/u1D67D  % N
+/u1D67E  % O
+
+% 0x50
+/u1D67F  % P
+/u1D680  % Q
+/u1D681  % R
+/u1D682  % S
+/u1D683  % T
+/u1D684  % U
+/u1D685  % V
+/u1D686  % W
+
+% 0x58
+/u1D687  % X
+/u1D688  % Y
+/u1D689  % Z
+/uni2685
+/uni2686
+/uni2687
+/uni2688
+/uni2689
+
+% 0x60
+/uni26A5
+/u1D68A  % a
+/u1D68B  % b
+/u1D68C  % c
+/u1D68D  % d
+/u1D68E  % e
+/u1D68F  % f
+/u1D690  % g
+
+% 0x68
+/u1D691  % h
+/u1D692  % i
+/u1D693  % j
+/u1D694  % k
+/u1D695  % l
+/u1D696  % m
+/u1D697  % n
+/u1D698  % o
+
+% 0x70
+/u1D699  % p
+/u1D69A  % q
+/u1D69B  % r
+/u1D69C  % s
+/u1D69D  % t
+/u1D69E  % u
+/u1D69F  % v
+/u1D6A0  % w
+
+% 0x78
+/u1D6A1  % x
+/u1D6A2  % y
+/u1D6A3  % z
+/u1D692.dotless % dotlessi
+/u1D693.dotless % dotlessj
+/uni26AA
+/uni26AB
+/uni2040 % tie
+
+% 0x80
+/uni26AC
+/uni26B2
+/uni2713
+/uni2720
+/uni272A
+/uni2736
+/uni273D
+/.notdef
+
+% 0x88
+/uni25E9
+/uni25EA
+/uni25EB
+/uni25EC
+/uni25ED
+/uni25EE
+/uni25EF
+/uni25F0
+
+% 0x90
+/uni25F1
+/uni25F2
+/uni25F3
+/uni25F4
+/uni25F5
+/uni25F6
+/uni25F7
+/uni25F8
+
+% 0x98
+/uni25F9
+/uni25FA
+/uni25FB
+/uni25FC
+/uni25FD
+/uni25FE
+/uni25FF
+/uni2605
+
+% 0xA0
+/uni2606
+/uni2A30
+/uni2A31
+/uni2A32
+/uni2A33
+/uni2A34
+/uni2A35
+/uni2A36
+
+% 0xA8
+/uni2A37
+/uni2A38
+/uni2A39
+/uni2A3A
+/uni2A3B
+/uni2A3C
+/uni2A3D
+/uni2A3E
+
+% 0xB0
+/uni2A3F
+/uni2A40
+/uni2A41
+/uni2A42
+/uni2A43
+/uni2A44
+/uni2A45
+/uni2A46
+
+% 0xB8
+/uni2A47
+/uni2A48
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef 
+] def
