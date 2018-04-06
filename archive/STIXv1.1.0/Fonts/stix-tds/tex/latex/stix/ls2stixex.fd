@@ -1,0 +1,8 @@
+\ProvidesFile{ls1stixex.fd}[2012/12/23 STIX LS2 font definitions]
+
+\DeclareFontFamily{LS2}{stixex}{}
+
+\DeclareFontShape{LS2}{stixex}{m}{n} {<-> stix-mathex}{}
+\DeclareFontShape{LS2}{stixex}{b}{n} {<-> stix-mathex-bold}{}
+
+\endinput

@@ -1,0 +1,21 @@
+\ProvidesFile{t1stix.fd}[2012/12/23 STIX T1 font definitions]
+
+\DeclareFontFamily{T1}{stix}{}
+
+\DeclareFontShape{T1}{stix}{m}{n} {<-> t1-stixgeneral}{}
+\DeclareFontShape{T1}{stix}{b}{n} {<-> t1-stixgeneral-bold}{}
+\DeclareFontShape{T1}{stix}{m}{it}{<-> t1-stixgeneral-italic}{}
+\DeclareFontShape{T1}{stix}{b}{it}{<-> t1-stixgeneral-bolditalic}{}
+
+\DeclareFontShape{T1}{stix}{m}{sc}{<-> t1-stixgeneralsc}{}
+\DeclareFontShape{T1}{stix}{b}{sc}{<-> t1-stixgeneralsc-bold}{}
+
+\DeclareFontShape{T1}{stix}{m}{sl}{<->ssub * stix/m/it}{}
+\DeclareFontShape{T1}{stix}{b}{sl}{<->ssub * stix/b/it}{}
+
+\DeclareFontShape{T1}{stix}{bx}{n} {<->ssub * stix/b/n}{}
+\DeclareFontShape{T1}{stix}{bx}{sc}{<->ssub * stix/b/sc}{}
+\DeclareFontShape{T1}{stix}{bx}{sl}{<->ssub * stix/b/sl}{}
+\DeclareFontShape{T1}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+
+\endinput

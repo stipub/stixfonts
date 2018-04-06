@@ -1,0 +1,8 @@
+\ProvidesFile{ls1stixfrak.fd}[2012/12/23 STIX fraktur LS1 font definitions]
+
+\DeclareFontFamily{LS1}{stixfrak}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixfrak}{m}{n} {<-> stix-mathfrak}{}
+\DeclareFontShape{LS1}{stixfrak}{b}{n} {<-> stix-mathfrak-bold}{}
+
+\endinput

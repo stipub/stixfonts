@@ -1,0 +1,9 @@
+\ProvidesFile{ls1stixscr.fd}[2012/12/23 STIX script LS1 font definitions]
+
+\DeclareFontFamily{LS1}{stixscr}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixscr}{m}{n} {<-> stix-mathscr}{}
+\DeclareFontShape{LS1}{stixscr}{b}{n} {<-> stix-mathscr-bold}{}
+\DeclareFontShape{LS1}{stixscr}{bx}{n} {<->ssub * stixscr/b/n}{}
+
+\endinput

@@ -1,0 +1,10 @@
+\ProvidesFile{ls1stixbb.fd}[2012/12/23 STIX blackboard LS1 font definitions]
+
+\DeclareFontFamily{LS1}{stixbb}{\skewchar\font127 }
+
+\DeclareFontShape{LS1}{stixbb}{m}{n} {<-> stix-mathbb}{}
+\DeclareFontShape{LS1}{stixbb}{m}{it}{<-> stix-mathbbit}{}
+\DeclareFontShape{LS1}{stixbb}{b}{n} {<-> stix-mathbb-bold}{}
+\DeclareFontShape{LS1}{stixbb}{b}{it}{<-> stix-mathbbit-bold}{}
+
+\endinput

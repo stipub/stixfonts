@@ -1,0 +1,21 @@
+\ProvidesFile{ot1stix.fd}[2012/12/23 STIX OT1 font definitions]
+
+\DeclareFontFamily{OT1}{stix}{}
+
+\DeclareFontShape{OT1}{stix}{m}{n} {<-> ot1-stixgeneral}{}
+\DeclareFontShape{OT1}{stix}{b}{n} {<-> ot1-stixgeneral-bold}{}
+\DeclareFontShape{OT1}{stix}{m}{it}{<-> ot1-stixgeneral-italic}{}
+\DeclareFontShape{OT1}{stix}{b}{it}{<-> ot1-stixgeneral-bolditalic}{}
+
+\DeclareFontShape{OT1}{stix}{m}{sc}{<-> ot1-stixgeneralsc}{}
+\DeclareFontShape{OT1}{stix}{b}{sc}{<-> ot1-stixgeneralsc-bold}{}
+
+\DeclareFontShape{OT1}{stix}{m}{sl}{<->ssub * stix/m/it}{}
+\DeclareFontShape{OT1}{stix}{b}{sl}{<->ssub * stix/b/it}{}
+
+\DeclareFontShape{OT1}{stix}{bx}{n} {<->ssub * stix/b/n}{}
+\DeclareFontShape{OT1}{stix}{bx}{sc}{<->ssub * stix/b/sc}{}
+\DeclareFontShape{OT1}{stix}{bx}{sl}{<->ssub * stix/b/sl}{}
+\DeclareFontShape{OT1}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+
+\endinput

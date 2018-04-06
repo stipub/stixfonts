@@ -1,0 +1,8 @@
+\ProvidesFile{ls1stixtt.fd}[2012/12/23 STIX typewriter LS2 font definitions]
+
+\DeclareFontFamily{LS2}{stixtt}{\skewchar\font127 }
+
+\DeclareFontShape{LS2}{stixtt}{m}{n} {<-> stix-mathtt}{}
+\DeclareFontShape{LS2}{stixtt}{b}{n} {<-> stix-mathtt-bold}{}
+
+\endinput

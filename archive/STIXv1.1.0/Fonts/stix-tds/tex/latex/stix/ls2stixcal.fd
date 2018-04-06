@@ -1,0 +1,8 @@
+\ProvidesFile{ls1stixcal.fd}[2012/12/23 STIX calligraphic LS2 font definitions]
+
+\DeclareFontFamily{LS2}{stixcal}{\skewchar\font127 }
+
+\DeclareFontShape{LS2}{stixcal}{m}{n} {<-> stix-mathcal}{}
+\DeclareFontShape{LS2}{stixcal}{b}{n} {<-> stix-mathcal-bold}{}
+
+\endinput

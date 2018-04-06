@@ -1,0 +1,12 @@
+\ProvidesFile{ls1stix.fd}[2012/12/23 STIX LS2 font definitions]
+
+\DeclareFontFamily{LS2}{stix}{\skewchar\font127 }
+
+\DeclareFontShape{LS2}{stix}{m}{n} {<-> stix-mathrm}{}
+\DeclareFontShape{LS2}{stix}{m}{it}{<-> stix-mathit}{}
+\DeclareFontShape{LS2}{stix}{b}{n} {<-> stix-mathrm-bold}{}
+\DeclareFontShape{LS2}{stix}{b}{it}{<-> stix-mathit-bold}{}
+
+\DeclareFontShape{LS2}{stix}{bx}{it}{<->ssub * stix/b/it}{}
+
+\endinput
