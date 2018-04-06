@@ -14,6 +14,19 @@ The Institute of Electrical and Electronic Engineers, Inc. Portions
 copyright (c) 1998-2003 by MicroPress, Inc. Portions copyright (c) 1990 by
 Elsevier, Inc. All rights reserved.
 
+This work may be distributed and/or modified under the conditions of the LaTeX
+Project Public License, either version 1.3 of this license or (at your option)
+any later version.  The latest version of this license is in
+  http://www.latex-project.org/lppl.txt
+and version 1.3 or later is part of all distributions of LaTeX version
+2005/12/01 or later.
+
+This work has the LPPL maintenance status `maintained'.
+
+The Current Maintainer of this work is the STI Pub Companies.
+
+This work consists of the files stix.dtx and and the derived file stix.sty.
+
 \endpreamble
 
 \generate{\file{stix.sty}{\from{stix.dtx}{package}}}
@@ -24,13 +37,12 @@ Elsevier, Inc. All rights reserved.
 %<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
 %<package>\ProvidesPackage{stix}
 %<*package>
-    [2012/12/23 v1.1.0-latex-beta STIX fonts support package]
+    [2012/12/23 v1.1.0-latex STIX fonts support package]
 %</package>
 %
 %<*driver>
 \documentclass{ltxdoc}
 \usepackage[lcgreekalpha]{stix}[2012/12/23]
-\usepackage{accents}
 
 \usepackage{fonttable}
 % fonttable's oct and hex numbers (ab)uses \' and \H which look ugly with our
@@ -42,12 +54,20 @@ Elsevier, Inc. All rights reserved.
 \makeatother
 
 \usepackage{geometry}
-\usepackage{caption}
-\captionsetup{justification=raggedright, font=normalsize, singlelinecheck=false}
+\usepackage{accents}
+\usepackage{enumitem}
+\usepackage[
+  justification=raggedright,
+  font=normalsize,
+  singlelinecheck=false
+]{caption}
 \usepackage[
   bookmarks=true,
   colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
   pdftitle={The stix package},
+  pdfauthor={STI Pub Companies},
   pdfsubject={STIX fonts LaTeX support package},
   pdfkeywords={STIX, Math, STI Pub}
 ]{hyperref}
@@ -94,11 +114,10 @@ Elsevier, Inc. All rights reserved.
 %   Right brace   \}     Tilde         \~}
 %
 %
-% \providecommand*{\url}{\texttt}
-%
 % \GetFileInfo{stix.dtx}
 %
 % \title{The \pkg{stix} package}
+% \author{STI Pub Companies}
 % \date{\fileversion~from \filedate}
 %
 % \maketitle
@@ -117,9 +136,7 @@ Elsevier, Inc. All rights reserved.
 % scientists, students, and the general public.
 %
 % The STIX fonts are based on the Unicode standard for character
-% representation.
-%
-% Not all Unicode values are included in the STIX Fonts, but there is extensive
+% representation. Not all Unicode values are included in the STIX Fonts, but there is extensive
 % coverage of Latin alphabets, Greek, and Cyrillic. The Font contents were
 % assembled from a list of every character/glyph required for publication in
 % the journals of the participating STI Pub companies. Every scientific
@@ -132,21 +149,17 @@ Elsevier, Inc. All rights reserved.
 % The \pkg{stix} package provides \LaTeX\ support for using STIX fonts in both
 % text and math. The text fonts are provided in both |T1| (default) and |OT1|
 % encodings, as well as |TS1| symbol font encoding, which cover only a subset
-% of Latin characters supported by STIX fonts.
-%
-% The math support covers nearly every mathematical symbol in STIX fonts,
+% of Latin characters supported by STIX fonts. The math support covers nearly every mathematical symbol in STIX fonts,
 % around 2400 symbols in 11 regular fonts, in addition to around 1950 symbols
-% in 10 bold fonts.  Section~\ref{math-alphabets} list math alphabets supported
-% by the \pkg{stix}, while section~\ref{math-symbols} lists all defined math
-% symbols.
-%
-% There are also three fonts containing extra miscellaneous symbols,
+% in 10 bold fonts.  Section~\ref{math-alphabets} lists math alphabets supported
+% by the \pkg{stix} package, while section~\ref{math-symbols} lists all defined
+% math symbols. There are also three fonts containing extra miscellaneous symbols,
 % |stix-extra1|, |stix-extra2| and |stix-extra3|, provided as TFM and PFB files
 % without support from the macro package.
 %
 % \section{Usage}
 %
-% Using STIX fonts with \LaTeX\ is as simple as loading \pkg{stix} package:
+% Using STIX fonts with \LaTeX\ is as simple as loading the \pkg{stix} package:
 % \begin{verbatim}
 % \documentclass{article}
 % \usepackage{stix}
@@ -156,25 +169,22 @@ Elsevier, Inc. All rights reserved.
 % \end{verbatim}
 %
 % \subsection{Options}
-% \begingroup
-% \setlength{\leftmargini}{0pt}
-% \begin{itemize}
-% \item[|notext|] Do not change the default text fonts.
-% \item[|nomath|] Do not change the default math fonts.
-% \item[|not1|] Do not change the default font encoding to |T1|.
-% \item[|notextcomp|] Do not load the \pkg{textcomp} package (provides symbols
+% \begin{description}[font=\ttfamily,style=nextline,leftmargin=2.5cm,noitemsep]
+% \item[notext] Do not change the default text fonts.
+% \item[nomath] Do not change the default math fonts.
+% \item[not1] Do not change the default font encoding to |T1|.
+% \item[notextcomp] Do not load the \pkg{textcomp} package (provides symbols
 %    and oldstyle figures from |TS1| encoding to be used with |T1| encoded text
 %    fonts).
-% \item[|lcgreekalpha|] By default lower case Greek, partial differential and
-%    Nabla are given |\mathord| class which makes them insensitive to math
+% \item[lcgreekalpha] By default lower case Greek, partial differential and
+%    nabla are given |\mathord| class which makes them insensitive to math
 %    alphabet changes (i.e. |$\mathbf{\beta}$| gives $\beta$ instead of
-%    $\mathbf{\beta}$), with this option they will be given |\mathalpha| class
+%    $\mathbf{\beta}$); with this option they will be given |\mathalpha| class
 %    just like Latin and upper case Greek.
-% \item[|upint|] Use upright integrals by default ($\intup$ instead of
+% \item[upint] Use upright integrals by default ($\intup$ instead of
 %    $\intsl$). See Section~\ref{integrals} on page~\pageref{integrals} for
 %    more details.
-% \end{itemize}
-% \endgroup
+% \end{description}
 %
 % \subsection{Compatibility with other packages}
 % \subsubsection*{\pkg{amsmath}}
@@ -182,77 +192,71 @@ Elsevier, Inc. All rights reserved.
 % \pkg{amssymb} v3.01 and \pkg{amsfonts} v3.01.
 %
 % With \pkg{amsmath} v2.14 or newer, it is recommended to load it (and/or
-% packages that load it) \emph{after} \pkg{stix} package. Older versions of
-% \pkg{amsmath} must be loaded \emph{before} \pkg{stix} package, otherwise
+% packages that load it) \emph{after} the \pkg{stix} package. Older versions of
+% \pkg{amsmath} must be loaded \emph{before} the \pkg{stix} package, otherwise
 % errors will arise.
 %
 % The following \pkg{amsmath} options affect not only symbols known to
-% \pkg{amsmath}, but also new symbols defined by the \pkg{stix} pakage:
+% \pkg{amsmath}, but also new symbols defined by the \pkg{stix} package:
 % |sumlimits|, |nosumlimits|, |intlimits| and |nointlimits|.
+%
+% \subsection{Feedback}
+% Bug reports and technical support issues should be reported to
+% \url{http://sourceforge.net/projects/stixfonts}.
 %
 % \section{Math alphabets}
 % \label{math-alphabets}
-% The following table list math alphabets defined by the \pkg{stix} with the
+% The following table lists math alphabets defined by the \pkg{stix} package with the
 % Unicode ranges they cover:
 %
 % \begin{table}[h]
-% \small
 % \setlength{\tabcolsep}{3.5pt}
-% \begin{tabular}{ l c c c c c }
-%		& A-Z & a-z & $\Gamma$-$\Omega$ & $\mathrm{\alpha}$-$\mathrm{\omega}$ & 0-9 \\
+% \begin{tabular}{ c l c c c c c }
+%     &               & A--Z             & a--z             & $\Gamma$--$\Omega$ & $\mathrm{\alpha}$--$\mathrm{\omega}$ & 0--9 \\
 % \hline
-% |\mathrm|	& |00041-0005A| & |00061-0007A| & |00393-003A9| & |003B1-003C9| & |00030-00039| \\
-% |\mathbf|	& |1D400-1D419| & |1D41A-1D433| & |1D6AA-1D6C0| & |1D6C2-1D6DA| & |1D7CE-1D7D7| \\
-% |\mathit|	& |1D434-1D44D| & |1D44E-1D467| & |1D6E4-1D6FA| & |1D6FC-1D714| &       -       \\
-% |\mathbfit|	& |1D468-1D481| & |1D482-1D49B| & |1D71E-1D734| & |1D736-1D74E| &       -       \\
-% |\mathcal|	&  \textbullet  &      -        &       -       &       -       &       -       \\
-% |\mathscr|	& |1D49C-1D4B5| & |1D4B6-1D4CF| &       -       &       -       &       -       \\
-% |\mathbfscr|	& |1D4D0-1D4E9| & |1D4EA-1D503| &       -       &       -       &       -       \\
-% |\mathsf|	& |1D5A0-1D5B9| & |1D5BA-1D5D3| &  \textbullet  &  \textbullet  & |1D7E2-1D7EB| \\
-% |\mathbfsf|	& |1D5D4-1D5ED| & |1D5EE-1D607| & |1D758-1D76E| & |1D770-1D788| & |1D7EC-1D7F5| \\
-% |\mathsfit|	& |1D608-1D621| & |1D622-1D63B| &  \textbullet  &  \textbullet  &       -       \\
-% |\mathbfsfit|	& |1D63C-1D655| & |1D656-1D66F| & |1D792-1D7A8| & |1D7AA-1D7C2| &       -       \\
-% |\mathbb|	& |1D538-1D551| & |1D552-1D56B| &       -       &       -       & |1D7D8-1D7E1| \\
-% |\mathbfbb|	&  \textbullet  &  \textbullet  &       -       &       -       &       -       \\
-% |\mathbbit|	&  \textbullet  &  \textbullet  &       -       &       -       &       -       \\
-% |\mathbfbbit|	&  \textbullet  &  \textbullet  &       -       &       -       &       -       \\
-% |\mathfrak|	& |1D504-1D51D| & |1D51E-1D537| &       -       &       -       &       -       \\
-% |\mathbffrak|	& |1D56C-1D585| & |1D586-1D59F| &       -       &       -       &       -       \\
-% |\mathtt|	& |1D670-1D689| & |1D68A-1D6A3| &       -       &       -       & |1D7F6-1D7FF| \\
+% $*$ & |\mathrm|     & |00041|--|0005A| & |00061|--|0007A| & |00393|--|003A9| & |003B1|--|003C9| & |00030|--|00039| \\
+% $*$ & |\mathbf|     & |1D400|--|1D419| & |1D41A|--|1D433| & |1D6AA|--|1D6C0| & |1D6C2|--|1D6DA| & |1D7CE|--|1D7D7| \\
+% $*$ & |\mathit|     & |1D434|--|1D44D| & |1D44E|--|1D467| & |1D6E4|--|1D6FA| & |1D6FC|--|1D714| &         -        \\
+%     & |\mathbfit|   & |1D468|--|1D481| & |1D482|--|1D49B| & |1D71E|--|1D734| & |1D736|--|1D74E| &         -        \\
+% $*$ & |\mathcal|    &    \textbullet   &        -         &         -        &         -        &         -        \\
+% $*$ & |\mathscr|    & |1D49C|--|1D4B5| & |1D4B6|--|1D4CF| &         -        &         -        &         -        \\
+%     & |\mathbfscr|  & |1D4D0|--|1D4E9| & |1D4EA|--|1D503| &         -        &         -        &         -        \\
+% $*$ & |\mathsf|     & |1D5A0|--|1D5B9| & |1D5BA|--|1D5D3| &    \textbullet   &    \textbullet   & |1D7E2|--|1D7EB| \\
+%     & |\mathbfsf|   & |1D5D4|--|1D5ED| & |1D5EE|--|1D607| & |1D758|--|1D76E| & |1D770|--|1D788| & |1D7EC|--|1D7F5| \\
+% $*$ & |\mathsfit|   & |1D608|--|1D621| & |1D622|--|1D63B| &    \textbullet   &    \textbullet   &         -        \\
+%     & |\mathbfsfit| & |1D63C|--|1D655| & |1D656|--|1D66F| & |1D792|--|1D7A8| & |1D7AA|--|1D7C2| &         -        \\
+% $*$ & |\mathbb|     & |1D538|--|1D551| & |1D552|--|1D56B| &         -        &         -        & |1D7D8|--|1D7E1| \\
+%     & |\mathbfbb|   &    \textbullet   &    \textbullet   &         -        &         -        &         -        \\
+% $*$ & |\mathbbit|   &    \textbullet   &    \textbullet   &         -        &         -        &         -        \\
+%     & |\mathbfbbit| &    \textbullet   &    \textbullet   &         -        &         -        &         -        \\
+% $*$ & |\mathfrak|   & |1D504|--|1D51D| & |1D51E|--|1D537| &         -        &         -        &         -        \\
+%     & |\mathbffrak| & |1D56C|--|1D585| & |1D586|--|1D59F| &         -        &         -        &         -        \\
+% $*$ & |\mathtt|     & |1D670|--|1D689| & |1D68A|--|1D6A3| &         -        &         -        & |1D7F6|--|1D7FF| \\
 % \hline
 % \end{tabular}
-% \caption*{\textbullet\ Covered by STIX fonts but not in Unicode.\\- Not covered.}
+% \caption*{
+%   \begin{tabular}{ c l }
+%   \textbullet & Covered by STIX fonts but not in Unicode.\\
+%   -           & Not covered.\\
+%   $*$         & Available by default when loading the \pkg{stix} package.\\
+%   \end{tabular}
+% }
 % \end{table}
 %
 %
 % \TeX\ allows only 16 math alphabets to be used simultaneously, so not all of
-% these alphabets can be used in one document. When \pkg{stix} is loaded, 10
-% math groups are allocated, with the following math alphabets available by
-% default:
+% these alphabets can be used in one document. When the \pkg{stix} package is
+% loaded, 12 math groups are allocated, with the 11 math alphabets
+% that are marked above available by default, which leaves room for 4 other math groups to be
+% allocated on demand when any of the other alphabets is used.
 %
-% \begin{multicols}{3}
-% \begin{itemize}
-% \item |\mathrm|
-% \item |\mathit|
-% \item |\mathsf|
-% \item |\mathsfit|
-% \item |\mathcal|
-% \item |\mathscr|
-% \item |\mathfrak|
-% \item |\mathbb|
-% \item |\mathbbit|
-% \end{itemize}
-% \end{multicols}
-%
-% This leaves room for 6 other alphabets to be allocated on demand when any of
-% the other alphabets is used.
-%
+% \newpage
 % \section{Math symbols}
 % \label{math-symbols}
 %
-% The following section lists all math symbols defined by \pkg{stix} package.
-% Symbols with $^*$ next to their name do not have a bold version, wheb
-% \cmd\boldmath is active, the non-bold glyph will be used.
+% The following section lists all math symbols defined by the \pkg{stix} package.
+% Symbols with $^*$ next to their name do not have a bold version; when
+% |\boldmath| is active, the non-bold glyph will be used.
 %
 % \subsection{Alphabetics}
 % \begin{multicols}{2}
@@ -399,7 +403,7 @@ Elsevier, Inc. All rights reserved.
 % \showsymbol\hermitmatrix{22B9}{}
 % \showsymbol\measuredrightangle{22BE}{}
 % \showsymbol\varlrtriangle{22BF}{}
-% \showsymbol\cdots{022EF}{}
+% \showsymbol\cdots{22EF}{}
 % \showsymbol\diameter{2300}{*}
 % \showsymbol\house{2302}{}
 % \showsymbol\invnot{2310}{}
@@ -467,7 +471,7 @@ Elsevier, Inc. All rights reserved.
 % \showsymbol\mdlgwhtdiamond{25C7}{*}
 % \showsymbol\blackinwhitediamond{25C8}{*}
 % \showsymbol\fisheye{25C9}{*}
-% \showsymbol\mdlgwhtlozenge{25CA}{}, \cmd\lozenge, \cmd\Diamond
+% \showsymbol\mdlgwhtlozenge{25CA}{}, \cmd\lozenge, \\ \cmd\Diamond
 % \showsymbol\dottedcircle{25CC}{*}
 % \showsymbol\circlevertfill{25CD}{*}
 % \showsymbol\bullseye{25CE}{*}
@@ -1506,6 +1510,7 @@ Elsevier, Inc. All rights reserved.
 % \showsymbol\mapstochar{XXXX}{}
 % \end{multicols}
 %
+% \newpage
 % \subsection{Punctuation}
 % \begin{multicols}{2}
 % \showsymbol,{002C}{}
@@ -1764,11 +1769,11 @@ Elsevier, Inc. All rights reserved.
 % \end{multicols}
 %
 % OpenType STIX fonts include a number of under accents that can be used in
-% math mode, but TeX does not support under accents natively so such glyphs can
-% not be used directly. Under accents can be set using regular accents and
-% commands like \cmd\underaccent\ from \pkg{accents} package, for example
+% math mode, but \TeX\ does not support under accents natively so such glyphs
+% can not be used directly. Under accents can be set using regular accents and
+% commands like |\underaccent| from the \pkg{accents} package, for example
 % \verb|\underaccent{\hat}{X}| gives $\underaccent{\hat}{X}$. The
-% \pkg{undertilde} package provides \cmd\utilde\ for extensible under tilde
+% \pkg{undertilde} package provides |\utilde| for extensible under tilde
 % accent.
 %
 % \subsection{Over and under brackets}
@@ -1791,7 +1796,7 @@ Elsevier, Inc. All rights reserved.
 % \section{Font tables}
 % \nodecimals
 % \renewcommand{\thefootnote}{\fnsymbol{footnote}}
-% The rest of this document shows fonts table for all STIX fonts. The name
+% The rest of this document shows glyph tables for all STIX fonts. The name
 % before each table is the \TeX\ font name (i.e. TFM file name).
 %
 % Note that STIX fonts have no real smallcaps, the smallcaps below are
@@ -2242,7 +2247,7 @@ Elsevier, Inc. All rights reserved.
 \stix@MathDelimiter{|}          {\mathord}  {largesymbols}{"F0}{largesymbols}{"F3}
 \stix@MathDelimiter{\vert}      {\mathord}  {largesymbols}{"F0}{largesymbols}{"F3}
 \stix@MathDelimiter{\Vert}      {\mathord}  {largesymbols}{"F1}{largesymbols}{"F4}
-    	\let\|=\Vert
+        \let\|=\Vert
 \stix@MathDelimiter{\Vvert}     {\mathord}  {largesymbols}{"F2}{largesymbols}{"F5}
 %    \end{macrocode}
 %
@@ -2702,8 +2707,8 @@ Elsevier, Inc. All rights reserved.
 \stix@MathAccent{\rightharpoonaccent}   {\mathalpha}{letters}{"90}
 \stix@MathAccent{\leftarrowaccent}      {\mathalpha}{letters}{"91}
 \stix@MathAccent{\vec}                  {\mathalpha}{letters}{"92}
-	% not \let because amsmath redefines \vec
-	\def\rightarrowaccent{\vec}
+        % not \let because amsmath redefines \vec
+        \def\rightarrowaccent{\vec}
 \stix@MathAccent{\dddot}                {\mathalpha}{letters}{"93}
 \stix@MathAccent{\ddddot}               {\mathalpha}{letters}{"94}
 \stix@MathAccent{\leftrightarrowaccent} {\mathalpha}{letters}{"95}
@@ -2713,7 +2718,7 @@ Elsevier, Inc. All rights reserved.
 %    \end{macrocode}
 %
 % \pkg{amsmath} breaks our wide accents, so we make sure its
-% \cmd\set@mathaccent\ has no effect while defining them.
+% |\set@mathaccent| has no effect while defining them.
 %
 %    \begin{macrocode}
 \begingroup
@@ -2771,7 +2776,7 @@ Elsevier, Inc. All rights reserved.
             \m@th%
             \ialign{##\crcr%
                 \noalign{\kern.3\fontdimen5\textfont2}%
-	            \csname down#1fill\endcsname\crcr%
+                    \csname down#1fill\endcsname\crcr%
                 \noalign{\kern.5\fontdimen5\textfont2\nointerlineskip}%
                 $\hfil\displaystyle{#2}\hfil$\crcr%
             }%
@@ -3375,7 +3380,7 @@ Elsevier, Inc. All rights reserved.
 \stix@MathSymbol{\bumpeq}                   {\mathrel}{integrals}{"80}
 \stix@MathSymbol{\doteq}                    {\mathrel}{integrals}{"81}
 \stix@MathSymbol{\Doteq}                    {\mathrel}{integrals}{"82}
-	\let\doteqdot=\Doteq
+        \let\doteqdot=\Doteq
 \stix@MathSymbol{\fallingdotseq}            {\mathrel}{integrals}{"83}
 \stix@MathSymbol{\risingdotseq}             {\mathrel}{integrals}{"84}
 \stix@MathSymbol{\coloneq}                  {\mathrel}{integrals}{"85}
@@ -3391,14 +3396,14 @@ Elsevier, Inc. All rights reserved.
 \stix@MathSymbol{\measeq}                   {\mathrel}{integrals}{"8F}
 \stix@MathSymbol{\questeq}                  {\mathrel}{integrals}{"90}
 \stix@MathSymbol{\ne}                       {\mathrel}{integrals}{"91}
-    	\let\neq=\ne
+        \let\neq=\ne
 \stix@MathSymbol{\equiv}                    {\mathrel}{integrals}{"92}
 \stix@MathSymbol{\nequiv}                   {\mathrel}{integrals}{"93}
 \stix@MathSymbol{\Equiv}                    {\mathrel}{integrals}{"65}
 \stix@MathSymbol{\leq}                      {\mathrel}{integrals}{"66}
-    	\let\le=\leq
+        \let\le=\leq
 \stix@MathSymbol{\geq}                      {\mathrel}{integrals}{"67}
-    	\let\ge=\geq
+        \let\ge=\geq
 \stix@MathSymbol{\leqq}                     {\mathrel}{integrals}{"68}
 \stix@MathSymbol{\geqq}                     {\mathrel}{integrals}{"69}
 %    \end{macrocode}
@@ -3496,7 +3501,7 @@ Elsevier, Inc. All rights reserved.
 \stix@MathSymbol{\measuredrightangle}       {\mathord}{symbols}{"09}
 \stix@MathSymbol{\varlrtriangle}            {\mathord}{symbols}{"0A}
 \stix@MathSymbol{\smwhtdiamond}             {\mathbin}{symbols}{"0B}
-    	\let\diamond=\smwhtdiamond
+        \let\diamond=\smwhtdiamond
 \stix@MathSymbol{\cdot}                     {\mathbin}{symbols}{"0C}
 \stix@MathSymbol{\divideontimes}            {\mathbin}{symbols}{"0D}
 \stix@MathSymbol{\bowtie}                   {\mathrel}{symbols}{"0E}
@@ -3510,17 +3515,17 @@ Elsevier, Inc. All rights reserved.
 \stix@MathSymbol{\Subset}                   {\mathrel}{symbols}{"16}
 \stix@MathSymbol{\Supset}                   {\mathrel}{symbols}{"17}
 \stix@MathSymbol{\Cap}                      {\mathbin}{symbols}{"18}
-	\let\doublecap=\Cap
+        \let\doublecap=\Cap
 \stix@MathSymbol{\Cup}                      {\mathbin}{symbols}{"19}
-	\let\doublecup=\Cup
+        \let\doublecup=\Cup
 \stix@MathSymbol{\pitchfork}                {\mathrel}{symbols}{"1A}
 \stix@MathSymbol{\equalparallel}            {\mathrel}{symbols}{"1B}
 \stix@MathSymbol{\lessdot}                  {\mathrel}{symbols}{"1C}
 \stix@MathSymbol{\gtrdot}                   {\mathrel}{symbols}{"1D}
 \stix@MathSymbol{\lll}                      {\mathrel}{symbols}{"1E}
-	\let\llless=\lll
+        \let\llless=\lll
 \stix@MathSymbol{\ggg}                      {\mathrel}{symbols}{"1F}
-	\let\gggtr=\ggg
+        \let\gggtr=\ggg
 \stix@MathSymbol{\lesseqgtr}                {\mathrel}{symbols}{"20}
 \stix@MathSymbol{\gtreqless}                {\mathrel}{symbols}{"21}
 \stix@MathSymbol{\eqless}                   {\mathrel}{symbols}{"22}
@@ -3544,13 +3549,13 @@ Elsevier, Inc. All rights reserved.
 \stix@MathSymbol{\vdotsmath}                {\mathrel}{symbols}{"34}
 %    \end{macrocode}
 %
-% \LaTeX's \cmd\vdots works in text mode as well, so should ours.
+% \LaTeX's |\vdots| works in text mode as well, so should ours.
 %
 %    \begin{macrocode}
-	\DeclareRobustCommand\vdots{%
-		\ifmmode\vdotsmath\else%
-		{\usefont{LS1}{stixscr}{\f@series}{n}\char"34}%
-		\fi}
+        \DeclareRobustCommand\vdots{%
+                \ifmmode\vdotsmath\else%
+                {\usefont{LS1}{stixscr}{\f@series}{n}\char"34}%
+                \fi}
 \stix@MathSymbol{\unicodecdots}             {\mathord}{symbols}{"35} \let\@cdots=\unicodecdots \DeclareRobustCommand\cdots{\mathinner{\unicodecdots}}
 \stix@MathSymbol{\adots}                    {\mathrel}{symbols}{"36}
 \stix@MathSymbol{\ddots}                    {\mathrel}{symbols}{"37}
@@ -4170,9 +4175,9 @@ Elsevier, Inc. All rights reserved.
 % Keep \pkg{amsmath}'s definitions from persisting if it is loaded first.
 %
 %    \begin{macrocode}
-	\let\dotsb@\@cdots
-	\let\dotsb\cdots
-	\let\dotsm\cdots
+        \let\dotsb@\@cdots
+        \let\dotsb\cdots
+        \let\dotsm\cdots
     }{
 %    \end{macrocode}
 %
@@ -4180,8 +4185,8 @@ Elsevier, Inc. All rights reserved.
 %
 %    \begin{macrocode}
         \let\ilimits@=\nolimits
-	\let\slimits@=\relax
-	\let\DOTSI\relax
+        \let\slimits@=\relax
+        \let\DOTSI\relax
     }
 }
 %    \end{macrocode}
@@ -4231,6 +4236,18 @@ Elsevier, Inc. All rights reserved.
     \@ifundefined{\@gtempa}%
         {\notchar #1}%
         {\@nameuse{\@gtempa}}}
+%    \end{macrocode}
+%
+% \subsection{Compatibility with Babel}
+%
+% Spanish babel defines a versions of |\dotlessi| that works for fonts other
+% than math italic, but this breaks when the \pkg{stix} package is loaded. Our |\imath|
+% does this already, so we just use it.
+%
+%    \begin{macrocode}
+\def\stix@dotlessi{\ifmmode\imath\else\i}
+\@ifundefined{es@dotlessi}{}{\let\es@dotlessi\stix@dotlessi}
+
 \fi
 \endinput
 %    \end{macrocode}
