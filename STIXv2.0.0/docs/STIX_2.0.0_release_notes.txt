@@ -4,6 +4,7 @@
                             Version 2.0.0
 
                            1 December 2016
+                        Updated 13 April 2018
 
 INTRODUCTION
 
@@ -174,7 +175,7 @@ The font is distributed under the "SIL Open Font License, Version
 1.1", a copy of which is included in the License folder.
 
 Support for 8-bit, DVI-based TeX in the form of TFM files and Type 1
-fonts is not yet available.
+fonts is available separately (see below).
 
 We also hope to provide a version of the WOFF fonts broken down into
 smaller, more web-download-friendly chunks.
@@ -201,10 +202,10 @@ The font contains:
 
 NOTE TO TEX USERS
 
-As mentioned above, there is no support for DVI-based TeX at present.
-However, the fonts have been tested with both XeTeX and luaTeX with
-good results.  For best results, XeTeX users will want to upgrade to
-the latest development version from
+If you use XeTeX or LuaTeX, the OTF files are all you need.  The fonts
+have been tested with both XeTeX and luaTeX with good results.  For
+best results, XeTeX users will want to upgrade to the latest
+development version from
 
     http://xetex.sourceforge.net/
 
@@ -217,11 +218,20 @@ of the amsmath package available on CTAN.
 There are some known issues with kerning of second-order subscripts
 that we hope to address in a future release.
 
+For the convenience of users who are restricted to pdfTeX or DVI-based
+TeX, a separate implementation set of Type 1 PostScript fonts, TFM
+files, and virtual fonts is available from
+
+    https://github.com/stipub/stixfonts/tree/master/STIXv2.0.0/Fonts/Type1
+
+Please note that although development work on the OpenType fonts is
+ongoing, no further updates are planned to the Type 1 fonts.
+
 FEEDBACK
 
 Please direct any questions or general comments to the STIX Fonts
 project.  Bug reports and technical support issues should be reported
-through https://sourceforge.net/projects/stixfonts/support.
+through https://github.com/stipub/stixfonts.
 
 ===========================================================================
 
