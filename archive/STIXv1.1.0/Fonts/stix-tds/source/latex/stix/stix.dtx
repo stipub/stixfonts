@@ -7,7 +7,7 @@
 
 \preamble
 
-Copyright (c) 2001-2013 by the STI Pub Companies, consisting of the
+Copyright (c) 2001-2013, 2018 by the STI Pub Companies, consisting of the
 American Chemical Society, the American Institute of Physics, the American
 Mathematical Society, the American Physical Society, Elsevier, Inc., and
 The Institute of Electrical and Electronic Engineers, Inc. Portions
@@ -37,12 +37,16 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 %<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
 %<package>\ProvidesPackage{stix}
 %<*package>
-    [2012/12/23 v1.1.0-latex STIX fonts support package]
+    [2018/04/14 v1.1.0-latex STIX fonts support package]
 %</package>
 %
 %<*driver>
 \documentclass{ltxdoc}
 \usepackage[lcgreekalpha]{stix}[2012/12/23]
+
+\tracinglostchars=0
+
+\def\abstractname{Notice}
 
 \usepackage{fonttable}
 % fonttable's oct and hex numbers (ab)uses \' and \H which look ugly with our
@@ -117,11 +121,19 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 % \GetFileInfo{stix.dtx}
 %
 % \title{The \pkg{stix} package}
-% \author{STI Pub Companies}
+% \author{STI Pub Companies\thanks{This package was developed by
+% Khaled Hosny on behalf of the STI Pub companies, who gratefully
+% acknowledge his efforts.}}
 % \date{\fileversion~from \filedate}
 %
 % \maketitle
 % \tableofcontents
+%
+% \begin{abstract}
+% This package and the OpenType fonts it is based on are obsolete and
+% will not be updated.  For updated versions, see the STIX Two fonts
+% and the \pkg{stix2} package.
+% \end{abstract}
 %
 % \newpage
 %
@@ -202,7 +214,7 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 %
 % \subsection{Feedback}
 % Bug reports and technical support issues should be reported to
-% \url{http://sourceforge.net/projects/stixfonts}.
+% \url{https://github.com/stipub/stixfonts}.
 %
 % \section{Math alphabets}
 % \label{math-alphabets}
@@ -689,7 +701,7 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 %
 % \subsection{Binary operators}
 % \begin{multicols}{2}
-% \showsymbol+{000B}{}
+% \showsymbol+{002B}{}
 % \showsymbol\pm{00B1}{}
 % \showsymbol\cdotp{00B7}{}, \cmd\centerdot
 % \showsymbol\times{00D7}{}
@@ -699,7 +711,7 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 % \showsymbol\smblkcircle{2022}{}
 % \showsymbol\fracslash{2044}{}
 % \showsymbol\upand{214B}{}
-% \showsymbol-{000D}{}
+% \showsymbol-{002D}{}
 % \showsymbol\mp{2213}{}
 % \showsymbol\dotplus{2214}{}
 % \showsymbol\smallsetminus{2216}{}
