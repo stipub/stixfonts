@@ -1,3 +1,15 @@
+UPDATE 2018-04-17
+
+This package and the OpenType fonts it is based on are obsolete and
+will not be updated.
+
+If you are using XeTeX or LuaTeX, see the CTAN collection stix2-otf.
+
+If you are need support for pdfLaTeX or traditional DVI-based TeX, see
+the CTAN collection stix2-type1.
+
+===========================================================================
+
 README for the stix package, version 2014-01-01
 
 The Scientific and Technical Information eXchange (STIX) font is
