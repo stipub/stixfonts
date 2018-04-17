@@ -37,7 +37,7 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 %<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
 %<package>\ProvidesPackage{stix}
 %<*package>
-    [2014/07/31 v1.1.1-latex STIX fonts support package]
+    [2015/04/17 v1.1.2-latex STIX fonts support package]
 %</package>
 %
 %<*driver>
@@ -4254,7 +4254,7 @@ This work consists of the files stix.dtx and and the derived file stix.sty.
 % does this already, so we just use it.
 %
 %    \begin{macrocode}
-\def\stix@dotlessi{\ifmmode\imath\else\i}
+\def\stix@dotlessi{\ifmmode\imath\else\i\fi}
 \@ifundefined{es@dotlessi}{}{\let\es@dotlessi\stix@dotlessi}
 
 \fi

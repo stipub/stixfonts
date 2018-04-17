@@ -63,7 +63,7 @@ ts1stix.fd.
 %<ot2stix>\ProvidesFile{ot2stix.fd}
 %<t1stix>\ProvidesFile{t1stix.fd}
 %<ts1stix>\ProvidesFile{ts1stix.fd}
-[2012/12/23 v1.1.0-latex STIX %
+[2015/04/17 v1.1.2-latex STIX %
 %<ls1stix>LS1 %
 %<ls1stixbb>blackboard LS1 %
 %<ls1stixfrak>fraktur LS1 %
