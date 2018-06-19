@@ -9,6 +9,10 @@ project.
 Download the [current version](zipfiles/STIXv2.0.0.zip) of the OTF,
 WOFF, and WOFF2 files in a zip archive.
 
+See the code charts for the [text](docs/charts/StixTwoRegular.pdf) and
+[math](docs/charts/StixTwoMath.pdf) for an overview of the Unicode
+blocks supported by the fonts.
+
 The STIX Two fonts are a set of OpenType fonts and are meant to be
 used in that format.  For the benefit of LaTeX users who are unable to
 use XeTeX or luaTeX, we have also provided version 2.0.0 of the STIX
