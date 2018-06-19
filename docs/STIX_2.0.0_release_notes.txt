@@ -4,7 +4,7 @@
                             Version 2.0.0
 
                            1 December 2016
-                        Updated 13 April 2018
+                         Updated 19 June 2018
 
 INTRODUCTION
 
@@ -146,30 +146,32 @@ WHAT IS PROVIDED IN THIS RELEASE?
 
 The contents of this distribution are as follows
 
-    Fonts/
-        OTF/
-            STIX2Math.otf
-            STIX2Text-BoldItalic.otf
-            STIX2Text-Bold.otf
-            STIX2Text-Italic.otf
-            STIX2Text-Regular.otf
-        WOFF/
-            STIX2Math.woff
-            STIX2Text-BoldItalic.woff
-            STIX2Text-Bold.woff
-            STIX2Text-Italic.woff
-            STIX2Text-Regular.woff
-        WOFF2/
-            STIX2Math.woff2
-            STIX2Text-BoldItalic.woff2
-            STIX2Text-Bold.woff2
-            STIX2Text-Italic.woff2
-            STIX2Text-Regular.woff2
+    OTF/
+        STIX2Math.otf
+        STIX2Text-BoldItalic.otf
+        STIX2Text-Bold.otf
+        STIX2Text-Italic.otf
+        STIX2Text-Regular.otf
+    WOFF/
+        STIX2Math.woff
+        STIX2Text-BoldItalic.woff
+        STIX2Text-Bold.woff
+        STIX2Text-Italic.woff
+        STIX2Text-Regular.woff
+    WOFF2/
+        STIX2Math.woff2
+        STIX2Text-BoldItalic.woff2
+        STIX2Text-Bold.woff2
+        STIX2Text-Italic.woff2
+        STIX2Text-Regular.woff2
     docs/
         STIX_2.0.0_glyph_sets.xlsx
         STIX_2.0.0_license.pdf
         STIX_2.0.0_release_notes.txt
         STIX_2.0.0_stylistic_sets.pdf
+        charts/
+            StixTwoMath.pdf
+            StixTwoRegular.pdf
 
 The font is distributed under the "SIL Open Font License, Version
 1.1", a copy of which is included in the License folder.
@@ -222,7 +224,7 @@ For the convenience of users who are restricted to pdfTeX or DVI-based
 TeX, a separate implementation set of Type 1 PostScript fonts, TFM
 files, and virtual fonts is available from
 
-    https://github.com/stipub/stixfonts/tree/master/STIXv2.0.0/Fonts/Type1
+    https://github.com/stipub/stixfonts/tree/master/Type1
 
 Please note that although development work on the OpenType fonts is
 ongoing, no further updates are planned to the Type 1 fonts.
