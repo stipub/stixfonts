@@ -1,0 +1,323 @@
+%!PS-Adobe-3.0 Resource-Encoding
+% 
+/stix2mathrmbold [
+% 0x0
+/u1D6AA % Gamma
+/u1D6AB % Delta
+/u1D6AF % Theta
+/u1D6B2 % Lamda
+/u1D6B5 % Xi
+/u1D6B7 % Pi
+/u1D6BA % Sigma
+/u1D6BC % Upsilon
+
+% 0x8
+/u1D6BD % Phi
+/u1D6BF % Psi
+/u1D6C0 % Omega
+/u1D6C2 % alpha
+/u1D6C3 % beta
+/u1D6C4 % gamma
+/u1D6C5 % delta
+/u1D6DC % epsilon1
+
+% 0x10
+/u1D6C7 % zeta
+/u1D6C8 % eta
+/u1D6C9 % theta
+/u1D6CA % iota
+/u1D6CB % kappa
+/u1D6CC % lamda
+/u1D6CD % mu
+/u1D6CE % nu
+
+% 0x18
+/u1D6CF % xi
+/u1D6D1 % pi
+/u1D6D2 % rho
+/u1D6D4 % sigma
+/u1D6D5 % tau
+/u1D6D6 % upsilon
+/u1D6DF % phi
+/u1D6D8 % chi
+
+% 0x20
+/u1D6D9 % psi
+/u1D6DA % omega
+/u1D6C6 % epsilon
+/u1D6DD % theta1
+/u1D6E1 % pi1
+/u1D6E0 % rho1
+/u1D6D3 % sigma1
+/u1D6D7 % phi1
+
+% 0x28
+/u1D6C1 % nabla
+/u1D6DB % partialdiff
+/uni2212 % minus
+/plus
+/plusminus
+/uni2213
+/parenleft
+/parenright
+
+% 0x30
+/u1D7CE % 0
+/u1D7CF % 1
+/u1D7D0 % 2
+/u1D7D1 % 3
+/u1D7D2 % 4
+/u1D7D3 % 5
+/u1D7D4 % 6
+/u1D7D5 % 7
+
+% 0x38
+/u1D7D6 % 8
+/u1D7D7 % 9
+/uni2236
+/semicolon
+/uni2217
+/equal
+/dollar
+/question
+
+% 0x40
+/exclam
+/u1D400 % A
+/u1D401 % B
+/u1D402 % C
+/u1D403 % D
+/u1D404 % E
+/u1D405 % F
+/u1D406 % G
+
+% 0x48
+/u1D407 % H
+/u1D408 % I
+/u1D409 % J
+/u1D40A % K
+/u1D40B % L
+/u1D40C % M
+/u1D40D % N
+/u1D40E % O
+
+% 0x50
+/u1D40F % P
+/u1D410 % Q
+/u1D411 % R
+/u1D412 % S
+/u1D413 % T
+/u1D414 % U
+/u1D415 % V
+/u1D416 % W
+
+% 0x58
+/u1D417 % X
+/u1D418 % Y
+/u1D419 % Z
+/bracketleft
+/uni2216.var
+/bracketright
+/braceleft
+/uni2215
+
+% 0x60
+/braceright
+/u1D41A % a
+/u1D41B % b
+/u1D41C % c
+/u1D41D % d
+/u1D41E % e
+/u1D41F % f
+/u1D420 % g
+
+% 0x68
+/u1D421 % h
+/u1D422 % i
+/u1D423 % j
+/u1D424 % k
+/u1D425 % l
+/u1D426 % m
+/u1D427 % n
+/u1D428 % o
+
+% 0x70
+/u1D429 % p
+/u1D42A % q
+/u1D42B % r
+/u1D42C % s
+/u1D42D % t
+/u1D42E % u
+/u1D42F % v
+/u1D430 % w
+
+% 0x78
+/u1D431 % x
+/u1D432 % y
+/u1D433 % z
+/u1D422.dotless % dotlessi
+/u1D423.dotless % dotlessj
+/numbersign
+/percent
+/quoteright
+
+% 0x80
+/uni0300
+/uni0301
+/uni0302
+/uni0303
+/uni0304
+/uni0306
+/uni0307
+/uni0308
+
+% 0x88
+/uni0309
+/uni030A
+/uni030C
+/uni0310
+/uni0312
+/uni0315
+/uni031A
+/uni20D0
+
+% 0x90
+/uni20D1
+/uni20D6
+/uni20D7
+/uni20DB
+/uni20DC
+/uni20E1
+/uni20E7
+/uni20E9
+
+% 0x98
+/uni20F0
+/ampersand
+/at
+/logicalnot
+/periodcentered
+/multiply
+/uni2AAF
+/divide
+
+% 0xA0
+/uni01B5
+/uni0338
+/uni03F6
+/dagger
+/daggerdbl
+/bullet
+/twodotenleader
+/ellipsis
+
+% 0xA8
+/minute.var
+/second.var
+/primetriple.var
+/primequad.var
+/primereversed.var
+/primedblreversed.var
+/uni2038
+/exclamdbl      
+
+% 0xB0
+/uni2043
+/fraction
+/uni2047
+/uni2050
+/primetriplereversed.var
+/uni20D2
+/uni20DD
+/uni20DE
+
+% 0xB8
+/uni20DF
+/uni20E4
+/uni2107
+/uni2127
+/uni2129
+/uni212B
+/uni2132
+/uni2141
+
+% 0xC0
+/uni2142
+/uni2143
+/uni2144
+/uni214A
+/uni214B
+/uni2200
+/uni2201
+/uni2203
+
+% 0xC8
+/uni2204
+/uni2205
+/uni2206
+/uni2208
+/uni2209
+/uni220A
+/uni220B
+/uni220C
+
+% 0xD0
+/uni220D
+/uni220E
+/uni2214
+/uni2AB0
+/uni2216
+/uni2218
+/uni2219
+/uni221D
+
+% 0xD8
+/uni221E
+/uni221F
+/uni2220
+/uni2221
+/uni2222
+/uni2223
+/uni2224
+/uni2225
+
+% 0xE0
+/uni2226
+/uni2227
+/uni2228
+/uni2229
+/uni222A
+/uni2234
+/uni2235
+/uni2205.var
+
+% 0xE8
+/uni2237
+/uni2238
+/uni2239
+/uni223A
+/uni223B
+/uni223C
+/uni223D
+/uni223E
+
+% 0xF0
+/uni223F
+/uni2240
+/uni2241
+/uni2242
+/uni2243
+/uni2244
+/uni2245
+/uni2246
+
+% 0xF8
+/uni2247
+/uni2248
+/uni2249
+/uni224A
+/uni224B
+/uni224C
+/uni224D
+/uni224E
+] def

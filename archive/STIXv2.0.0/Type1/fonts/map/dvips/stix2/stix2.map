@@ -1,0 +1,47 @@
+t1-stix2text             STIXTwoText            "stix2t1   ReEncodeFont  "<stix2-t1.enc    <STIX2Text-Regular.pfb
+t1-stix2text-bold        STIXTwoText-Bold       "stix2t1   ReEncodeFont  "<stix2-t1.enc    <STIX2Text-Bold.pfb
+t1-stix2text-italic      STIXTwoText-Italic     "stix2t1   ReEncodeFont  "<stix2-t1.enc    <STIX2Text-Italic.pfb
+t1-stix2text-bolditalic  STIXTwoText-BoldItalic "stix2t1   ReEncodeFont  "<stix2-t1.enc    <STIX2Text-BoldItalic.pfb
+
+t1-stix2textsc           STIXTwoText            "stix2t1sc  ReEncodeFont "<stix2-t1sc.enc  <STIX2Text-Regular.pfb
+t1-stix2textsc-bold      STIXTwoText-Bold       "stix2t1sc  ReEncodeFont "<stix2-t1sc.enc  <STIX2Text-Bold.pfb
+
+ts1-stix2text            STIXTwoText            "stix2ts1   ReEncodeFont "<stix2-ts1.enc   <STIX2Text-Regular.pfb
+ts1-stix2text-bold       STIXTwoText-Bold       "stix2ts1   ReEncodeFont "<stix2-ts1.enc   <STIX2Text-Bold.pfb
+ts1-stix2text-italic     STIXTwoText-Italic     "stix2ts1   ReEncodeFont "<stix2-ts1.enc   <STIX2Text-Italic.pfb
+ts1-stix2text-bolditalic STIXTwoText-BoldItalic "stix2ts1   ReEncodeFont "<stix2-ts1.enc   <STIX2Text-BoldItalic.pfb
+
+ot1-stix2text            STIXTwoText            "stix2ot1   ReEncodeFont "<stix2-ot1.enc   <STIX2Text-Regular.pfb
+ot1-stix2text-bold       STIXTwoText-Bold       "stix2ot1   ReEncodeFont "<stix2-ot1.enc   <STIX2Text-Bold.pfb
+ot1-stix2text-italic     STIXTwoText-Italic     "stix2ot1   ReEncodeFont "<stix2-ot1.enc   <STIX2Text-Italic.pfb
+ot1-stix2text-bolditalic STIXTwoText-BoldItalic "stix2ot1   ReEncodeFont "<stix2-ot1.enc   <STIX2Text-BoldItalic.pfb
+
+ot1-stix2textsc          STIXTwoText            "stix2ot1sc ReEncodeFont "<stix2-ot1sc.enc <STIX2Text-Regular.pfb
+ot1-stix2textsc-bold     STIXTwoText-Bold       "stix2ot1sc ReEncodeFont "<stix2-ot1sc.enc <STIX2Text-Bold.pfb
+
+ot2-stix2text            STIXTwoText            "stix2ot2   ReEncodeFont "<stix2-ot2.enc   <STIX2Text-Regular.pfb
+ot2-stix2text-bold       STIXTwoText-Bold       "stix2ot2   ReEncodeFont "<stix2-ot2.enc   <STIX2Text-Bold.pfb
+ot2-stix2text-italic     STIXTwoText-Italic     "stix2ot2   ReEncodeFont "<stix2-ot2.enc   <STIX2Text-Italic.pfb
+ot2-stix2text-bolditalic STIXTwoText-BoldItalic "stix2ot2   ReEncodeFont "<stix2-ot2.enc   <STIX2Text-BoldItalic.pfb
+
+ot2-stix2textsc          STIXTwoText            "stix2ot2sc ReEncodeFont "<stix2-ot2sc.enc <STIX2Text-Regular.pfb
+ot2-stix2textsc-bold     STIXTwoText-Bold       "stix2ot2sc ReEncodeFont "<stix2-ot2sc.enc <STIX2Text-Bold.pfb
+
+stix2-mathrm             STIXTwoMath            "stix2mathrm   ReEncodeFont "<stix2-mathrm.enc   <STIX2Math.pfb
+stix2-mathit             STIXTwoMath            "stix2mathit   ReEncodeFont "<stix2-mathit.enc   <STIX2Math.pfb
+stix2-mathsf             STIXTwoMath            "stix2mathsf   ReEncodeFont "<stix2-mathsf.enc   <STIX2Math.pfb
+stix2-mathsfit           STIXTwoMath            "stix2mathsfit ReEncodeFont "<stix2-mathsfit.enc <STIX2Math.pfb
+stix2-mathtt             STIXTwoMath            "stix2mathtt   ReEncodeFont "<stix2-mathtt.enc   <STIX2Math.pfb
+stix2-mathbb             STIXTwoMath            "stix2mathbb   ReEncodeFont "<stix2-mathbb.enc   <STIX2Math.pfb
+stix2-mathbbit           STIXTwoMath            "stix2mathbbit ReEncodeFont "<stix2-mathbbit.enc <STIX2Math.pfb
+stix2-mathscr            STIXTwoMath            "stix2mathscr  ReEncodeFont "<stix2-mathscr.enc  <STIX2Math.pfb
+stix2-mathcal            STIXTwoMath            "stix2mathcal  ReEncodeFont "<stix2-mathcal.enc  <STIX2Math.pfb
+stix2-mathfrak           STIXTwoMath            "stix2mathfrak ReEncodeFont "<stix2-mathfrak.enc <STIX2Math.pfb
+stix2-mathex             STIXTwoMath            "stix2mathex   ReEncodeFont "<stix2-mathex.enc   <STIX2Math.pfb
+
+stix2-mathrm-bold        STIXTwoMath            "stix2mathrmbold   ReEncodeFont "<stix2-mathrm-bold.enc   <STIX2Math.pfb
+stix2-mathit-bold        STIXTwoMath            "stix2mathitbold   ReEncodeFont "<stix2-mathit-bold.enc   <STIX2Math.pfb
+stix2-mathsf-bold        STIXTwoMath            "stix2mathsfbold   ReEncodeFont "<stix2-mathsf-bold.enc   <STIX2Math.pfb
+stix2-mathsfit-bold      STIXTwoMath            "stix2mathsfitbold ReEncodeFont "<stix2-mathsfit-bold.enc <STIX2Math.pfb
+stix2-mathscr-bold       STIXTwoMath            "stix2mathscrbold  ReEncodeFont "<stix2-mathscr-bold.enc  <STIX2Math.pfb
+stix2-mathfrak-bold      STIXTwoMath            "stix2mathfrakbold ReEncodeFont "<stix2-mathfrak-bold.enc <STIX2Math.pfb

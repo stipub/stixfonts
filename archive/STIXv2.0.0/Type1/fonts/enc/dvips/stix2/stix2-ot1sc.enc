@@ -1,0 +1,181 @@
+%!PS-Adobe-3.0 Resource-Encoding
+%
+/stix2ot1sc [
+% 0x0
+/Gamma
+/Delta
+/Theta
+/Lambda
+/Xi
+/Pi
+/Sigma
+/Upsilon
+
+% 0x8
+/Phi
+/Psi
+/Omega
+/f_f
+/f_i
+/f_l
+/f_f_i
+/f_f_l
+
+% 0x10
+/dotlessi.smcp
+/dotlessj.smcp
+/grave
+/acute
+/caron
+/breve
+/macron
+/ring
+
+% 0x18
+/cedilla
+/s_s.smcp % XXX
+/ae.smcp
+/oe.smcp
+/oslash.smcp
+/AE
+/OE
+/Oslash
+
+% 0x20
+/space
+/exclam
+/quotedblright
+/numbersign
+/dollar.smcp
+/percent
+/ampersand
+/quoteright
+
+% 0x28
+/parenleft
+/parenright
+/asterisk
+/plus
+/comma
+/hyphen
+/period
+/slash
+
+% 0x30
+/zero
+/one
+/two
+/three
+/four
+/five
+/six
+/seven
+
+% 0x38
+/eight
+/nine
+/colon
+/semicolon
+/exclamdown
+/equal
+/questiondown
+/question
+
+% 0x40
+/at
+/A
+/B
+/C
+/D
+/E
+/F
+/G
+
+% 0x48
+/H
+/I
+/J
+/K
+/L
+/M
+/N
+/O
+
+% 0x50
+/P
+/Q
+/R
+/S
+/T
+/U
+/V
+/W
+
+% 0x58
+/X
+/Y
+/Z
+/bracketleft
+/quotedblleft
+/bracketright
+/circumflex
+/dotaccent
+
+% 0x60
+/quoteleft
+/a.smcp
+/b.smcp
+/c.smcp
+/d.smcp
+/e.smcp
+/f.smcp
+/g.smcp
+
+% 0x68
+/h.smcp
+/i.smcp
+/j.smcp
+/k.smcp
+/l.smcp
+/m.smcp
+/n.smcp
+/o.smcp
+
+% 0x70
+/p.smcp
+/q.smcp
+/r.smcp
+/s.smcp
+/t.smcp
+/u.smcp
+/v.smcp
+/w.smcp
+
+% 0x78
+/x.smcp
+/y.smcp
+/z.smcp
+/endash
+/emdash
+/hungarumlaut
+/tilde
+/dieresis
+
+%80
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+] def

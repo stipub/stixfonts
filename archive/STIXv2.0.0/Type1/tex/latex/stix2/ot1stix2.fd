@@ -1,0 +1,55 @@
+%%
+%% This is file `ot1stix2.fd',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% stix2.fdd  (with options: `ot1stix2')
+%% 
+%% Copyright (c) 2001-2018 by the STI Pub Companies, consisting of the
+%% American Chemical Society, the American Institute of Physics, the American
+%% Mathematical Society, the American Physical Society, Elsevier, Inc., and
+%% The Institute of Electrical and Electronic Engineers, Inc. Portions
+%% copyright (c) 1998-2003 by MicroPress, Inc. Portions copyright (c) 1990 by
+%% Elsevier, Inc. All rights reserved.
+%% 
+%% This work may be distributed and/or modified under the conditions of the LaTeX
+%% Project Public License, either version 1.3 of this license or (at your option)
+%% any later version.  The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX version
+%% 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the STI Pub Companies.
+%% 
+%% This work consists of the files stix2.fdd and and the derived files
+%% ls1stix2.fd, ls1stix2bb.fd, ls1stix2frak.fd, ls1stix2scr.fd, ls1stix2sf.fd,
+%% ls2stix2cal.fd, ls2stix2ex.fd, ls2stix2.fd, ls2stix2tt.fd, ot1stix2.fd,
+%% ot2stix2.fd, t1stix2.fd, ts1stix2.fd.
+%% 
+\ProvidesFile{ot1stix2.fd}
+[2018/04/02 v2.0.0-latex stix2 %
+OT1 %
+font definitions]
+\DeclareFontFamily{OT1}{stix2}{}
+
+\DeclareFontShape{OT1}{stix2}{m}{n} {<-> ot1-stix2text}{}
+\DeclareFontShape{OT1}{stix2}{b}{n} {<-> ot1-stix2text-bold}{}
+\DeclareFontShape{OT1}{stix2}{m}{it}{<-> ot1-stix2text-italic}{}
+\DeclareFontShape{OT1}{stix2}{b}{it}{<-> ot1-stix2text-bolditalic}{}
+
+\DeclareFontShape{OT1}{stix2}{m}{sc}{<-> ot1-stix2textsc}{}
+\DeclareFontShape{OT1}{stix2}{b}{sc}{<-> ot1-stix2textsc-bold}{}
+
+\DeclareFontShape{OT1}{stix2}{m}{sl}{<->ssub * stix2/m/it}{}
+\DeclareFontShape{OT1}{stix2}{b}{sl}{<->ssub * stix2/b/it}{}
+
+\DeclareFontShape{OT1}{stix2}{bx}{n} {<->ssub * stix2/b/n}{}
+\DeclareFontShape{OT1}{stix2}{bx}{sc}{<->ssub * stix2/b/sc}{}
+\DeclareFontShape{OT1}{stix2}{bx}{sl}{<->ssub * stix2/b/sl}{}
+\DeclareFontShape{OT1}{stix2}{bx}{it}{<->ssub * stix2/b/it}{}
+\endinput
+%%
+%% End of file `ot1stix2.fd'.

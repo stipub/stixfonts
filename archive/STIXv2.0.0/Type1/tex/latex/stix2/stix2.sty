@@ -1,0 +1,2157 @@
+%%
+%% This is file `stix2.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% stix2.dtx  (with options: `package')
+%% 
+%% Copyright (c) 2001-2018 by the STI Pub Companies, consisting of the
+%% American Chemical Society, the American Institute of Physics, the American
+%% Mathematical Society, the American Physical Society, Elsevier, Inc., and
+%% The Institute of Electrical and Electronic Engineers, Inc. Portions
+%% copyright (c) 1998-2003 by MicroPress, Inc. Portions copyright (c) 1990 by
+%% Elsevier, Inc. All rights reserved.
+%% 
+%% This work may be distributed and/or modified under the conditions of the LaTeX
+%% Project Public License, either version 1.3 of this license or (at your option)
+%% any later version.  The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX version
+%% 2005/12/01 or later.
+%% 
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the STI Pub Companies.
+%% 
+%% This work consists of the files stix2.dtx and and the derived file stix2.sty.
+%% 
+\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+\ProvidesPackage{stix2}
+    [2018/04/02 v2.0.0-latex STIX Two fonts support package]
+\global\expandafter\let\csname ver@stix.sty\expandafter
+  \endcsname\csname ver@\@currname.\@currext\endcsname
+\newif\ifstix@text  \stix@texttrue
+\newif\ifstix@math  \stix@mathtrue
+\newif\ifstix@tenc  \stix@tenctrue
+\newif\ifstix@senc  \stix@senctrue
+\newif\ifstix@upint \stix@upintfalse
+\let\stix@lcgc\mathord
+\DeclareOption{notext}      {\stix@textfalse}
+\DeclareOption{nomath}      {\stix@mathfalse}
+\DeclareOption{not1}        {\stix@tencfalse}
+\DeclareOption{notextcomp}  {\stix@sencfalse}
+\DeclareOption{lcgreekalpha}{\let\stix@lcgc\mathalpha}
+\DeclareOption{upint}       {\stix@upinttrue}
+\ProcessOptions\relax
+\ifstix@text
+    \ifstix@tenc
+        \def\encodingdefault{T1}
+    \fi
+    \ifstix@senc
+        \RequirePackage[full]{textcomp}
+        \UndeclareTextCommand{\textpertenthousand}{T1}
+        \DeclareTextSymbolDefault{\textpertenthousand}{TS1}
+    \fi
+
+    \renewcommand{\rmdefault}{stix2}
+\fi
+\ifstix@math
+\def\stix@undefine#1{%
+    \if\relax\noexpand#1\let#1=\@undefined\fi}
+\def\stix@MathSymbol#1#2#3#4{%
+    \stix@undefine#1%
+    \DeclareMathSymbol{#1}{#2}{#3}{#4}}
+\def\stix@MathDelimiter#1#2#3#4#5#6{%
+    \stix@undefine#1%
+    \DeclareMathDelimiter{#1}{#2}{#3}{#4}{#5}{#6}}
+\def\stix@MathAccent#1#2#3#4{%
+    \stix@undefine#1%
+    \DeclareMathAccent{#1}{#2}{#3}{#4}}
+\def\stix@MathRadical#1#2#3#4{%
+    \stix@undefine#1%
+    \DeclareMathRadical{#1}{#2}{#3}{#4}}
+\DeclareFontEncoding{LS1}{}{}
+\DeclareFontEncoding{LS2}{}{\noaccents@}
+\DeclareFontSubstitution{LS1}{stix2}{m}{n}
+\DeclareFontSubstitution{LS2}{stix2}{m}{n}
+\DeclareSymbolFont{letters}       {LS1}{stix2}     {m}{it}
+\DeclareSymbolFont{operators}     {LS1}{stix2}     {m} {n}
+\DeclareSymbolFont{bold-operators}{LS1}{stix2}     {b} {n}
+\DeclareSymbolFont{symbols}       {LS1}{stix2scr}  {m} {n}
+\DeclareSymbolFont{symbols2}      {LS1}{stix2frak} {m} {n}
+\DeclareSymbolFont{symbols3}      {LS1}{stix2bb}   {m} {n}
+\DeclareSymbolFont{symbols4}      {LS1}{stix2bb}   {m}{it}
+\DeclareSymbolFont{integrals}     {LS2}{stix2cal}  {m} {n}
+\DeclareSymbolFont{largesymbols}  {LS2}{stix2ex}   {m} {n}
+\DeclareSymbolFont{arrows1}       {LS1}{stix2sf}   {m} {n}
+\DeclareSymbolFont{arrows2}       {LS1}{stix2sf}   {m}{it}
+\DeclareSymbolFont{arrows3}       {LS2}{stix2tt}   {m} {n}
+\SetSymbolFont{letters}     {bold}{LS1}{stix2}     {b}{it}
+\SetSymbolFont{operators}   {bold}{LS1}{stix2}     {b} {n}
+\SetSymbolFont{symbols}     {bold}{LS1}{stix2scr}  {b} {n}
+\SetSymbolFont{symbols2}    {bold}{LS1}{stix2frak} {b}{n}
+\SetSymbolFont{symbols3}    {bold}{LS1}{stix2bb}   {b} {n}
+\SetSymbolFont{symbols4}    {bold}{LS1}{stix2bb}   {b}{it}
+\SetSymbolFont{integrals}   {bold}{LS2}{stix2cal}  {b} {n}
+\SetSymbolFont{largesymbols}{bold}{LS2}{stix2ex}   {b} {n}
+\SetSymbolFont{arrows1}     {bold}{LS1}{stix2sf}   {b} {n}
+\SetSymbolFont{arrows2}     {bold}{LS1}{stix2sf}   {b}{it}
+\SetSymbolFont{arrows3}     {bold}{LS2}{stix2tt}   {b} {n}
+\DeclareSymbolFontAlphabet{\mathit}  {letters}
+\DeclareSymbolFontAlphabet{\mathrm}  {operators}
+\DeclareSymbolFontAlphabet{\mathscr} {symbols}
+\DeclareSymbolFontAlphabet{\mathfrak}{symbols2}
+\DeclareSymbolFontAlphabet{\mathbb}  {symbols3}
+\DeclareSymbolFontAlphabet{\mathcal} {integrals}
+\DeclareSymbolFontAlphabet{\mathsf}  {arrows1}
+\DeclareSymbolFontAlphabet{\mathsfit}{arrows2}
+\DeclareSymbolFontAlphabet{\mathtt}  {arrows3}
+\DeclareSymbolFontAlphabet{\mathbf}  {bold-operators}
+\DeclareMathAlphabet{\mathbfit}   {LS1}{stix2}     {b}{it}
+\DeclareMathAlphabet{\mathbfsf}   {LS1}{stix2sf}   {b} {n}
+\DeclareMathAlphabet{\mathbfsfit} {LS1}{stix2sf}   {b}{it}
+\DeclareMathAlphabet{\mathbfscr}  {LS1}{stix2scr}  {b} {n}
+\DeclareMathAlphabet{\mathbffrak} {LS1}{stix2frak} {b} {n}
+\stix@MathSymbol{\Gamma}      {\mathalpha}{operators}{"00}
+\stix@MathSymbol{\Delta}      {\mathalpha}{operators}{"01}
+\stix@MathSymbol{\Theta}      {\mathalpha}{operators}{"02}
+\stix@MathSymbol{\Lambda}     {\mathalpha}{operators}{"03}
+\stix@MathSymbol{\Xi}         {\mathalpha}{operators}{"04}
+\stix@MathSymbol{\Pi}         {\mathalpha}{operators}{"05}
+\stix@MathSymbol{\Sigma}      {\mathalpha}{operators}{"06}
+\stix@MathSymbol{\Upsilon}    {\mathalpha}{operators}{"07}
+\stix@MathSymbol{\Phi}        {\mathalpha}{operators}{"08}
+\stix@MathSymbol{\Psi}        {\mathalpha}{operators}{"09}
+\stix@MathSymbol{\Omega}      {\mathalpha}{operators}{"0A}
+\stix@MathSymbol{\alpha}     {\stix@lcgc}{letters}{"0B}
+\stix@MathSymbol{\beta}      {\stix@lcgc}{letters}{"0C}
+\stix@MathSymbol{\gamma}     {\stix@lcgc}{letters}{"0D}
+\stix@MathSymbol{\delta}     {\stix@lcgc}{letters}{"0E}
+\stix@MathSymbol{\epsilon}   {\stix@lcgc}{letters}{"0F}
+\stix@MathSymbol{\zeta}      {\stix@lcgc}{letters}{"10}
+\stix@MathSymbol{\eta}       {\stix@lcgc}{letters}{"11}
+\stix@MathSymbol{\theta}     {\stix@lcgc}{letters}{"12}
+\stix@MathSymbol{\iota}      {\stix@lcgc}{letters}{"13}
+\stix@MathSymbol{\kappa}     {\stix@lcgc}{letters}{"14}
+\stix@MathSymbol{\lambda}    {\stix@lcgc}{letters}{"15}
+\stix@MathSymbol{\mu}        {\stix@lcgc}{letters}{"16}
+\stix@MathSymbol{\nu}        {\stix@lcgc}{letters}{"17}
+\stix@MathSymbol{\xi}        {\stix@lcgc}{letters}{"18}
+\stix@MathSymbol{\pi}        {\stix@lcgc}{letters}{"19}
+\stix@MathSymbol{\rho}       {\stix@lcgc}{letters}{"1A}
+\stix@MathSymbol{\sigma}     {\stix@lcgc}{letters}{"1B}
+\stix@MathSymbol{\tau}       {\stix@lcgc}{letters}{"1C}
+\stix@MathSymbol{\upsilon}   {\stix@lcgc}{letters}{"1D}
+\stix@MathSymbol{\phi}       {\stix@lcgc}{letters}{"1E}
+\stix@MathSymbol{\chi}       {\stix@lcgc}{letters}{"1F}
+\stix@MathSymbol{\psi}       {\stix@lcgc}{letters}{"20}
+\stix@MathSymbol{\omega}     {\stix@lcgc}{letters}{"21}
+\stix@MathSymbol{\varepsilon}{\stix@lcgc}{letters}{"22}
+\stix@MathSymbol{\vartheta}  {\stix@lcgc}{letters}{"23}
+\stix@MathSymbol{\varpi}     {\stix@lcgc}{letters}{"24}
+\stix@MathSymbol{\varrho}    {\stix@lcgc}{letters}{"25}
+\stix@MathSymbol{\varsigma}  {\stix@lcgc}{letters}{"26}
+\stix@MathSymbol{\varphi}    {\stix@lcgc}{letters}{"27}
+\stix@MathSymbol{\nabla}     {\stix@lcgc}{operators}{"28}
+\stix@MathSymbol{\partial}   {\stix@lcgc}{letters}{"29}
+\stix@MathSymbol{0}     {\mathalpha}{operators}{`0}
+\stix@MathSymbol{1}     {\mathalpha}{operators}{`1}
+\stix@MathSymbol{2}     {\mathalpha}{operators}{`2}
+\stix@MathSymbol{3}     {\mathalpha}{operators}{`3}
+\stix@MathSymbol{4}     {\mathalpha}{operators}{`4}
+\stix@MathSymbol{5}     {\mathalpha}{operators}{`5}
+\stix@MathSymbol{6}     {\mathalpha}{operators}{`6}
+\stix@MathSymbol{7}     {\mathalpha}{operators}{`7}
+\stix@MathSymbol{8}     {\mathalpha}{operators}{`8}
+\stix@MathSymbol{9}     {\mathalpha}{operators}{`9}
+\stix@MathSymbol{A}     {\mathalpha}{letters}  {`A}
+\stix@MathSymbol{B}     {\mathalpha}{letters}  {`B}
+\stix@MathSymbol{C}     {\mathalpha}{letters}  {`C}
+\stix@MathSymbol{D}     {\mathalpha}{letters}  {`D}
+\stix@MathSymbol{E}     {\mathalpha}{letters}  {`E}
+\stix@MathSymbol{F}     {\mathalpha}{letters}  {`F}
+\stix@MathSymbol{G}     {\mathalpha}{letters}  {`G}
+\stix@MathSymbol{H}     {\mathalpha}{letters}  {`H}
+\stix@MathSymbol{I}     {\mathalpha}{letters}  {`I}
+\stix@MathSymbol{J}     {\mathalpha}{letters}  {`J}
+\stix@MathSymbol{K}     {\mathalpha}{letters}  {`K}
+\stix@MathSymbol{L}     {\mathalpha}{letters}  {`L}
+\stix@MathSymbol{M}     {\mathalpha}{letters}  {`M}
+\stix@MathSymbol{N}     {\mathalpha}{letters}  {`N}
+\stix@MathSymbol{O}     {\mathalpha}{letters}  {`O}
+\stix@MathSymbol{P}     {\mathalpha}{letters}  {`P}
+\stix@MathSymbol{Q}     {\mathalpha}{letters}  {`Q}
+\stix@MathSymbol{R}     {\mathalpha}{letters}  {`R}
+\stix@MathSymbol{S}     {\mathalpha}{letters}  {`S}
+\stix@MathSymbol{T}     {\mathalpha}{letters}  {`T}
+\stix@MathSymbol{U}     {\mathalpha}{letters}  {`U}
+\stix@MathSymbol{V}     {\mathalpha}{letters}  {`V}
+\stix@MathSymbol{W}     {\mathalpha}{letters}  {`W}
+\stix@MathSymbol{X}     {\mathalpha}{letters}  {`X}
+\stix@MathSymbol{Y}     {\mathalpha}{letters}  {`Y}
+\stix@MathSymbol{Z}     {\mathalpha}{letters}  {`Z}
+\stix@MathSymbol{a}     {\mathalpha}{letters}  {`a}
+\stix@MathSymbol{b}     {\mathalpha}{letters}  {`b}
+\stix@MathSymbol{c}     {\mathalpha}{letters}  {`c}
+\stix@MathSymbol{d}     {\mathalpha}{letters}  {`d}
+\stix@MathSymbol{e}     {\mathalpha}{letters}  {`e}
+\stix@MathSymbol{f}     {\mathalpha}{letters}  {`f}
+\stix@MathSymbol{g}     {\mathalpha}{letters}  {`g}
+\stix@MathSymbol{h}     {\mathalpha}{letters}  {`h}
+\stix@MathSymbol{i}     {\mathalpha}{letters}  {`i}
+\stix@MathSymbol{j}     {\mathalpha}{letters}  {`j}
+\stix@MathSymbol{k}     {\mathalpha}{letters}  {`k}
+\stix@MathSymbol{l}     {\mathalpha}{letters}  {`l}
+\stix@MathSymbol{m}     {\mathalpha}{letters}  {`m}
+\stix@MathSymbol{n}     {\mathalpha}{letters}  {`n}
+\stix@MathSymbol{o}     {\mathalpha}{letters}  {`o}
+\stix@MathSymbol{p}     {\mathalpha}{letters}  {`p}
+\stix@MathSymbol{q}     {\mathalpha}{letters}  {`q}
+\stix@MathSymbol{r}     {\mathalpha}{letters}  {`r}
+\stix@MathSymbol{s}     {\mathalpha}{letters}  {`s}
+\stix@MathSymbol{t}     {\mathalpha}{letters}  {`t}
+\stix@MathSymbol{u}     {\mathalpha}{letters}  {`u}
+\stix@MathSymbol{v}     {\mathalpha}{letters}  {`v}
+\stix@MathSymbol{w}     {\mathalpha}{letters}  {`w}
+\stix@MathSymbol{x}     {\mathalpha}{letters}  {`x}
+\stix@MathSymbol{y}     {\mathalpha}{letters}  {`y}
+\stix@MathSymbol{z}     {\mathalpha}{letters}  {`z}
+\stix@MathSymbol{\imath}{\mathalpha}{letters}  {"7B}
+\stix@MathSymbol{\jmath}{\mathalpha}{letters}  {"7C}
+\stix@MathSymbol{\aleph} {\mathord}{letters}{"2A}
+\stix@MathSymbol{\beth}  {\mathord}{letters}{"2B}
+\stix@MathSymbol{\gimel} {\mathord}{letters}{"2C}
+\stix@MathSymbol{\daleth}{\mathord}{letters}{"2D}
+\stix@MathSymbol{\hbar}  {\mathord}{letters}{"60}
+\stix@MathSymbol{\hslash}{\mathord}{letters}{"3D}
+\stix@MathSymbol{\ell}       {\mathord}  {symbols}{`l}
+\stix@MathSymbol{\wp}        {\mathord}  {symbols}{"7D}
+\stix@MathSymbol{\Re}        {\mathord}  {symbols2}{`R}
+\stix@MathSymbol{\Im}        {\mathord}  {symbols2}{`I}
+\stix@MathSymbol{-}          {\mathbin}  {operators}{"2A}
+\stix@MathSymbol{+}          {\mathbin}  {operators}{`+}
+\stix@MathSymbol{\pm}        {\mathbin}  {operators}{"2C}
+\stix@MathSymbol{\mp}        {\mathbin}  {operators}{"2D}
+\stix@MathSymbol{:}          {\mathrel}  {operators}{`:}
+\stix@MathSymbol{;}          {\mathpunct}{operators}{`;}
+\stix@MathSymbol{*}          {\mathrel}  {operators}{"3C}
+\stix@MathSymbol{\ast}       {\mathrel}  {operators}{"3C}
+\stix@MathSymbol{=}          {\mathrel}  {operators}{`=}
+\stix@MathSymbol{\mathdollar}{\mathord}  {operators}{"3E}
+\stix@MathSymbol{?}          {\mathclose}{operators}{`?}
+\stix@MathSymbol{!}          {\mathclose}{operators}{"40}
+\stix@MathSymbol{#}          {\mathord}  {operators}{"7D}
+\mathcode`\%="007E % can't use \stix@MathSymbol
+\stix@MathSymbol{&}          {\mathord}  {operators}{"99}
+\stix@MathSymbol{@}          {\mathord}  {operators}{"9A}
+\stix@MathSymbol{.}          {\mathord}  {letters}  {"3A}
+\stix@MathSymbol{\ldotp}     {\mathpunct}{letters}  {"3A}
+\stix@MathSymbol{,}          {\mathpunct}{letters}  {"3B}
+\stix@MathSymbol{\star}      {\mathbin}  {letters}  {"3F}
+\stix@MathSymbol{\flat}      {\mathord}  {letters}  {"5B}
+\stix@MathSymbol{\natural}   {\mathord}  {letters}  {"5C}
+\stix@MathSymbol{\sharp}     {\mathord}  {letters}  {"5D}
+\stix@MathSymbol{\smile}     {\mathrel}  {letters}  {"5E}
+\stix@MathSymbol{\frown}     {\mathrel}  {letters}  {"5F}
+\stix@MathSymbol{\triangleright} {\mathbin}{letters}{"2E}
+\stix@MathSymbol{\triangleleft}  {\mathbin}{letters}{"2F}
+\@ifpackageloaded{amsmath}{}{
+    \stix@MathSymbol{\colon}      {\mathpunct}{operators}{`:}
+}
+\stix@MathDelimiter{(}          {\mathopen} {operators}   {"2E}{largesymbols}{"00}
+\stix@MathDelimiter{)}          {\mathclose}{operators}   {"2F}{largesymbols}{"01}
+\stix@MathDelimiter{\lParen}    {\mathopen} {largesymbols}{"DE}{largesymbols}{"02}
+\stix@MathDelimiter{\rParen}    {\mathclose}{largesymbols}{"DF}{largesymbols}{"03}
+\stix@MathDelimiter{[}          {\mathopen} {operators}   {"5B}{largesymbols}{"04}
+\stix@MathDelimiter{]}          {\mathclose}{operators}   {"5D}{largesymbols}{"05}
+\stix@MathDelimiter{\lBrack}    {\mathopen} {largesymbols}{"E0}{largesymbols}{"06}
+\stix@MathDelimiter{\rBrack}    {\mathclose}{largesymbols}{"E1}{largesymbols}{"07}
+\stix@MathDelimiter{\lfloor}    {\mathopen} {largesymbols}{"E2}{largesymbols}{"08}
+\stix@MathDelimiter{\rfloor}    {\mathclose}{largesymbols}{"E3}{largesymbols}{"09}
+\stix@MathDelimiter{\lceil}     {\mathopen} {largesymbols}{"E4}{largesymbols}{"0A}
+\stix@MathDelimiter{\rceil}     {\mathclose}{largesymbols}{"E5}{largesymbols}{"0B}
+\stix@MathDelimiter{\lmoustache}{\mathopen} {largesymbols}{"E6}{largesymbols}{"EC}
+\stix@MathDelimiter{\rmoustache}{\mathclose}{largesymbols}{"E7}{largesymbols}{"ED}
+\stix@MathDelimiter{\lbrace}    {\mathopen} {operators}   {"5E}{largesymbols}{"0C}
+\stix@MathDelimiter{\rbrace}    {\mathclose}{operators}   {"60}{largesymbols}{"0D}
+\stix@MathDelimiter{\lBrace}    {\mathopen} {largesymbols}{"E8}{largesymbols}{"0E}
+\stix@MathDelimiter{\rBrace}    {\mathclose}{largesymbols}{"E9}{largesymbols}{"0F}
+\stix@MathDelimiter{\langle}    {\mathopen} {largesymbols}{"EA}{largesymbols}{"10}
+\stix@MathDelimiter{\rangle}    {\mathclose}{largesymbols}{"EB}{largesymbols}{"11}
+\stix@MathDelimiter{<}          {\mathopen} {largesymbols}{"EA}{largesymbols}{"10}
+\stix@MathDelimiter{>}          {\mathclose}{largesymbols}{"EB}{largesymbols}{"11}
+\stix@MathSymbol   {<}          {\mathrel}  {letters}{"3C}
+\stix@MathSymbol   {>}          {\mathrel}  {letters}{"3E}
+\stix@MathDelimiter{\lAngle}    {\mathopen} {largesymbols}{"EC}{largesymbols}{"12}
+\stix@MathDelimiter{\rAngle}    {\mathclose}{largesymbols}{"ED}{largesymbols}{"13}
+\stix@MathDelimiter{\lbrbrak}   {\mathopen} {largesymbols}{"EE}{largesymbols}{"14}
+\stix@MathDelimiter{\rbrbrak}   {\mathclose}{largesymbols}{"EF}{largesymbols}{"15}
+\stix@MathDelimiter{/}          {\mathord}  {operators}   {"5F}{largesymbols}{"16}
+\stix@MathDelimiter{\backslash} {\mathord}  {operators}   {"5C}{largesymbols}{"17}
+\expandafter\DeclareMathDelimiter\@backslashchar{\mathord}{operators}{"5C}{largesymbols}{"17}
+\stix@MathDelimiter{\lgroup}    {\mathopen} {largesymbols}{"DC}{largesymbols}{"6A}
+\stix@MathDelimiter{\rgroup}    {\mathclose}{largesymbols}{"DD}{largesymbols}{"6B}
+\stix@MathDelimiter{\bracevert} {\mathord}  {largesymbols}{"6E}{largesymbols}{"6E}
+\stix@MathDelimiter{|}          {\mathord}  {largesymbols}{"F0}{largesymbols}{"F3}
+\stix@MathDelimiter{\vert}      {\mathord}  {largesymbols}{"F0}{largesymbols}{"F3}
+\stix@MathDelimiter{\Vert}      {\mathord}  {largesymbols}{"F1}{largesymbols}{"F4}
+        \let\|=\Vert
+\stix@MathDelimiter{\Vvert}     {\mathord}  {largesymbols}{"F2}{largesymbols}{"F5}
+\@ifpackageloaded{amsmath}{
+    \stix@MathDelimiter{\lvert} {\mathopen}  {largesymbols}{"F0}{largesymbols}{"F3}
+    \stix@MathDelimiter{\rvert} {\mathclose} {largesymbols}{"F0}{largesymbols}{"F3}
+    \stix@MathDelimiter{\lVert} {\mathopen}  {largesymbols}{"F1}{largesymbols}{"F4}
+    \stix@MathDelimiter{\rVert} {\mathclose} {largesymbols}{"F1}{largesymbols}{"F4}
+}{}
+\stix@MathDelimiter{\uparrow}    {\mathrel}{arrows1}{"7E}{arrows1}{"7E}
+\stix@MathDelimiter{\downarrow}  {\mathrel}{arrows1}{"9A}{arrows1}{"9A}
+\stix@MathDelimiter{\updownarrow}{\mathrel}{arrows1}{"9C}{arrows1}{"9C}
+\stix@MathDelimiter{\Uparrow}    {\mathrel}{arrows1}{"D8}{arrows1}{"D8}
+\stix@MathDelimiter{\Downarrow}  {\mathrel}{arrows1}{"DA}{arrows1}{"DA}
+\stix@MathDelimiter{\Updownarrow}{\mathrel}{arrows1}{"DC}{arrows1}{"DC}
+\stix@MathDelimiter{\UUparrow}   {\mathrel}{arrows1}{"FE}{arrows1}{"FE}
+\stix@MathDelimiter{\DDownarrow} {\mathrel}{arrows1}{"FF}{arrows1}{"FF}
+\stix@MathDelimiter{\Uuparrow}   {\mathrel}{arrows1}{"5F}{arrows1}{"5F}
+\stix@MathDelimiter{\Ddownarrow} {\mathrel}{arrows1}{"60}{arrows1}{"60}
+\stix@MathDelimiter{\arrowvert}  {\mathrel}{arrows1}{"3C}{arrows1}{"3C}
+\stix@MathDelimiter{\Arrowvert}  {\mathrel}{arrows1}{"3D}{arrows1}{"3D}
+\stix@MathRadical{\sqrtsign}    {largesymbols}{"F9}{largesymbols}{"74}
+\stix@MathRadical{\longdivision}{largesymbols}{"FA}{largesymbols}{"FA}
+\def\surd{{\mathchar"13F9}}
+\stix@MathSymbol{\smallintsl}             {\mathop}{integrals}{"00}
+\stix@MathSymbol{\smalliintsl}            {\mathop}{integrals}{"01}
+\stix@MathSymbol{\smalliiintsl}           {\mathop}{integrals}{"02}
+\stix@MathSymbol{\smallointsl}            {\mathop}{integrals}{"03}
+\stix@MathSymbol{\smalloiintsl}           {\mathop}{integrals}{"04}
+\stix@MathSymbol{\smalloiiintsl}          {\mathop}{integrals}{"05}
+\stix@MathSymbol{\smallintclockwisesl}    {\mathop}{integrals}{"06}
+\stix@MathSymbol{\smallvarointclockwisesl}{\mathop}{integrals}{"07}
+\stix@MathSymbol{\smallointctrclockwisesl}{\mathop}{integrals}{"08}
+\stix@MathSymbol{\smallsumintsl}          {\mathop}{integrals}{"09}
+\stix@MathSymbol{\smalliiiintsl}          {\mathop}{integrals}{"0A}
+\stix@MathSymbol{\smallintbarsl}          {\mathop}{integrals}{"0B}
+\stix@MathSymbol{\smallintBarsl}          {\mathop}{integrals}{"0C}
+\stix@MathSymbol{\smallfintsl}            {\mathop}{integrals}{"0D}
+\stix@MathSymbol{\smallcirfnintsl}        {\mathop}{integrals}{"0E}
+\stix@MathSymbol{\smallawintsl}           {\mathop}{integrals}{"0F}
+\stix@MathSymbol{\smallrppolintsl}        {\mathop}{integrals}{"10}
+\stix@MathSymbol{\smallscpolintsl}        {\mathop}{integrals}{"11}
+\stix@MathSymbol{\smallnpolintsl}         {\mathop}{integrals}{"12}
+\stix@MathSymbol{\smallpointintsl}        {\mathop}{integrals}{"13}
+\stix@MathSymbol{\smallsqintsl}           {\mathop}{integrals}{"14}
+\stix@MathSymbol{\smallintlarhksl}        {\mathop}{integrals}{"15}
+\stix@MathSymbol{\smallintxsl}            {\mathop}{integrals}{"16}
+\stix@MathSymbol{\smallintcapsl}          {\mathop}{integrals}{"17}
+\stix@MathSymbol{\smallintcupsl}          {\mathop}{integrals}{"18}
+\stix@MathSymbol{\smallupintsl}           {\mathop}{integrals}{"19}
+\stix@MathSymbol{\smalllowintsl}          {\mathop}{integrals}{"1A}
+\stix@MathSymbol{\smallintup}             {\mathop}{integrals}{"1B}
+\stix@MathSymbol{\smalliintup}            {\mathop}{integrals}{"1C}
+\stix@MathSymbol{\smalliiintup}           {\mathop}{integrals}{"1D}
+\stix@MathSymbol{\smallointup}            {\mathop}{integrals}{"1E}
+\stix@MathSymbol{\smalloiintup}           {\mathop}{integrals}{"1F}
+\stix@MathSymbol{\smalloiiintup}          {\mathop}{integrals}{"20}
+\stix@MathSymbol{\smallintclockwiseup}    {\mathop}{integrals}{"21}
+\stix@MathSymbol{\smallvarointclockwiseup}{\mathop}{integrals}{"22}
+\stix@MathSymbol{\smallointctrclockwiseup}{\mathop}{integrals}{"23}
+\stix@MathSymbol{\smallsumintup}          {\mathop}{integrals}{"24}
+\stix@MathSymbol{\smalliiiintup}          {\mathop}{integrals}{"25}
+\stix@MathSymbol{\smallintbarup}          {\mathop}{integrals}{"26}
+\stix@MathSymbol{\smallintBarup}          {\mathop}{integrals}{"27}
+\stix@MathSymbol{\smallfintup}            {\mathop}{integrals}{"28}
+\stix@MathSymbol{\smallcirfnintup}        {\mathop}{integrals}{"29}
+\stix@MathSymbol{\smallawintup}           {\mathop}{integrals}{"2A}
+\stix@MathSymbol{\smallrppolintup}        {\mathop}{integrals}{"2B}
+\stix@MathSymbol{\smallscpolintup}        {\mathop}{integrals}{"2C}
+\stix@MathSymbol{\smallnpolintup}         {\mathop}{integrals}{"2D}
+\stix@MathSymbol{\smallpointintup}        {\mathop}{integrals}{"2E}
+\stix@MathSymbol{\smallsqintup}           {\mathop}{integrals}{"2F}
+\stix@MathSymbol{\smallintlarhkup}        {\mathop}{integrals}{"30}
+\stix@MathSymbol{\smallintxup}            {\mathop}{integrals}{"31}
+\stix@MathSymbol{\smallintcapup}          {\mathop}{integrals}{"32}
+\stix@MathSymbol{\smallintcupup}          {\mathop}{integrals}{"33}
+\stix@MathSymbol{\smallupintup}           {\mathop}{integrals}{"34}
+\stix@MathSymbol{\smalllowintup}          {\mathop}{integrals}{"35}
+\stix@MathSymbol{\intslop}                {\mathop}{integrals}{"94}
+\stix@MathSymbol{\iintslop}               {\mathop}{integrals}{"95}
+\stix@MathSymbol{\iiintslop}              {\mathop}{integrals}{"96}
+\stix@MathSymbol{\ointslop}               {\mathop}{integrals}{"97}
+\stix@MathSymbol{\oiintslop}              {\mathop}{integrals}{"98}
+\stix@MathSymbol{\oiiintslop}             {\mathop}{integrals}{"99}
+\stix@MathSymbol{\intclockwiseslop}       {\mathop}{integrals}{"9A}
+\stix@MathSymbol{\varointclockwiseslop}   {\mathop}{integrals}{"9B}
+\stix@MathSymbol{\ointctrclockwiseslop}   {\mathop}{integrals}{"9C}
+\stix@MathSymbol{\sumintslop}             {\mathop}{integrals}{"9D}
+\stix@MathSymbol{\iiiintslop}             {\mathop}{integrals}{"9E}
+\stix@MathSymbol{\intbarslop}             {\mathop}{integrals}{"9F}
+\stix@MathSymbol{\intBarslop}             {\mathop}{integrals}{"A0}
+\stix@MathSymbol{\fintslop}               {\mathop}{integrals}{"A1}
+\stix@MathSymbol{\cirfnintslop}           {\mathop}{integrals}{"A2}
+\stix@MathSymbol{\awintslop}              {\mathop}{integrals}{"A3}
+\stix@MathSymbol{\rppolintslop}           {\mathop}{integrals}{"A4}
+\stix@MathSymbol{\scpolintslop}           {\mathop}{integrals}{"A5}
+\stix@MathSymbol{\npolintslop}            {\mathop}{integrals}{"A6}
+\stix@MathSymbol{\pointintslop}           {\mathop}{integrals}{"A7}
+\stix@MathSymbol{\sqintslop}              {\mathop}{integrals}{"A8}
+\stix@MathSymbol{\intlarhkslop}           {\mathop}{integrals}{"A9}
+\stix@MathSymbol{\intxslop}               {\mathop}{integrals}{"AA}
+\stix@MathSymbol{\intcapslop}             {\mathop}{integrals}{"AB}
+\stix@MathSymbol{\intcupslop}             {\mathop}{integrals}{"AC}
+\stix@MathSymbol{\upintslop}              {\mathop}{integrals}{"AD}
+\stix@MathSymbol{\lowintslop}             {\mathop}{integrals}{"AE}
+\stix@MathSymbol{\intupop}                {\mathop}{integrals}{"AF}
+\stix@MathSymbol{\iintupop}               {\mathop}{integrals}{"B0}
+\stix@MathSymbol{\iiintupop}              {\mathop}{integrals}{"B1}
+\stix@MathSymbol{\ointupop}               {\mathop}{integrals}{"B2}
+\stix@MathSymbol{\oiintupop}              {\mathop}{integrals}{"B3}
+\stix@MathSymbol{\oiiintupop}             {\mathop}{integrals}{"B4}
+\stix@MathSymbol{\intclockwiseupop}       {\mathop}{integrals}{"B5}
+\stix@MathSymbol{\varointclockwiseupop}   {\mathop}{integrals}{"B6}
+\stix@MathSymbol{\ointctrclockwiseupop}   {\mathop}{integrals}{"B7}
+\stix@MathSymbol{\sumintupop}             {\mathop}{integrals}{"B8}
+\stix@MathSymbol{\iiiintupop}             {\mathop}{integrals}{"B9}
+\stix@MathSymbol{\intbarupop}             {\mathop}{integrals}{"BA}
+\stix@MathSymbol{\intBarupop}             {\mathop}{integrals}{"BB}
+\stix@MathSymbol{\fintupop}               {\mathop}{integrals}{"BC}
+\stix@MathSymbol{\cirfnintupop}           {\mathop}{integrals}{"BD}
+\stix@MathSymbol{\awintupop}              {\mathop}{integrals}{"BE}
+\stix@MathSymbol{\rppolintupop}           {\mathop}{integrals}{"BF}
+\stix@MathSymbol{\scpolintupop}           {\mathop}{integrals}{"C0}
+\stix@MathSymbol{\npolintupop}            {\mathop}{integrals}{"C1}
+\stix@MathSymbol{\pointintupop}           {\mathop}{integrals}{"C2}
+\stix@MathSymbol{\sqintupop}              {\mathop}{integrals}{"C3}
+\stix@MathSymbol{\intlarhkupop}           {\mathop}{integrals}{"C4}
+\stix@MathSymbol{\intxupop}               {\mathop}{integrals}{"C5}
+\stix@MathSymbol{\intcapupop}             {\mathop}{integrals}{"C6}
+\stix@MathSymbol{\intcupupop}             {\mathop}{integrals}{"C7}
+\stix@MathSymbol{\upintupop}              {\mathop}{integrals}{"C8}
+\stix@MathSymbol{\lowintupop}             {\mathop}{integrals}{"C9}
+
+\stix@MathSymbol{\circledS}               {\mathord}{integrals}{"3B}
+\stix@MathSymbol{\diagdown}               {\mathord}{integrals}{"3C}
+\stix@MathSymbol{\diagup}                 {\mathord}{integrals}{"3D}
+\stix@MathSymbol{\eth}                    {\mathord}{integrals}{"3E}
+\stix@MathSymbol{\smallfrown}             {\mathrel}{integrals}{"3F}
+\stix@MathSymbol{\smallsmile}             {\mathrel}{integrals}{"40}
+\stix@MathSymbol{\gvertneqq}              {\mathrel}{integrals}{"5B}
+\stix@MathSymbol{\lvertneqq}              {\mathrel}{integrals}{"5C}
+\stix@MathSymbol{\nshortmid}              {\mathrel}{integrals}{"5D}
+\stix@MathSymbol{\nshortparallel}         {\mathrel}{integrals}{"5E}
+\stix@MathSymbol{\shortmid}               {\mathrel}{integrals}{"5F}
+\stix@MathSymbol{\shortparallel}          {\mathrel}{integrals}{"60}
+\stix@MathSymbol{\varsubsetneq}           {\mathrel}{integrals}{"61}
+\stix@MathSymbol{\varsupsetneq}           {\mathrel}{integrals}{"62}
+\stix@MathSymbol{\varsubsetneqq}          {\mathrel}{integrals}{"63}
+\stix@MathSymbol{\varsupsetneqq}          {\mathrel}{integrals}{"64}
+\stix@MathSymbol{\varkappa}               {\mathord}{integrals}{"7A}
+\stix@MathSymbol{\digamma}                {\mathord}{integrals}{"7B}
+\stix@MathSymbol{\backepsilon}            {\mathord}{integrals}{"7C}
+\stix@MathSymbol{\varpropto}              {\mathrel}{integrals}{"7E}
+\stix@MathSymbol{\yenmath}                {\mathord}{integrals}{"7D}
+\stix@MathSymbol{\circledRmath}           {\mathord}{integrals}{"3A}
+\stix@MathSymbol{\maltesemath}            {\mathord}{arrows3}{"83}
+\stix@MathSymbol{\circledstar}            {\mathord}{arrows3}{"84}
+\DeclareRobustCommand\yen{%
+  \ifmmode\yenmath\else{\fontencoding{TS1}\selectfont\char"A5}\fi}
+\DeclareRobustCommand\circledR{%
+  \ifmmode\circledRmath\else{\fontencoding{TS1}\selectfont\char"AE}\fi}
+\DeclareRobustCommand\checkmark{\ensuremath{\checkmarkmath}}
+\DeclareRobustCommand\maltese{\ensuremath{\maltesemath}}
+\ifstix@upint
+    \let\smallint=\smallintup
+    \let\smalliint=\smalliintup
+    \let\smalliiint=\smalliiintup
+    \let\smalloint=\smallointup
+    \let\smalloiint=\smalloiintup
+    \let\smalloiiint=\smalloiiintup
+    \let\smallintclockwise=\smallintclockwiseup
+    \let\smallvarointclockwise=\smallvarointclockwiseup
+    \let\smallointctrclockwise=\smallointctrclockwiseup
+    \let\smallsumint=\smallsumintup
+    \let\smalliiiint=\smalliiiintup
+    \let\smallintbar=\smallintbarup
+    \let\smallintBar=\smallintBarup
+    \let\smallfint=\smallfintup
+    \let\smallcirfnint=\smallcirfnintup
+    \let\smallawint=\smallawintup
+    \let\smallrppolint=\smallrppolintup
+    \let\smallscpolint=\smallscpolintup
+    \let\smallnpolint=\smallnpolintup
+    \let\smallpointint=\smallpointintup
+    \let\smallsqint=\smallsqintup
+    \let\smallintlarhk=\smallintlarhkup
+    \let\smallintx=\smallintxup
+    \let\smallintcap=\smallintcapup
+    \let\smallintcup=\smallintcupup
+    \let\smallupint=\smallupintup
+    \let\smalllowint=\smalllowintup
+    \let\intop=\intupop
+    \let\iintop=\iintupop
+    \let\iiintop=\iiintupop
+    \let\ointop=\ointupop
+    \let\oiintop=\oiintupop
+    \let\oiiintop=\oiiintupop
+    \let\intclockwiseop=\intclockwiseupop
+    \let\varointclockwiseop=\varointclockwiseupop
+    \let\ointctrclockwiseop=\ointctrclockwiseupop
+    \let\sumintop=\sumintupop
+    \let\iiiintop=\iiiintupop
+    \let\intbarop=\intbarupop
+    \let\intBarop=\intBarupop
+    \let\fintop=\fintupop
+    \let\cirfnintop=\cirfnintupop
+    \let\awintop=\awintupop
+    \let\rppolintop=\rppolintupop
+    \let\scpolintop=\scpolintupop
+    \let\npolintop=\npolintupop
+    \let\pointintop=\pointintupop
+    \let\sqintop=\sqintupop
+    \let\intlarhkop=\intlarhkupop
+    \let\intxop=\intxupop
+    \let\intcapop=\intcapupop
+    \let\intcupop=\intcupupop
+    \let\upintop=\upintupop
+    \let\lowintop=\lowintupop
+\else
+    \let\smallint=\smallintsl
+    \let\smalliint=\smalliintsl
+    \let\smalliiint=\smalliiintsl
+    \let\smalloint=\smallointsl
+    \let\smalloiint=\smalloiintsl
+    \let\smalloiiint=\smalloiiintsl
+    \let\smallintclockwise=\smallintclockwisesl
+    \let\smallvarointclockwise=\smallvarointclockwisesl
+    \let\smallointctrclockwise=\smallointctrclockwisesl
+    \let\smallsumint=\smallsumintsl
+    \let\smalliiiint=\smalliiiintsl
+    \let\smallintbar=\smallintbarsl
+    \let\smallintBar=\smallintBarsl
+    \let\smallfint=\smallfintsl
+    \let\smallcirfnint=\smallcirfnintsl
+    \let\smallawint=\smallawintsl
+    \let\smallrppolint=\smallrppolintsl
+    \let\smallscpolint=\smallscpolintsl
+    \let\smallnpolint=\smallnpolintsl
+    \let\smallpointint=\smallpointintsl
+    \let\smallsqint=\smallsqintsl
+    \let\smallintlarhk=\smallintlarhksl
+    \let\smallintx=\smallintxsl
+    \let\smallintcap=\smallintcapsl
+    \let\smallintcup=\smallintcupsl
+    \let\smallupint=\smallupintsl
+    \let\smalllowint=\smalllowintsl
+    \let\intop=\intslop
+    \let\iintop=\iintslop
+    \let\iiintop=\iiintslop
+    \let\ointop=\ointslop
+    \let\oiintop=\oiintslop
+    \let\oiiintop=\oiiintslop
+    \let\intclockwiseop=\intclockwiseslop
+    \let\varointclockwiseop=\varointclockwiseslop
+    \let\ointctrclockwiseop=\ointctrclockwiseslop
+    \let\sumintop=\sumintslop
+    \let\iiiintop=\iiiintslop
+    \let\intbarop=\intbarslop
+    \let\intBarop=\intBarslop
+    \let\fintop=\fintslop
+    \let\cirfnintop=\cirfnintslop
+    \let\awintop=\awintslop
+    \let\rppolintop=\rppolintslop
+    \let\scpolintop=\scpolintslop
+    \let\npolintop=\npolintslop
+    \let\pointintop=\pointintslop
+    \let\sqintop=\sqintslop
+    \let\intlarhkop=\intlarhkslop
+    \let\intxop=\intxslop
+    \let\intcapop=\intcapslop
+    \let\intcupop=\intcupslop
+    \let\upintop=\upintslop
+    \let\lowintop=\lowintslop
+\fi
+\def\int{\DOTSI\intop\ilimits@}
+\def\iint{\DOTSI\iintop\ilimits@}
+\def\iiint{\DOTSI\iiintop\ilimits@}
+\def\oint{\DOTSI\ointop\ilimits@}
+\def\oiint{\DOTSI\oiintop\ilimits@}
+\def\oiiint{\DOTSI\oiiintop\ilimits@}
+\def\intclockwise{\DOTSI\intclockwiseop\ilimits@}
+\def\varointclockwise{\DOTSI\varointclockwiseop\ilimits@}
+\def\ointctrclockwise{\DOTSI\ointctrclockwiseop\ilimits@}
+\def\sumint{\DOTSI\sumintop\ilimits@}
+\def\iiiint{\DOTSI\iiiintop\ilimits@}
+\def\intbar{\DOTSI\intbarop\ilimits@}
+\def\intBar{\DOTSI\intBarop\ilimits@}
+\def\fint{\DOTSI\fintop\ilimits@}
+\def\cirfnint{\DOTSI\cirfnintop\ilimits@}
+\def\awint{\DOTSI\awintop\ilimits@}
+\def\rppolint{\DOTSI\rppolintop\ilimits@}
+\def\scpolint{\DOTSI\scpolintop\ilimits@}
+\def\npolint{\DOTSI\npolintop\ilimits@}
+\def\pointint{\DOTSI\pointintop\ilimits@}
+\def\sqint{\DOTSI\sqintop\ilimits@}
+\def\intlarhk{\DOTSI\intlarhkop\ilimits@}
+\def\intx{\DOTSI\intxop\ilimits@}
+\def\intcap{\DOTSI\intcapop\ilimits@}
+\def\intcup{\DOTSI\intcupop\ilimits@}
+\def\upint{\DOTSI\upintop\ilimits@}
+\def\lowint{\DOTSI\lowintop\ilimits@}
+\def\intsl{\DOTSI\intslop\ilimits@}
+\def\iintsl{\DOTSI\iintslop\ilimits@}
+\def\iiintsl{\DOTSI\iiintslop\ilimits@}
+\def\ointsl{\DOTSI\ointslop\ilimits@}
+\def\oiintsl{\DOTSI\oiintslop\ilimits@}
+\def\oiiintsl{\DOTSI\oiiintslop\ilimits@}
+\def\intclockwisesl{\DOTSI\intclockwiseslop\ilimits@}
+\def\varointclockwisesl{\DOTSI\varointclockwiseslop\ilimits@}
+\def\ointctrclockwisesl{\DOTSI\ointctrclockwiseslop\ilimits@}
+\def\sumintsl{\DOTSI\sumintslop\ilimits@}
+\def\iiiintsl{\DOTSI\iiiintslop\ilimits@}
+\def\intbarsl{\DOTSI\intbarslop\ilimits@}
+\def\intBarsl{\DOTSI\intBarslop\ilimits@}
+\def\fintsl{\DOTSI\fintslop\ilimits@}
+\def\cirfnintsl{\DOTSI\cirfnintslop\ilimits@}
+\def\awintsl{\DOTSI\awintslop\ilimits@}
+\def\rppolintsl{\DOTSI\rppolintslop\ilimits@}
+\def\scpolintsl{\DOTSI\scpolintslop\ilimits@}
+\def\npolintsl{\DOTSI\npolintslop\ilimits@}
+\def\pointintsl{\DOTSI\pointintslop\ilimits@}
+\def\sqintsl{\DOTSI\sqintslop\ilimits@}
+\def\intlarhksl{\DOTSI\intlarhkslop\ilimits@}
+\def\intxsl{\DOTSI\intxslop\ilimits@}
+\def\intcapsl{\DOTSI\intcapslop\ilimits@}
+\def\intcupsl{\DOTSI\intcupslop\ilimits@}
+\def\upintsl{\DOTSI\upintslop\ilimits@}
+\def\lowintsl{\DOTSI\lowintslop\ilimits@}
+\def\intup{\DOTSI\intupop\ilimits@}
+\def\iintup{\DOTSI\iintupop\ilimits@}
+\def\iiintup{\DOTSI\iiintupop\ilimits@}
+\def\ointup{\DOTSI\ointupop\ilimits@}
+\def\oiintup{\DOTSI\oiintupop\ilimits@}
+\def\oiiintup{\DOTSI\oiiintupop\ilimits@}
+\def\intclockwiseup{\DOTSI\intclockwiseupop\ilimits@}
+\def\varointclockwiseup{\DOTSI\varointclockwiseupop\ilimits@}
+\def\ointctrclockwiseup{\DOTSI\ointctrclockwiseupop\ilimits@}
+\def\sumintup{\DOTSI\sumintupop\ilimits@}
+\def\iiiintup{\DOTSI\iiiintupop\ilimits@}
+\def\intbarup{\DOTSI\intbarupop\ilimits@}
+\def\intBarup{\DOTSI\intBarupop\ilimits@}
+\def\fintup{\DOTSI\fintupop\ilimits@}
+\def\cirfnintup{\DOTSI\cirfnintupop\ilimits@}
+\def\awintup{\DOTSI\awintupop\ilimits@}
+\def\rppolintup{\DOTSI\rppolintupop\ilimits@}
+\def\scpolintup{\DOTSI\scpolintupop\ilimits@}
+\def\npolintup{\DOTSI\npolintupop\ilimits@}
+\def\pointintup{\DOTSI\pointintupop\ilimits@}
+\def\sqintup{\DOTSI\sqintupop\ilimits@}
+\def\intlarhkup{\DOTSI\intlarhkupop\ilimits@}
+\def\intxup{\DOTSI\intxupop\ilimits@}
+\def\intcapup{\DOTSI\intcapupop\ilimits@}
+\def\intcupup{\DOTSI\intcupupop\ilimits@}
+\def\upintup{\DOTSI\upintupop\ilimits@}
+\def\lowintup{\DOTSI\lowintupop\ilimits@}
+\stix@MathSymbol{\Bbbsumop}               {\mathop}{largesymbols}{"B0}
+\stix@MathSymbol{\prodop}                 {\mathop}{largesymbols}{"B1}
+\stix@MathSymbol{\coprodop}               {\mathop}{largesymbols}{"B2}
+\stix@MathSymbol{\sumop}                  {\mathop}{largesymbols}{"B3}
+\stix@MathSymbol{\bigwedgeop}             {\mathop}{largesymbols}{"B4}
+\stix@MathSymbol{\bigveeop}               {\mathop}{largesymbols}{"B5}
+\stix@MathSymbol{\bigcapop}               {\mathop}{largesymbols}{"B6}
+\stix@MathSymbol{\bigcupop}               {\mathop}{largesymbols}{"B7}
+\stix@MathSymbol{\xsolop}                 {\mathop}{largesymbols}{"B8}
+\stix@MathSymbol{\xbsolop}                {\mathop}{largesymbols}{"B9}
+\stix@MathSymbol{\bigodotop}              {\mathop}{largesymbols}{"BA}
+\stix@MathSymbol{\bigoplusop}             {\mathop}{largesymbols}{"BB}
+\stix@MathSymbol{\bigotimesop}            {\mathop}{largesymbols}{"BC}
+\stix@MathSymbol{\bigcupdotop}            {\mathop}{largesymbols}{"BD}
+\stix@MathSymbol{\biguplusop}             {\mathop}{largesymbols}{"BE}
+\stix@MathSymbol{\bigsqcapop}             {\mathop}{largesymbols}{"BF}
+\stix@MathSymbol{\bigsqcupop}             {\mathop}{largesymbols}{"C0}
+\stix@MathSymbol{\conjquantop}            {\mathop}{largesymbols}{"C1}
+\stix@MathSymbol{\disjquantop}            {\mathop}{largesymbols}{"C2}
+\stix@MathSymbol{\bigtimesop}             {\mathop}{largesymbols}{"C3}
+\stix@MathSymbol{\modtwosumop}            {\mathop}{largesymbols}{"C4}
+\stix@MathSymbol{\bigtalloblongop}        {\mathop}{largesymbols}{"C5}
+\def\Bbbsum{\DOTSI\Bbbsumop\slimits@}
+\def\prod{\DOTSI\prodop\slimits@}
+\def\coprod{\DOTSI\coprodop\slimits@}
+\def\sum{\DOTSI\sumop\slimits@}
+\def\bigwedge{\DOTSI\bigwedgeop\slimits@}
+\def\bigvee{\DOTSI\bigveeop\slimits@}
+\def\bigcap{\DOTSI\bigcapop\slimits@}
+\def\bigcup{\DOTSI\bigcupop\slimits@}
+\def\xsol{\DOTSI\xsolop\slimits@}
+\def\xbsol{\DOTSI\xbsolop\slimits@}
+\def\bigodot{\DOTSI\bigodotop\slimits@}
+\def\bigoplus{\DOTSI\bigoplusop\slimits@}
+\def\bigotimes{\DOTSI\bigotimesop\slimits@}
+\def\bigcupdot{\DOTSI\bigcupdotop\slimits@}
+\def\biguplus{\DOTSI\biguplusop\slimits@}
+\def\bigsqcap{\DOTSI\bigsqcapop\slimits@}
+\def\bigsqcup{\DOTSI\bigsqcupop\slimits@}
+\def\conjquant{\DOTSI\conjquantop\slimits@}
+\def\disjquant{\DOTSI\disjquantop\slimits@}
+\def\bigtimes{\DOTSI\bigtimesop\slimits@}
+\def\modtwosum{\DOTSI\modtwosumop\slimits@}
+\def\bigtalloblong{\DOTSI\bigtalloblongop\slimits@}
+\stix@MathAccent{\grave}                {\mathalpha}{letters}{"80}
+\stix@MathAccent{\acute}                {\mathalpha}{letters}{"81}
+\stix@MathAccent{\hat}                  {\mathalpha}{letters}{"82}
+\stix@MathAccent{\tilde}                {\mathalpha}{letters}{"83}
+\stix@MathAccent{\bar}                  {\mathalpha}{letters}{"84}
+\stix@MathAccent{\breve}                {\mathalpha}{letters}{"85}
+\stix@MathAccent{\dot}                  {\mathalpha}{letters}{"86}
+\stix@MathAccent{\ddot}                 {\mathalpha}{letters}{"87}
+\stix@MathAccent{\ovhook}               {\mathalpha}{letters}{"88}
+\stix@MathAccent{\mathring}             {\mathalpha}{letters}{"89}
+\stix@MathAccent{\check}                {\mathalpha}{letters}{"8A}
+\stix@MathAccent{\candra}               {\mathalpha}{letters}{"8B}
+\stix@MathAccent{\oturnedcomma}         {\mathalpha}{letters}{"8C}
+\stix@MathAccent{\ocommatopright}       {\mathalpha}{letters}{"8D}
+\stix@MathAccent{\droang}               {\mathalpha}{letters}{"8E}
+\stix@MathAccent{\leftharpoonaccent}    {\mathalpha}{letters}{"8F}
+\stix@MathAccent{\rightharpoonaccent}   {\mathalpha}{letters}{"90}
+\stix@MathAccent{\leftarrowaccent}      {\mathalpha}{letters}{"91}
+\stix@MathAccent{\vec}                  {\mathalpha}{letters}{"92}
+        % not \let because amsmath redefines \vec
+        \def\rightarrowaccent{\vec}
+\stix@MathAccent{\dddot}                {\mathalpha}{letters}{"93}
+\stix@MathAccent{\ddddot}               {\mathalpha}{letters}{"94}
+\stix@MathAccent{\leftrightarrowaccent} {\mathalpha}{letters}{"95}
+\stix@MathAccent{\annuity}              {\mathalpha}{letters}{"96}
+\stix@MathAccent{\widebridgeabove}      {\mathalpha}{letters}{"97}
+\stix@MathAccent{\asteraccent}          {\mathalpha}{letters}{"98}
+\begingroup
+  \def\set@mathaccent#1#2#3#4{%
+      \xdef#2{\mathaccent"\mathchar@type#3\hexnumber@#1#4\relax}}
+  \stix@MathAccent{\widehat}            {\mathord}{letters}{"9A}
+  \stix@MathAccent{\widetilde}          {\mathord}{letters}{"9B}
+  \stix@MathAccent{\widecheck}          {\mathord}{letters}{"9C}
+\endgroup
+\stix@MathSymbol{\braceld}{\mathord}{letters}{"A9}
+\stix@MathSymbol{\bracerd}{\mathord}{letters}{"AA}
+\stix@MathSymbol{\bracelu}{\mathord}{letters}{"AB}
+\stix@MathSymbol{\braceru}{\mathord}{letters}{"AC}
+\stix@MathSymbol{\braceex}{\mathord}{letters}{"AD}
+\stix@MathSymbol{\bracemu}{\mathord}{letters}{"AE}
+\stix@MathSymbol{\bracemd}{\mathord}{letters}{"AF}
+\stix@MathSymbol{\parenld}{\mathord}{letters}{"B0}
+\stix@MathSymbol{\parenrd}{\mathord}{letters}{"B1}
+\stix@MathSymbol{\parenlu}{\mathord}{letters}{"B2}
+\stix@MathSymbol{\parenru}{\mathord}{letters}{"B3}
+\stix@MathSymbol{\bracketld}{\mathord}{letters}{"B4}
+\stix@MathSymbol{\bracketrd}{\mathord}{letters}{"B5}
+\stix@MathSymbol{\bracketlu}{\mathord}{letters}{"B6}
+\stix@MathSymbol{\bracketru}{\mathord}{letters}{"B7}
+\def\stix@braceglue{\hskip -.09em plus .09em}
+\def\downbracefill{$\m@th%
+    \braceld\stix@braceglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@braceglue\bracemu\stix@braceglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@braceglue\bracerd$}
+\def\upbracefill{$\m@th%
+    \bracelu\stix@braceglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@braceglue\bracemd\stix@braceglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@braceglue\braceru$}
+\def\stix@parenglue{\hskip -.08em plus .08em}
+\def\downparenfill{$\m@th%
+    \parenld\stix@parenglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@parenglue\parenrd$}
+\def\upparenfill{$\m@th%
+    \parenlu\stix@parenglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@parenglue\parenru$}
+\def\stix@bracketglue{\hskip -.27em plus .27em}
+\def\downbracketfill{$\m@th%
+    \bracketld\stix@bracketglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@bracketglue\bracketrd$}
+\def\upbracketfill{$\m@th%
+    \bracketlu\stix@bracketglue%
+    \cleaders\hbox{$\braceex$}\hfill%
+    \stix@bracketglue\bracketru$}
+\def\stix@overbrace#1#2{%
+    \mathop {%
+        \vbox {%
+            \m@th%
+            \ialign{##\crcr%
+                \noalign{\kern.3\fontdimen5\textfont2}%
+                    \csname down#1fill\endcsname\crcr%
+                \noalign{\kern.5\fontdimen5\textfont2\nointerlineskip}%
+                $\hfil\displaystyle{#2}\hfil$\crcr%
+            }%
+        }%
+    }%
+    \limits%
+}
+\def\stix@underbrace#1#2{
+    \mathop {%
+        \vtop {%
+            \m@th%
+            \ialign{##\crcr%
+                $\hfil\displaystyle{#2}\hfil$\crcr%
+                \noalign{\kern.5\fontdimen5\textfont2\nointerlineskip}%
+                \csname up#1fill\endcsname\crcr%
+                \noalign{\kern.3\fontdimen5\textfont2}%
+            }%
+        }%
+    }%
+    \limits%
+}
+\def\overbrace#1{\stix@overbrace{brace}{#1}}
+\def\overparen#1{\stix@overbrace{paren}{#1}}
+\def\underbrace#1{\stix@underbrace{brace}{#1}}
+\def\underparen#1{\stix@underbrace{paren}{#1}}
+\AtBeginDocument{
+    \@ifpackageloaded{mathtools}{}{
+        \def\underbracket#1{\stix@underbrace{bracket}{#1}}
+        \def\overbracket#1{\stix@overbrace{bracket}{#1}}
+    }
+}
+\stix@MathSymbol{\arrowaccentex}  {\mathord}{letters}{"99}
+\stix@MathSymbol{\harpoonaccentlt}{\mathord}{letters}{"8F}
+\stix@MathSymbol{\harpoonaccentrt}{\mathord}{letters}{"90}
+\stix@MathSymbol{\arrowaccentlt}  {\mathord}{letters}{"91}
+\stix@MathSymbol{\arrowaccentrt}  {\mathord}{letters}{"92}
+\def\stix@arrowaccentglue{\hskip -.23em plus .23em}
+\def\overleftarrowfill{$\m@th%
+    \arrowaccentlt\stix@arrowaccentglue%
+    \cleaders\hbox{$\arrowaccentex$}\hfill$}
+\def\overrightarrowfill{$\m@th%
+    \cleaders\hbox{$\arrowaccentex$}\hfill%
+    \stix@arrowaccentglue\arrowaccentrt$}
+\def\overleftrightarrowfill{$\m@th%
+    \arrowaccentlt\stix@arrowaccentglue%
+    \cleaders\hbox{$\arrowaccentex$}\hfill%
+    \stix@arrowaccentglue\arrowaccentrt$}
+\def\overleftharpoonfill{$\m@th%
+    \harpoonaccentlt\stix@arrowaccentglue%
+    \cleaders\hbox{$\arrowaccentex$}\hfill$}
+\def\overrightharpoonfill{$\m@th%
+   \cleaders\hbox{$\arrowaccentex$}\hfill%
+   \stix@arrowaccentglue\harpoonaccentrt$}
+\def\stix@overarrow#1#2#3{%
+    \vbox {%
+        \m@th%
+        \ialign{##\crcr%
+            \csname over#1fill\endcsname\crcr%
+            \noalign{\kern -1ex\nointerlineskip}%
+            $\hfil#2#3\hfil$\crcr%
+        }%
+    }%
+}
+\def\stix@underarrow#1#2#3{
+    \vtop {%
+        \m@th%
+        \ialign{##\crcr%
+            $\hfil#2#3\hfil$\crcr%
+            \noalign{\kern .2ex\nointerlineskip}%
+            \csname over#1fill\endcsname\crcr%
+            \noalign{\kern -1ex\nointerlineskip}%
+        }%
+    }%
+}
+\def\overleftarrow{\mathpalette{\stix@overarrow{leftarrow}}}
+\def\overrightarrow{\mathpalette{\stix@overarrow{rightarrow}}}
+\def\overleftrightarrow{\mathpalette{\stix@overarrow{leftrightarrow}}}
+\def\overleftharpoon{\mathpalette{\stix@overarrow{leftharpoon}}}
+\def\overrightharpoon{\mathpalette{\stix@overarrow{rightharpoon}}}
+\def\underleftarrow{\mathpalette{\stix@underarrow{leftarrow}}}
+\def\underrightarrow{\mathpalette{\stix@underarrow{rightarrow}}}
+\def\underleftrightarrow{\mathpalette{\stix@underarrow{leftrightarrow}}}
+\def\underleftharpoon{\mathpalette{\stix@underarrow{leftharpoon}}}
+\def\underrightharpoon{\mathpalette{\stix@underarrow{rightharpoon}}}
+\stix@MathSymbol{\lhook}                    {\mathrel}{arrows1}{"2A}
+\stix@MathSymbol{\rhook}                    {\mathrel}{arrows1}{"2B}
+\stix@MathSymbol{\relbar}                   {\mathrel}{arrows1}{"2C}
+\stix@MathSymbol{\Relbar}                   {\mathrel}{arrows1}{"2D}
+\stix@MathSymbol{\Rrelbar}                  {\mathrel}{arrows1}{"2E}
+\stix@MathSymbol{\RRelbar}                  {\mathrel}{arrows1}{"2F}
+
+\stix@MathSymbol{\mapsfromchar}             {\mathrel}{arrows1}{"3A}
+\stix@MathSymbol{\mapstochar}               {\mathrel}{arrows1}{"3B}
+\stix@MathSymbol{\rightarrowbackapprox}     {\mathrel}{arrows1}{"40}
+\stix@MathSymbol{\similarleftarrow}         {\mathrel}{arrows1}{"5B}
+\stix@MathSymbol{\leftarrowapprox}          {\mathrel}{arrows1}{"5C}
+\stix@MathSymbol{\leftarrowbsimilar}        {\mathrel}{arrows1}{"5D}
+\stix@MathSymbol{\rightarrowbsimilar}       {\mathrel}{arrows1}{"5E}
+\stix@MathSymbol{\leftarrow}                {\mathrel}{arrows1}{"7D} \let\gets=\leftarrow
+\stix@MathSymbol{\rightarrow}               {\mathrel}{arrows1}{"99} \let\to=\rightarrow
+\stix@MathSymbol{\leftrightarrow}           {\mathrel}{arrows1}{"9B}
+\stix@MathSymbol{\nwarrow}                  {\mathrel}{arrows1}{"9D}
+\stix@MathSymbol{\nearrow}                  {\mathrel}{arrows1}{"9E}
+\stix@MathSymbol{\searrow}                  {\mathrel}{arrows1}{"9F}
+
+\stix@MathSymbol{\swarrow}                  {\mathrel}{arrows1}{"A0}
+\stix@MathSymbol{\nleftarrow}               {\mathrel}{arrows1}{"A1}
+\stix@MathSymbol{\nrightarrow}              {\mathrel}{arrows1}{"A2}
+\stix@MathSymbol{\leftwavearrow}            {\mathrel}{arrows1}{"A3}
+\stix@MathSymbol{\rightwavearrow}           {\mathrel}{arrows1}{"A4}
+\stix@MathSymbol{\twoheadleftarrow}         {\mathrel}{arrows1}{"A5}
+\stix@MathSymbol{\twoheaduparrow}           {\mathrel}{arrows1}{"A6}
+\stix@MathSymbol{\twoheadrightarrow}        {\mathrel}{arrows1}{"A7}
+\stix@MathSymbol{\twoheaddownarrow}         {\mathrel}{arrows1}{"A8}
+\stix@MathSymbol{\leftarrowtail}            {\mathrel}{arrows1}{"A9}
+\stix@MathSymbol{\rightarrowtail}           {\mathrel}{arrows1}{"AA}
+\stix@MathSymbol{\mapsfrom}                 {\mathrel}{arrows1}{"AB}
+\stix@MathSymbol{\mapsup}                   {\mathrel}{arrows1}{"AC}
+\stix@MathSymbol{\mapsto}                   {\mathrel}{arrows1}{"AD}
+\stix@MathSymbol{\mapsdown}                 {\mathrel}{arrows1}{"AE}
+\stix@MathSymbol{\updownarrowbar}           {\mathord}{arrows1}{"AF}
+
+\stix@MathSymbol{\hookleftarrow}            {\mathrel}{arrows1}{"B0}
+\stix@MathSymbol{\hookrightarrow}           {\mathrel}{arrows1}{"B1}
+\stix@MathSymbol{\looparrowleft}            {\mathrel}{arrows1}{"B2}
+\stix@MathSymbol{\looparrowright}           {\mathrel}{arrows1}{"B3}
+\stix@MathSymbol{\leftrightsquigarrow}      {\mathrel}{arrows1}{"B4}
+\stix@MathSymbol{\nleftrightarrow}          {\mathrel}{arrows1}{"B5}
+\stix@MathSymbol{\downzigzagarrow}          {\mathrel}{arrows1}{"B6}
+\stix@MathSymbol{\Lsh}                      {\mathrel}{arrows1}{"B7}
+\stix@MathSymbol{\Rsh}                      {\mathrel}{arrows1}{"B8}
+\stix@MathSymbol{\Ldsh}                     {\mathrel}{arrows1}{"B9}
+\stix@MathSymbol{\Rdsh}                     {\mathrel}{arrows1}{"BA}
+\stix@MathSymbol{\linefeed}                 {\mathord}{arrows1}{"BB}
+\stix@MathSymbol{\carriagereturn}           {\mathord}{arrows1}{"BC}
+\stix@MathSymbol{\curvearrowleft}           {\mathrel}{arrows1}{"BD}
+\stix@MathSymbol{\curvearrowright}          {\mathrel}{arrows1}{"BE}
+\stix@MathSymbol{\barovernorthwestarrow}    {\mathord}{arrows1}{"BF}
+
+\stix@MathSymbol{\barleftarrowrightarrowbar}{\mathord}{arrows1}{"C0}
+\stix@MathSymbol{\acwopencirclearrow}       {\mathord}{arrows1}{"C1} \stix@MathSymbol{\circlearrowleft} {\mathrel}{arrows1}{"C1}
+\stix@MathSymbol{\cwopencirclearrow}        {\mathord}{arrows1}{"C2} \stix@MathSymbol{\circlearrowright}{\mathrel}{arrows1}{"C2}
+\stix@MathSymbol{\leftharpoonup}            {\mathrel}{arrows1}{"C3}
+\stix@MathSymbol{\leftharpoondown}          {\mathrel}{arrows1}{"C4}
+\stix@MathSymbol{\upharpoonright}           {\mathrel}{arrows1}{"C5} \let\restriction=\upharpoonright
+\stix@MathSymbol{\upharpoonleft}            {\mathrel}{arrows1}{"C6}
+\stix@MathSymbol{\rightharpoonup}           {\mathrel}{arrows1}{"C7}
+\stix@MathSymbol{\rightharpoondown}         {\mathrel}{arrows1}{"C8}
+\stix@MathSymbol{\downharpoonright}         {\mathrel}{arrows1}{"C9}
+\stix@MathSymbol{\downharpoonleft}          {\mathrel}{arrows1}{"CA}
+\stix@MathSymbol{\rightleftarrows}          {\mathrel}{arrows1}{"CB}
+\stix@MathSymbol{\updownarrows}             {\mathrel}{arrows1}{"CC}
+\stix@MathSymbol{\leftrightarrows}          {\mathrel}{arrows1}{"CD}
+\stix@MathSymbol{\leftleftarrows}           {\mathrel}{arrows1}{"CE}
+\stix@MathSymbol{\upuparrows}               {\mathrel}{arrows1}{"CF}
+
+\stix@MathSymbol{\rightrightarrows}         {\mathrel}{arrows1}{"D0}
+\stix@MathSymbol{\downdownarrows}           {\mathrel}{arrows1}{"D1}
+\stix@MathSymbol{\leftrightharpoons}        {\mathrel}{arrows1}{"D2}
+\stix@MathSymbol{\rightleftharpoons}        {\mathrel}{arrows1}{"D3}
+\stix@MathSymbol{\nLeftarrow}               {\mathrel}{arrows1}{"D4}
+\stix@MathSymbol{\nLeftrightarrow}          {\mathrel}{arrows1}{"D5}
+\stix@MathSymbol{\nRightarrow}              {\mathrel}{arrows1}{"D6}
+\stix@MathSymbol{\Leftarrow}                {\mathrel}{arrows1}{"D7}
+\stix@MathSymbol{\Rightarrow}               {\mathrel}{arrows1}{"D9}
+\stix@MathSymbol{\Leftrightarrow}           {\mathrel}{arrows1}{"DB}
+\stix@MathSymbol{\Nwarrow}                  {\mathrel}{arrows1}{"DD}
+\stix@MathSymbol{\Nearrow}                  {\mathrel}{arrows1}{"DE}
+\stix@MathSymbol{\Searrow}                  {\mathrel}{arrows1}{"DF}
+
+\stix@MathSymbol{\Swarrow}                  {\mathrel}{arrows1}{"E0}
+\stix@MathSymbol{\Lleftarrow}               {\mathrel}{arrows1}{"E1}
+\stix@MathSymbol{\Rrightarrow}              {\mathrel}{arrows1}{"E2}
+\stix@MathSymbol{\leftsquigarrow}           {\mathrel}{arrows1}{"E3}
+\stix@MathSymbol{\rightsquigarrow}          {\mathrel}{arrows1}{"E4} \let\leadsto=\rightsquigarrow
+\stix@MathSymbol{\nHuparrow}                {\mathord}{arrows1}{"E5}
+\stix@MathSymbol{\nHdownarrow}              {\mathord}{arrows1}{"E6}
+\stix@MathSymbol{\leftdasharrow}            {\mathord}{arrows1}{"E7}
+\stix@MathSymbol{\updasharrow}              {\mathord}{arrows1}{"E8}
+\stix@MathSymbol{\rightdasharrow}           {\mathord}{arrows1}{"E9}
+\stix@MathSymbol{\downdasharrow}            {\mathord}{arrows1}{"EA}
+\stix@MathSymbol{\barleftarrow}             {\mathrel}{arrows1}{"EB}
+\stix@MathSymbol{\rightarrowbar}            {\mathrel}{arrows1}{"EC}
+\stix@MathSymbol{\leftwhitearrow}           {\mathord}{arrows1}{"ED}
+\stix@MathSymbol{\upwhitearrow}             {\mathord}{arrows1}{"EE}
+\stix@MathSymbol{\rightwhitearrow}          {\mathord}{arrows1}{"EF}
+
+\stix@MathSymbol{\downwhitearrow}           {\mathord}{arrows1}{"F0}
+\stix@MathSymbol{\whitearrowupfrombar}      {\mathord}{arrows1}{"F1}
+\stix@MathSymbol{\circleonrightarrow}       {\mathrel}{arrows1}{"F2}
+\stix@MathSymbol{\downuparrows}             {\mathrel}{arrows1}{"F3}
+\stix@MathSymbol{\rightthreearrows}         {\mathrel}{arrows1}{"F4}
+\stix@MathSymbol{\nvleftarrow}              {\mathrel}{arrows1}{"F5}
+\stix@MathSymbol{\nvrightarrow}             {\mathrel}{arrows1}{"F6}
+\stix@MathSymbol{\nvleftrightarrow}         {\mathrel}{arrows1}{"F7}
+\stix@MathSymbol{\nVleftarrow}              {\mathrel}{arrows1}{"F8}
+\stix@MathSymbol{\nVrightarrow}             {\mathrel}{arrows1}{"F9}
+\stix@MathSymbol{\nVleftrightarrow}         {\mathrel}{arrows1}{"FA}
+\stix@MathSymbol{\leftarrowtriangle}        {\mathrel}{arrows1}{"FB}
+\stix@MathSymbol{\rightarrowtriangle}       {\mathrel}{arrows1}{"FC}
+\stix@MathSymbol{\leftrightarrowtriangle}   {\mathrel}{arrows1}{"FD}
+
+\stix@MathSymbol{\leftarrowonoplus}         {\mathrel}{arrows2}{"2A}
+\stix@MathSymbol{\longleftsquigarrow}       {\mathrel}{arrows2}{"2B}
+\stix@MathSymbol{\nvtwoheadleftarrow}       {\mathrel}{arrows2}{"2C}
+\stix@MathSymbol{\nVtwoheadleftarrow}       {\mathrel}{arrows2}{"2D}
+\stix@MathSymbol{\twoheadmapsfrom}          {\mathrel}{arrows2}{"2E}
+\stix@MathSymbol{\twoheadleftdbkarrow}      {\mathrel}{arrows2}{"2F}
+\stix@MathSymbol{\leftdotarrow}             {\mathrel}{arrows2}{"3A}
+\stix@MathSymbol{\nvleftarrowtail}          {\mathrel}{arrows2}{"3B}
+\stix@MathSymbol{\nVleftarrowtail}          {\mathrel}{arrows2}{"3C}
+\stix@MathSymbol{\twoheadleftarrowtail}     {\mathrel}{arrows2}{"3D}
+\stix@MathSymbol{\nvtwoheadleftarrowtail}   {\mathrel}{arrows2}{"3E}
+\stix@MathSymbol{\nVtwoheadleftarrowtail}   {\mathrel}{arrows2}{"3F}
+\stix@MathSymbol{\leftarrowx}               {\mathrel}{arrows2}{"40}
+\stix@MathSymbol{\leftcurvedarrow}          {\mathrel}{arrows2}{"5B}
+\stix@MathSymbol{\equalleftarrow}           {\mathrel}{arrows2}{"5C}
+\stix@MathSymbol{\bsimilarleftarrow}        {\mathrel}{arrows2}{"5D}
+\stix@MathSymbol{\leftarrowbackapprox}      {\mathrel}{arrows2}{"5E}
+\stix@MathSymbol{\rightarrowgtr}            {\mathrel}{arrows2}{"5F}
+\stix@MathSymbol{\rightarrowsupset}         {\mathrel}{arrows2}{"60}
+\stix@MathSymbol{\LLeftarrow}               {\mathrel}{arrows2}{"7D}
+\stix@MathSymbol{\RRightarrow}              {\mathrel}{arrows2}{"7E}
+
+\stix@MathSymbol{\nvtwoheadrightarrow}      {\mathrel}{arrows2}{"99}
+\stix@MathSymbol{\nVtwoheadrightarrow}      {\mathrel}{arrows2}{"9A}
+\stix@MathSymbol{\nvLeftarrow}              {\mathrel}{arrows2}{"9B}
+\stix@MathSymbol{\nvRightarrow}             {\mathrel}{arrows2}{"9C}
+\stix@MathSymbol{\nvLeftrightarrow}         {\mathrel}{arrows2}{"9D}
+\stix@MathSymbol{\twoheadmapsto}            {\mathrel}{arrows2}{"9E}
+\stix@MathSymbol{\Mapsfrom}                 {\mathrel}{arrows2}{"9F}
+
+\stix@MathSymbol{\Mapsto}                   {\mathrel}{arrows2}{"A0}
+\stix@MathSymbol{\downarrowbarred}          {\mathrel}{arrows2}{"A1}
+\stix@MathSymbol{\uparrowbarred}            {\mathrel}{arrows2}{"A2}
+\stix@MathSymbol{\circleonleftarrow}        {\mathrel}{arrows2}{"A3}
+\stix@MathSymbol{\leftthreearrows}          {\mathrel}{arrows2}{"A4}
+\stix@MathSymbol{\leftbkarrow}              {\mathrel}{arrows2}{"A5}
+\stix@MathSymbol{\rightbkarrow}             {\mathrel}{arrows2}{"A6}
+\stix@MathSymbol{\leftdbkarrow}             {\mathrel}{arrows2}{"A7} \let\dashleftarrow=\leftdbkarrow
+\stix@MathSymbol{\dbkarow}                  {\mathrel}{arrows2}{"A8} \let\dashrightarrow=\dbkarow \let\dasharrow=\dbkarow
+\stix@MathSymbol{\drbkarow}                 {\mathrel}{arrows2}{"A9}
+\stix@MathSymbol{\rightdotarrow}            {\mathrel}{arrows2}{"AA}
+\stix@MathSymbol{\baruparrow}               {\mathrel}{arrows2}{"AB}
+\stix@MathSymbol{\downarrowbar}             {\mathrel}{arrows2}{"AC}
+\stix@MathSymbol{\nvrightarrowtail}         {\mathrel}{arrows2}{"AD}
+\stix@MathSymbol{\nVrightarrowtail}         {\mathrel}{arrows2}{"AE}
+\stix@MathSymbol{\twoheadrightarrowtail}    {\mathrel}{arrows2}{"AF}
+
+\stix@MathSymbol{\nvtwoheadrightarrowtail}  {\mathrel}{arrows2}{"B0}
+\stix@MathSymbol{\nVtwoheadrightarrowtail}  {\mathrel}{arrows2}{"B1}
+\stix@MathSymbol{\lefttail}                 {\mathrel}{arrows2}{"B2}
+\stix@MathSymbol{\righttail}                {\mathrel}{arrows2}{"B3}
+\stix@MathSymbol{\leftdbltail}              {\mathrel}{arrows2}{"B4}
+\stix@MathSymbol{\rightdbltail}             {\mathrel}{arrows2}{"B5}
+\stix@MathSymbol{\diamondleftarrow}         {\mathrel}{arrows2}{"B6}
+\stix@MathSymbol{\rightarrowdiamond}        {\mathrel}{arrows2}{"B7}
+\stix@MathSymbol{\diamondleftarrowbar}      {\mathrel}{arrows2}{"B8}
+\stix@MathSymbol{\barrightarrowdiamond}     {\mathrel}{arrows2}{"B9}
+\stix@MathSymbol{\nwsearrow}                {\mathrel}{arrows2}{"BA}
+\stix@MathSymbol{\neswarrow}                {\mathrel}{arrows2}{"BB}
+\stix@MathSymbol{\hknwarrow}                {\mathrel}{arrows2}{"BC}
+\stix@MathSymbol{\hknearrow}                {\mathrel}{arrows2}{"BD}
+\stix@MathSymbol{\hksearow}                 {\mathrel}{arrows2}{"BE}
+\stix@MathSymbol{\hkswarow}                 {\mathrel}{arrows2}{"BF}
+
+\stix@MathSymbol{\tona}                     {\mathrel}{arrows2}{"C0}
+\stix@MathSymbol{\toea}                     {\mathrel}{arrows2}{"C1}
+\stix@MathSymbol{\tosa}                     {\mathrel}{arrows2}{"C2}
+\stix@MathSymbol{\towa}                     {\mathrel}{arrows2}{"C3}
+\stix@MathSymbol{\rdiagovfdiag}             {\mathord}{arrows2}{"C4}
+\stix@MathSymbol{\fdiagovrdiag}             {\mathord}{arrows2}{"C5}
+\stix@MathSymbol{\seovnearrow}              {\mathord}{arrows2}{"C6}
+\stix@MathSymbol{\neovsearrow}              {\mathord}{arrows2}{"C7}
+\stix@MathSymbol{\fdiagovnearrow}           {\mathord}{arrows2}{"C8}
+\stix@MathSymbol{\rdiagovsearrow}           {\mathord}{arrows2}{"C9}
+\stix@MathSymbol{\neovnwarrow}              {\mathord}{arrows2}{"CA}
+\stix@MathSymbol{\nwovnearrow}              {\mathord}{arrows2}{"CB}
+\stix@MathSymbol{\rightcurvedarrow}         {\mathrel}{arrows2}{"CC}
+\stix@MathSymbol{\uprightcurvearrow}        {\mathord}{arrows2}{"CD}
+\stix@MathSymbol{\downrightcurvedarrow}     {\mathord}{arrows2}{"CE}
+\stix@MathSymbol{\leftdowncurvedarrow}      {\mathrel}{arrows2}{"CF}
+
+\stix@MathSymbol{\rightdowncurvedarrow}     {\mathrel}{arrows2}{"D0}
+\stix@MathSymbol{\cwrightarcarrow}          {\mathrel}{arrows2}{"D1}
+\stix@MathSymbol{\acwleftarcarrow}          {\mathrel}{arrows2}{"D2}
+\stix@MathSymbol{\acwoverarcarrow}          {\mathrel}{arrows2}{"D3}
+\stix@MathSymbol{\acwunderarcarrow}         {\mathrel}{arrows2}{"D4}
+\stix@MathSymbol{\curvearrowrightminus}     {\mathrel}{arrows2}{"D5}
+\stix@MathSymbol{\curvearrowleftplus}       {\mathrel}{arrows2}{"D6}
+\stix@MathSymbol{\cwundercurvearrow}        {\mathrel}{arrows2}{"D7}
+\stix@MathSymbol{\ccwundercurvearrow}       {\mathrel}{arrows2}{"D8}
+\stix@MathSymbol{\acwcirclearrow}           {\mathrel}{arrows2}{"D9}
+\stix@MathSymbol{\cwcirclearrow}            {\mathrel}{arrows2}{"DA}
+\stix@MathSymbol{\rightarrowshortleftarrow} {\mathrel}{arrows2}{"DB}
+\stix@MathSymbol{\leftarrowshortrightarrow} {\mathrel}{arrows2}{"DC}
+\stix@MathSymbol{\shortrightarrowleftarrow} {\mathrel}{arrows2}{"DD}
+\stix@MathSymbol{\rightarrowplus}           {\mathrel}{arrows2}{"DE}
+\stix@MathSymbol{\leftarrowplus}            {\mathrel}{arrows2}{"DF}
+
+\stix@MathSymbol{\rightarrowx}              {\mathrel}{arrows2}{"E0}
+\stix@MathSymbol{\leftrightarrowcircle}     {\mathrel}{arrows2}{"E1}
+\stix@MathSymbol{\twoheaduparrowcircle}     {\mathrel}{arrows2}{"E2}
+\stix@MathSymbol{\leftrightharpoonupdown}   {\mathrel}{arrows2}{"E3}
+\stix@MathSymbol{\leftrightharpoondownup}   {\mathrel}{arrows2}{"E4}
+\stix@MathSymbol{\updownharpoonrightleft}   {\mathrel}{arrows2}{"E5}
+\stix@MathSymbol{\updownharpoonleftright}   {\mathrel}{arrows2}{"E6}
+\stix@MathSymbol{\leftrightharpoonupup}     {\mathrel}{arrows2}{"E7}
+\stix@MathSymbol{\updownharpoonrightright}  {\mathrel}{arrows2}{"E8}
+\stix@MathSymbol{\leftrightharpoondowndown} {\mathrel}{arrows2}{"E9}
+\stix@MathSymbol{\updownharpoonleftleft}    {\mathrel}{arrows2}{"EA}
+\stix@MathSymbol{\barleftharpoonup}         {\mathrel}{arrows2}{"EB}
+\stix@MathSymbol{\rightharpoonupbar}        {\mathrel}{arrows2}{"EC}
+\stix@MathSymbol{\barupharpoonright}        {\mathrel}{arrows2}{"ED}
+\stix@MathSymbol{\downharpoonrightbar}      {\mathrel}{arrows2}{"EE}
+\stix@MathSymbol{\barleftharpoondown}       {\mathrel}{arrows2}{"EF}
+
+\stix@MathSymbol{\rightharpoondownbar}      {\mathrel}{arrows2}{"F0}
+\stix@MathSymbol{\barupharpoonleft}         {\mathrel}{arrows2}{"F1}
+\stix@MathSymbol{\downharpoonleftbar}       {\mathrel}{arrows2}{"F2}
+\stix@MathSymbol{\leftharpoonupbar}         {\mathrel}{arrows2}{"F3}
+\stix@MathSymbol{\barrightharpoonup}        {\mathrel}{arrows2}{"F4}
+\stix@MathSymbol{\upharpoonrightbar}        {\mathrel}{arrows2}{"F5}
+\stix@MathSymbol{\bardownharpoonright}      {\mathrel}{arrows2}{"F6}
+\stix@MathSymbol{\leftharpoondownbar}       {\mathrel}{arrows2}{"F7}
+\stix@MathSymbol{\barrightharpoondown}      {\mathrel}{arrows2}{"F8}
+\stix@MathSymbol{\upharpoonleftbar}         {\mathrel}{arrows2}{"F9}
+\stix@MathSymbol{\bardownharpoonleft}       {\mathrel}{arrows2}{"FA}
+\stix@MathSymbol{\leftharpoonsupdown}       {\mathrel}{arrows2}{"FB}
+\stix@MathSymbol{\upharpoonsleftright}      {\mathrel}{arrows2}{"FC}
+\stix@MathSymbol{\rightharpoonsupdown}      {\mathrel}{arrows2}{"FD}
+\stix@MathSymbol{\downharpoonsleftright}    {\mathrel}{arrows2}{"FE}
+\stix@MathSymbol{\leftrightharpoonsup}      {\mathrel}{arrows2}{"FF}
+
+\stix@MathSymbol{\cwgapcirclearrow}         {\mathrel}{arrows3}{"00}
+\stix@MathSymbol{\rightarrowonoplus}        {\mathrel}{arrows3}{"01}
+\stix@MathSymbol{\longleftarrow}            {\mathrel}{arrows3}{"02}
+\stix@MathSymbol{\longrightarrow}           {\mathrel}{arrows3}{"03}
+\stix@MathSymbol{\longleftrightarrow}       {\mathrel}{arrows3}{"04}
+\stix@MathSymbol{\Longleftarrow}            {\mathrel}{arrows3}{"05}
+\stix@MathSymbol{\Longrightarrow}           {\mathrel}{arrows3}{"06}
+\stix@MathSymbol{\Longleftrightarrow}       {\mathrel}{arrows3}{"07}
+\stix@MathSymbol{\longmapsfrom}             {\mathrel}{arrows3}{"08}
+\stix@MathSymbol{\longmapsto}               {\mathrel}{arrows3}{"09}
+\stix@MathSymbol{\Longmapsfrom}             {\mathrel}{arrows3}{"0A}
+\stix@MathSymbol{\Longmapsto}               {\mathrel}{arrows3}{"0B}
+\stix@MathSymbol{\longrightsquigarrow}      {\mathrel}{arrows3}{"0C}
+\stix@MathSymbol{\acwgapcirclearrow}        {\mathrel}{arrows3}{"0D}
+\stix@MathSymbol{\bsimilarrightarrow}       {\mathrel}{arrows3}{"0E}
+\stix@MathSymbol{\spadesuit}                {\mathord}{arrows3}{"0F}
+
+\stix@MathSymbol{\heartsuit}                {\mathord}{arrows3}{"10}
+\stix@MathSymbol{\diamondsuit}              {\mathord}{arrows3}{"11}
+\stix@MathSymbol{\clubsuit}                 {\mathord}{arrows3}{"12}
+\stix@MathSymbol{\mathparagraph}            {\mathord}{arrows3}{"13}
+\stix@MathSymbol{\mathsection}              {\mathord}{arrows3}{"14}
+\stix@MathSymbol{\leftrightharpoonsdown}    {\mathrel}{arrows3}{"15}
+\stix@MathSymbol{\rightleftharpoonsup}      {\mathrel}{arrows3}{"16}
+\stix@MathSymbol{\rightleftharpoonsdown}    {\mathrel}{arrows3}{"17}
+\stix@MathSymbol{\leftharpoonupdash}        {\mathrel}{arrows3}{"18}
+\stix@MathSymbol{\dashleftharpoondown}      {\mathrel}{arrows3}{"19}
+\stix@MathSymbol{\rightharpoonupdash}       {\mathrel}{arrows3}{"1A}
+\stix@MathSymbol{\dashrightharpoondown}     {\mathrel}{arrows3}{"1B}
+\stix@MathSymbol{\updownharpoonsleftright}  {\mathrel}{arrows3}{"1C}
+\stix@MathSymbol{\downupharpoonsleftright}  {\mathrel}{arrows3}{"1D}
+\stix@MathSymbol{\rightimply}               {\mathrel}{arrows3}{"1E}
+\stix@MathSymbol{\equalrightarrow}          {\mathrel}{arrows3}{"1F}
+
+\stix@MathSymbol{\similarrightarrow}        {\mathrel}{arrows3}{"20}
+\stix@MathSymbol{\leftarrowsimilar}         {\mathrel}{arrows3}{"21}
+\stix@MathSymbol{\rightarrowsimilar}        {\mathrel}{arrows3}{"22}
+\stix@MathSymbol{\rightarrowapprox}         {\mathrel}{arrows3}{"23}
+\stix@MathSymbol{\ltlarr}                   {\mathrel}{arrows3}{"24}
+\stix@MathSymbol{\leftarrowless}            {\mathrel}{arrows3}{"25}
+\stix@MathSymbol{\gtrarr}                   {\mathrel}{arrows3}{"26}
+\stix@MathSymbol{\subrarr}                  {\mathrel}{arrows3}{"27}
+\stix@MathSymbol{\leftarrowsubset}          {\mathrel}{arrows3}{"28}
+\stix@MathSymbol{\suplarr}                  {\mathrel}{arrows3}{"29}
+\stix@MathSymbol{\leftfishtail}             {\mathrel}{arrows3}{"2A}
+\stix@MathSymbol{\rightfishtail}            {\mathrel}{arrows3}{"2B}
+\stix@MathSymbol{\upfishtail}               {\mathrel}{arrows3}{"2C}
+\stix@MathSymbol{\downfishtail}             {\mathrel}{arrows3}{"2D}
+\stix@MathSymbol{\varclubsuit}              {\mathord}{arrows3}{"2E}
+\stix@MathSymbol{\quarternote}              {\mathord}{arrows3}{"2F}
+
+\stix@MathSymbol{\eighthnote}               {\mathord}{arrows3}{"3A}
+\stix@MathSymbol{\twonotes}                 {\mathord}{arrows3}{"3B}
+\stix@MathSymbol{\dicei}                    {\mathord}{arrows3}{"3C}
+\stix@MathSymbol{\diceii}                   {\mathord}{arrows3}{"3D}
+\stix@MathSymbol{\diceiii}                  {\mathord}{arrows3}{"3E}
+\stix@MathSymbol{\diceiv}                   {\mathord}{arrows3}{"3F}
+\stix@MathSymbol{\dicev}                    {\mathord}{arrows3}{"40}
+
+\stix@MathSymbol{\dicevi}                   {\mathord}{arrows3}{"5B}
+\stix@MathSymbol{\circledrightdot}          {\mathord}{arrows3}{"5C}
+\stix@MathSymbol{\circledtwodots}           {\mathord}{arrows3}{"5D}
+\stix@MathSymbol{\blackcircledrightdot}     {\mathord}{arrows3}{"5E}
+\stix@MathSymbol{\blackcircledtwodots}      {\mathord}{arrows3}{"5F}
+\stix@MathSymbol{\Hermaphrodite}            {\mathord}{arrows3}{"60}
+
+\stix@MathSymbol{\mdwhtcircle}              {\mathord}{arrows3}{"7D}
+\stix@MathSymbol{\mdblkcircle}              {\mathord}{arrows3}{"7E}
+
+\stix@MathSymbol{\mdsmwhtcircle}            {\mathord}{arrows3}{"80}
+\stix@MathSymbol{\neuter}                   {\mathord}{arrows3}{"81}
+\stix@MathSymbol{\checkmarkmath}            {\mathord}{arrows3}{"82}
+\stix@MathSymbol{\varstar}                  {\mathord}{arrows3}{"85}
+\stix@MathSymbol{\dingasterisk}             {\mathord}{arrows3}{"86}
+\stix@MathSymbol{\squareulblack}            {\mathord}{arrows3}{"88}
+\stix@MathSymbol{\squarelrblack}            {\mathord}{arrows3}{"89}
+\stix@MathSymbol{\boxbar}                   {\mathbin}{arrows3}{"8A}
+\stix@MathSymbol{\trianglecdot}             {\mathord}{arrows3}{"8B}
+\stix@MathSymbol{\triangleleftblack}        {\mathord}{arrows3}{"8C}
+\stix@MathSymbol{\trianglerightblack}       {\mathord}{arrows3}{"8D}
+\stix@MathSymbol{\lgwhtcircle}              {\mathord}{arrows3}{"8E}
+\stix@MathSymbol{\squareulquad}             {\mathord}{arrows3}{"8F}
+
+\stix@MathSymbol{\squarellquad}             {\mathord}{arrows3}{"90}
+\stix@MathSymbol{\squarelrquad}             {\mathord}{arrows3}{"91}
+\stix@MathSymbol{\squareurquad}             {\mathord}{arrows3}{"92}
+\stix@MathSymbol{\circleulquad}             {\mathord}{arrows3}{"93}
+\stix@MathSymbol{\circlellquad}             {\mathord}{arrows3}{"94}
+\stix@MathSymbol{\circlelrquad}             {\mathord}{arrows3}{"95}
+\stix@MathSymbol{\circleurquad}             {\mathord}{arrows3}{"96}
+\stix@MathSymbol{\ultriangle}               {\mathord}{arrows3}{"97}
+\stix@MathSymbol{\urtriangle}               {\mathord}{arrows3}{"98}
+\stix@MathSymbol{\lltriangle}               {\mathord}{arrows3}{"99}
+\stix@MathSymbol{\mdwhtsquare}              {\mathord}{arrows3}{"9A}
+\stix@MathSymbol{\mdblksquare}              {\mathord}{arrows3}{"9B}
+\stix@MathSymbol{\mdsmwhtsquare}            {\mathord}{arrows3}{"9C}
+\stix@MathSymbol{\mdsmblksquare}            {\mathord}{arrows3}{"9D}
+\stix@MathSymbol{\lrtriangle}               {\mathord}{arrows3}{"9E}
+\stix@MathSymbol{\bigstar}                  {\mathord}{arrows3}{"9F}
+
+\stix@MathSymbol{\bigwhitestar}             {\mathord}{arrows3}{"A0}
+\stix@MathSymbol{\dottimes}                 {\mathbin}{arrows3}{"A1}
+\stix@MathSymbol{\timesbar}                 {\mathbin}{arrows3}{"A2}
+\stix@MathSymbol{\btimes}                   {\mathbin}{arrows3}{"A3}
+\stix@MathSymbol{\smashtimes}               {\mathbin}{arrows3}{"A4}
+\stix@MathSymbol{\otimeslhrim}              {\mathbin}{arrows3}{"A5}
+\stix@MathSymbol{\otimesrhrim}              {\mathbin}{arrows3}{"A6}
+\stix@MathSymbol{\otimeshat}                {\mathbin}{arrows3}{"A7}
+\stix@MathSymbol{\Otimes}                   {\mathbin}{arrows3}{"A8}
+\stix@MathSymbol{\odiv}                     {\mathbin}{arrows3}{"A9}
+\stix@MathSymbol{\triangleplus}             {\mathbin}{arrows3}{"AA}
+\stix@MathSymbol{\triangleminus}            {\mathbin}{arrows3}{"AB}
+\stix@MathSymbol{\triangletimes}            {\mathbin}{arrows3}{"AC}
+\stix@MathSymbol{\intprod}                  {\mathbin}{arrows3}{"AD}
+\stix@MathSymbol{\intprodr}                 {\mathbin}{arrows3}{"AE}
+\stix@MathSymbol{\fcmp}                     {\mathbin}{arrows3}{"AF}
+
+\stix@MathSymbol{\amalg}                    {\mathbin}{arrows3}{"B0}
+\stix@MathSymbol{\capdot}                   {\mathbin}{arrows3}{"B1}
+\stix@MathSymbol{\uminus}                   {\mathbin}{arrows3}{"B2}
+\stix@MathSymbol{\barcup}                   {\mathbin}{arrows3}{"B3}
+\stix@MathSymbol{\barcap}                   {\mathbin}{arrows3}{"B4}
+\stix@MathSymbol{\capwedge}                 {\mathbin}{arrows3}{"B5}
+\stix@MathSymbol{\cupvee}                   {\mathbin}{arrows3}{"B6}
+\stix@MathSymbol{\cupovercap}               {\mathbin}{arrows3}{"B7}
+\stix@MathSymbol{\capovercup}               {\mathbin}{arrows3}{"B8}
+\stix@MathSymbol{\cupbarcap}                {\mathbin}{arrows3}{"B9}
+\stix@MathSymbol{\neg}                      {\mathord}{operators}{"9B} \let\lnot=\neg
+\stix@MathSymbol{\cdotp}                    {\mathbin}{operators}{"9C} \let\centerdot=\cdotp
+\stix@MathSymbol{\times}                    {\mathbin}{operators}{"9D}
+\stix@MathSymbol{\preceq}                   {\mathrel}{operators}{"9E}
+\stix@MathSymbol{\div}                      {\mathbin}{operators}{"9F}
+
+\stix@MathSymbol{\Zbar}                     {\mathord}{operators}{"A0}
+\stix@MathSymbol{\notchar}                  {\mathrel}{operators}{"A1}
+\stix@MathSymbol{\upbackepsilon}            {\mathord}{operators}{"A2}
+\stix@MathSymbol{\dagger}                   {\mathbin}{operators}{"A3}
+\stix@MathSymbol{\ddagger}                  {\mathbin}{operators}{"A4}
+\stix@MathSymbol{\smblkcircle}              {\mathbin}{operators}{"A5}
+\stix@MathSymbol{\enleadertwodots}          {\mathord}{operators}{"A6}
+\stix@MathSymbol{\unicodeellipsis}          {\mathord}{operators}{"A7} \def\mathellipsis{\mathinner{\unicodeellipsis}}
+\stix@MathSymbol{\prime}                    {\mathord}{operators}{"A8}
+\stix@MathSymbol{\dprime}                   {\mathord}{operators}{"A9}
+\stix@MathSymbol{\trprime}                  {\mathord}{operators}{"AA}
+\stix@MathSymbol{\backprime}                {\mathord}{operators}{"AB}
+\stix@MathSymbol{\backdprime}               {\mathord}{operators}{"AC}
+\stix@MathSymbol{\backtrprime}              {\mathord}{operators}{"AD}
+\stix@MathSymbol{\caretinsert}              {\mathord}{operators}{"AE}
+\stix@MathSymbol{\Exclam}                   {\mathord}{operators}{"AF}
+
+\stix@MathSymbol{\hyphenbullet}             {\mathord}{operators}{"B0}
+\stix@MathSymbol{\fracslash}                {\mathbin}{operators}{"B1}
+\stix@MathSymbol{\Question}                 {\mathord}{operators}{"B2}
+\stix@MathSymbol{\closure}                  {\mathrel}{operators}{"B3}
+\stix@MathSymbol{\qprime}                   {\mathord}{operators}{"B4}
+\stix@MathSymbol{\vertoverlay}              {\mathrel}{operators}{"B5}
+\stix@MathSymbol{\enclosecircle}            {\mathord}{operators}{"B6}
+\stix@MathSymbol{\enclosesquare}            {\mathord}{operators}{"B7}
+\stix@MathSymbol{\enclosediamond}           {\mathord}{operators}{"B8}
+\stix@MathSymbol{\enclosetriangle}          {\mathord}{operators}{"B9}
+\stix@MathSymbol{\Eulerconst}               {\mathord}{operators}{"BA}
+\stix@MathSymbol{\mho}                      {\mathord}{operators}{"BB}
+\stix@MathSymbol{\turnediota}               {\mathord}{operators}{"BC}
+\stix@MathSymbol{\Angstrom}                 {\mathord}{operators}{"BD}
+\stix@MathSymbol{\Finv}                     {\mathord}{operators}{"BE}
+\stix@MathSymbol{\Game}                     {\mathord}{operators}{"BF}
+
+\stix@MathSymbol{\sansLturned}              {\mathord}{operators}{"C0}
+\stix@MathSymbol{\sansLmirrored}            {\mathord}{operators}{"C1}
+\stix@MathSymbol{\Yup}                      {\mathord}{operators}{"C2}
+\stix@MathSymbol{\PropertyLine}             {\mathord}{operators}{"C3}
+\stix@MathSymbol{\upand}                    {\mathbin}{operators}{"C4}
+\stix@MathSymbol{\forall}                   {\mathord}{operators}{"C5}
+\stix@MathSymbol{\complement}               {\mathord}{operators}{"C6}
+\stix@MathSymbol{\exists}                   {\mathord}{operators}{"C7}
+\stix@MathSymbol{\nexists}                  {\mathord}{operators}{"C8}
+\stix@MathSymbol{\varnothing}               {\mathord}{operators}{"C9}
+\stix@MathSymbol{\increment}                {\mathord}{operators}{"CA}
+\stix@MathSymbol{\in}                       {\mathrel}{operators}{"CB}
+\stix@MathSymbol{\notin}                    {\mathrel}{operators}{"CC}
+\stix@MathSymbol{\smallin}                  {\mathrel}{operators}{"CD}
+\stix@MathSymbol{\ni}                       {\mathrel}{operators}{"CE} \let\owns=\ni
+\stix@MathSymbol{\nni}                      {\mathrel}{operators}{"CF}
+
+\stix@MathSymbol{\smallni}                  {\mathrel}{operators}{"D0}
+\stix@MathSymbol{\QED}                      {\mathord}{operators}{"D1}
+\stix@MathSymbol{\dotplus}                  {\mathbin}{operators}{"D2}
+\stix@MathSymbol{\succeq}                   {\mathrel}{operators}{"D3}
+\stix@MathSymbol{\smallsetminus}            {\mathbin}{operators}{"D4}
+\stix@MathSymbol{\vysmwhtcircle}            {\mathbin}{operators}{"D5}
+\stix@MathSymbol{\vysmblkcircle}            {\mathbin}{operators}{"D6} \let\bullet=\vysmblkcircle
+\stix@MathSymbol{\propto}                   {\mathrel}{operators}{"D7}
+\stix@MathSymbol{\infty}                    {\mathord}{operators}{"D8}
+\stix@MathSymbol{\rightangle}               {\mathord}{operators}{"D9}
+\stix@MathSymbol{\angle}                    {\mathord}{operators}{"DA}
+\stix@MathSymbol{\measuredangle}            {\mathord}{operators}{"DB}
+\stix@MathSymbol{\sphericalangle}           {\mathord}{operators}{"DC}
+\stix@MathSymbol{\mid}                      {\mathrel}{operators}{"DD}
+\stix@MathSymbol{\nmid}                     {\mathrel}{operators}{"DE}
+\stix@MathSymbol{\parallel}                 {\mathrel}{operators}{"DF}
+
+\stix@MathSymbol{\nparallel}                {\mathrel}{operators}{"E0}
+\stix@MathSymbol{\wedge}                    {\mathbin}{operators}{"E1} \let\land=\wedge
+\stix@MathSymbol{\vee}                      {\mathbin}{operators}{"E2} \let\lor=\vee
+\stix@MathSymbol{\cap}                      {\mathbin}{operators}{"E3}
+\stix@MathSymbol{\cup}                      {\mathbin}{operators}{"E4}
+\stix@MathSymbol{\therefore}                {\mathord}{operators}{"E5}
+\stix@MathSymbol{\because}                  {\mathord}{operators}{"E6}
+\stix@MathSymbol{\emptyset}                 {\mathord}{operators}{"E7}
+\stix@MathSymbol{\Colon}                    {\mathrel}{operators}{"E8}
+\stix@MathSymbol{\dotminus}                 {\mathbin}{operators}{"E9}
+\stix@MathSymbol{\dashcolon}                {\mathrel}{operators}{"EA}
+\stix@MathSymbol{\dotsminusdots}            {\mathrel}{operators}{"EB}
+\stix@MathSymbol{\kernelcontraction}        {\mathrel}{operators}{"EC}
+\stix@MathSymbol{\sim}                      {\mathrel}{operators}{"ED} \stix@MathSymbol{\thicksim}{\mathrel}{bold-operators}{"ED}
+\stix@MathSymbol{\backsim}                  {\mathrel}{operators}{"EE}
+\stix@MathSymbol{\invlazys}                 {\mathbin}{operators}{"EF}
+
+\stix@MathSymbol{\sinewave}                 {\mathord}{operators}{"F0}
+\stix@MathSymbol{\wr}                       {\mathbin}{operators}{"F1}
+\stix@MathSymbol{\nsim}                     {\mathrel}{operators}{"F2}
+\stix@MathSymbol{\eqsim}                    {\mathrel}{operators}{"F3}
+\stix@MathSymbol{\simeq}                    {\mathrel}{operators}{"F4}
+\stix@MathSymbol{\nsime}                    {\mathrel}{operators}{"F5}
+\stix@MathSymbol{\cong}                     {\mathrel}{operators}{"F6}
+\stix@MathSymbol{\simneqq}                  {\mathrel}{operators}{"F7}
+\stix@MathSymbol{\ncong}                    {\mathrel}{operators}{"F8}
+\stix@MathSymbol{\approx}                   {\mathrel}{operators}{"F9} \stix@MathSymbol{\thickapprox}{\mathrel}{bold-operators}{"F9}
+\stix@MathSymbol{\napprox}                  {\mathrel}{operators}{"FA}
+\stix@MathSymbol{\approxeq}                 {\mathrel}{operators}{"FB}
+\stix@MathSymbol{\approxident}              {\mathrel}{operators}{"FC}
+\stix@MathSymbol{\backcong}                 {\mathrel}{operators}{"FD}
+\stix@MathSymbol{\asymp}                    {\mathrel}{operators}{"FE}
+\stix@MathSymbol{\Bumpeq}                   {\mathrel}{operators}{"FF}
+
+\stix@MathSymbol{\bumpeq}                   {\mathrel}{integrals}{"80}
+\stix@MathSymbol{\doteq}                    {\mathrel}{integrals}{"81}
+\stix@MathSymbol{\Doteq}                    {\mathrel}{integrals}{"82}
+        \let\doteqdot=\Doteq
+\stix@MathSymbol{\fallingdotseq}            {\mathrel}{integrals}{"83}
+\stix@MathSymbol{\risingdotseq}             {\mathrel}{integrals}{"84}
+\stix@MathSymbol{\coloneq}                  {\mathrel}{integrals}{"85}
+\stix@MathSymbol{\eqcolon}                  {\mathrel}{integrals}{"86}
+\stix@MathSymbol{\eqcirc}                   {\mathrel}{integrals}{"87}
+\stix@MathSymbol{\circeq}                   {\mathrel}{integrals}{"88}
+\stix@MathSymbol{\arceq}                    {\mathrel}{integrals}{"89}
+\stix@MathSymbol{\wedgeq}                   {\mathrel}{integrals}{"8A}
+\stix@MathSymbol{\veeeq}                    {\mathrel}{integrals}{"8B}
+\stix@MathSymbol{\stareq}                   {\mathrel}{integrals}{"8C}
+\stix@MathSymbol{\triangleq}                {\mathrel}{integrals}{"8D}
+\stix@MathSymbol{\eqdef}                    {\mathrel}{integrals}{"8E}
+\stix@MathSymbol{\measeq}                   {\mathrel}{integrals}{"8F}
+\stix@MathSymbol{\questeq}                  {\mathrel}{integrals}{"90}
+\stix@MathSymbol{\ne}                       {\mathrel}{integrals}{"91}
+        \let\neq=\ne
+\stix@MathSymbol{\equiv}                    {\mathrel}{integrals}{"92}
+\stix@MathSymbol{\nequiv}                   {\mathrel}{integrals}{"93}
+\stix@MathSymbol{\Equiv}                    {\mathrel}{integrals}{"65}
+\stix@MathSymbol{\leq}                      {\mathrel}{integrals}{"66}
+        \let\le=\leq
+\stix@MathSymbol{\geq}                      {\mathrel}{integrals}{"67}
+        \let\ge=\geq
+\stix@MathSymbol{\leqq}                     {\mathrel}{integrals}{"68}
+\stix@MathSymbol{\geqq}                     {\mathrel}{integrals}{"69}
+\stix@MathSymbol{\lneqq}                    {\mathrel}{letters}{"40}
+\stix@MathSymbol{\gneqq}                    {\mathrel}{letters}{"7D}
+\stix@MathSymbol{\ll}                       {\mathrel}{letters}{"7E}
+\stix@MathSymbol{\gg}                       {\mathrel}{letters}{"B8}
+\stix@MathSymbol{\between}                  {\mathrel}{letters}{"B9}
+\stix@MathSymbol{\nasymp}                   {\mathrel}{letters}{"BA}
+\stix@MathSymbol{\nless}                    {\mathrel}{letters}{"BB}
+\stix@MathSymbol{\ngtr}                     {\mathrel}{letters}{"BC}
+\stix@MathSymbol{\nleq}                     {\mathrel}{letters}{"BD}
+\stix@MathSymbol{\ngeq}                     {\mathrel}{letters}{"BE}
+\stix@MathSymbol{\lesssim}                  {\mathrel}{letters}{"BF}
+\stix@MathSymbol{\gtrsim}                   {\mathrel}{letters}{"C0}
+\stix@MathSymbol{\nlesssim}                 {\mathrel}{letters}{"C1}
+\stix@MathSymbol{\ngtrsim}                  {\mathrel}{letters}{"C2}
+\stix@MathSymbol{\lessgtr}                  {\mathrel}{letters}{"C3}
+\stix@MathSymbol{\gtrless}                  {\mathrel}{letters}{"C4}
+\stix@MathSymbol{\nlessgtr}                 {\mathrel}{letters}{"C5}
+\stix@MathSymbol{\ngtrless}                 {\mathrel}{letters}{"C6}
+\stix@MathSymbol{\prec}                     {\mathrel}{letters}{"C7}
+\stix@MathSymbol{\succ}                     {\mathrel}{letters}{"C8}
+\stix@MathSymbol{\preccurlyeq}              {\mathrel}{letters}{"C9}
+\stix@MathSymbol{\succcurlyeq}              {\mathrel}{letters}{"CA}
+\stix@MathSymbol{\precsim}                  {\mathrel}{letters}{"CB}
+\stix@MathSymbol{\succsim}                  {\mathrel}{letters}{"CC}
+\stix@MathSymbol{\nprec}                    {\mathrel}{letters}{"CD}
+\stix@MathSymbol{\nsucc}                    {\mathrel}{letters}{"CE}
+\stix@MathSymbol{\subset}                   {\mathrel}{letters}{"CF}
+\stix@MathSymbol{\supset}                   {\mathrel}{letters}{"D0}
+\stix@MathSymbol{\nsubset}                  {\mathrel}{letters}{"D1}
+\stix@MathSymbol{\nsupset}                  {\mathrel}{letters}{"D2}
+\stix@MathSymbol{\subseteq}                 {\mathrel}{letters}{"D3}
+\stix@MathSymbol{\supseteq}                 {\mathrel}{letters}{"D4}
+\stix@MathSymbol{\nsubseteq}                {\mathrel}{letters}{"D5}
+\stix@MathSymbol{\nsupseteq}                {\mathrel}{letters}{"D6}
+\stix@MathSymbol{\subsetneq}                {\mathrel}{letters}{"D7}
+\stix@MathSymbol{\supsetneq}                {\mathrel}{letters}{"D8}
+\stix@MathSymbol{\cupleftarrow}             {\mathbin}{letters}{"D9}
+\stix@MathSymbol{\cupdot}                   {\mathbin}{letters}{"DA}
+\stix@MathSymbol{\uplus}                    {\mathbin}{letters}{"DB}
+\stix@MathSymbol{\sqsubset}                 {\mathrel}{letters}{"DC}
+\stix@MathSymbol{\sqsupset}                 {\mathrel}{letters}{"DD}
+\stix@MathSymbol{\sqsubseteq}               {\mathrel}{letters}{"DE}
+\stix@MathSymbol{\sqsupseteq}               {\mathrel}{letters}{"DF}
+\stix@MathSymbol{\sqcap}                    {\mathbin}{letters}{"E0}
+\stix@MathSymbol{\sqcup}                    {\mathbin}{letters}{"E1}
+\stix@MathSymbol{\oplus}                    {\mathbin}{letters}{"E2}
+\stix@MathSymbol{\ominus}                   {\mathbin}{letters}{"E3}
+\stix@MathSymbol{\otimes}                   {\mathbin}{letters}{"E4}
+\stix@MathSymbol{\oslash}                   {\mathbin}{letters}{"E5}
+\stix@MathSymbol{\odot}                     {\mathbin}{letters}{"E6}
+\stix@MathSymbol{\circledcirc}              {\mathbin}{letters}{"E7}
+\stix@MathSymbol{\circledast}               {\mathbin}{letters}{"E8}
+\stix@MathSymbol{\circledequal}             {\mathbin}{letters}{"E9}
+\stix@MathSymbol{\circleddash}              {\mathbin}{letters}{"EA}
+\stix@MathSymbol{\boxplus}                  {\mathbin}{letters}{"EB}
+\stix@MathSymbol{\boxminus}                 {\mathbin}{letters}{"EC}
+\stix@MathSymbol{\boxtimes}                 {\mathbin}{letters}{"ED}
+\stix@MathSymbol{\boxdot}                   {\mathbin}{letters}{"EE}
+\stix@MathSymbol{\vdash}                    {\mathrel}{letters}{"EF}
+\stix@MathSymbol{\dashv}                    {\mathrel}{letters}{"F0}
+\stix@MathSymbol{\top}                      {\mathord}{letters}{"F1}
+\stix@MathSymbol{\bot}                      {\mathord}{letters}{"F2}
+\stix@MathSymbol{\assert}                   {\mathrel}{letters}{"F3}
+\stix@MathSymbol{\models}                   {\mathrel}{letters}{"F4}
+\stix@MathSymbol{\vDash}                    {\mathrel}{letters}{"F5}
+\stix@MathSymbol{\Vdash}                    {\mathrel}{letters}{"F6}
+\stix@MathSymbol{\Vvdash}                   {\mathrel}{letters}{"F7}
+\stix@MathSymbol{\VDash}                    {\mathrel}{letters}{"F8}
+\stix@MathSymbol{\nvdash}                   {\mathrel}{letters}{"F9}
+\stix@MathSymbol{\nvDash}                   {\mathrel}{letters}{"FA}
+\stix@MathSymbol{\nVdash}                   {\mathrel}{letters}{"FB}
+\stix@MathSymbol{\nVDash}                   {\mathrel}{letters}{"FC}
+\stix@MathSymbol{\prurel}                   {\mathrel}{letters}{"FD}
+\stix@MathSymbol{\scurel}                   {\mathrel}{letters}{"FE}
+\stix@MathSymbol{\trianglelefteq}           {\mathrel}{letters}{"FF}
+\stix@MathSymbol{\unlhd}                    {\mathbin}{letters}{"FF}
+\stix@MathSymbol{\trianglerighteq}          {\mathrel}{symbols}{"00}
+\stix@MathSymbol{\unrhd}                    {\mathbin}{symbols}{"00}
+\stix@MathSymbol{\origof}                   {\mathrel}{symbols}{"01}
+\stix@MathSymbol{\imageof}                  {\mathrel}{symbols}{"02}
+\stix@MathSymbol{\multimap}                 {\mathrel}{symbols}{"03}
+\stix@MathSymbol{\hermitmatrix}             {\mathord}{symbols}{"04}
+\stix@MathSymbol{\intercal}                 {\mathbin}{symbols}{"05}
+\stix@MathSymbol{\veebar}                   {\mathbin}{symbols}{"06}
+\stix@MathSymbol{\barwedge}                 {\mathbin}{symbols}{"07}
+\stix@MathSymbol{\barvee}                   {\mathbin}{symbols}{"08}
+\stix@MathSymbol{\measuredrightangle}       {\mathord}{symbols}{"09}
+\stix@MathSymbol{\varlrtriangle}            {\mathord}{symbols}{"0A}
+\stix@MathSymbol{\smwhtdiamond}             {\mathbin}{symbols}{"0B}
+        \let\diamond=\smwhtdiamond
+\stix@MathSymbol{\cdot}                     {\mathbin}{symbols}{"0C}
+\stix@MathSymbol{\divideontimes}            {\mathbin}{symbols}{"0D}
+\stix@MathSymbol{\bowtie}                   {\mathrel}{symbols}{"0E}
+\stix@MathSymbol{\ltimes}                   {\mathbin}{symbols}{"0F}
+\stix@MathSymbol{\rtimes}                   {\mathbin}{symbols}{"10}
+\stix@MathSymbol{\leftthreetimes}           {\mathbin}{symbols}{"11}
+\stix@MathSymbol{\rightthreetimes}          {\mathbin}{symbols}{"12}
+\stix@MathSymbol{\backsimeq}                {\mathrel}{symbols}{"13}
+\stix@MathSymbol{\curlyvee}                 {\mathbin}{symbols}{"14}
+\stix@MathSymbol{\curlywedge}               {\mathbin}{symbols}{"15}
+\stix@MathSymbol{\Subset}                   {\mathrel}{symbols}{"16}
+\stix@MathSymbol{\Supset}                   {\mathrel}{symbols}{"17}
+\stix@MathSymbol{\Cap}                      {\mathbin}{symbols}{"18}
+        \let\doublecap=\Cap
+\stix@MathSymbol{\Cup}                      {\mathbin}{symbols}{"19}
+        \let\doublecup=\Cup
+\stix@MathSymbol{\pitchfork}                {\mathrel}{symbols}{"1A}
+\stix@MathSymbol{\equalparallel}            {\mathrel}{symbols}{"1B}
+\stix@MathSymbol{\lessdot}                  {\mathrel}{symbols}{"1C}
+\stix@MathSymbol{\gtrdot}                   {\mathrel}{symbols}{"1D}
+\stix@MathSymbol{\lll}                      {\mathrel}{symbols}{"1E}
+        \let\llless=\lll
+\stix@MathSymbol{\ggg}                      {\mathrel}{symbols}{"1F}
+        \let\gggtr=\ggg
+\stix@MathSymbol{\lesseqgtr}                {\mathrel}{symbols}{"20}
+\stix@MathSymbol{\gtreqless}                {\mathrel}{symbols}{"21}
+\stix@MathSymbol{\eqless}                   {\mathrel}{symbols}{"22}
+\stix@MathSymbol{\eqgtr}                    {\mathrel}{symbols}{"23}
+\stix@MathSymbol{\curlyeqprec}              {\mathrel}{symbols}{"24}
+\stix@MathSymbol{\curlyeqsucc}              {\mathrel}{symbols}{"25}
+\stix@MathSymbol{\npreccurlyeq}             {\mathrel}{symbols}{"26}
+\stix@MathSymbol{\nsucccurlyeq}             {\mathrel}{symbols}{"27}
+\stix@MathSymbol{\nsqsubseteq}              {\mathrel}{symbols}{"28}
+\stix@MathSymbol{\nsqsupseteq}              {\mathrel}{symbols}{"29}
+\stix@MathSymbol{\sqsubsetneq}              {\mathrel}{symbols}{"2A}
+\stix@MathSymbol{\sqsupsetneq}              {\mathrel}{symbols}{"2B}
+\stix@MathSymbol{\lnsim}                    {\mathrel}{symbols}{"2C}
+\stix@MathSymbol{\gnsim}                    {\mathrel}{symbols}{"2D}
+\stix@MathSymbol{\precnsim}                 {\mathrel}{symbols}{"2E}
+\stix@MathSymbol{\succnsim}                 {\mathrel}{symbols}{"2F}
+\stix@MathSymbol{\nvartriangleleft}         {\mathrel}{symbols}{"30}
+\stix@MathSymbol{\nvartriangleright}        {\mathrel}{symbols}{"31}
+\stix@MathSymbol{\ntrianglelefteq}          {\mathrel}{symbols}{"32}
+\stix@MathSymbol{\ntrianglerighteq}         {\mathrel}{symbols}{"33}
+\stix@MathSymbol{\vdotsmath}                {\mathrel}{symbols}{"34}
+        \DeclareRobustCommand\vdots{%
+                \ifmmode\vdotsmath\else%
+                {\usefont{LS1}{stix2scr}{\f@series}{n}\char"34}%
+                \fi}
+\stix@MathSymbol{\unicodecdots}             {\mathord}{symbols}{"35} \let\@cdots=\unicodecdots \DeclareRobustCommand\cdots{\mathinner{\unicodecdots}}
+\stix@MathSymbol{\adots}                    {\mathrel}{symbols}{"36}
+\stix@MathSymbol{\ddots}                    {\mathrel}{symbols}{"37}
+\stix@MathSymbol{\disin}                    {\mathrel}{symbols}{"38}
+\stix@MathSymbol{\varisins}                 {\mathrel}{symbols}{"39}
+\stix@MathSymbol{\isins}                    {\mathrel}{symbols}{"3A}
+\stix@MathSymbol{\isindot}                  {\mathrel}{symbols}{"3B}
+\stix@MathSymbol{\varisinobar}              {\mathrel}{symbols}{"3C}
+\stix@MathSymbol{\isinobar}                 {\mathrel}{symbols}{"3D}
+\stix@MathSymbol{\isinvb}                   {\mathrel}{symbols}{"3E}
+\stix@MathSymbol{\isinE}                    {\mathrel}{symbols}{"3F}
+\stix@MathSymbol{\nisd}                     {\mathrel}{symbols}{"40}
+\stix@MathSymbol{\varnis}                   {\mathrel}{symbols}{"5B}
+\stix@MathSymbol{\nis}                      {\mathrel}{symbols}{"5C}
+\stix@MathSymbol{\varniobar}                {\mathrel}{symbols}{"5D}
+\stix@MathSymbol{\niobar}                   {\mathrel}{symbols}{"5E}
+\stix@MathSymbol{\bagmember}                {\mathrel}{symbols}{"5F}
+\stix@MathSymbol{\diameter}                 {\mathord}{symbols}{"60}
+\stix@MathSymbol{\house}                    {\mathord}{symbols}{"7E}
+
+\stix@MathSymbol{\varbarwedge}              {\mathbin}{symbols}{"99}
+\stix@MathSymbol{\vardoublebarwedge}        {\mathbin}{symbols}{"9A}
+\stix@MathSymbol{\invnot}                   {\mathord}{symbols}{"9B}
+\stix@MathSymbol{\sqlozenge}                {\mathord}{symbols}{"9C}
+\stix@MathSymbol{\profline}                 {\mathord}{symbols}{"9D}
+\stix@MathSymbol{\profsurf}                 {\mathord}{symbols}{"9E}
+\stix@MathSymbol{\viewdata}                 {\mathord}{symbols}{"9F}
+
+\stix@MathSymbol{\turnednot}                {\mathord}{symbols}{"A0}
+\stix@MathSymbol{\ulcorner}                {\mathopen}{symbols}{"A1}
+\stix@MathSymbol{\urcorner}               {\mathclose}{symbols}{"A2}
+\stix@MathSymbol{\llcorner}                {\mathopen}{symbols}{"A3}
+\stix@MathSymbol{\lrcorner}               {\mathclose}{symbols}{"A4}
+\stix@MathSymbol{\varhexagonlrbonds}        {\mathord}{symbols}{"A5}
+\stix@MathSymbol{\conictaper}               {\mathord}{symbols}{"A6}
+\stix@MathSymbol{\topbot}                   {\mathord}{symbols}{"A7}
+\stix@MathSymbol{\obar}                     {\mathbin}{symbols}{"A8}
+\stix@MathSymbol{\APLnotslash}              {\mathrel}{symbols}{"A9}
+\stix@MathSymbol{\APLnotbackslash}          {\mathord}{symbols}{"AA}
+\stix@MathSymbol{\APLboxupcaret}            {\mathord}{symbols}{"AB}
+\stix@MathSymbol{\APLboxquestion}           {\mathord}{symbols}{"AC}
+\stix@MathSymbol{\rangledownzigzagarrow}    {\mathord}{symbols}{"AD}
+\stix@MathSymbol{\hexagon}                  {\mathord}{symbols}{"AE}
+\stix@MathSymbol{\varcarriagereturn}        {\mathord}{symbols}{"AF}
+
+\stix@MathSymbol{\trapezium}                {\mathord}{symbols}{"B0}
+\stix@MathSymbol{\benzenr}                  {\mathord}{symbols}{"B1}
+\stix@MathSymbol{\strns}                    {\mathord}{symbols}{"B2}
+\stix@MathSymbol{\fltns}                    {\mathord}{symbols}{"B3}
+\stix@MathSymbol{\accurrent}                {\mathord}{symbols}{"B4}
+\stix@MathSymbol{\elinters}                 {\mathord}{symbols}{"B5}
+\stix@MathSymbol{\mathvisiblespace}         {\mathord}{symbols}{"B6}
+\stix@MathSymbol{\mdlgblksquare}            {\mathord}{symbols}{"B7} \let\blacksquare=\mdlgblksquare
+\stix@MathSymbol{\mdlgwhtsquare}            {\mathord}{symbols}{"B8} \let\square=\mdlgwhtsquare \let\Box=\mdlgwhtsquare
+\stix@MathSymbol{\squoval}                  {\mathord}{symbols}{"B9}
+\stix@MathSymbol{\blackinwhitesquare}       {\mathord}{symbols}{"BA}
+\stix@MathSymbol{\squarehfill}              {\mathord}{symbols}{"BB}
+\stix@MathSymbol{\squarevfill}              {\mathord}{symbols}{"BC}
+\stix@MathSymbol{\squarehvfill}             {\mathord}{symbols}{"BD}
+\stix@MathSymbol{\squarenwsefill}           {\mathord}{symbols}{"BE}
+\stix@MathSymbol{\squareneswfill}           {\mathord}{symbols}{"BF}
+
+\stix@MathSymbol{\squarecrossfill}          {\mathord}{symbols}{"C0}
+\stix@MathSymbol{\smblksquare}              {\mathord}{symbols}{"C1}
+\stix@MathSymbol{\smwhtsquare}              {\mathord}{symbols}{"C2}
+\stix@MathSymbol{\hrectangleblack}          {\mathord}{symbols}{"C3}
+\stix@MathSymbol{\hrectangle}               {\mathord}{symbols}{"C4}
+\stix@MathSymbol{\vrectangleblack}          {\mathord}{symbols}{"C5}
+\stix@MathSymbol{\vrectangle}               {\mathord}{symbols}{"C6}
+\stix@MathSymbol{\parallelogramblack}       {\mathord}{symbols}{"C7}
+\stix@MathSymbol{\parallelogram}            {\mathord}{symbols}{"C8}
+\stix@MathSymbol{\bigblacktriangleup}       {\mathord}{symbols}{"C9}
+\stix@MathSymbol{\bigtriangleup}            {\mathbin}{symbols}{"CA} \let\varbigtriangleup=\bigtriangleup \let\triangle=\bigtriangleup
+\stix@MathSymbol{\blacktriangle}            {\mathord}{symbols}{"CB}
+\stix@MathSymbol{\vartriangle}              {\mathrel}{symbols}{"CC}
+\stix@MathSymbol{\blacktriangleright}       {\mathord}{symbols}{"CD}
+\stix@MathSymbol{\vartriangleright}         {\mathrel}{symbols}{"CE} \stix@MathSymbol{\rhd}{\mathbin}{symbols}{"CE}
+\stix@MathSymbol{\smallblacktriangleright}  {\mathord}{symbols}{"CF}
+
+\stix@MathSymbol{\smalltriangleright}       {\mathord}{symbols}{"D0}
+\stix@MathSymbol{\blackpointerright}        {\mathord}{symbols}{"D1}
+\stix@MathSymbol{\whitepointerright}        {\mathord}{symbols}{"D2}
+\stix@MathSymbol{\bigblacktriangledown}     {\mathord}{symbols}{"D3}
+\stix@MathSymbol{\bigtriangledown}          {\mathord}{symbols}{"D4} \let\varbigtriangledown=\bigtriangledown
+\stix@MathSymbol{\blacktriangledown}        {\mathord}{symbols}{"D5}
+\stix@MathSymbol{\triangledown}             {\mathord}{symbols}{"D6}
+\stix@MathSymbol{\blacktriangleleft}        {\mathord}{symbols}{"D7}
+\stix@MathSymbol{\vartriangleleft}          {\mathrel}{symbols}{"D8} \stix@MathSymbol{\lhd}{\mathbin}{symbols}{"D8}
+\stix@MathSymbol{\smallblacktriangleleft}   {\mathord}{symbols}{"D9}
+\stix@MathSymbol{\smalltriangleleft}        {\mathord}{symbols}{"DA}
+\stix@MathSymbol{\blackpointerleft}         {\mathord}{symbols}{"DB}
+\stix@MathSymbol{\whitepointerleft}         {\mathord}{symbols}{"DC}
+\stix@MathSymbol{\mdlgblkdiamond}           {\mathord}{symbols}{"DD}
+\stix@MathSymbol{\mdlgwhtdiamond}           {\mathord}{symbols}{"DE}
+\stix@MathSymbol{\blackinwhitediamond}      {\mathord}{symbols}{"DF}
+
+\stix@MathSymbol{\fisheye}                  {\mathord}{symbols}{"E0}
+\stix@MathSymbol{\mdlgwhtlozenge}           {\mathord}{symbols}{"E1} \let\lozenge=\mdlgwhtlozenge \let\Diamond=\mdlgwhtlozenge
+\stix@MathSymbol{\mdlgwhtcircle}            {\mathbin}{symbols}{"E2} \let\bigcirc=\mdlgwhtcircle
+\stix@MathSymbol{\dottedcircle}             {\mathord}{symbols}{"E3}
+\stix@MathSymbol{\circlevertfill}           {\mathord}{symbols}{"E4}
+\stix@MathSymbol{\bullseye}                 {\mathord}{symbols}{"E5}
+\stix@MathSymbol{\mdlgblkcircle}            {\mathord}{symbols}{"E6}
+\stix@MathSymbol{\circlelefthalfblack}      {\mathord}{symbols}{"E7}
+\stix@MathSymbol{\circlerighthalfblack}     {\mathord}{symbols}{"E8}
+\stix@MathSymbol{\circlebottomhalfblack}    {\mathord}{symbols}{"E9}
+\stix@MathSymbol{\circletophalfblack}       {\mathord}{symbols}{"EA}
+\stix@MathSymbol{\circleurquadblack}        {\mathord}{symbols}{"EB}
+\stix@MathSymbol{\blackcircleulquadwhite}   {\mathord}{symbols}{"EC}
+\stix@MathSymbol{\blacklefthalfcircle}      {\mathord}{symbols}{"ED}
+\stix@MathSymbol{\blackrighthalfcircle}     {\mathord}{symbols}{"EE}
+\stix@MathSymbol{\inversebullet}            {\mathord}{symbols}{"EF}
+
+\stix@MathSymbol{\inversewhitecircle}       {\mathord}{symbols}{"F0}
+\stix@MathSymbol{\invwhiteupperhalfcircle}  {\mathord}{symbols}{"F1}
+\stix@MathSymbol{\invwhitelowerhalfcircle}  {\mathord}{symbols}{"F2}
+\stix@MathSymbol{\ularc}                    {\mathord}{symbols}{"F3}
+\stix@MathSymbol{\urarc}                    {\mathord}{symbols}{"F4}
+\stix@MathSymbol{\lrarc}                    {\mathord}{symbols}{"F5}
+\stix@MathSymbol{\llarc}                    {\mathord}{symbols}{"F6}
+\stix@MathSymbol{\topsemicircle}            {\mathord}{symbols}{"F7}
+\stix@MathSymbol{\botsemicircle}            {\mathord}{symbols}{"F8}
+\stix@MathSymbol{\lrblacktriangle}          {\mathord}{symbols}{"F9}
+\stix@MathSymbol{\llblacktriangle}          {\mathord}{symbols}{"FA}
+\stix@MathSymbol{\ulblacktriangle}          {\mathord}{symbols}{"FB}
+\stix@MathSymbol{\urblacktriangle}          {\mathord}{symbols}{"FC}
+\stix@MathSymbol{\smwhtcircle}              {\mathord}{symbols}{"FD} \let\circ=\smwhtcircle
+\stix@MathSymbol{\squareleftblack}          {\mathord}{symbols}{"FE}
+\stix@MathSymbol{\squarerightblack}         {\mathord}{symbols}{"FF}
+\stix@MathSymbol{\acidfree}                 {\mathord}  {symbols2}{"00}
+\stix@MathSymbol{\draftingarrow}            {\mathord}  {symbols2}{"01}
+\stix@MathSymbol{\threedangle}              {\mathord}  {symbols2}{"02}
+\stix@MathSymbol{\whiteinwhitetriangle}     {\mathord}  {symbols2}{"03}
+\stix@MathSymbol{\perp}                     {\mathrel}  {symbols2}{"04}
+\stix@MathSymbol{\subsetcirc}               {\mathord}  {symbols2}{"05}
+\stix@MathSymbol{\supsetcirc}               {\mathord}  {symbols2}{"06}
+\stix@MathSymbol{\lbag}                     {\mathopen} {symbols2}{"07}
+\stix@MathSymbol{\rbag}                     {\mathclose}{symbols2}{"08}
+\stix@MathSymbol{\veedot}                   {\mathbin}  {symbols2}{"09}
+\stix@MathSymbol{\bsolhsub}                 {\mathrel}  {symbols2}{"0A}
+\stix@MathSymbol{\suphsol}                  {\mathrel}  {symbols2}{"0B}
+\stix@MathSymbol{\diamondcdot}              {\mathord}  {symbols2}{"0C}
+\stix@MathSymbol{\wedgedot}                 {\mathbin}  {symbols2}{"0D}
+\stix@MathSymbol{\upin}                     {\mathrel}  {symbols2}{"0E}
+\stix@MathSymbol{\pullback}                 {\mathrel}  {symbols2}{"0F}
+\stix@MathSymbol{\pushout}                  {\mathrel}  {symbols2}{"10}
+\stix@MathSymbol{\leftouterjoin}            {\mathop}   {symbols2}{"11}
+\stix@MathSymbol{\rightouterjoin}           {\mathop}   {symbols2}{"12}
+\stix@MathSymbol{\fullouterjoin}            {\mathop}   {symbols2}{"13}
+\stix@MathSymbol{\bigbot}                   {\mathop}   {symbols2}{"14}
+\stix@MathSymbol{\bigtop}                   {\mathop}   {symbols2}{"15}
+\stix@MathSymbol{\DashVDash}                {\mathrel}  {symbols2}{"16}
+\stix@MathSymbol{\dashVdash}                {\mathrel}  {symbols2}{"17}
+\stix@MathSymbol{\multimapinv}              {\mathrel}  {symbols2}{"18}
+\stix@MathSymbol{\vlongdash}                {\mathrel}  {symbols2}{"19}
+\stix@MathSymbol{\longdashv}                {\mathrel}  {symbols2}{"1A}
+\stix@MathSymbol{\cirbot}                   {\mathrel}  {symbols2}{"1B}
+\stix@MathSymbol{\lozengeminus}             {\mathbin}  {symbols2}{"1C}
+\stix@MathSymbol{\concavediamond}           {\mathbin}  {symbols2}{"1D}
+\stix@MathSymbol{\concavediamondtickleft}   {\mathbin}  {symbols2}{"1E}
+\stix@MathSymbol{\concavediamondtickright}  {\mathbin}  {symbols2}{"1F}
+\stix@MathSymbol{\whitesquaretickleft}      {\mathbin}  {symbols2}{"20}
+\stix@MathSymbol{\whitesquaretickright}     {\mathbin}  {symbols2}{"21}
+\stix@MathSymbol{\Lbrbrak}                  {\mathopen} {symbols2}{"22}
+\stix@MathSymbol{\Rbrbrak}                  {\mathclose}{symbols2}{"23}
+\stix@MathSymbol{\mdsmblkcircle}            {\mathord}  {symbols2}{"24}
+\stix@MathSymbol{\typecolon}                {\mathbin}  {symbols2}{"25}
+\stix@MathSymbol{\llparenthesis}            {\mathopen} {symbols2}{"26}
+\stix@MathSymbol{\rrparenthesis}            {\mathclose}{symbols2}{"27}
+\stix@MathSymbol{\llangle}                  {\mathopen} {symbols2}{"28}
+\stix@MathSymbol{\rrangle}                  {\mathclose}{symbols2}{"29}
+\stix@MathSymbol{\lbrackubar}               {\mathopen} {symbols2}{"2A}
+\stix@MathSymbol{\rbrackubar}               {\mathclose}{symbols2}{"2B}
+\stix@MathSymbol{\lbrackultick}             {\mathopen} {symbols2}{"2C}
+\stix@MathSymbol{\rbracklrtick}             {\mathclose}{symbols2}{"2D}
+\stix@MathSymbol{\lbracklltick}             {\mathopen} {symbols2}{"2E}
+\stix@MathSymbol{\rbrackurtick}             {\mathclose}{symbols2}{"2F}
+\stix@MathSymbol{\langledot}                {\mathopen} {symbols2}{"30}
+\stix@MathSymbol{\rangledot}                {\mathclose}{symbols2}{"31}
+\stix@MathSymbol{\lparenless}               {\mathopen} {symbols2}{"32}
+\stix@MathSymbol{\rparengtr}                {\mathclose}{symbols2}{"33}
+\stix@MathSymbol{\Lparengtr}                {\mathopen} {symbols2}{"34}
+\stix@MathSymbol{\Rparenless}               {\mathclose}{symbols2}{"35}
+\stix@MathSymbol{\lblkbrbrak}               {\mathopen} {symbols2}{"36}
+\stix@MathSymbol{\rblkbrbrak}               {\mathclose}{symbols2}{"37}
+\stix@MathSymbol{\fourvdots}                {\mathord}  {symbols2}{"38}
+\stix@MathSymbol{\vzigzag}                  {\mathord}  {symbols2}{"39}
+\stix@MathSymbol{\measuredangleleft}        {\mathord}  {symbols2}{"3A}
+\stix@MathSymbol{\rightanglesqr}            {\mathord}  {symbols2}{"3B}
+\stix@MathSymbol{\rightanglemdot}           {\mathord}  {symbols2}{"3C}
+\stix@MathSymbol{\angles}                   {\mathord}  {symbols2}{"3D}
+\stix@MathSymbol{\angdnr}                   {\mathord}  {symbols2}{"3E}
+\stix@MathSymbol{\gtlpar}                   {\mathord}  {symbols2}{"3F}
+\stix@MathSymbol{\sphericalangleup}         {\mathord}  {symbols2}{"40}
+\stix@MathSymbol{\turnangle}                {\mathord}  {symbols2}{"5B}
+\stix@MathSymbol{\revangle}                 {\mathord}  {symbols2}{"5C}
+\stix@MathSymbol{\angleubar}                {\mathord}  {symbols2}{"5D}
+\stix@MathSymbol{\revangleubar}             {\mathord}  {symbols2}{"5E}
+\stix@MathSymbol{\wideangledown}            {\mathord}  {symbols2}{"5F}
+\stix@MathSymbol{\wideangleup}              {\mathord}  {symbols2}{"60}
+\stix@MathSymbol{\measanglerutone}          {\mathord}  {symbols2}{"7D}
+\stix@MathSymbol{\measanglelutonw}          {\mathord}  {symbols2}{"7E}
+
+\stix@MathSymbol{\measanglerdtose}          {\mathord}  {symbols2}{"99}
+\stix@MathSymbol{\measangleldtosw}          {\mathord}  {symbols2}{"9A}
+\stix@MathSymbol{\measangleurtone}          {\mathord}  {symbols2}{"9B}
+\stix@MathSymbol{\measangleultonw}          {\mathord}  {symbols2}{"9C}
+\stix@MathSymbol{\measangledrtose}          {\mathord}  {symbols2}{"9D}
+\stix@MathSymbol{\measangledltosw}          {\mathord}  {symbols2}{"9E}
+\stix@MathSymbol{\revemptyset}              {\mathord}  {symbols2}{"9F}
+
+\stix@MathSymbol{\emptysetobar}             {\mathord}  {symbols2}{"A0}
+\stix@MathSymbol{\emptysetocirc}            {\mathord}  {symbols2}{"A1}
+\stix@MathSymbol{\emptysetoarr}             {\mathord}  {symbols2}{"A2}
+\stix@MathSymbol{\emptysetoarrl}            {\mathord}  {symbols2}{"A3}
+\stix@MathSymbol{\circlehbar}               {\mathbin}  {symbols2}{"A4}
+\stix@MathSymbol{\circledvert}              {\mathbin}  {symbols2}{"A5}
+\stix@MathSymbol{\circledparallel}          {\mathbin}  {symbols2}{"A6}
+\stix@MathSymbol{\obslash}                  {\mathbin}  {symbols2}{"A7}
+\stix@MathSymbol{\operp}                    {\mathbin}  {symbols2}{"A8}
+\stix@MathSymbol{\obot}                     {\mathord}  {symbols2}{"A9}
+\stix@MathSymbol{\olcross}                  {\mathord}  {symbols2}{"AA}
+\stix@MathSymbol{\odotslashdot}             {\mathord}  {symbols2}{"AB}
+\stix@MathSymbol{\uparrowoncircle}          {\mathord}  {symbols2}{"AC}
+\stix@MathSymbol{\circledwhitebullet}       {\mathord}  {symbols2}{"AD}
+\stix@MathSymbol{\circledbullet}            {\mathord}  {symbols2}{"AE}
+\stix@MathSymbol{\olessthan}                {\mathbin}  {symbols2}{"AF}
+
+\stix@MathSymbol{\ogreaterthan}             {\mathbin}  {symbols2}{"B0}
+\stix@MathSymbol{\cirscir}                  {\mathord}  {symbols2}{"B1}
+\stix@MathSymbol{\cirE}                     {\mathord}  {symbols2}{"B2}
+\stix@MathSymbol{\boxdiag}                  {\mathbin}  {symbols2}{"B3}
+\stix@MathSymbol{\boxbslash}                {\mathbin}  {symbols2}{"B4}
+\stix@MathSymbol{\boxast}                   {\mathbin}  {symbols2}{"B5}
+\stix@MathSymbol{\boxcircle}                {\mathbin}  {symbols2}{"B6}
+\stix@MathSymbol{\boxbox}                   {\mathbin}  {symbols2}{"B7}
+\stix@MathSymbol{\boxonbox}                 {\mathord}  {symbols2}{"B8}
+\stix@MathSymbol{\triangleodot}             {\mathord}  {symbols2}{"B9}
+\stix@MathSymbol{\triangleubar}             {\mathord}  {symbols2}{"BA}
+\stix@MathSymbol{\triangles}                {\mathord}  {symbols2}{"BB}
+\stix@MathSymbol{\triangleserifs}           {\mathbin}  {symbols2}{"BC}
+\stix@MathSymbol{\rtriltri}                 {\mathrel}  {symbols2}{"BD}
+\stix@MathSymbol{\ltrivb}                   {\mathrel}  {symbols2}{"BE}
+\stix@MathSymbol{\vbrtri}                   {\mathrel}  {symbols2}{"BF}
+
+\stix@MathSymbol{\lfbowtie}                 {\mathrel}  {symbols2}{"C0}
+\stix@MathSymbol{\rfbowtie}                 {\mathrel}  {symbols2}{"C1}
+\stix@MathSymbol{\fbowtie}                  {\mathrel}  {symbols2}{"C2}
+\stix@MathSymbol{\lftimes}                  {\mathrel}  {symbols2}{"C3}
+\stix@MathSymbol{\rftimes}                  {\mathrel}  {symbols2}{"C4}
+\stix@MathSymbol{\hourglass}                {\mathbin}  {symbols2}{"C5}
+\stix@MathSymbol{\blackhourglass}           {\mathbin}  {symbols2}{"C6}
+\stix@MathSymbol{\lvzigzag}                 {\mathopen} {symbols2}{"C7}
+\stix@MathSymbol{\rvzigzag}                 {\mathclose}{symbols2}{"C8}
+\stix@MathSymbol{\Lvzigzag}                 {\mathopen} {symbols2}{"C9}
+\stix@MathSymbol{\Rvzigzag}                 {\mathclose}{symbols2}{"CA}
+\stix@MathSymbol{\iinfin}                   {\mathord}  {symbols2}{"CB}
+\stix@MathSymbol{\tieinfty}                 {\mathord}  {symbols2}{"CC}
+\stix@MathSymbol{\nvinfty}                  {\mathord}  {symbols2}{"CD}
+\stix@MathSymbol{\dualmap}                  {\mathrel}  {symbols2}{"CE}
+\stix@MathSymbol{\laplac}                   {\mathord}  {symbols2}{"CF}
+
+\stix@MathSymbol{\lrtriangleeq}             {\mathrel}  {symbols2}{"D0}
+\stix@MathSymbol{\shuffle}                  {\mathbin}  {symbols2}{"D1}
+\stix@MathSymbol{\eparsl}                   {\mathrel}  {symbols2}{"D2}
+\stix@MathSymbol{\smeparsl}                 {\mathrel}  {symbols2}{"D3}
+\stix@MathSymbol{\eqvparsl}                 {\mathrel}  {symbols2}{"D4}
+\stix@MathSymbol{\gleichstark}              {\mathrel}  {symbols2}{"D5}
+\stix@MathSymbol{\thermod}                  {\mathord}  {symbols2}{"D6}
+\stix@MathSymbol{\downtriangleleftblack}    {\mathord}  {symbols2}{"D7}
+\stix@MathSymbol{\downtrianglerightblack}   {\mathord}  {symbols2}{"D8}
+\stix@MathSymbol{\blackdiamonddownarrow}    {\mathord}  {symbols2}{"D9}
+\stix@MathSymbol{\blacklozenge}             {\mathord}  {symbols2}{"DA} \stix@MathSymbol{\mdlgblklozenge}{\mathbin}{symbols2}{"DA}
+\stix@MathSymbol{\circledownarrow}          {\mathord}  {symbols2}{"DB}
+\stix@MathSymbol{\blackcircledownarrow}     {\mathord}  {symbols2}{"DC}
+\stix@MathSymbol{\errbarsquare}             {\mathord}  {symbols2}{"DD}
+\stix@MathSymbol{\errbarblacksquare}        {\mathord}  {symbols2}{"DE}
+\stix@MathSymbol{\errbardiamond}            {\mathord}  {symbols2}{"DF}
+
+\stix@MathSymbol{\errbarblackdiamond}       {\mathord}  {symbols2}{"E0}
+\stix@MathSymbol{\errbarcircle}             {\mathord}  {symbols2}{"E1}
+\stix@MathSymbol{\errbarblackcircle}        {\mathord}  {symbols2}{"E2}
+\stix@MathSymbol{\ruledelayed}              {\mathrel}  {symbols2}{"E3}
+\stix@MathSymbol{\setminus}                 {\mathbin}  {symbols2}{"E4}
+\stix@MathSymbol{\dsol}                     {\mathbin}  {symbols2}{"E5}
+\stix@MathSymbol{\rsolbar}                  {\mathbin}  {symbols2}{"E6}
+\stix@MathSymbol{\doubleplus}               {\mathbin}  {symbols2}{"E7}
+\stix@MathSymbol{\tripleplus}               {\mathbin}  {symbols2}{"E8}
+\stix@MathSymbol{\lcurvyangle}              {\mathopen} {symbols2}{"E9}
+\stix@MathSymbol{\rcurvyangle}              {\mathclose}{symbols2}{"EA}
+\stix@MathSymbol{\tplus}                    {\mathbin}  {symbols2}{"EB}
+\stix@MathSymbol{\tminus}                   {\mathbin}  {symbols2}{"EC}
+\stix@MathSymbol{\Join}                     {\mathop}   {symbols2}{"ED}
+\stix@MathSymbol{\bigtriangleleft}          {\mathop}   {symbols2}{"EE}
+\stix@MathSymbol{\zcmp}                     {\mathop}   {symbols2}{"EF}
+
+\stix@MathSymbol{\zpipe}                    {\mathop}   {symbols2}{"F0}
+\stix@MathSymbol{\zproject}                 {\mathop}   {symbols2}{"F1}
+\stix@MathSymbol{\ringplus}                 {\mathbin}  {symbols2}{"F2}
+\stix@MathSymbol{\plushat}                  {\mathbin}  {symbols2}{"F3}
+\stix@MathSymbol{\simplus}                  {\mathbin}  {symbols2}{"F4}
+\stix@MathSymbol{\plusdot}                  {\mathbin}  {symbols2}{"F5}
+\stix@MathSymbol{\plussim}                  {\mathbin}  {symbols2}{"F6}
+\stix@MathSymbol{\plussubtwo}               {\mathbin}  {symbols2}{"F7}
+\stix@MathSymbol{\plustrif}                 {\mathbin}  {symbols2}{"F8}
+\stix@MathSymbol{\commaminus}               {\mathbin}  {symbols2}{"F9}
+\stix@MathSymbol{\minusdot}                 {\mathbin}  {symbols2}{"FA}
+\stix@MathSymbol{\minusfdots}               {\mathbin}  {symbols2}{"FB}
+\stix@MathSymbol{\minusrdots}               {\mathbin}  {symbols2}{"FC}
+\stix@MathSymbol{\opluslhrim}               {\mathbin}  {symbols2}{"FD}
+\stix@MathSymbol{\oplusrhrim}               {\mathbin}  {symbols2}{"FE}
+\stix@MathSymbol{\vectimes}                 {\mathbin}  {symbols2}{"FF}
+\stix@MathSymbol{\succneq}                  {\mathrel}{symbols3}{"26}
+\stix@MathSymbol{\preceqq}                  {\mathrel}{symbols3}{"27}
+\stix@MathSymbol{\succeqq}                  {\mathrel}{symbols3}{"28}
+\stix@MathSymbol{\precneqq}                 {\mathrel}{symbols3}{"29}
+\stix@MathSymbol{\succneqq}                 {\mathrel}{symbols3}{"2A}
+\stix@MathSymbol{\precapprox}               {\mathrel}{symbols3}{"2B}
+\stix@MathSymbol{\succapprox}               {\mathrel}{symbols3}{"2C}
+\stix@MathSymbol{\precnapprox}              {\mathrel}{symbols3}{"2D}
+\stix@MathSymbol{\succnapprox}              {\mathrel}{symbols3}{"2E}
+\stix@MathSymbol{\Prec}                     {\mathrel}{symbols3}{"2F}
+\stix@MathSymbol{\Succ}                     {\mathrel}{symbols3}{"3A}
+\stix@MathSymbol{\subsetdot}                {\mathrel}{symbols3}{"3B}
+\stix@MathSymbol{\supsetdot}                {\mathrel}{symbols3}{"3C}
+\stix@MathSymbol{\subsetplus}               {\mathrel}{symbols3}{"3D}
+\stix@MathSymbol{\supsetplus}               {\mathrel}{symbols3}{"3E}
+\stix@MathSymbol{\submult}                  {\mathrel}{symbols3}{"3F}
+\stix@MathSymbol{\supmult}                  {\mathrel}{symbols3}{"40}
+\stix@MathSymbol{\subedot}                  {\mathrel}{symbols3}{"5B}
+\stix@MathSymbol{\supedot}                  {\mathrel}{symbols3}{"5C}
+\stix@MathSymbol{\subseteqq}                {\mathrel}{symbols3}{"5D}
+\stix@MathSymbol{\supseteqq}                {\mathrel}{symbols3}{"5E}
+\stix@MathSymbol{\subsim}                   {\mathrel}{symbols3}{"5F}
+\stix@MathSymbol{\supsim}                   {\mathrel}{symbols3}{"60}
+\stix@MathSymbol{\subsetapprox}             {\mathrel}{symbols3}{"7D}
+\stix@MathSymbol{\supsetapprox}             {\mathrel}{symbols3}{"7E}
+
+\stix@MathSymbol{\Bbbk}                     {\mathord}{symbols3}{`k}
+
+\stix@MathSymbol{\capbarcup}                {\mathbin}{symbols3}{"99}
+\stix@MathSymbol{\twocups}                  {\mathbin}{symbols3}{"9A}
+\stix@MathSymbol{\twocaps}                  {\mathbin}{symbols3}{"9B}
+\stix@MathSymbol{\closedvarcup}             {\mathbin}{symbols3}{"9C}
+\stix@MathSymbol{\closedvarcap}             {\mathbin}{symbols3}{"9D}
+\stix@MathSymbol{\Sqcap}                    {\mathbin}{symbols3}{"9E}
+\stix@MathSymbol{\Sqcup}                    {\mathbin}{symbols3}{"9F}
+
+\stix@MathSymbol{\closedvarcupsmashprod}    {\mathbin}{symbols3}{"A0}
+\stix@MathSymbol{\wedgeodot}                {\mathbin}{symbols3}{"A1}
+\stix@MathSymbol{\veeodot}                  {\mathbin}{symbols3}{"A2}
+\stix@MathSymbol{\Wedge}                    {\mathbin}{symbols3}{"A3}
+\stix@MathSymbol{\Vee}                      {\mathbin}{symbols3}{"A4}
+\stix@MathSymbol{\wedgeonwedge}             {\mathbin}{symbols3}{"A5}
+\stix@MathSymbol{\veeonvee}                 {\mathbin}{symbols3}{"A6}
+\stix@MathSymbol{\bigslopedvee}             {\mathbin}{symbols3}{"A7}
+\stix@MathSymbol{\bigslopedwedge}           {\mathbin}{symbols3}{"A8}
+\stix@MathSymbol{\veeonwedge}               {\mathrel}{symbols3}{"A9}
+\stix@MathSymbol{\wedgemidvert}             {\mathbin}{symbols3}{"AA}
+\stix@MathSymbol{\veemidvert}               {\mathbin}{symbols3}{"AB}
+\stix@MathSymbol{\midbarwedge}              {\mathbin}{symbols3}{"AC}
+\stix@MathSymbol{\midbarvee}                {\mathbin}{symbols3}{"AD}
+\stix@MathSymbol{\doublebarwedge}           {\mathbin}{symbols3}{"AE}
+\stix@MathSymbol{\wedgebar}                 {\mathbin}{symbols3}{"AF}
+
+\stix@MathSymbol{\wedgedoublebar}           {\mathbin}{symbols3}{"B0}
+\stix@MathSymbol{\varveebar}                {\mathbin}{symbols3}{"B1}
+\stix@MathSymbol{\doublebarvee}             {\mathbin}{symbols3}{"B2}
+\stix@MathSymbol{\veedoublebar}             {\mathbin}{symbols3}{"B3}
+\stix@MathSymbol{\dsub}                     {\mathbin}{symbols3}{"B4}
+\stix@MathSymbol{\rsub}                     {\mathbin}{symbols3}{"B5}
+\stix@MathSymbol{\eqdot}                    {\mathrel}{symbols3}{"B6}
+\stix@MathSymbol{\dotequiv}                 {\mathrel}{symbols3}{"B7}
+\stix@MathSymbol{\equivVert}                {\mathrel}{symbols3}{"B8}
+\stix@MathSymbol{\equivVvert}               {\mathrel}{symbols3}{"B9}
+\stix@MathSymbol{\dotsim}                   {\mathrel}{symbols3}{"BA}
+\stix@MathSymbol{\simrdots}                 {\mathrel}{symbols3}{"BB}
+\stix@MathSymbol{\simminussim}              {\mathrel}{symbols3}{"BC}
+\stix@MathSymbol{\congdot}                  {\mathrel}{symbols3}{"BD}
+\stix@MathSymbol{\asteq}                    {\mathrel}{symbols3}{"BE}
+\stix@MathSymbol{\hatapprox}                {\mathrel}{symbols3}{"BF}
+
+\stix@MathSymbol{\approxeqq}                {\mathrel}{symbols3}{"C0}
+\stix@MathSymbol{\eqqplus}                  {\mathbin}{symbols3}{"C1}
+\stix@MathSymbol{\pluseqq}                  {\mathbin}{symbols3}{"C2}
+\stix@MathSymbol{\eqqsim}                   {\mathrel}{symbols3}{"C3}
+\stix@MathSymbol{\Coloneq}                  {\mathrel}{symbols3}{"C4}
+\stix@MathSymbol{\eqeq}                     {\mathrel}{symbols3}{"C5}
+\stix@MathSymbol{\eqeqeq}                   {\mathrel}{symbols3}{"C6}
+\stix@MathSymbol{\ddotseq}                  {\mathrel}{symbols3}{"C7}
+\stix@MathSymbol{\equivDD}                  {\mathrel}{symbols3}{"C8}
+\stix@MathSymbol{\ltcir}                    {\mathrel}{symbols3}{"C9}
+\stix@MathSymbol{\gtcir}                    {\mathrel}{symbols3}{"CA}
+\stix@MathSymbol{\ltquest}                  {\mathrel}{symbols3}{"CB}
+\stix@MathSymbol{\gtquest}                  {\mathrel}{symbols3}{"CC}
+\stix@MathSymbol{\leqslant}                 {\mathrel}{symbols3}{"CD}
+\stix@MathSymbol{\geqslant}                 {\mathrel}{symbols3}{"CE}
+\stix@MathSymbol{\lesdot}                   {\mathrel}{symbols3}{"CF}
+
+\stix@MathSymbol{\gesdot}                   {\mathrel}{symbols3}{"D0}
+\stix@MathSymbol{\lesdoto}                  {\mathrel}{symbols3}{"D1}
+\stix@MathSymbol{\gesdoto}                  {\mathrel}{symbols3}{"D2}
+\stix@MathSymbol{\lesdotor}                 {\mathrel}{symbols3}{"D3}
+\stix@MathSymbol{\gesdotol}                 {\mathrel}{symbols3}{"D4}
+\stix@MathSymbol{\lessapprox}               {\mathrel}{symbols3}{"D5}
+\stix@MathSymbol{\gtrapprox}                {\mathrel}{symbols3}{"D6}
+\stix@MathSymbol{\lneq}                     {\mathrel}{symbols3}{"D7}
+\stix@MathSymbol{\gneq}                     {\mathrel}{symbols3}{"D8}
+\stix@MathSymbol{\lnapprox}                 {\mathrel}{symbols3}{"D9}
+\stix@MathSymbol{\gnapprox}                 {\mathrel}{symbols3}{"DA}
+\stix@MathSymbol{\lesseqqgtr}               {\mathrel}{symbols3}{"DB}
+\stix@MathSymbol{\gtreqqless}               {\mathrel}{symbols3}{"DC}
+\stix@MathSymbol{\lsime}                    {\mathrel}{symbols3}{"DD}
+\stix@MathSymbol{\gsime}                    {\mathrel}{symbols3}{"DE}
+\stix@MathSymbol{\lsimg}                    {\mathrel}{symbols3}{"DF}
+
+\stix@MathSymbol{\gsiml}                    {\mathrel}{symbols3}{"E0}
+\stix@MathSymbol{\lgE}                      {\mathrel}{symbols3}{"E1}
+\stix@MathSymbol{\glE}                      {\mathrel}{symbols3}{"E2}
+\stix@MathSymbol{\lesges}                   {\mathrel}{symbols3}{"E3}
+\stix@MathSymbol{\gesles}                   {\mathrel}{symbols3}{"E4}
+\stix@MathSymbol{\eqslantless}              {\mathrel}{symbols3}{"E5}
+\stix@MathSymbol{\eqslantgtr}               {\mathrel}{symbols3}{"E6}
+\stix@MathSymbol{\elsdot}                   {\mathrel}{symbols3}{"E7}
+\stix@MathSymbol{\egsdot}                   {\mathrel}{symbols3}{"E8}
+\stix@MathSymbol{\eqqless}                  {\mathrel}{symbols3}{"E9}
+\stix@MathSymbol{\eqqgtr}                   {\mathrel}{symbols3}{"EA}
+\stix@MathSymbol{\eqqslantless}             {\mathrel}{symbols3}{"EB}
+\stix@MathSymbol{\eqqslantgtr}              {\mathrel}{symbols3}{"EC}
+\stix@MathSymbol{\simless}                  {\mathrel}{symbols3}{"ED}
+\stix@MathSymbol{\simgtr}                   {\mathrel}{symbols3}{"EE}
+\stix@MathSymbol{\simlE}                    {\mathrel}{symbols3}{"EF}
+
+\stix@MathSymbol{\simgE}                    {\mathrel}{symbols3}{"F0}
+\stix@MathSymbol{\Lt}                       {\mathrel}{symbols3}{"F1}
+\stix@MathSymbol{\Gt}                       {\mathrel}{symbols3}{"F2}
+\stix@MathSymbol{\partialmeetcontraction}   {\mathrel}{symbols3}{"F3}
+\stix@MathSymbol{\glj}                      {\mathrel}{symbols3}{"F4}
+\stix@MathSymbol{\gla}                      {\mathrel}{symbols3}{"F5}
+\stix@MathSymbol{\ltcc}                     {\mathrel}{symbols3}{"F6}
+\stix@MathSymbol{\gtcc}                     {\mathrel}{symbols3}{"F7}
+\stix@MathSymbol{\lescc}                    {\mathrel}{symbols3}{"F8}
+\stix@MathSymbol{\gescc}                    {\mathrel}{symbols3}{"F9}
+\stix@MathSymbol{\smt}                      {\mathrel}{symbols3}{"FA}
+\stix@MathSymbol{\lat}                      {\mathrel}{symbols3}{"FB}
+\stix@MathSymbol{\smte}                     {\mathrel}{symbols3}{"FC}
+\stix@MathSymbol{\late}                     {\mathrel}{symbols3}{"FD}
+\stix@MathSymbol{\bumpeqq}                  {\mathrel}{symbols3}{"FE}
+\stix@MathSymbol{\precneq}                  {\mathrel}{symbols3}{"FF}
+\stix@MathSymbol{\ngeqq}                    {\mathrel}{symbols4}{"02}
+\stix@MathSymbol{\ngeqslant}                {\mathrel}{symbols4}{"03}
+\stix@MathSymbol{\nleqslant}                {\mathrel}{symbols4}{"04}
+\stix@MathSymbol{\nleqq}                    {\mathrel}{symbols4}{"05}
+\stix@MathSymbol{\nsubseteqq}               {\mathrel}{symbols4}{"06}
+\stix@MathSymbol{\nsupseteqq}               {\mathrel}{symbols4}{"07}
+
+\stix@MathSymbol{\mathsterling}             {\mathord}{symbols4}{"7D}
+
+\stix@MathSymbol{\ncongdot}                 {\mathrel}{symbols4}{"09}
+\stix@MathSymbol{\napproxeqq}               {\mathrel}{symbols4}{"0A}
+\stix@MathSymbol{\nll}                      {\mathrel}{symbols4}{"0B}
+\stix@MathSymbol{\ngg}                      {\mathrel}{symbols4}{"0C}
+\stix@MathSymbol{\nsqsubset}                {\mathrel}{symbols4}{"1A}
+\stix@MathSymbol{\npreceq}                  {\mathrel}{symbols4}{"16}
+\stix@MathSymbol{\nsucceq}                  {\mathrel}{symbols4}{"19}
+\stix@MathSymbol{\nsqsupset}                {\mathrel}{symbols4}{"1B}
+\stix@MathSymbol{\nBumpeq}                  {\mathrel}{symbols4}{"1C}
+\stix@MathSymbol{\nbumpeq}                  {\mathrel}{symbols4}{"1F}
+\stix@MathSymbol{\neqsim}                   {\mathrel}{symbols4}{"20}
+\stix@MathSymbol{\nvarisinobar}             {\mathrel}{symbols4}{"21}
+\stix@MathSymbol{\nvarniobar}               {\mathrel}{symbols4}{"22}
+\stix@MathSymbol{\neqslantless}             {\mathrel}{symbols4}{"25}
+\stix@MathSymbol{\neqslantgtr}              {\mathrel}{symbols4}{"26}
+
+\stix@MathSymbol{\subsetneqq}               {\mathrel}{symbols4}{"99}
+\stix@MathSymbol{\supsetneqq}               {\mathrel}{symbols4}{"9A}
+\stix@MathSymbol{\lsqhook}                  {\mathrel}{symbols4}{"9B}
+\stix@MathSymbol{\rsqhook}                  {\mathrel}{symbols4}{"9C}
+\stix@MathSymbol{\csub}                     {\mathrel}{symbols4}{"9D}
+\stix@MathSymbol{\csup}                     {\mathrel}{symbols4}{"9E}
+\stix@MathSymbol{\csube}                    {\mathrel}{symbols4}{"9F}
+
+\stix@MathSymbol{\csupe}                    {\mathrel}{symbols4}{"A0}
+\stix@MathSymbol{\subsup}                   {\mathrel}{symbols4}{"A1}
+\stix@MathSymbol{\supsub}                   {\mathrel}{symbols4}{"A2}
+\stix@MathSymbol{\subsub}                   {\mathrel}{symbols4}{"A3}
+\stix@MathSymbol{\supsup}                   {\mathrel}{symbols4}{"A4}
+\stix@MathSymbol{\suphsub}                  {\mathrel}{symbols4}{"A5}
+\stix@MathSymbol{\supdsub}                  {\mathrel}{symbols4}{"A6}
+\stix@MathSymbol{\forkv}                    {\mathrel}{symbols4}{"A7}
+\stix@MathSymbol{\topfork}                  {\mathrel}{symbols4}{"A8}
+\stix@MathSymbol{\mlcp}                     {\mathrel}{symbols4}{"A9}
+\stix@MathSymbol{\forks}                    {\mathrel}{symbols4}{"AA}
+\stix@MathSymbol{\forksnot}                 {\mathrel}{symbols4}{"AB}
+\stix@MathSymbol{\shortlefttack}            {\mathrel}{symbols4}{"AC}
+\stix@MathSymbol{\shortdowntack}            {\mathrel}{symbols4}{"AD}
+\stix@MathSymbol{\shortuptack}              {\mathrel}{symbols4}{"AE}
+\stix@MathSymbol{\perps}                    {\mathord}{symbols4}{"AF}
+
+\stix@MathSymbol{\vDdash}                   {\mathrel}{symbols4}{"B0}
+\stix@MathSymbol{\dashV}                    {\mathrel}{symbols4}{"B1}
+\stix@MathSymbol{\Dashv}                    {\mathrel}{symbols4}{"B2}
+\stix@MathSymbol{\DashV}                    {\mathrel}{symbols4}{"B3}
+\stix@MathSymbol{\varVdash}                 {\mathrel}{symbols4}{"B4}
+\stix@MathSymbol{\Barv}                     {\mathrel}{symbols4}{"B5}
+\stix@MathSymbol{\vBar}                     {\mathrel}{symbols4}{"B6}
+\stix@MathSymbol{\vBarv}                    {\mathrel}{symbols4}{"B7}
+\stix@MathSymbol{\barV}                     {\mathrel}{symbols4}{"B8}
+\stix@MathSymbol{\Vbar}                     {\mathrel}{symbols4}{"B9}
+\stix@MathSymbol{\Not}                      {\mathrel}{symbols4}{"BA}
+\stix@MathSymbol{\bNot}                     {\mathrel}{symbols4}{"BB}
+\stix@MathSymbol{\revnmid}                  {\mathrel}{symbols4}{"BC}
+\stix@MathSymbol{\cirmid}                   {\mathrel}{symbols4}{"BD}
+\stix@MathSymbol{\midcir}                   {\mathrel}{symbols4}{"BE}
+\stix@MathSymbol{\topcir}                   {\mathord}{symbols4}{"BF}
+
+\stix@MathSymbol{\nhpar}                    {\mathrel}{symbols4}{"C0}
+\stix@MathSymbol{\parsim}                   {\mathrel}{symbols4}{"C1}
+\stix@MathSymbol{\interleave}               {\mathbin}{symbols4}{"C2}
+\stix@MathSymbol{\nhVvert}                  {\mathbin}{symbols4}{"C3}
+\stix@MathSymbol{\threedotcolon}            {\mathbin}{symbols4}{"C4}
+\stix@MathSymbol{\lllnest}                  {\mathrel}{symbols4}{"C5}
+\stix@MathSymbol{\gggnest}                  {\mathrel}{symbols4}{"C6}
+\stix@MathSymbol{\leqqslant}                {\mathrel}{symbols4}{"C7}
+\stix@MathSymbol{\geqqslant}                {\mathrel}{symbols4}{"C8}
+\stix@MathSymbol{\trslash}                  {\mathbin}{symbols4}{"C9}
+\stix@MathSymbol{\biginterleave}            {\mathop} {symbols4}{"CA}
+\stix@MathSymbol{\sslash}                   {\mathbin}{symbols4}{"CB}
+\stix@MathSymbol{\talloblong}               {\mathbin}{symbols4}{"CC}
+\stix@MathSymbol{\squaretopblack}           {\mathord}{symbols4}{"CD}
+\stix@MathSymbol{\squarebotblack}           {\mathord}{symbols4}{"CE}
+\stix@MathSymbol{\squareurblack}            {\mathord}{symbols4}{"CF}
+
+\stix@MathSymbol{\squarellblack}            {\mathord}{symbols4}{"D0}
+\stix@MathSymbol{\diamondleftblack}         {\mathord}{symbols4}{"D1}
+\stix@MathSymbol{\diamondrightblack}        {\mathord}{symbols4}{"D2}
+\stix@MathSymbol{\diamondtopblack}          {\mathord}{symbols4}{"D3}
+\stix@MathSymbol{\diamondbotblack}          {\mathord}{symbols4}{"D4}
+\stix@MathSymbol{\dottedsquare}             {\mathord}{symbols4}{"D5}
+\stix@MathSymbol{\lgblksquare}              {\mathord}{symbols4}{"D6}
+\stix@MathSymbol{\lgwhtsquare}              {\mathord}{symbols4}{"D7}
+\stix@MathSymbol{\vysmblksquare}            {\mathord}{symbols4}{"D8}
+\stix@MathSymbol{\vysmwhtsquare}            {\mathord}{symbols4}{"D9}
+\stix@MathSymbol{\pentagonblack}            {\mathord}{symbols4}{"DA}
+\stix@MathSymbol{\pentagon}                 {\mathord}{symbols4}{"DB}
+\stix@MathSymbol{\varhexagon}               {\mathord}{symbols4}{"DC}
+\stix@MathSymbol{\varhexagonblack}          {\mathord}{symbols4}{"DD}
+\stix@MathSymbol{\hexagonblack}             {\mathord}{symbols4}{"DE}
+\stix@MathSymbol{\lgblkcircle}              {\mathord}{symbols4}{"DF}
+
+\stix@MathSymbol{\mdblkdiamond}             {\mathord}{symbols4}{"E0}
+\stix@MathSymbol{\mdwhtdiamond}             {\mathord}{symbols4}{"E1}
+\stix@MathSymbol{\mdblklozenge}             {\mathord}{symbols4}{"E2}
+\stix@MathSymbol{\mdwhtlozenge}             {\mathord}{symbols4}{"E3}
+\stix@MathSymbol{\smblkdiamond}             {\mathord}{symbols4}{"E4}
+\stix@MathSymbol{\smblklozenge}             {\mathord}{symbols4}{"E5}
+\stix@MathSymbol{\smwhtlozenge}             {\mathord}{symbols4}{"E6}
+\stix@MathSymbol{\blkhorzoval}              {\mathord}{symbols4}{"E7}
+\stix@MathSymbol{\whthorzoval}              {\mathord}{symbols4}{"E8}
+\stix@MathSymbol{\blkvertoval}              {\mathord}{symbols4}{"E9}
+\stix@MathSymbol{\whtvertoval}              {\mathord}{symbols4}{"EA}
+\stix@MathSymbol{\medwhitestar}             {\mathord}{symbols4}{"EB}
+\stix@MathSymbol{\medblackstar}             {\mathord}{symbols4}{"EC}
+\stix@MathSymbol{\smwhitestar}              {\mathord}{symbols4}{"ED}
+\stix@MathSymbol{\rightpentagonblack}       {\mathord}{symbols4}{"EE}
+\stix@MathSymbol{\rightpentagon}            {\mathord}{symbols4}{"EF}
+
+\stix@MathSymbol{\postalmark}               {\mathord}{symbols4}{"F0}
+\stix@MathSymbol{\hzigzag}                  {\mathord}{symbols4}{"F1}
+\stix@MathSymbol{\bbrktbrk}                 {\mathord}{symbols4}{"F2}
+\stix@MathSymbol{\obrbrak}                  {\mathord}{symbols4}{"F3}
+\stix@MathSymbol{\ubrbrak}                  {\mathord}{symbols4}{"F4}
+\stix@MathSymbol{\astrosun}                 {\mathord}{symbols4}{"F5}
+\stix@MathSymbol{\danger}                   {\mathord}{symbols4}{"F6}
+\stix@MathSymbol{\blacksmiley}              {\mathord}{symbols4}{"F7}
+\stix@MathSymbol{\sun}                      {\mathord}{symbols4}{"F8}
+\stix@MathSymbol{\rightmoon}                {\mathord}{symbols4}{"F9}
+\stix@MathSymbol{\leftmoon}                 {\mathord}{symbols4}{"FA}
+\stix@MathSymbol{\female}                   {\mathord}{symbols4}{"FB}
+\stix@MathSymbol{\male}                     {\mathord}{symbols4}{"FC}
+\stix@MathSymbol{\varspadesuit}             {\mathord}{symbols4}{"FD}
+\stix@MathSymbol{\varheartsuit}             {\mathord}{symbols4}{"FE}
+\stix@MathSymbol{\vardiamondsuit}           {\mathord}{symbols4}{"FF}
+    \DeclareMathSizes{10}{10}{7.5}{6}
+\AtBeginDocument{
+    \@ifpackageloaded{amsmath}{
+        \renewcommand{\big}{\bBigg@{1.2}}
+        \renewcommand{\Bigg}{\bBigg@{2.7}}
+        \let\dotsb@\@cdots
+        \let\dotsb\cdots
+        \let\dotsm\cdots
+    }{
+        \let\ilimits@=\nolimits
+        \let\slimits@=\relax
+        \let\DOTSI\relax
+    }
+}
+\@ifpackageloaded{amsopn}{
+    \begingroup \catcode`\"=12
+    \gdef\newmcodes@{%
+      \mathcode`\'="007F\relax%
+      \mathcode`\*="003C\relax%
+      \mathcode`\.="613A\relax%
+      \ifnum\mathcode`\-="002A \else
+        \mathchardef\std@minus\mathcode`\-\relax
+      \fi
+      \mathcode`\-="002A\relax%
+      \mathcode`\/="005F\relax%
+      \mathcode`\:="603A\relax%
+    }
+    \endgroup
+}{}
+\@namedef{not=}{\ne}
+\@namedef{not>}{\ngtr}
+\@namedef{not<}{\nless}
+\let\ngets\nleftarrow
+\let\nsimeq\nsime
+\let\nforksnot\forks
+\let\nle\nleq
+\let\nge\ngeq
+\DeclareRobustCommand*{\not}[1]{%
+    \begingroup \escapechar\m@ne\xdef\@gtempa{not\string#1}\endgroup
+    \@ifundefined{\@gtempa}%
+        {\not@n@{#1}}%
+        {\@nameuse{\@gtempa}}}
+\def\not@n@#1{%
+    \begingroup \escapechar\m@ne\xdef\@gtempa{n\string#1}\endgroup
+    \@ifundefined{\@gtempa}%
+        {\notchar #1}%
+        {\@nameuse{\@gtempa}}}
+\def\stix@dotlessi{\ifmmode\imath\else\i}
+\@ifundefined{es@dotlessi}{}{\let\es@dotlessi\stix@dotlessi}
+
+\fi
+\endinput
+%%
+%% End of file `stix2.sty'.
