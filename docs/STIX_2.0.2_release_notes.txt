@@ -3,9 +3,9 @@
 
                       https://www.stixfonts.org/
 
-                            Version 2.0.1
+                            Version 2.0.2
 
-                            15 April 2019
+                             18 June 2019
 
                   WHAT IS PROVIDED IN THIS RELEASE?
 
@@ -31,8 +31,8 @@ The contents of this distribution are
             STIX2Text-Italic.woff2
             STIX2Text-Regular.woff2
     docs/
-        STIX_2.0.1_license.pdf
-        STIX_2.0.1_release_notes.txt
+        STIX_2.0.2_license.pdf
+        STIX_2.0.2_release_notes.txt
         charts/
             StixTwoBold.pdf
             StixTwoBoldItalic.pdf
@@ -53,6 +53,12 @@ through
 
 where you can also find a list of known issues.
 
+
+                         WHAT'S NEW IN 2.0.2?
+
+This release fixes a glitch in the OS/2 tables: Bit 8 (WWS) of the
+fsSelection field has been set and the OS/2 table version has been
+updated to 4.  No changes were made to any glyphs or metrics.
 
                          WHAT'S NEW IN 2.0.1?
 

@@ -6,7 +6,7 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 * See https://www.stixfonts.org/ for background on the the STIX Fonts
   project.
 
-* Download the [current version](zipfiles/STIXv2.0.1.zip) of the OTF,
+* Download the [current version](zipfiles/STIXv2.0.2.zip) of the OTF,
   WOFF, and WOFF2 files in a zip archive.
 
 * View [code charts](docs/charts) for the
@@ -39,7 +39,7 @@ and others in the scientific, medical, and technical fields.  They
 combine a comprehensive Unicode-based collection of mathematical
 symbols and alphabets with a set of text faces suitable for
 professional publishing.  They are available royalty-free under the
-[SIL Open Font License](docs/STIX_2.0.1_license.pdf).
+[SIL Open Font License](docs/STIX_2.0.2_license.pdf).
 
 Version 2 of the STIX fonts, now known as “STIX Two”, is a thorough
 revision of version 1 undertaken by the renowned type house [Tiro
