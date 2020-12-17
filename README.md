@@ -6,9 +6,6 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 * See https://www.stixfonts.org/ for background on the the STIX Fonts
   project.
 
-* Download the [current version](zipfiles/STIXv2.0.2.zip) of the OTF,
-  WOFF, and WOFF2 files in a zip archive.
-
 * View [code charts](docs) for the
   * [Math](docs/STIXTwoMath-Regular.pdf),
   * [Regular text](docs/STIXTwoText-Regular.pdf),
@@ -19,13 +16,11 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 The STIX Two fonts are OpenType fonts and are meant to be used in that
 format.  For the benefit of LaTeX users who are unable to use XeTeX or
 luaTeX, we have also provided version 2.0.0 of the STIX fonts as a
-[set of TFM files and Type 1 fonts](zipfiles/STIXv2.0.0-type1.zip).
+[set of TFM files and Type 1 fonts](https://github.com/stipub/stix_type1).
 
 Note that **no further updates** are planned to the Type 1
 distribution; future development efforts will focus on improving the
-OpenType fonts.  Patches to the existing Type 1 distribution are
-welcome and, pending review, will be incorporated into the
-distribution.
+OpenType fonts.
 
 ## About the STIX fonts.
 
@@ -42,7 +37,7 @@ revision undertaken by the renowned type house Tiro Typeworks
 Ltd. (https://www.tiro.com).  The STIX Two fonts consist of one Math
 font, two variable text fonts (STIXTwoTextVF-Roman and
 STIXTwoTextVF-Italic), and eight static text fonts (Regular, Italic,
-Medium, Medium Italic, Semibold, Semibold Italic, Bold, and Bold
+Medium, Medium Italic, SemiBold, SemiBold Italic, Bold, and Bold
 Italic) derived from the variable fonts.  Together, they provide a
 uniform set of fonts that can be used throughout the production
 process, whether that be a traditional print-only process, an entirely
