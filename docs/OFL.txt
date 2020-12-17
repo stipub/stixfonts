@@ -1,9 +1,9 @@
 Copyright © 2001–2020 by the STI Pub Companies (https://www.stixfonts.org), 
 consisting of
     AIP Publishing,
-    the American Chemical Society,
-    the American Mathematical Society,
-    the American Physical Society,
+    American Chemical Society,
+    American Mathematical Society,
+    American Physical Society,
     Elsevier, Inc.,
     and
     The Institute of Electrical and Electronic Engineers, Inc.,
