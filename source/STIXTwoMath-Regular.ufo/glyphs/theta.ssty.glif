@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="theta.ssty" format="2">
+  <advance width="595"/>
+  <outline>
+    <contour>
+      <point x="530" y="375" type="curve" smooth="yes"/>
+      <point x="530" y="596"/>
+      <point x="446" y="760"/>
+      <point x="310" y="760" type="curve" smooth="yes"/>
+      <point x="150" y="760"/>
+      <point x="68" y="562"/>
+      <point x="68" y="359" type="curve" smooth="yes"/>
+      <point x="68" y="130"/>
+      <point x="161" y="-16"/>
+      <point x="304" y="-16" type="curve" smooth="yes"/>
+      <point x="434" y="-16"/>
+      <point x="530" y="127"/>
+    </contour>
+    <contour>
+      <point x="303" y="81" type="curve" smooth="yes"/>
+      <point x="170" y="81"/>
+      <point x="130" y="238"/>
+      <point x="126" y="353" type="curve"/>
+      <point x="472" y="353" type="line"/>
+      <point x="477" y="182"/>
+      <point x="404" y="81"/>
+    </contour>
+    <contour>
+      <point x="307" y="662" type="curve" smooth="yes"/>
+      <point x="422" y="662"/>
+      <point x="462" y="529"/>
+      <point x="470" y="417" type="curve"/>
+      <point x="126" y="417" type="line"/>
+      <point x="136" y="565"/>
+      <point x="204" y="662"/>
+    </contour>
+  </outline>
+</glyph>

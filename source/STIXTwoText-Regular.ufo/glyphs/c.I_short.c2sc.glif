@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Ishort.c2sc" format="2">
+  <advance width="693"/>
+  <outline>
+    <component base="c.I.c2sc"/>
+    <component base="brevecomb.Cyrillic" xOffset="576" yOffset="65"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

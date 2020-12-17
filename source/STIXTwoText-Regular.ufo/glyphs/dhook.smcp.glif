@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dhook.smcp" format="2">
+  <advance width="732"/>
+  <anchor x="393" y="0" name="bottom"/>
+  <anchor x="395" y="0" name="cedilla"/>
+  <anchor x="395" y="0" name="ogonek"/>
+  <anchor x="401" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="395" y="0" type="line" smooth="yes"/>
+      <point x="586" y="0"/>
+      <point x="697" y="81"/>
+      <point x="697" y="266" type="curve" smooth="yes"/>
+      <point x="697" y="465"/>
+      <point x="570" y="532"/>
+      <point x="385" y="532" type="curve" smooth="yes"/>
+      <point x="300" y="532" type="line" smooth="yes"/>
+      <point x="110" y="532"/>
+      <point x="3" y="503"/>
+      <point x="3" y="383" type="curve" smooth="yes"/>
+      <point x="3" y="317"/>
+      <point x="31" y="265"/>
+      <point x="76" y="265" type="curve" smooth="yes"/>
+      <point x="103" y="265"/>
+      <point x="119" y="283"/>
+      <point x="119" y="305" type="curve" smooth="yes"/>
+      <point x="119" y="360"/>
+      <point x="45" y="357"/>
+      <point x="45" y="406" type="curve" smooth="yes"/>
+      <point x="45" y="460"/>
+      <point x="110" y="490"/>
+      <point x="223" y="493" type="curve"/>
+      <point x="223" y="105" type="line" smooth="yes"/>
+      <point x="223" y="39"/>
+      <point x="217" y="28"/>
+      <point x="140" y="28" type="curve"/>
+      <point x="140" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="312" y="496" type="line"/>
+      <point x="327" y="497"/>
+      <point x="340" y="497"/>
+      <point x="355" y="497" type="curve" smooth="yes"/>
+      <point x="531" y="497"/>
+      <point x="595" y="416"/>
+      <point x="595" y="261" type="curve" smooth="yes"/>
+      <point x="595" y="81"/>
+      <point x="519" y="35"/>
+      <point x="363" y="35" type="curve" smooth="yes"/>
+      <point x="345" y="35"/>
+      <point x="328" y="36"/>
+      <point x="312" y="37" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minusbelowcomb" format="2">
+  <unicode hex="0320"/>
+  <anchor x="-200" y="0" name="_bottom"/>
+  <anchor x="-200" y="-63" name="_bottom.mkmk"/>
+  <anchor x="-200" y="-192" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-87" y="-192" type="line"/>
+      <point x="-87" y="-119" type="line"/>
+      <point x="-316" y="-119" type="line"/>
+      <point x="-316" y="-192" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

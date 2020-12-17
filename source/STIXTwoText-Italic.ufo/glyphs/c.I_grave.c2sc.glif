@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Igrave.c2sc" format="2">
+  <advance width="669"/>
+  <anchor x="284" y="0" name="bottom"/>
+  <anchor x="284" y="0" name="cedilla"/>
+  <anchor x="448" y="0" name="ogonek"/>
+  <anchor x="429" y="713" name="top.mkmk"/>
+  <outline>
+    <component base="c.I.c2sc"/>
+    <component base="grave.smcp" xOffset="521"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

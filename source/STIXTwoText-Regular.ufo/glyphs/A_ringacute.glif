@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aringacute" format="2">
+  <advance width="718"/>
+  <unicode hex="01FA"/>
+  <anchor x="336" y="0" name="bottom"/>
+  <anchor x="337" y="0" name="cedilla"/>
+  <anchor x="444" y="0" name="ogonek"/>
+  <anchor x="354" y="1026" name="top.mkmk"/>
+  <outline>
+    <component base="A"/>
+    <component base="ringcomb.cap" xOffset="584" yOffset="-15"/>
+    <component base="acutecomb.cap" xOffset="584" yOffset="200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.OT" format="2">
+  <advance width="495"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="216" y="0" name="cedilla"/>
+  <anchor x="216" y="0" name="ogonek"/>
+  <anchor x="303" y="473" name="top"/>
+  <outline>
+    <contour>
+      <point x="401" y="0" type="line"/>
+      <point x="410" y="40" type="line"/>
+      <point x="311" y="40"/>
+      <point x="293" y="58"/>
+      <point x="304" y="107" type="curve" smooth="yes"/>
+      <point x="383" y="478" type="line"/>
+      <point x="300" y="478" type="line"/>
+      <point x="102" y="426" type="line"/>
+      <point x="92" y="379" type="line"/>
+      <point x="125" y="389"/>
+      <point x="173" y="394"/>
+      <point x="193" y="394" type="curve" smooth="yes"/>
+      <point x="217" y="394"/>
+      <point x="222" y="377"/>
+      <point x="216" y="346" type="curve" smooth="yes"/>
+      <point x="165" y="107" type="line" smooth="yes"/>
+      <point x="154" y="57"/>
+      <point x="126" y="40"/>
+      <point x="24" y="40" type="curve"/>
+      <point x="15" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

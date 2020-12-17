@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kmacronbelow" format="2">
+  <advance width="655"/>
+  <unicode hex="1E34"/>
+  <anchor x="298" y="0" name="bottom_1"/>
+  <anchor x="268" y="-141" name="bottom_2"/>
+  <anchor x="299" y="0" name="cedilla"/>
+  <anchor x="475" y="0" name="ogonek"/>
+  <anchor x="427" y="657" name="top"/>
+  <outline>
+    <component base="K"/>
+    <component base="macronbelowcomb" xOffset="541"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

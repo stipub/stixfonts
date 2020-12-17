@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Yi" format="2">
+  <advance width="405"/>
+  <unicode hex="0407"/>
+  <anchor x="203" y="0" name="bottom"/>
+  <anchor x="211" y="0" name="cedilla"/>
+  <anchor x="220" y="0" name="ogonek"/>
+  <anchor x="206" y="845" name="top.mkmk"/>
+  <outline>
+    <component base="I"/>
+    <component base="dieresiscomb.cap" xOffset="406"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

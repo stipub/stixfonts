@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright" format="2">
+  <advance width="350"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="88" y="46" type="line"/>
+      <point x="151" y="103"/>
+      <point x="247" y="174"/>
+      <point x="324" y="231" type="curve"/>
+      <point x="324" y="256" type="line"/>
+      <point x="247" y="313"/>
+      <point x="151" y="384"/>
+      <point x="88" y="441" type="curve"/>
+      <point x="59" y="412" type="line"/>
+      <point x="195" y="248" type="line"/>
+      <point x="195" y="242" type="line"/>
+      <point x="59" y="75" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

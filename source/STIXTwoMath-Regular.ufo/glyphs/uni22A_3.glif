@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22A3" format="2">
+  <advance width="701"/>
+  <unicode hex="22A3"/>
+  <outline>
+    <contour>
+      <point x="636" y="0" type="line"/>
+      <point x="636" y="678" type="line"/>
+      <point x="566" y="678" type="line"/>
+      <point x="566" y="372" type="line"/>
+      <point x="65" y="372" type="line"/>
+      <point x="65" y="305" type="line"/>
+      <point x="566" y="305" type="line"/>
+      <point x="566" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w701m636,0l636,678l566,678l566,372l65,372l65,305l566,305l566,0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 305 67</string>
+          <string>hstem 678 -20</string>
+          <string>vstem 566 70</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

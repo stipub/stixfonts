@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scarondotaccent" format="2">
+  <advance width="367"/>
+  <unicode hex="1E67"/>
+  <anchor x="132" y="0" name="bottom"/>
+  <anchor x="132" y="0" name="cedilla"/>
+  <anchor x="135" y="0" name="ogonek"/>
+  <anchor x="275" y="769" name="top.mkmk"/>
+  <outline>
+    <component base="s"/>
+    <component base="caroncomb" xOffset="365"/>
+    <component base="dotaccentcomb" xScale="0.9464" yScale="0.9541" xOffset="372" yOffset="135"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

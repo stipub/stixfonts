@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot.smcp" format="2">
+  <advance width="591"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="295" y="0" name="cedilla"/>
+  <anchor x="295" y="0" name="ogonek"/>
+  <anchor x="477" y="390" name="top.mkmk"/>
+  <outline>
+    <component base="L.c2sc"/>
+    <component base="dotaccentcomb" xScale="0.963" yScale="0.9615" xOffset="670" yOffset="-284"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

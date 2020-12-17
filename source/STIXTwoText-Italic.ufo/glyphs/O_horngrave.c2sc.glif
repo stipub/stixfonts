@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorngrave.c2sc" format="2">
+  <advance width="617"/>
+  <anchor x="252" y="0" name="bottom"/>
+  <anchor x="254" y="0" name="cedilla"/>
+  <anchor x="305" y="0" name="ogonek"/>
+  <anchor x="393" y="713" name="top.mkmk"/>
+  <outline>
+    <component base="Ohorn.c2sc"/>
+    <component base="grave.smcp" xOffset="485"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

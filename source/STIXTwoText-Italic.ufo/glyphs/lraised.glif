@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lraised" format="2">
+  <advance width="256"/>
+  <unicode hex="02E1"/>
+  <anchor x="142" y="255" name="bottom"/>
+  <anchor x="143" y="255" name="cedilla"/>
+  <anchor x="132" y="255" name="ogonek"/>
+  <anchor x="215" y="783" name="top"/>
+  <outline>
+    <component base="l.sups"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

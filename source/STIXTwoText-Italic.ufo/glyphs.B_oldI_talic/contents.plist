@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NBSPnarrow</key>
+  <string>N_B_S_P_narrow.glif</string>
+  <key>ZWJ</key>
+  <string>Z_W_J_.glif</string>
+  <key>ZWNJ</key>
+  <string>Z_W_N_J_.glif</string>
+  <key>bar</key>
+  <string>bar.glif</string>
+  <key>brokenbar</key>
+  <string>brokenbar.glif</string>
+  <key>emquad</key>
+  <string>emquad.glif</string>
+  <key>emspace</key>
+  <string>emspace.glif</string>
+  <key>enquad</key>
+  <string>enquad.glif</string>
+  <key>enspace</key>
+  <string>enspace.glif</string>
+  <key>figurespace</key>
+  <string>figurespace.glif</string>
+  <key>hairspace</key>
+  <string>hairspace.glif</string>
+  <key>overline</key>
+  <string>overline.glif</string>
+  <key>punctuationspace</key>
+  <string>punctuationspace.glif</string>
+  <key>quarteremspace</key>
+  <string>quarteremspace.glif</string>
+  <key>sixthemspace</key>
+  <string>sixthemspace.glif</string>
+  <key>slashcomb</key>
+  <string>slashcomb.glif</string>
+  <key>thinspace</key>
+  <string>thinspace.glif</string>
+  <key>thirdemspace</key>
+  <string>thirdemspace.glif</string>
+  <key>underscore</key>
+  <string>underscore.glif</string>
+  <key>underscoredbl</key>
+  <string>underscoredbl.glif</string>
+</dict>
+</plist>

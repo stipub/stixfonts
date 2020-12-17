@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="2">
+  <advance width="659"/>
+  <unicode hex="0166"/>
+  <anchor x="330" y="0" name="bottom"/>
+  <anchor x="330" y="0" name="cedilla"/>
+  <anchor x="343" y="0" name="ogonek"/>
+  <anchor x="330" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="500" y="0" type="line"/>
+      <point x="500" y="43" type="line"/>
+      <point x="415" y="43"/>
+      <point x="404" y="54"/>
+      <point x="404" y="145" type="curve" smooth="yes"/>
+      <point x="404" y="316" type="line"/>
+      <point x="530" y="316" type="line"/>
+      <point x="530" y="378" type="line"/>
+      <point x="404" y="378" type="line"/>
+      <point x="404" y="601" type="line"/>
+      <point x="448" y="601" type="line" smooth="yes"/>
+      <point x="559" y="601"/>
+      <point x="571" y="567"/>
+      <point x="594" y="459" type="curve"/>
+      <point x="644" y="459" type="line"/>
+      <point x="635" y="657" type="line"/>
+      <point x="26" y="657" type="line"/>
+      <point x="15" y="459" type="line"/>
+      <point x="65" y="459" type="line"/>
+      <point x="86" y="567"/>
+      <point x="99" y="601"/>
+      <point x="210" y="601" type="curve" smooth="yes"/>
+      <point x="255" y="601" type="line"/>
+      <point x="255" y="378" type="line"/>
+      <point x="128" y="378" type="line"/>
+      <point x="128" y="316" type="line"/>
+      <point x="255" y="316" type="line"/>
+      <point x="255" y="145" type="line" smooth="yes"/>
+      <point x="255" y="54"/>
+      <point x="244" y="43"/>
+      <point x="157" y="43" type="curve"/>
+      <point x="157" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

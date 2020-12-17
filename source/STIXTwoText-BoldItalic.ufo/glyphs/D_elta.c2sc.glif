@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Delta.c2sc" format="2">
+  <advance width="575"/>
+  <anchor x="230" y="0" name="bottom"/>
+  <anchor x="231" y="0" name="cedilla"/>
+  <anchor x="229" y="0" name="ogonek"/>
+  <anchor x="358" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="508" y="0" type="line"/>
+      <point x="520" y="63" type="line"/>
+      <point x="439" y="536" type="line"/>
+      <point x="345" y="536" type="line"/>
+      <point x="-23" y="63" type="line"/>
+      <point x="-34" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="314" y="407" type="line"/>
+      <point x="317" y="407" type="line"/>
+      <point x="367" y="91" type="line"/>
+      <point x="66" y="91" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

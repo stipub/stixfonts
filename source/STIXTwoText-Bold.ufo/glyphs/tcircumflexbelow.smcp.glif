@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcircumflexbelow.smcp" format="2">
+  <advance width="563"/>
+  <anchor x="280" y="-203" name="bottom.mkmk"/>
+  <anchor x="280" y="0" name="cedilla"/>
+  <anchor x="280" y="0" name="ogonek"/>
+  <anchor x="280" y="532" name="top"/>
+  <outline>
+    <component base="T.c2sc"/>
+    <component base="circumflexbelowcomb" xOffset="480"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

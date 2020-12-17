@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kappaitalic" format="2">
+  <advance width="655"/>
+  <unicode hex="1D6EB"/>
+  <outline>
+    <component base="Kitalic"/>
+  </outline>
+</glyph>

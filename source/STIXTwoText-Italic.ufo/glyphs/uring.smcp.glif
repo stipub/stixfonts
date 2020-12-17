@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uring.smcp" format="2">
+  <advance width="637"/>
+  <anchor x="269" y="0" name="bottom"/>
+  <anchor x="270" y="0" name="cedilla"/>
+  <anchor x="305" y="0" name="ogonek"/>
+  <anchor x="444" y="777" name="top.mkmk"/>
+  <outline>
+    <component base="U.c2sc"/>
+    <component base="ring.smcp" xOffset="522"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

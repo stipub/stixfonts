@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="litre.ssty2" format="2">
+  <advance width="639"/>
+  <outline>
+    <contour>
+      <point x="34" y="289" type="curve"/>
+      <point x="41" y="251" type="line"/>
+      <point x="85" y="259"/>
+      <point x="105" y="264"/>
+      <point x="136" y="271" type="curve"/>
+      <point x="118" y="218"/>
+      <point x="106" y="174"/>
+      <point x="106" y="129" type="curve" smooth="yes"/>
+      <point x="106" y="13"/>
+      <point x="174" y="-12"/>
+      <point x="231" y="-12" type="curve" smooth="yes"/>
+      <point x="320" y="-12"/>
+      <point x="375" y="52"/>
+      <point x="467" y="197" type="curve"/>
+      <point x="434" y="219" type="line"/>
+      <point x="347" y="93"/>
+      <point x="300" y="39"/>
+      <point x="243" y="39" type="curve" smooth="yes"/>
+      <point x="205" y="39"/>
+      <point x="186" y="73"/>
+      <point x="186" y="112" type="curve" smooth="yes"/>
+      <point x="186" y="169"/>
+      <point x="205" y="231"/>
+      <point x="232" y="298" type="curve"/>
+      <point x="409" y="355"/>
+      <point x="603" y="464"/>
+      <point x="603" y="658" type="curve" smooth="yes"/>
+      <point x="603" y="726"/>
+      <point x="568" y="771"/>
+      <point x="501" y="771" type="curve" smooth="yes"/>
+      <point x="359" y="771"/>
+      <point x="233" y="528"/>
+      <point x="153" y="317" type="curve"/>
+      <point x="122" y="308"/>
+      <point x="65" y="295"/>
+    </contour>
+    <contour>
+      <point x="493" y="716" type="curve" smooth="yes"/>
+      <point x="522" y="716"/>
+      <point x="547" y="701"/>
+      <point x="547" y="646" type="curve" smooth="yes"/>
+      <point x="547" y="493"/>
+      <point x="405" y="403"/>
+      <point x="252" y="348" type="curve"/>
+      <point x="279" y="415" type="line" smooth="yes"/>
+      <point x="312" y="499"/>
+      <point x="401" y="716"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

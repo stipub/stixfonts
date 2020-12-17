@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kappasansitalic" format="2">
+  <advance width="572"/>
+  <unicode hex="E1C8"/>
+  <outline>
+    <component base="Ksansitalic"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

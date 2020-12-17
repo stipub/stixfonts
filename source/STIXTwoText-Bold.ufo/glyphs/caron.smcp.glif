@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.smcp" format="2">
+  <anchor x="-200" y="532" name="_top"/>
+  <anchor x="-200" y="544" name="_top.mkmk"/>
+  <anchor x="-200" y="720" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-153" y="572" type="line"/>
+      <point x="-42" y="720" type="line"/>
+      <point x="-101" y="720" type="line"/>
+      <point x="-200" y="642" type="line"/>
+      <point x="-298" y="720" type="line"/>
+      <point x="-356" y="720" type="line"/>
+      <point x="-246" y="572" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

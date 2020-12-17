@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nusansitalic" format="2">
+  <advance width="441"/>
+  <unicode hex="E1E4"/>
+  <outline>
+    <contour>
+      <point x="112" y="0" type="curve"/>
+      <point x="185" y="-7" type="line"/>
+      <point x="310" y="156"/>
+      <point x="399" y="301"/>
+      <point x="459" y="471" type="curve"/>
+      <point x="385" y="481" type="line"/>
+      <point x="343" y="348"/>
+      <point x="264" y="199"/>
+      <point x="178" y="78" type="curve"/>
+      <point x="174" y="78" type="line"/>
+      <point x="177" y="201"/>
+      <point x="156" y="374"/>
+      <point x="116" y="485" type="curve"/>
+      <point x="39" y="471" type="line"/>
+      <point x="87" y="348"/>
+      <point x="115" y="176"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

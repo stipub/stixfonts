@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.GheUkr.c2sc" format="2">
+  <advance width="551"/>
+  <anchor x="276" y="0" name="bottom"/>
+  <anchor x="276" y="0" name="cedilla"/>
+  <anchor x="210" y="0" name="ogonek"/>
+  <anchor x="276" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="343" y="0" type="line"/>
+      <point x="343" y="41" type="line"/>
+      <point x="269" y="41"/>
+      <point x="255" y="58"/>
+      <point x="255" y="120" type="curve" smooth="yes"/>
+      <point x="255" y="483" type="line"/>
+      <point x="536" y="483" type="line"/>
+      <point x="541" y="679" type="line"/>
+      <point x="496" y="679" type="line"/>
+      <point x="471" y="584"/>
+      <point x="452" y="532"/>
+      <point x="350" y="532" type="curve" smooth="yes"/>
+      <point x="30" y="532" type="line"/>
+      <point x="30" y="492" type="line"/>
+      <point x="102" y="492"/>
+      <point x="110" y="480"/>
+      <point x="110" y="416" type="curve" smooth="yes"/>
+      <point x="110" y="119" type="line" smooth="yes"/>
+      <point x="110" y="59"/>
+      <point x="103" y="41"/>
+      <point x="31" y="41" type="curve"/>
+      <point x="31" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

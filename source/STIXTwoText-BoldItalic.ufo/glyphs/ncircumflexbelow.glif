@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ncircumflexbelow" format="2">
+  <advance width="618"/>
+  <unicode hex="1E4B"/>
+  <anchor x="257" y="0" name="bottom_1"/>
+  <anchor x="214" y="-203" name="bottom_2"/>
+  <anchor x="258" y="0" name="cedilla"/>
+  <anchor x="441" y="0" name="ogonek"/>
+  <anchor x="352" y="473" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="circumflexbelowcomb" xOffset="590"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

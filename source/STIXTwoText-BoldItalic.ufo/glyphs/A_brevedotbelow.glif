@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abrevedotbelow" format="2">
+  <advance width="709"/>
+  <unicode hex="1EB6"/>
+  <anchor x="210" y="-220" name="bottom.mkmk"/>
+  <anchor x="258" y="0" name="cedilla"/>
+  <anchor x="379" y="0" name="ogonek"/>
+  <anchor x="502" y="850" name="top.mkmk"/>
+  <outline>
+    <component base="A"/>
+    <component base="dotbelowcomb" xOffset="590"/>
+    <component base="brevecomb.cap" xOffset="655"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

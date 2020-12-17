@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hungarumlaut.smcp" format="2">
+  <anchor x="-230" y="532" name="_top"/>
+  <anchor x="-230" y="544" name="_top.mkmk"/>
+  <anchor x="-230" y="713" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-147" y="572" type="line"/>
+      <point x="-18" y="694" type="line"/>
+      <point x="-18" y="713" type="line"/>
+      <point x="-111" y="713" type="line"/>
+      <point x="-185" y="572" type="line"/>
+    </contour>
+    <contour>
+      <point x="-284" y="572" type="line"/>
+      <point x="-157" y="694" type="line"/>
+      <point x="-157" y="713" type="line"/>
+      <point x="-249" y="713" type="line"/>
+      <point x="-323" y="572" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

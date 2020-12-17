@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdblstruck.ssty2" format="2">
+  <advance width="833"/>
+  <outline>
+    <contour>
+      <point x="666" y="0" type="line"/>
+      <point x="815" y="529" type="line"/>
+      <point x="763" y="529" type="line"/>
+      <point x="649" y="123" type="line"/>
+      <point x="645" y="123" type="line"/>
+      <point x="555" y="529" type="line"/>
+      <point x="401" y="529" type="line"/>
+      <point x="293" y="123" type="line"/>
+      <point x="290" y="123" type="line"/>
+      <point x="200" y="529" type="line"/>
+      <point x="17" y="529" type="line"/>
+      <point x="142" y="0" type="line"/>
+      <point x="312" y="0" type="line"/>
+      <point x="408" y="371" type="line"/>
+      <point x="411" y="371" type="line"/>
+      <point x="498" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="482" type="line"/>
+      <point x="611" y="47" type="line"/>
+      <point x="539" y="47" type="line"/>
+      <point x="439" y="482" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="482" type="line"/>
+      <point x="256" y="47" type="line"/>
+      <point x="184" y="47" type="line"/>
+      <point x="84" y="482" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

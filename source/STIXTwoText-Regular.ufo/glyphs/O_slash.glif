@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+  <advance width="737"/>
+  <unicode hex="00D8"/>
+  <anchor x="369" y="0" name="bottom"/>
+  <anchor x="371" y="0" name="cedilla"/>
+  <anchor x="419" y="0" name="ogonek"/>
+  <anchor x="367" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="369" y="-12" type="curve" smooth="yes"/>
+      <point x="566" y="-12"/>
+      <point x="687" y="129"/>
+      <point x="687" y="338" type="curve" smooth="yes"/>
+      <point x="687" y="536"/>
+      <point x="566" y="669"/>
+      <point x="369" y="669" type="curve" smooth="yes"/>
+      <point x="171" y="669"/>
+      <point x="50" y="532"/>
+      <point x="50" y="329" type="curve" smooth="yes"/>
+      <point x="50" y="119"/>
+      <point x="168" y="-12"/>
+    </contour>
+    <contour>
+      <point x="169" y="61" type="line"/>
+      <point x="140" y="88" type="line"/>
+      <point x="75" y="4" type="line"/>
+      <point x="106" y="-20" type="line"/>
+    </contour>
+    <contour>
+      <point x="549" y="550" type="line"/>
+      <point x="517" y="570" type="line"/>
+      <point x="176" y="131" type="line"/>
+      <point x="202" y="102" type="line"/>
+    </contour>
+    <contour>
+      <point x="370" y="30" type="curve" smooth="yes"/>
+      <point x="217" y="30"/>
+      <point x="155" y="161"/>
+      <point x="155" y="335" type="curve" smooth="yes"/>
+      <point x="155" y="518"/>
+      <point x="237" y="627"/>
+      <point x="366" y="627" type="curve" smooth="yes"/>
+      <point x="505" y="627"/>
+      <point x="582" y="498"/>
+      <point x="582" y="335" type="curve" smooth="yes"/>
+      <point x="582" y="134"/>
+      <point x="512" y="30"/>
+    </contour>
+    <contour>
+      <point x="630" y="651" type="line"/>
+      <point x="599" y="675" type="line"/>
+      <point x="548" y="610" type="line"/>
+      <point x="580" y="586" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eshsquatreversed" format="2">
+  <advance width="445"/>
+  <unicode hex="0285"/>
+  <anchor x="274" y="-220" name="bottom"/>
+  <anchor x="275" y="-220" name="cedilla"/>
+  <anchor x="433" y="-220" name="ogonek"/>
+  <anchor x="278" y="473" name="top"/>
+  <outline>
+    <contour>
+      <point x="445" y="-235" type="curve" smooth="yes"/>
+      <point x="519" y="-235"/>
+      <point x="581" y="-215"/>
+      <point x="581" y="-149" type="curve" smooth="yes"/>
+      <point x="581" y="-108"/>
+      <point x="550" y="-92"/>
+      <point x="523" y="-92" type="curve" smooth="yes"/>
+      <point x="454" y="-92"/>
+      <point x="473" y="-186"/>
+      <point x="414" y="-186" type="curve" smooth="yes"/>
+      <point x="375" y="-186"/>
+      <point x="363" y="-156"/>
+      <point x="363" y="-78" type="curve" smooth="yes"/>
+      <point x="363" y="241" type="line" smooth="yes"/>
+      <point x="363" y="315"/>
+      <point x="343" y="379"/>
+      <point x="301" y="423" type="curve" smooth="yes"/>
+      <point x="264" y="462"/>
+      <point x="210" y="485"/>
+      <point x="138" y="485" type="curve" smooth="yes"/>
+      <point x="64" y="485"/>
+      <point x="2" y="465"/>
+      <point x="2" y="399" type="curve" smooth="yes"/>
+      <point x="2" y="358"/>
+      <point x="33" y="342"/>
+      <point x="60" y="342" type="curve" smooth="yes"/>
+      <point x="129" y="342"/>
+      <point x="110" y="436"/>
+      <point x="169" y="436" type="curve" smooth="yes"/>
+      <point x="208" y="436"/>
+      <point x="220" y="406"/>
+      <point x="220" y="328" type="curve" smooth="yes"/>
+      <point x="220" y="9" type="line" smooth="yes"/>
+      <point x="220" y="-131"/>
+      <point x="291" y="-235"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

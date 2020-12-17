@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vtildecomb" format="2">
+  <unicode hex="033E"/>
+  <anchor x="-235" y="473" name="_top"/>
+  <anchor x="-231" y="492" name="_top.mkmk"/>
+  <anchor x="-157" y="841" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-286" y="511" type="line"/>
+      <point x="-209" y="523"/>
+      <point x="-141" y="568"/>
+      <point x="-141" y="640" type="curve" smooth="yes"/>
+      <point x="-141" y="679"/>
+      <point x="-157" y="705"/>
+      <point x="-157" y="735" type="curve" smooth="yes"/>
+      <point x="-157" y="764"/>
+      <point x="-138" y="792"/>
+      <point x="-100" y="803" type="curve"/>
+      <point x="-92" y="841" type="line"/>
+      <point x="-186" y="823"/>
+      <point x="-239" y="786"/>
+      <point x="-239" y="711" type="curve" smooth="yes"/>
+      <point x="-239" y="673"/>
+      <point x="-223" y="645"/>
+      <point x="-223" y="615" type="curve" smooth="yes"/>
+      <point x="-223" y="584"/>
+      <point x="-244" y="559"/>
+      <point x="-278" y="550" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

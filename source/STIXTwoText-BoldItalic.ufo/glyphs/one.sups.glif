@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.sups" format="2">
+  <advance width="362"/>
+  <anchor x="191" y="252" name="bottom"/>
+  <anchor x="190" y="252" name="cedilla"/>
+  <anchor x="191" y="254" name="ogonek"/>
+  <anchor x="280" y="726" name="top"/>
+  <outline>
+    <component base="onesuperior" xOffset="-6"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

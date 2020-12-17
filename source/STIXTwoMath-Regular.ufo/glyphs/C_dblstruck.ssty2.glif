@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Cdblstruck.ssty2" format="2">
+  <advance width="810"/>
+  <outline>
+    <contour>
+      <point x="198" y="74" type="line"/>
+      <point x="248" y="60" type="line"/>
+      <point x="248" y="662" type="line"/>
+      <point x="198" y="647" type="line"/>
+    </contour>
+    <contour>
+      <point x="109" y="370" type="curve" smooth="yes"/>
+      <point x="109" y="555"/>
+      <point x="234" y="697"/>
+      <point x="438" y="697" type="curve" smooth="yes"/>
+      <point x="572" y="697"/>
+      <point x="658" y="635"/>
+      <point x="724" y="560" type="curve"/>
+      <point x="762" y="592" type="line"/>
+      <point x="684" y="685"/>
+      <point x="585" y="745"/>
+      <point x="440" y="745" type="curve" smooth="yes"/>
+      <point x="202" y="745"/>
+      <point x="56" y="583"/>
+      <point x="56" y="368" type="curve" smooth="yes"/>
+      <point x="56" y="154"/>
+      <point x="202" y="-13"/>
+      <point x="434" y="-13" type="curve" smooth="yes"/>
+      <point x="564" y="-13"/>
+      <point x="671" y="36"/>
+      <point x="760" y="140" type="curve"/>
+      <point x="724" y="174" type="line"/>
+      <point x="652" y="91"/>
+      <point x="567" y="33"/>
+      <point x="441" y="33" type="curve" smooth="yes"/>
+      <point x="237" y="33"/>
+      <point x="109" y="184"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

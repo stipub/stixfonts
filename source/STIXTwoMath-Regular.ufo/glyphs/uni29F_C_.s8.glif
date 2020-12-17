@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni29FC.s8" format="2">
+  <advance width="604"/>
+  <outline>
+    <contour>
+      <point x="53" y="213" type="line"/>
+      <point x="273" y="-14"/>
+      <point x="450" y="-572"/>
+      <point x="527" y="-1161" type="curve"/>
+      <point x="571" y="-1155" type="line"/>
+      <point x="540" y="-763"/>
+      <point x="412" y="-84"/>
+      <point x="150" y="267" type="curve"/>
+      <point x="150" y="273" type="line"/>
+      <point x="412" y="624"/>
+      <point x="540" y="1303"/>
+      <point x="571" y="1695" type="curve"/>
+      <point x="527" y="1701" type="line"/>
+      <point x="450" y="1112"/>
+      <point x="273" y="554"/>
+      <point x="53" y="327" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="732"/>
+  <guideline angle="0" x="0" y="-192"/>
+</glyph>

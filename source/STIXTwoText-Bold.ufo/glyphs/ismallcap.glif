@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ismallcap" format="2">
+  <advance width="331"/>
+  <unicode hex="026A"/>
+  <anchor x="166" y="0" name="bottom"/>
+  <anchor x="167" y="0" name="cedilla"/>
+  <anchor x="183" y="0" name="ogonek"/>
+  <anchor x="166" y="473" name="top"/>
+  <outline>
+    <contour>
+      <point x="309" y="0" type="line"/>
+      <point x="309" y="40" type="line"/>
+      <point x="249" y="40"/>
+      <point x="237" y="50"/>
+      <point x="237" y="113" type="curve" smooth="yes"/>
+      <point x="237" y="358" type="line" smooth="yes"/>
+      <point x="237" y="415"/>
+      <point x="244" y="432"/>
+      <point x="309" y="432" type="curve"/>
+      <point x="309" y="473" type="line"/>
+      <point x="22" y="473" type="line"/>
+      <point x="22" y="432" type="line"/>
+      <point x="87" y="432"/>
+      <point x="94" y="414"/>
+      <point x="94" y="358" type="curve" smooth="yes"/>
+      <point x="94" y="113" type="line" smooth="yes"/>
+      <point x="94" y="50"/>
+      <point x="84" y="40"/>
+      <point x="22" y="40" type="curve"/>
+      <point x="22" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

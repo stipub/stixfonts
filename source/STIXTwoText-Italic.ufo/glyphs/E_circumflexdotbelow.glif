@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflexdotbelow" format="2">
+  <advance width="614"/>
+  <unicode hex="1EC6"/>
+  <anchor x="230" y="-179" name="bottom.mkmk"/>
+  <anchor x="268" y="0" name="cedilla"/>
+  <anchor x="370" y="0" name="ogonek"/>
+  <anchor x="425" y="836" name="top.mkmk"/>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexcomb.cap" xOffset="491"/>
+    <component base="dotbelowcomb" xOffset="511"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

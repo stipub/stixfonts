@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cdblstruckitalic" format="2">
+  <advance width="521"/>
+  <unicode hex="E168"/>
+  <outline>
+    <contour>
+      <point x="288" y="420" type="curve" smooth="yes"/>
+      <point x="390" y="420"/>
+      <point x="425" y="342"/>
+      <point x="435" y="301" type="curve"/>
+      <point x="480" y="318" type="line"/>
+      <point x="458" y="405"/>
+      <point x="396" y="461"/>
+      <point x="294" y="461" type="curve" smooth="yes"/>
+      <point x="144" y="461"/>
+      <point x="25" y="339"/>
+      <point x="25" y="184" type="curve" smooth="yes"/>
+      <point x="25" y="68"/>
+      <point x="93" y="-13"/>
+      <point x="224" y="-13" type="curve" smooth="yes"/>
+      <point x="333" y="-13"/>
+      <point x="419" y="39"/>
+      <point x="461" y="137" type="curve"/>
+      <point x="423" y="156" type="line"/>
+      <point x="381" y="72"/>
+      <point x="317" y="28"/>
+      <point x="230" y="28" type="curve" smooth="yes"/>
+      <point x="125" y="28"/>
+      <point x="73" y="97"/>
+      <point x="73" y="188" type="curve" smooth="yes"/>
+      <point x="73" y="332"/>
+      <point x="182" y="420"/>
+    </contour>
+    <contour>
+      <point x="105" y="43" type="line"/>
+      <point x="149" y="37" type="line"/>
+      <point x="231" y="423" type="line"/>
+      <point x="182" y="404" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="78.9989" x="434" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

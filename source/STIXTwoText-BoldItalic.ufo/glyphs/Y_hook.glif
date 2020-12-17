@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yhook" format="2">
+  <advance width="652"/>
+  <unicode hex="1EF6"/>
+  <anchor x="283" y="0" name="bottom"/>
+  <anchor x="284" y="0" name="cedilla"/>
+  <anchor x="283" y="0" name="ogonek"/>
+  <anchor x="436" y="657" name="top"/>
+  <outline>
+    <component base="Y"/>
+    <component base="hookabovecomb.cap" xOffset="630"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

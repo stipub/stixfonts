@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27E7.s2" format="2">
+  <advance width="563"/>
+  <outline>
+    <contour>
+      <point x="380" y="-402" type="line"/>
+      <point x="298" y="-402" type="line"/>
+      <point x="298" y="947" type="line"/>
+      <point x="380" y="947" type="line"/>
+    </contour>
+    <contour>
+      <point x="464" y="-438" type="line"/>
+      <point x="464" y="983" type="line"/>
+      <point x="74" y="983" type="line"/>
+      <point x="74" y="947" type="line"/>
+      <point x="214" y="947" type="line"/>
+      <point x="214" y="-402" type="line"/>
+      <point x="74" y="-402" type="line"/>
+      <point x="74" y="-438" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>note</key>
+  <string>Harmonize sizes with other fences</string>
+  </dict>
+  </lib>
+</glyph>

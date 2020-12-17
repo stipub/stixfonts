@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clickbilabial" format="2">
+  <advance width="725"/>
+  <unicode hex="0298"/>
+  <anchor x="301" y="0" name="bottom"/>
+  <anchor x="317" y="0" name="cedilla"/>
+  <anchor x="315" y="0" name="ogonek"/>
+  <anchor x="428" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="326" y="-12" type="curve" smooth="yes"/>
+      <point x="546" y="-12"/>
+      <point x="708" y="172"/>
+      <point x="708" y="393" type="curve" smooth="yes"/>
+      <point x="708" y="556"/>
+      <point x="620" y="701"/>
+      <point x="426" y="701" type="curve" smooth="yes"/>
+      <point x="200" y="701"/>
+      <point x="45" y="503"/>
+      <point x="45" y="286" type="curve" smooth="yes"/>
+      <point x="45" y="110"/>
+      <point x="146" y="-12"/>
+    </contour>
+    <contour>
+      <point x="326" y="22" type="curve" smooth="yes"/>
+      <point x="167" y="22"/>
+      <point x="133" y="157"/>
+      <point x="133" y="267" type="curve" smooth="yes"/>
+      <point x="133" y="446"/>
+      <point x="222" y="667"/>
+      <point x="427" y="667" type="curve" smooth="yes"/>
+      <point x="576" y="667"/>
+      <point x="617" y="550"/>
+      <point x="617" y="424" type="curve" smooth="yes"/>
+      <point x="617" y="234"/>
+      <point x="525" y="22"/>
+    </contour>
+    <contour>
+      <point x="377" y="282" type="curve" smooth="yes"/>
+      <point x="412" y="282"/>
+      <point x="439" y="310"/>
+      <point x="439" y="345" type="curve" smooth="yes"/>
+      <point x="439" y="380"/>
+      <point x="411" y="407"/>
+      <point x="377" y="407" type="curve" smooth="yes"/>
+      <point x="342" y="407"/>
+      <point x="314" y="380"/>
+      <point x="314" y="345" type="curve" smooth="yes"/>
+      <point x="314" y="310"/>
+      <point x="343" y="282"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

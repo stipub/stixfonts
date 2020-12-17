@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="convergence3right" format="2">
+  <advance width="645"/>
+  <unicode hex="269E"/>
+  <outline>
+    <contour>
+      <point x="596" y="301" type="line"/>
+      <point x="596" y="356" type="line"/>
+      <point x="60" y="356" type="line"/>
+      <point x="60" y="301" type="line"/>
+    </contour>
+    <contour>
+      <point x="596" y="394" type="line"/>
+      <point x="615" y="446" type="line"/>
+      <point x="111" y="629" type="line"/>
+      <point x="92" y="578" type="line"/>
+    </contour>
+    <contour>
+      <point x="614" y="214" type="line"/>
+      <point x="595" y="266" type="line"/>
+      <point x="91" y="82" type="line"/>
+      <point x="110" y="31" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="596" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

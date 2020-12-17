@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omegatonos.smcp" format="2">
+  <advance width="683"/>
+  <anchor x="286" y="0" name="bottom"/>
+  <anchor x="286" y="0" name="cedilla"/>
+  <anchor x="286" y="0" name="ogonek"/>
+  <anchor x="460" y="748" name="top.mkmk"/>
+  <outline>
+    <component base="Omega.c2sc"/>
+    <component base="tonoscomb" xOffset="555" yOffset="50"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

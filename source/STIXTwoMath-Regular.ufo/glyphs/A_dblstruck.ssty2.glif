@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adblstruck.ssty2" format="2">
+  <advance width="746"/>
+  <outline>
+    <contour>
+      <point x="539" y="0" type="line"/>
+      <point x="737" y="0" type="line"/>
+      <point x="472" y="731" type="line"/>
+      <point x="280" y="731" type="line"/>
+      <point x="5" y="0" type="line"/>
+      <point x="59" y="0" type="line"/>
+      <point x="144" y="233" type="line"/>
+      <point x="451" y="233" type="line"/>
+    </contour>
+    <contour>
+      <point x="436" y="684" type="line"/>
+      <point x="668" y="47" type="line"/>
+      <point x="572" y="47" type="line"/>
+      <point x="341" y="684" type="line"/>
+    </contour>
+    <contour>
+      <point x="302" y="645" type="line"/>
+      <point x="433" y="280" type="line"/>
+      <point x="164" y="280" type="line"/>
+      <point x="300" y="645" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

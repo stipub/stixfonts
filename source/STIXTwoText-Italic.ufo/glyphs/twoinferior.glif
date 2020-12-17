@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twoinferior" format="2">
+  <advance width="373"/>
+  <unicode hex="2082"/>
+  <anchor x="91" y="-229" name="bottom"/>
+  <anchor x="92" y="-229" name="cedilla"/>
+  <anchor x="91" y="-229" name="ogonek"/>
+  <anchor x="183" y="245" name="top"/>
+  <outline>
+    <component base="twosuperior" xOffset="-95" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

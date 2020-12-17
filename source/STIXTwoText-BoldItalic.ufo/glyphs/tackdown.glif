@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tackdown" format="2">
+  <advance width="373"/>
+  <unicode hex="02D5"/>
+  <outline>
+    <contour>
+      <point x="208" y="144" type="line"/>
+      <point x="243" y="311" type="line"/>
+      <point x="170" y="311" type="line"/>
+      <point x="135" y="144" type="line"/>
+    </contour>
+    <contour>
+      <point x="337" y="295" type="line"/>
+      <point x="352" y="368" type="line"/>
+      <point x="85" y="368" type="line"/>
+      <point x="70" y="295" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

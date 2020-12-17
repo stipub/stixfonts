@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jsans" format="2">
+  <advance width="491"/>
+  <unicode hex="1D5A9"/>
+  <outline>
+    <contour>
+      <point x="217" y="-12" type="curve" smooth="yes"/>
+      <point x="349" y="-12"/>
+      <point x="402" y="80"/>
+      <point x="402" y="194" type="curve" smooth="yes"/>
+      <point x="402" y="657" type="line"/>
+      <point x="317" y="657" type="line"/>
+      <point x="317" y="202" type="line" smooth="yes"/>
+      <point x="317" y="103"/>
+      <point x="281" y="63"/>
+      <point x="211" y="63" type="curve" smooth="yes"/>
+      <point x="161" y="63"/>
+      <point x="124" y="84"/>
+      <point x="93" y="136" type="curve"/>
+      <point x="33" y="93" type="line"/>
+      <point x="72" y="25"/>
+      <point x="133" y="-12"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus.ssty" format="2">
+  <advance width="772"/>
+  <outline>
+    <contour>
+      <point x="698" y="227" type="line"/>
+      <point x="698" y="305" type="line"/>
+      <point x="428" y="305" type="line"/>
+      <point x="428" y="579" type="line"/>
+      <point x="345" y="579" type="line"/>
+      <point x="345" y="305" type="line"/>
+      <point x="74" y="305" type="line"/>
+      <point x="74" y="227" type="line"/>
+      <point x="345" y="227" type="line"/>
+      <point x="345" y="-46" type="line"/>
+      <point x="428" y="-46" type="line"/>
+      <point x="428" y="227" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

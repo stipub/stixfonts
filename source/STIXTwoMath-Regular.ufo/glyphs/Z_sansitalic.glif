@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zsansitalic" format="2">
+  <advance width="525"/>
+  <unicode hex="1D621"/>
+  <outline>
+    <contour>
+      <point x="-4" y="0" type="line"/>
+      <point x="432" y="0" type="line"/>
+      <point x="446" y="67" type="line"/>
+      <point x="108" y="67" type="line"/>
+      <point x="539" y="609" type="line"/>
+      <point x="549" y="657" type="line"/>
+      <point x="148" y="657" type="line"/>
+      <point x="134" y="590" type="line"/>
+      <point x="440" y="590" type="line"/>
+      <point x="6" y="48" type="line"/>
+    </contour>
+  </outline>
+</glyph>

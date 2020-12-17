@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AEacute.c2sc" format="2">
+  <advance width="819"/>
+  <anchor x="410" y="0" name="bottom"/>
+  <anchor x="534" y="0" name="cedilla"/>
+  <anchor x="683" y="0" name="ogonek"/>
+  <anchor x="502" y="720" name="top.mkmk"/>
+  <outline>
+    <component base="AE.c2sc"/>
+    <component base="acute.smcp" xOffset="702"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

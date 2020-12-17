@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="crossmodifier" format="2">
+  <advance width="334"/>
+  <unicode hex="02DF"/>
+  <outline>
+    <contour>
+      <point x="414" y="703" type="line"/>
+      <point x="370" y="761" type="line"/>
+      <point x="96" y="531" type="line"/>
+      <point x="138" y="471" type="line"/>
+    </contour>
+    <contour>
+      <point x="376" y="533" type="line"/>
+      <point x="201" y="761" type="line"/>
+      <point x="128" y="704" type="line"/>
+      <point x="307" y="472" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

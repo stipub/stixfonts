@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oneinferior" format="2">
+  <advance width="333"/>
+  <unicode hex="2081"/>
+  <anchor x="173" y="-229" name="bottom"/>
+  <anchor x="173" y="245" name="top"/>
+  <outline>
+    <component base="onesuperior" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

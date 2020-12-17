@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Ghe.c2sc" format="2">
+  <advance width="513"/>
+  <anchor x="261" y="0" name="bottom"/>
+  <anchor x="263" y="0" name="cedilla"/>
+  <anchor x="178" y="0" name="ogonek"/>
+  <anchor x="272" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="299" y="0" type="line"/>
+      <point x="299" y="28" type="line"/>
+      <point x="220" y="28"/>
+      <point x="203" y="41"/>
+      <point x="203" y="109" type="curve" smooth="yes"/>
+      <point x="203" y="493" type="line"/>
+      <point x="322" y="493" type="line" smooth="yes"/>
+      <point x="424" y="493"/>
+      <point x="452" y="434"/>
+      <point x="465" y="348" type="curve"/>
+      <point x="496" y="348" type="line"/>
+      <point x="490" y="532" type="line"/>
+      <point x="39" y="532" type="line"/>
+      <point x="39" y="505" type="line"/>
+      <point x="101" y="505"/>
+      <point x="115" y="493"/>
+      <point x="115" y="431" type="curve" smooth="yes"/>
+      <point x="115" y="109" type="line" smooth="yes"/>
+      <point x="115" y="38"/>
+      <point x="108" y="28"/>
+      <point x="30" y="28" type="curve"/>
+      <point x="30" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

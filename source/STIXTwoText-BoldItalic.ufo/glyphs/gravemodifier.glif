@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravemodifier" format="2">
+  <advance width="249"/>
+  <unicode hex="02CB"/>
+  <anchor x="248" y="684" name="top.mkmk"/>
+  <outline>
+    <component base="gravecomb" xOffset="436"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20E5" format="2">
+  <unicode hex="20E5"/>
+  <outline>
+    <contour>
+      <point x="0" y="-160" type="line"/>
+      <point x="-343" y="678" type="line"/>
+      <point x="-400" y="678" type="line"/>
+      <point x="-57" y="-160" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

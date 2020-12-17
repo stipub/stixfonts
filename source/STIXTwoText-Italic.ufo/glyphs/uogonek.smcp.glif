@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uogonek.smcp" format="2">
+  <advance width="637"/>
+  <anchor x="217" y="-250" name="bottom.mkmk"/>
+  <anchor x="218" y="-250" name="cedilla"/>
+  <anchor x="217" y="-250" name="ogonek"/>
+  <anchor x="391" y="532" name="top"/>
+  <outline>
+    <component base="Uogonek.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

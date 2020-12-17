@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Utildebelow" format="2">
+  <advance width="731"/>
+  <unicode hex="1E74"/>
+  <anchor x="308" y="0" name="bottom_1"/>
+  <anchor x="273" y="-159" name="bottom_2"/>
+  <anchor x="308" y="0" name="cedilla"/>
+  <anchor x="350" y="0" name="ogonek"/>
+  <anchor x="467" y="657" name="top"/>
+  <outline>
+    <component base="U"/>
+    <component base="tildebelowcomb" xOffset="551"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

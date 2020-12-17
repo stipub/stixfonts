@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Mdblstruckitalic" format="2">
+  <advance width="859"/>
+  <unicode hex="E15D"/>
+  <outline>
+    <contour>
+      <point x="871" y="657" type="line"/>
+      <point x="715" y="657" type="line"/>
+      <point x="391" y="80" type="line"/>
+      <point x="388" y="80" type="line"/>
+      <point x="311" y="657" type="line"/>
+      <point x="152" y="657" type="line"/>
+      <point x="12" y="0" type="line"/>
+      <point x="59" y="0" type="line"/>
+      <point x="160" y="474" type="line"/>
+      <point x="163" y="474" type="line"/>
+      <point x="223" y="0" type="line"/>
+      <point x="395" y="0" type="line"/>
+      <point x="662" y="478" type="line"/>
+      <point x="664" y="478" type="line"/>
+      <point x="562" y="0" type="line"/>
+      <point x="731" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="263" y="42" type="line"/>
+      <point x="187" y="615" type="line"/>
+      <point x="268" y="615" type="line"/>
+      <point x="346" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="618" y="42" type="line"/>
+      <point x="740" y="615" type="line"/>
+      <point x="815" y="615" type="line"/>
+      <point x="693" y="42" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

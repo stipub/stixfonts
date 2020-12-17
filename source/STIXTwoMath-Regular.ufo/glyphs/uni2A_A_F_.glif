@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AAF" format="2">
+  <advance width="701"/>
+  <unicode hex="2AAF"/>
+  <outline>
+    <contour>
+      <point x="636" y="131" type="line"/>
+      <point x="584" y="219"/>
+      <point x="420" y="302"/>
+      <point x="294" y="338" type="curve"/>
+      <point x="420" y="374"/>
+      <point x="584" y="456"/>
+      <point x="636" y="545" type="curve"/>
+      <point x="636" y="623" type="line"/>
+      <point x="513" y="459"/>
+      <point x="273" y="388"/>
+      <point x="65" y="371" type="curve"/>
+      <point x="65" y="304" type="line"/>
+      <point x="273" y="287"/>
+      <point x="513" y="217"/>
+      <point x="636" y="52" type="curve"/>
+    </contour>
+    <contour>
+      <point x="636" y="-106" type="line"/>
+      <point x="636" y="-38" type="line"/>
+      <point x="65" y="-38" type="line"/>
+      <point x="65" y="-106" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-326" y="698" type="line"/>
+      <point x="-280" y="698" type="line"/>
+      <point x="-121" y="805" type="line"/>
+      <point x="-121" y="826" type="line"/>
+      <point x="-221" y="826" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-1174" y="0"/>
+</glyph>

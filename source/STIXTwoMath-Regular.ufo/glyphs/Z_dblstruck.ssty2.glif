@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zdblstruck.ssty2" format="2">
+  <advance width="748"/>
+  <outline>
+    <contour>
+      <point x="731" y="731" type="line"/>
+      <point x="74" y="731" type="line"/>
+      <point x="74" y="684" type="line"/>
+      <point x="494" y="684" type="line"/>
+      <point x="18" y="47" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="721" y="0" type="line"/>
+      <point x="721" y="47" type="line"/>
+      <point x="248" y="47" type="line"/>
+      <point x="731" y="684" type="line"/>
+    </contour>
+    <contour>
+      <point x="189" y="47" type="line"/>
+      <point x="77" y="47" type="line"/>
+      <point x="556" y="684" type="line"/>
+      <point x="663" y="684" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

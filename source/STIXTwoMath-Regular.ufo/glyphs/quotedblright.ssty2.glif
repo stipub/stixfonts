@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblright.ssty2" format="2">
+  <advance width="596"/>
+  <outline>
+    <component base="quoteright.ssty2"/>
+    <component base="quoteright.ssty2" xOffset="265"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.972,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quincunx" format="2">
+  <advance width="695"/>
+  <unicode hex="26BB"/>
+  <outline>
+    <contour>
+      <point x="344" y="535" type="line"/>
+      <point x="125" y="69" type="line"/>
+      <point x="68" y="99" type="line"/>
+      <point x="282" y="549" type="line"/>
+    </contour>
+    <contour>
+      <point x="617" y="99" type="line"/>
+      <point x="560" y="69" type="line"/>
+      <point x="341" y="535" type="line"/>
+      <point x="403" y="549" type="line"/>
+    </contour>
+    <contour>
+      <point x="610" y="586" type="line"/>
+      <point x="610" y="531" type="line"/>
+      <point x="74" y="531" type="line"/>
+      <point x="74" y="586" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="567"/>
+  <guideline angle="0" x="0" y="50"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

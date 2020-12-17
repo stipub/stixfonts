@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Euro.smcp" format="2">
+  <advance width="494"/>
+  <outline>
+    <contour>
+      <point x="234" y="-13" type="curve" smooth="yes"/>
+      <point x="347" y="-13"/>
+      <point x="407" y="56"/>
+      <point x="453" y="121" type="curve"/>
+      <point x="427" y="141" type="line"/>
+      <point x="380" y="96"/>
+      <point x="340" y="79"/>
+      <point x="281" y="79" type="curve" smooth="yes"/>
+      <point x="225" y="79"/>
+      <point x="201" y="102"/>
+      <point x="201" y="171" type="curve" smooth="yes"/>
+      <point x="201" y="305"/>
+      <point x="250" y="485"/>
+      <point x="369" y="485" type="curve" smooth="yes"/>
+      <point x="424" y="485"/>
+      <point x="455" y="471"/>
+      <point x="455" y="403" type="curve" smooth="yes"/>
+      <point x="455" y="391"/>
+      <point x="454" y="377"/>
+      <point x="452" y="362" type="curve"/>
+      <point x="496" y="362" type="line"/>
+      <point x="542" y="533" type="line"/>
+      <point x="506" y="533" type="line"/>
+      <point x="489" y="514"/>
+      <point x="480" y="509"/>
+      <point x="473" y="509" type="curve" smooth="yes"/>
+      <point x="461" y="509"/>
+      <point x="441" y="535"/>
+      <point x="382" y="535" type="curve" smooth="yes"/>
+      <point x="169" y="535"/>
+      <point x="56" y="373"/>
+      <point x="56" y="144" type="curve" smooth="yes"/>
+      <point x="56" y="40"/>
+      <point x="113" y="-13"/>
+    </contour>
+    <contour>
+      <point x="357" y="201" type="line"/>
+      <point x="375" y="247" type="line"/>
+      <point x="28" y="247" type="line"/>
+      <point x="10" y="201" type="line"/>
+    </contour>
+    <contour>
+      <point x="385" y="288" type="line"/>
+      <point x="404" y="334" type="line"/>
+      <point x="56" y="334" type="line"/>
+      <point x="38" y="288" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

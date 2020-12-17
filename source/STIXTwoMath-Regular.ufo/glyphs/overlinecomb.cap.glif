@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="overlinecomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="0" y="730" type="line"/>
+      <point x="0" y="785" type="line"/>
+      <point x="-400" y="785" type="line"/>
+      <point x="-400" y="730" type="line"/>
+    </contour>
+  </outline>
+</glyph>

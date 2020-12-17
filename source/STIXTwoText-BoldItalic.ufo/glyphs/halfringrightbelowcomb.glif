@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="halfringrightbelowcomb" format="2">
+  <unicode hex="0339"/>
+  <anchor x="-335" y="0" name="_bottom"/>
+  <anchor x="-341" y="-25" name="_bottom.mkmk"/>
+  <anchor x="-391" y="-264" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-406" y="-264" type="line" smooth="yes"/>
+      <point x="-330" y="-264"/>
+      <point x="-268" y="-221"/>
+      <point x="-268" y="-144" type="curve" smooth="yes"/>
+      <point x="-268" y="-81"/>
+      <point x="-309" y="-53"/>
+      <point x="-364" y="-53" type="curve" smooth="yes"/>
+      <point x="-399" y="-53" type="line"/>
+      <point x="-413" y="-117" type="line"/>
+      <point x="-378" y="-117" type="line" smooth="yes"/>
+      <point x="-352" y="-117"/>
+      <point x="-339" y="-128"/>
+      <point x="-339" y="-150" type="curve" smooth="yes"/>
+      <point x="-339" y="-179"/>
+      <point x="-361" y="-200"/>
+      <point x="-395" y="-200" type="curve" smooth="yes"/>
+      <point x="-430" y="-200" type="line"/>
+      <point x="-444" y="-264" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohornhook" format="2">
+  <advance width="516"/>
+  <unicode hex="1EDF"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="hookabovecomb" xOffset="491"/>
+  </outline>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nuitalic" format="2">
+  <advance width="714"/>
+  <unicode hex="1D6EE"/>
+  <outline>
+    <component base="Nitalic"/>
+  </outline>
+</glyph>

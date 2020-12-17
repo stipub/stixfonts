@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni23DC.s2" format="2">
+  <advance width="1500"/>
+  <outline>
+    <contour>
+      <point x="24" y="580" type="line"/>
+      <point x="148" y="693"/>
+      <point x="451" y="754"/>
+      <point x="752" y="754" type="curve" smooth="yes"/>
+      <point x="1050" y="754"/>
+      <point x="1351" y="694"/>
+      <point x="1475" y="580" type="curve"/>
+      <point x="1500" y="599" type="line"/>
+      <point x="1387" y="739"/>
+      <point x="1135" y="820"/>
+      <point x="752" y="820" type="curve" smooth="yes"/>
+      <point x="365" y="820"/>
+      <point x="100" y="739"/>
+      <point x="0" y="600" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

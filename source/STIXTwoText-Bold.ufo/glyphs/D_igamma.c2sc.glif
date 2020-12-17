@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Digamma.c2sc" format="2">
+  <advance width="547"/>
+  <anchor x="182" y="0" name="bottom"/>
+  <anchor x="181" y="0" name="cedilla"/>
+  <anchor x="181" y="0" name="ogonek"/>
+  <anchor x="296" y="532" name="top"/>
+  <outline>
+    <component base="F.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

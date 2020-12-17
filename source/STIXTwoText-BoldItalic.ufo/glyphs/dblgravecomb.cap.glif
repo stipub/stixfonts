@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblgravecomb.cap" format="2">
+  <anchor x="-195" y="657" name="_top"/>
+  <anchor x="-191" y="679" name="_top.mkmk"/>
+  <anchor x="-159" y="831" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-59" y="698" type="line"/>
+      <point x="-141" y="831" type="line"/>
+      <point x="-242" y="831" type="line"/>
+      <point x="-248" y="799" type="line"/>
+      <point x="-119" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="-239" y="698" type="line"/>
+      <point x="-321" y="831" type="line"/>
+      <point x="-422" y="831" type="line"/>
+      <point x="-428" y="799" type="line"/>
+      <point x="-299" y="698" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dialytikatonos" format="2">
+  <advance width="444"/>
+  <unicode hex="0385"/>
+  <anchor x="312" y="699" name="top.mkmk"/>
+  <outline>
+    <component base="dialytikatonoscomb" xOffset="407"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

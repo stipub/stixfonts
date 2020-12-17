@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.ha" format="2">
+  <advance width="453"/>
+  <unicode hex="0445"/>
+  <anchor x="184" y="0" name="bottom"/>
+  <anchor x="184" y="0" name="cedilla"/>
+  <anchor x="184" y="0" name="ogonek"/>
+  <anchor x="274" y="467" name="top"/>
+  <outline>
+    <component base="x"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

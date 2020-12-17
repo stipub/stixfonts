@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thunderstorm" format="2">
+  <advance width="785"/>
+  <unicode hex="2608"/>
+  <outline>
+    <contour>
+      <point x="606" y="657" type="line"/>
+      <point x="298" y="336" type="line"/>
+      <point x="636" y="44" type="line"/>
+      <point x="670" y="94" type="line"/>
+      <point x="346" y="374" type="line"/>
+      <point x="347" y="304" type="line"/>
+      <point x="686" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="470" y="0" type="line"/>
+      <point x="725" y="0" type="line"/>
+      <point x="725" y="257" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="143" y="0" type="line"/>
+      <point x="143" y="601" type="line"/>
+      <point x="609" y="601" type="line"/>
+      <point x="610" y="657" type="line"/>
+      <point x="80" y="657" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.je" format="2">
+  <advance width="272"/>
+  <unicode hex="0458"/>
+  <anchor x="21" y="-220" name="bottom"/>
+  <anchor x="21" y="-220" name="cedilla"/>
+  <anchor x="-50" y="-220" name="ogonek"/>
+  <anchor x="194" y="665" name="top.mkmk"/>
+  <outline>
+    <component base="j"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

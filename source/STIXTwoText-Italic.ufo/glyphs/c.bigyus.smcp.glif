@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.bigyus.smcp" format="2">
+  <advance width="730"/>
+  <anchor x="328" y="0" name="bottom"/>
+  <anchor x="323" y="0" name="cedilla"/>
+  <anchor x="309" y="0" name="ogonek"/>
+  <anchor x="430" y="532" name="top"/>
+  <outline>
+    <component base="c.BigYus.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.TRK.smcp" format="2">
+  <advance width="355"/>
+  <anchor x="128" y="0" name="bottom"/>
+  <anchor x="141" y="0" name="cedilla"/>
+  <anchor x="150" y="0" name="ogonek"/>
+  <anchor x="282" y="736" name="top.mkmk"/>
+  <outline>
+    <component base="I.c2sc"/>
+    <component base="dotaccent.smcp" xOffset="459"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

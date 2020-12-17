@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.soft.smcp" format="2">
+  <advance width="531"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="224" y="0" name="cedilla"/>
+  <anchor x="223" y="0" name="ogonek"/>
+  <anchor x="324" y="532" name="top"/>
+  <outline>
+    <component base="c.Soft.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

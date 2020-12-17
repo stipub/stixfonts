@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sixinferior" format="2">
+  <advance width="390"/>
+  <unicode hex="2086"/>
+  <anchor x="112" y="-229" name="bottom"/>
+  <anchor x="111" y="-229" name="cedilla"/>
+  <anchor x="111" y="-229" name="ogonek"/>
+  <anchor x="195" y="245" name="top"/>
+  <outline>
+    <component base="sixsuperior" xOffset="-95" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

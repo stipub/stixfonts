@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.sups" format="2">
+  <advance width="451"/>
+  <anchor x="243" y="252" name="bottom"/>
+  <anchor x="241" y="726" name="top"/>
+  <outline>
+    <component base="foursuperior"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

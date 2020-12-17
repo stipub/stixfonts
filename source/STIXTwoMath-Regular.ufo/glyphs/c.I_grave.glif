@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Igrave" format="2">
+  <advance width="780"/>
+  <unicode hex="040D"/>
+  <outline>
+    <component base="c.I"/>
+    <component base="gravecomb.cap" xOffset="554"/>
+  </outline>
+</glyph>

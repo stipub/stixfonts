@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less.ssty" format="2">
+  <advance width="750"/>
+  <outline>
+    <contour>
+      <point x="683" y="27" type="line"/>
+      <point x="209" y="267" type="line"/>
+      <point x="683" y="498" type="line"/>
+      <point x="683" y="578" type="line"/>
+      <point x="76" y="277" type="line"/>
+      <point x="76" y="257" type="line"/>
+      <point x="683" y="-53" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="578"/>
+  <guideline angle="0" x="0" y="-46"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

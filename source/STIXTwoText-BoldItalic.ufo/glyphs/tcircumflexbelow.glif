@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcircumflexbelow" format="2">
+  <advance width="344"/>
+  <unicode hex="1E71"/>
+  <anchor x="155" y="0" name="bottom_1"/>
+  <anchor x="112" y="-203" name="bottom_2"/>
+  <anchor x="155" y="0" name="cedilla"/>
+  <anchor x="155" y="0" name="ogonek"/>
+  <anchor x="247" y="563" name="top"/>
+  <outline>
+    <component base="t"/>
+    <component base="circumflexbelowcomb" xOffset="488"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

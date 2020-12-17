@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Muitalic.ssty2" format="2">
+  <advance width="1092"/>
+  <outline>
+    <component base="Mitalic.ssty2"/>
+  </outline>
+</glyph>

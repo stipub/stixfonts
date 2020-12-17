@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Utildebelow.c2sc" format="2">
+  <advance width="655"/>
+  <anchor x="328" y="-156" name="bottom.mkmk"/>
+  <anchor x="329" y="0" name="cedilla"/>
+  <anchor x="368" y="0" name="ogonek"/>
+  <anchor x="351" y="532" name="top"/>
+  <outline>
+    <component base="U.c2sc"/>
+    <component base="tildebelowcomb" xOffset="558"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

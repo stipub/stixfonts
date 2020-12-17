@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tackrightbelowcomb" format="2">
+  <unicode hex="0319"/>
+  <anchor x="-335" y="0" name="_bottom"/>
+  <anchor x="-339" y="-21" name="_bottom.mkmk"/>
+  <anchor x="-394" y="-276" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-397" y="-276" type="line"/>
+      <point x="-348" y="-49" type="line"/>
+      <point x="-421" y="-49" type="line"/>
+      <point x="-470" y="-276" type="line"/>
+    </contour>
+    <contour>
+      <point x="-280" y="-200" type="line"/>
+      <point x="-264" y="-125" type="line"/>
+      <point x="-381" y="-125" type="line"/>
+      <point x="-397" y="-200" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

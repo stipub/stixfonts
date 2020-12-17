@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="questiondbl" format="2">
+  <advance width="909"/>
+  <unicode hex="2047"/>
+  <outline>
+    <component base="question"/>
+    <component base="question" xOffset="448"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

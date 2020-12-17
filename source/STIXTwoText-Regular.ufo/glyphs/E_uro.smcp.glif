@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Euro.smcp" format="2">
+  <advance width="457"/>
+  <outline>
+    <contour>
+      <point x="265" y="-13" type="curve" smooth="yes"/>
+      <point x="357" y="-13"/>
+      <point x="406" y="41"/>
+      <point x="438" y="102" type="curve"/>
+      <point x="417" y="116" type="line"/>
+      <point x="384" y="68"/>
+      <point x="346" y="52"/>
+      <point x="287" y="52" type="curve" smooth="yes"/>
+      <point x="180" y="52"/>
+      <point x="140" y="140"/>
+      <point x="140" y="275" type="curve" smooth="yes"/>
+      <point x="140" y="389"/>
+      <point x="175" y="506"/>
+      <point x="270" y="506" type="curve" smooth="yes"/>
+      <point x="342" y="506"/>
+      <point x="378" y="469"/>
+      <point x="389" y="369" type="curve"/>
+      <point x="421" y="369" type="line"/>
+      <point x="429" y="540" type="line"/>
+      <point x="405" y="540" type="line"/>
+      <point x="392" y="522"/>
+      <point x="385" y="513"/>
+      <point x="377" y="513" type="curve" smooth="yes"/>
+      <point x="365" y="513"/>
+      <point x="340" y="543"/>
+      <point x="272" y="543" type="curve" smooth="yes"/>
+      <point x="129" y="543"/>
+      <point x="47" y="417"/>
+      <point x="47" y="270" type="curve" smooth="yes"/>
+      <point x="47" y="101"/>
+      <point x="116" y="-13"/>
+    </contour>
+    <contour>
+      <point x="308" y="205" type="line"/>
+      <point x="315" y="246" type="line"/>
+      <point x="5" y="246" type="line"/>
+      <point x="-3" y="205" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="296" type="line"/>
+      <point x="327" y="338" type="line"/>
+      <point x="15" y="338" type="line"/>
+      <point x="6" y="296" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

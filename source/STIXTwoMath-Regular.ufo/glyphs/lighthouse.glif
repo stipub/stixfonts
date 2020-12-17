@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lighthouse" format="2">
+  <advance width="737"/>
+  <unicode hex="26EF"/>
+  <outline>
+    <component base="factory"/>
+    <contour>
+      <point x="367" y="263" type="curve" smooth="yes"/>
+      <point x="330" y="263"/>
+      <point x="301" y="292"/>
+      <point x="301" y="329" type="curve" smooth="yes"/>
+      <point x="301" y="365"/>
+      <point x="330" y="394"/>
+      <point x="367" y="394" type="curve" smooth="yes"/>
+      <point x="403" y="394"/>
+      <point x="432" y="365"/>
+      <point x="432" y="329" type="curve" smooth="yes"/>
+      <point x="432" y="292"/>
+      <point x="403" y="263"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

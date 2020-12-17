@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asteriskdblv" format="2">
+  <advance width="391"/>
+  <unicode hex="2051"/>
+  <outline>
+    <component base="asterisk" xOffset="8" yOffset="43"/>
+    <component base="asterisk" xOffset="-80" yOffset="-368"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idblstruck.ssty" format="2">
+  <advance width="316"/>
+  <outline>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="240" y="0" type="line"/>
+      <point x="240" y="496" type="line"/>
+      <point x="76" y="496" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="450" type="line"/>
+      <point x="192" y="45" type="line"/>
+      <point x="124" y="45" type="line"/>
+      <point x="124" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="76" y="586" type="line"/>
+      <point x="240" y="586" type="line"/>
+      <point x="240" y="748" type="line"/>
+      <point x="76" y="748" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="702" type="line"/>
+      <point x="192" y="631" type="line"/>
+      <point x="124" y="631" type="line"/>
+      <point x="124" y="702" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.968,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

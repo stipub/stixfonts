@@ -9,12 +9,9 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 * Download the [current version](zipfiles/STIXv2.0.2.zip) of the OTF,
   WOFF, and WOFF2 files in a zip archive.
 
-* View [code charts](docs/charts) for the
-  * [Math](docs/charts/StixTwoMath.pdf),
-  * [Regular text](docs/charts/StixTwoRegular.pdf),
-  * [Italic](docs/charts/StixTwoItalic.pdf),
-  * [Bold](docs/charts/StixTwoBold.pdf), and
-  * [Bold Italic](docs/charts/StixTwoBoldItalic.pdf)
+* View [code charts](docs) for the
+  * [Math](docs/STIXTwoMath-Regular.pdf),
+  * [Regular text](docs/STIXTwoText-Regular.pdf),
   fonts.
 
 ### Type 1 fonts (STIX 2.0.0 only)
@@ -22,8 +19,7 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 The STIX Two fonts are OpenType fonts and are meant to be used in that
 format.  For the benefit of LaTeX users who are unable to use XeTeX or
 luaTeX, we have also provided version 2.0.0 of the STIX fonts as a
-[set of TFM files and Type 1 fonts](Type1).  These are also available
-as a separate [zip file](zipfiles/STIXv2.0.0-type1.zip).
+[set of TFM files and Type 1 fonts](zipfiles/STIXv2.0.0-type1.zip).
 
 Note that **no further updates** are planned to the Type 1
 distribution; future development efforts will focus on improving the
@@ -34,21 +30,23 @@ distribution.
 ## About the STIX fonts.
 
 The Scientific and Technical Information eXchange (STIX) fonts are
-intended to meet the demanding needs of authors, publishers, printers,
-and others in the scientific, medical, and technical fields.  They
-combine a comprehensive Unicode-based collection of mathematical
-symbols and alphabets with a set of text faces suitable for
-professional publishing.  They are available royalty-free under the
-[SIL Open Font License](docs/STIX_2.0.2_license.pdf).
+intended to satisfy the demanding needs of authors, publishers,
+printers, and others working in the scientific, medical, and technical
+fields.  They combine a comprehensive Unicode-based collection of
+mathematical symbols and alphabets with a set of text faces suitable
+for professional publishing.  The fonts are available royalty-free
+under the SIL Open Font License.
 
-Version 2 of the STIX fonts, now known as “STIX Two”, is a thorough
-revision of version 1 undertaken by the renowned type house [Tiro
-Typeworks](https://tiro.com).  The STIX Two fonts consist of four text
-fonts (Regular, Italic, Bold, and Bold Italic) and one Math font.
-Together, they provide a uniform set of fonts that can be used
-throughout the production process, whether that be a traditional
-print-only process, an entirely electronic one, or a combination of
-the two.
+Version 2 of the STIX fonts, now known as "STIX Two", is a thorough
+revision undertaken by the renowned type house Tiro Typeworks
+Ltd. (https://www.tiro.com).  The STIX Two fonts consist of one Math
+font, two variable text fonts (STIXTwoTextVF-Roman and
+STIXTwoTextVF-Italic), and eight static text fonts (Regular, Italic,
+Medium, Medium Italic, Semibold, Semibold Italic, Bold, and Bold
+Italic) derived from the variable fonts.  Together, they provide a
+uniform set of fonts that can be used throughout the production
+process, whether that be a traditional print-only process, an entirely
+electronic one, or a combination of the two.
 
 The [STIX project](https://www.stixfonts.org/) began through the joint
 efforts of
@@ -121,8 +119,8 @@ These fonts have been tested with both
 and
 [luaTeX](http://www.luatex.org/)
 with good results.  For best results, XeTeX users will want to use
-version 0.99999 or later of XeTeX, which ships with
-[TeXLive 2018](https://www.tug.org/texlive/).
+version 0.999992 or later of XeTeX, which ships with
+[TeXLive 2020](https://www.tug.org/texlive/).
 This version fixes a number of bugs that were present in earlier
 versions.  Our thanks go out to Jonathan Kew and Khaled Hosny for
 their generous help in identifying and fixing these bugs.  LaTeX users
@@ -131,9 +129,9 @@ should also make sure they have the latest version of the
 
 ## Summary of OpenType Features and Scripts
 
-Further details these features can be found in the [font charts](docs/charts).
+Further details these features can be found in the [font charts](docs).
 
-The four text fonts implement the following OpenType script tags:
+The text fonts implement the following OpenType script tags:
 
     Regular   Bold      Italic    BoldItalic
     
@@ -146,7 +144,8 @@ The four text fonts implement the following OpenType script tags:
     grek      grek      grek      grek          Greek
 
     latn      latn      latn      latn          Latin
-    latn.ROM  latn.ROM  latn.ROM  latn.ROM      Latin/Romanian        
+    latn.LTH  latn.LTH  latn.LTH  latn.LTH      Latin/Lithuanian
+    latn.ROM  latn.ROM  latn.ROM  latn.ROM      Latin/Romanian
     latn.TRK  latn.TRK  latn.TRK  latn.TRK      Latin/Turkish
 
 and the following features
@@ -210,3 +209,62 @@ different meanings compared to the text fonts):
     ss15    Stylistic Set 15 -- Slab serif symbol variants
     ss16    Stylistic Set 16 -- Circled operator variants
     ss20    Stylistic Set 20 -- Miscellaneous variants
+
+## Build instructions
+
+### First time
+
+After cloning the project for first time, the following steps are needed:
+
+1. Setup a virtual environment in the folder that contains the source and tools subfolders:
+
+       $ python3 -m venv venv
+
+2. Activate the environment:
+
+       $ source venv/bin/activate
+
+3. Update `pip`:
+
+       $ pip install -U pip
+
+4. Install dependencies:
+
+       $ pip install -r requirements.txt
+
+5. Build the fonts (use `--verbose` option for more detailed build log):
+
+       $ ./build.sh
+   
+   This last step may take several minutes to complete.
+
+### Subsequent builds
+
+Only steps 2 and 5 above are needed.
+
+### Notes on source formats and build process
+
+The design masters for the STIX Two Text fonts are the **.vfj** files, a json source format used by FontLab 7. These files contain the glyph outlines, spacing, mark anchors, kerning and associated classes, font info, and variable design space info. Changes or additions to any of these things should be made in the .vfj files.
+
+The build script used to generate font files uses the **.ufo** and **.designspace** files, not the .vfj sources directly. These files can be exported from FontLab 7 using the default export profile for ‘DesignSpace + UFO’.
+
+The **.ren** files are glyph name management files used by the build script to manage the relationship of development names in the sources to the build names used in the post or CFF tables of the fonts.
+
+Because of issues with editing and managing OpenType Layout GPOS in variable font sources, the OTL projects for the STIX Two Text fonts are built in Microsoft’s [Visual OpenType Layout Tool](https://docs.microsoft.com/en-us/typography/tools/volt/) (VOLT). This means changes to OTL, including updates to mark anchors and kerning implemented in the .vfj sources need to be passed through VOLT, updated in the **.vtp** VOLT project files, and compiled in **.input.ttf** which are then used by the build script as a source for the OTL tables in the fonts.
+
+Obviously, any changes or extension to the glyph set in the .vfj design sources needs to be reflected in each of the other sources used in the build process: in the .ufo files, the .ren file glyph name lists, and especially in the .input.ttf files and .vtp project files. Fresh .input.ttf files can be exported from FontLab 7, opened in VOLT, and the .vtp project files imported and updated.
+
+Note that if changes or updates are made to mark anchors or kerning or associated classes in the .vfj sources, these need to be converted to VOLT format and imported into the projects, replacing or updating existing VOLT lookups and groups. This can be done using the [vfj-to-volt.py](https://github.com/TiroTypeworks/TiroTools/tree/master/VFJtools) tool.
+
+The revised .vtp files should then be exported for future use, and the .input.ttf fonts *shipped* from VOLT (this is important, because although the fonts will work if just compiled and saved in VOLT, they will contain private VOLT source tables and unregistered OTL features that will be then end up in the fonts generated by the build script; so use the ‘Ship Font’ option in VOLT and overwrite the .input.ttf file (save a copy with the VOLT project, if you like, but so long as you remembered to export the updated .vtp you can always reimport as needed)).
+
+**IMPORTANT** : the STIXTwoMath-Regular.input.ttf file is also the source for the MATH table and cmap table in the final font build. Care must be taken to preserve or extend these as necessary in this file when updating OpenType Layout or other aspects of the font.
+
+Once all the source files are ready, run the **build.sh** as described above. The build script describes what it is doing as it runs, and verbose mode can be used to get more detail. In overview, this is what it does:
+
+1. Pre-process the UFO files to:
+a) remove all features and kerning groups from the UFOs; b) rename the glyphs to match the TTFs (otherwise the binary tables can’t be grafted in with FontTools easily); c) extract the binary tables and add them under data/com.github.fonttools.ttx/ in the UFO font where ufo2ft expects them; d) save the modified files in build/masters to keep the sources unchanged.
+1. Build variable font with fontmake from build/masters UFOs.
+1. Build binary masters with fontmake (needed for the next step) from UFOs.
+1. Build static fonts with fontmake from UFOs, but telling it to interpolate OTL tables from the binary masters.
+1. Post-process the fonts to fix the name tables and other final touchups.

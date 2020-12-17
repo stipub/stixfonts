@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vdblstruckitalic" format="2">
+  <advance width="482"/>
+  <unicode hex="E177"/>
+  <outline>
+    <contour>
+      <point x="463" y="455" type="line"/>
+      <point x="260" y="96" type="line"/>
+      <point x="257" y="96" type="line"/>
+      <point x="207" y="455" type="line"/>
+      <point x="46" y="455" type="line"/>
+      <point x="115" y="0" type="line"/>
+      <point x="255" y="0" type="line"/>
+      <point x="514" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="42" type="line"/>
+      <point x="101" y="412" type="line"/>
+      <point x="167" y="412" type="line"/>
+      <point x="219" y="42" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

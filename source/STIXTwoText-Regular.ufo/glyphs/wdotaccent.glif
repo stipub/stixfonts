@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdotaccent" format="2">
+  <advance width="749"/>
+  <unicode hex="1E87"/>
+  <anchor x="374" y="0" name="bottom"/>
+  <anchor x="373" y="0" name="cedilla"/>
+  <anchor x="374" y="0" name="ogonek"/>
+  <anchor x="374" y="673" name="top.mkmk"/>
+  <outline>
+    <component base="w"/>
+    <component base="dotaccentcomb" xOffset="604"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

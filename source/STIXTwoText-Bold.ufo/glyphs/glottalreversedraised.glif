@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glottalreversedraised" format="2">
+  <advance width="388"/>
+  <unicode hex="02C1"/>
+  <outline>
+    <contour>
+      <point x="282" y="344" type="line"/>
+      <point x="282" y="462" type="line"/>
+      <point x="224" y="462"/>
+      <point x="142" y="481"/>
+      <point x="142" y="586" type="curve" smooth="yes"/>
+      <point x="142" y="641"/>
+      <point x="165" y="670"/>
+      <point x="196" y="670" type="curve" smooth="yes"/>
+      <point x="250" y="670"/>
+      <point x="236" y="581"/>
+      <point x="297" y="581" type="curve" smooth="yes"/>
+      <point x="328" y="581"/>
+      <point x="348" y="604"/>
+      <point x="348" y="635" type="curve" smooth="yes"/>
+      <point x="348" y="700"/>
+      <point x="260" y="717"/>
+      <point x="201" y="717" type="curve" smooth="yes"/>
+      <point x="90" y="717"/>
+      <point x="30" y="658"/>
+      <point x="30" y="573" type="curve" smooth="yes"/>
+      <point x="30" y="464"/>
+      <point x="129" y="430"/>
+      <point x="187" y="417" type="curve"/>
+      <point x="187" y="344" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

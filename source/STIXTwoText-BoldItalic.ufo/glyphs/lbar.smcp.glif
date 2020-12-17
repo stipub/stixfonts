@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lbar.smcp" format="2">
+  <advance width="541"/>
+  <anchor x="135" y="0" name="bottom"/>
+  <anchor x="246" y="0" name="cedilla"/>
+  <anchor x="336" y="0" name="ogonek"/>
+  <anchor x="246" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="461" y="0" type="line"/>
+      <point x="517" y="175" type="line"/>
+      <point x="471" y="175" type="line"/>
+      <point x="421" y="81"/>
+      <point x="395" y="52"/>
+      <point x="319" y="52" type="curve" smooth="yes"/>
+      <point x="272" y="52" type="line" smooth="yes"/>
+      <point x="226" y="52"/>
+      <point x="215" y="60"/>
+      <point x="223" y="99" type="curve"/>
+      <point x="287" y="415" type="line"/>
+      <point x="300" y="478"/>
+      <point x="316" y="493"/>
+      <point x="390" y="494" type="curve"/>
+      <point x="398" y="532" type="line"/>
+      <point x="95" y="532" type="line"/>
+      <point x="87" y="494" type="line"/>
+      <point x="160" y="494"/>
+      <point x="167" y="477"/>
+      <point x="155" y="416" type="curve"/>
+      <point x="89" y="113" type="line"/>
+      <point x="76" y="50"/>
+      <point x="69" y="38"/>
+      <point x="-8" y="38" type="curve"/>
+      <point x="-16" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="398" y="271" type="line"/>
+      <point x="409" y="324" type="line"/>
+      <point x="69" y="324" type="line"/>
+      <point x="58" y="271" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.yu.smcp" format="2">
+  <advance width="977"/>
+  <anchor x="489" y="0" name="bottom"/>
+  <anchor x="489" y="0" name="cedilla"/>
+  <anchor x="701" y="0" name="ogonek"/>
+  <anchor x="489" y="531" name="top"/>
+  <outline>
+    <component base="c.Yu.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

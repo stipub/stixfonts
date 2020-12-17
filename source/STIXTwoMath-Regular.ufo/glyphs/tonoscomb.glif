@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonoscomb" format="2">
+  <outline>
+    <contour>
+      <point x="-273" y="521" type="line"/>
+      <point x="-235" y="521" type="line"/>
+      <point x="-166" y="681" type="line"/>
+      <point x="-166" y="699" type="line"/>
+      <point x="-258" y="699" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotatonos" format="2">
+  <advance width="298"/>
+  <unicode hex="03AF"/>
+  <anchor x="159" y="0" name="bottom"/>
+  <anchor x="169" y="0" name="cedilla"/>
+  <anchor x="181" y="0" name="ogonek"/>
+  <anchor x="151" y="704" name="top.mkmk"/>
+  <outline>
+    <component base="iota"/>
+    <component base="tonoscomb" xOffset="351"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etildebelow" format="2">
+  <advance width="614"/>
+  <unicode hex="1E1A"/>
+  <anchor x="268" y="0" name="bottom_1"/>
+  <anchor x="233" y="-159" name="bottom_2"/>
+  <anchor x="268" y="0" name="cedilla"/>
+  <anchor x="370" y="0" name="ogonek"/>
+  <anchor x="387" y="657" name="top"/>
+  <outline>
+    <component base="E"/>
+    <component base="tildebelowcomb" xOffset="511"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

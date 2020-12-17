@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashcomb" format="2">
+  <unicode hex="0337"/>
+  <outline>
+    <contour>
+      <point x="-94" y="448" type="line"/>
+      <point x="-117" y="479" type="line"/>
+      <point x="-367" y="299" type="line"/>
+      <point x="-345" y="267" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

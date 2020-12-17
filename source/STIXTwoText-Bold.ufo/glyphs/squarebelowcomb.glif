@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="squarebelowcomb" format="2">
+  <unicode hex="033B"/>
+  <anchor x="-200" y="0" name="_bottom"/>
+  <anchor x="-200" y="-27" name="_bottom.mkmk"/>
+  <anchor x="-200" y="-275" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-90" y="-275" type="line"/>
+      <point x="-90" y="-55" type="line"/>
+      <point x="-310" y="-55" type="line"/>
+      <point x="-310" y="-275" type="line"/>
+    </contour>
+    <contour>
+      <point x="-240" y="-122" type="line"/>
+      <point x="-160" y="-122" type="line"/>
+      <point x="-160" y="-208" type="line"/>
+      <point x="-240" y="-208" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

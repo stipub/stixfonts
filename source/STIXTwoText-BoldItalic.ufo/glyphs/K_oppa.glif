@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Koppa" format="2">
+  <advance width="751"/>
+  <unicode hex="03D8"/>
+  <anchor x="327" y="0" name="bottom"/>
+  <anchor x="327" y="0" name="cedilla"/>
+  <anchor x="327" y="0" name="ogonek"/>
+  <anchor x="445" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="353" y="162" type="curve" smooth="yes"/>
+      <point x="591" y="162"/>
+      <point x="750" y="283"/>
+      <point x="750" y="468" type="curve" smooth="yes"/>
+      <point x="750" y="594"/>
+      <point x="651" y="669"/>
+      <point x="462" y="669" type="curve" smooth="yes"/>
+      <point x="218" y="669"/>
+      <point x="74" y="549"/>
+      <point x="74" y="366" type="curve" smooth="yes"/>
+      <point x="74" y="225"/>
+      <point x="178" y="162"/>
+    </contour>
+    <contour>
+      <point x="481" y="0" type="line"/>
+      <point x="490" y="43" type="line"/>
+      <point x="404" y="43"/>
+      <point x="401" y="58"/>
+      <point x="419" y="138" type="curve" smooth="yes"/>
+      <point x="428" y="181" type="line"/>
+      <point x="284" y="181" type="line"/>
+      <point x="276" y="139" type="line"/>
+      <point x="257" y="57"/>
+      <point x="247" y="43"/>
+      <point x="158" y="43" type="curve"/>
+      <point x="149" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="211" type="curve" smooth="yes"/>
+      <point x="272" y="211"/>
+      <point x="226" y="267"/>
+      <point x="226" y="360" type="curve" smooth="yes"/>
+      <point x="226" y="520"/>
+      <point x="319" y="619"/>
+      <point x="454" y="619" type="curve" smooth="yes"/>
+      <point x="544" y="619"/>
+      <point x="598" y="567"/>
+      <point x="598" y="471" type="curve" smooth="yes"/>
+      <point x="598" y="325"/>
+      <point x="535" y="211"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

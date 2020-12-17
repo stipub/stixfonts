@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring.smcp" format="2">
+  <anchor x="-200" y="532" name="_top"/>
+  <anchor x="-200" y="543" name="_top.mkmk"/>
+  <anchor x="-200" y="778" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-200" y="568" type="curve" smooth="yes"/>
+      <point x="-136" y="568"/>
+      <point x="-86" y="604"/>
+      <point x="-86" y="673" type="curve" smooth="yes"/>
+      <point x="-86" y="739"/>
+      <point x="-136" y="779"/>
+      <point x="-200" y="779" type="curve" smooth="yes"/>
+      <point x="-263" y="779"/>
+      <point x="-314" y="739"/>
+      <point x="-314" y="674" type="curve" smooth="yes"/>
+      <point x="-314" y="604"/>
+      <point x="-262" y="568"/>
+    </contour>
+    <contour>
+      <point x="-200" y="620" type="curve" smooth="yes"/>
+      <point x="-234" y="620"/>
+      <point x="-248" y="642"/>
+      <point x="-248" y="674" type="curve" smooth="yes"/>
+      <point x="-248" y="704"/>
+      <point x="-234" y="728"/>
+      <point x="-200" y="728" type="curve" smooth="yes"/>
+      <point x="-166" y="728"/>
+      <point x="-151" y="704"/>
+      <point x="-151" y="674" type="curve" smooth="yes"/>
+      <point x="-151" y="642"/>
+      <point x="-165" y="620"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

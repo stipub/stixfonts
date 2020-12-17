@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vdotbelow" format="2">
+  <advance width="491"/>
+  <unicode hex="1E7F"/>
+  <anchor x="112" y="-220" name="bottom.mkmk"/>
+  <anchor x="159" y="0" name="cedilla"/>
+  <anchor x="159" y="0" name="ogonek"/>
+  <anchor x="290" y="473" name="top"/>
+  <outline>
+    <component base="v"/>
+    <component base="dotbelowcomb" xOffset="492"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

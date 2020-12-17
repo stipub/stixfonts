@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sevensuperior" format="2">
+  <advance width="371"/>
+  <unicode hex="2077"/>
+  <anchor x="199" y="252" name="bottom"/>
+  <anchor x="198" y="252" name="cedilla"/>
+  <anchor x="199" y="252" name="ogonek"/>
+  <anchor x="285" y="726" name="top"/>
+  <outline>
+    <contour>
+      <point x="189" y="247" type="line"/>
+      <point x="441" y="670" type="line"/>
+      <point x="453" y="726" type="line"/>
+      <point x="155" y="726" type="line"/>
+      <point x="100" y="581" type="line"/>
+      <point x="141" y="580" type="line"/>
+      <point x="166" y="625"/>
+      <point x="173" y="637"/>
+      <point x="220" y="637" type="curve" smooth="yes"/>
+      <point x="365" y="637" type="line"/>
+      <point x="92" y="247" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

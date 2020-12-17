@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.SP" format="2">
+  <advance width="437"/>
+  <anchor x="150" y="0" name="bottom"/>
+  <anchor x="150" y="0" name="cedilla"/>
+  <anchor x="151" y="0" name="ogonek"/>
+  <anchor x="261" y="541" name="top"/>
+  <outline>
+    <contour>
+      <point x="328" y="0" type="line"/>
+      <point x="390" y="156" type="line"/>
+      <point x="363" y="156" type="line"/>
+      <point x="331" y="105"/>
+      <point x="314" y="73"/>
+      <point x="263" y="73" type="curve" smooth="yes"/>
+      <point x="147" y="73" type="line"/>
+      <point x="80" y="71" type="line"/>
+      <point x="81" y="75" type="line"/>
+      <point x="217" y="176" type="line"/>
+      <point x="353" y="281"/>
+      <point x="412" y="325"/>
+      <point x="412" y="425" type="curve" smooth="yes"/>
+      <point x="412" y="502"/>
+      <point x="352" y="543"/>
+      <point x="268" y="543" type="curve" smooth="yes"/>
+      <point x="179" y="543"/>
+      <point x="106" y="494"/>
+      <point x="61" y="414" type="curve"/>
+      <point x="85" y="404" type="line"/>
+      <point x="128" y="461"/>
+      <point x="172" y="481"/>
+      <point x="232" y="481" type="curve" smooth="yes"/>
+      <point x="285" y="481"/>
+      <point x="315" y="453"/>
+      <point x="315" y="404" type="curve" smooth="yes"/>
+      <point x="315" y="313"/>
+      <point x="290" y="287"/>
+      <point x="147" y="169" type="curve"/>
+      <point x="-14" y="39" type="line"/>
+      <point x="-22" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

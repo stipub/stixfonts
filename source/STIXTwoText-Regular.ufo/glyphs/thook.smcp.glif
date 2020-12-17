@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thook.smcp" format="2">
+  <advance width="542"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="275" y="0" name="cedilla"/>
+  <anchor x="276" y="0" name="ogonek"/>
+  <anchor x="275" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="407" y="0" type="line"/>
+      <point x="407" y="28" type="line"/>
+      <point x="333" y="28"/>
+      <point x="320" y="37"/>
+      <point x="320" y="110" type="curve" smooth="yes"/>
+      <point x="320" y="493" type="line"/>
+      <point x="376" y="493" type="line" smooth="yes"/>
+      <point x="474" y="493"/>
+      <point x="483" y="471"/>
+      <point x="502" y="383" type="curve"/>
+      <point x="533" y="383" type="line"/>
+      <point x="525" y="532" type="line"/>
+      <point x="300" y="532" type="line" smooth="yes"/>
+      <point x="110" y="532"/>
+      <point x="3" y="515"/>
+      <point x="3" y="395" type="curve" smooth="yes"/>
+      <point x="3" y="329"/>
+      <point x="31" y="277"/>
+      <point x="76" y="277" type="curve" smooth="yes"/>
+      <point x="103" y="277"/>
+      <point x="119" y="296"/>
+      <point x="119" y="317" type="curve" smooth="yes"/>
+      <point x="120" y="372"/>
+      <point x="45" y="369"/>
+      <point x="45" y="418" type="curve" smooth="yes"/>
+      <point x="45" y="472"/>
+      <point x="109" y="490"/>
+      <point x="222" y="493" type="curve"/>
+      <point x="233" y="493" type="line"/>
+      <point x="233" y="110" type="line" smooth="yes"/>
+      <point x="233" y="37"/>
+      <point x="219" y="28"/>
+      <point x="147" y="28" type="curve"/>
+      <point x="147" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

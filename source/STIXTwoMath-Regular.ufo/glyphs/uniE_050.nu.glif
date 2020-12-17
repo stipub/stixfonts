@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE050.nu" format="2">
+  <advance width="701"/>
+  <unicode hex="E050"/>
+  <outline>
+    <contour>
+      <point x="635" y="-27" type="line"/>
+      <point x="635" y="41" type="line"/>
+      <point x="283" y="41" type="line"/>
+      <point x="474" y="477" type="line"/>
+      <point x="635" y="477" type="line"/>
+      <point x="635" y="545" type="line"/>
+      <point x="504" y="545" type="line"/>
+      <point x="562" y="678" type="line"/>
+      <point x="507" y="678" type="line"/>
+      <point x="448" y="545" type="line"/>
+      <point x="66" y="545" type="line"/>
+      <point x="66" y="-27" type="line"/>
+      <point x="198" y="-27" type="line"/>
+      <point x="141" y="-160" type="line"/>
+      <point x="196" y="-160" type="line"/>
+      <point x="254" y="-27" type="line"/>
+    </contour>
+    <contour>
+      <point x="419" y="477" type="line"/>
+      <point x="228" y="41" type="line"/>
+      <point x="134" y="41" type="line"/>
+      <point x="134" y="477" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="longsdotaccent" format="2">
+  <advance width="330"/>
+  <unicode hex="1E9B"/>
+  <anchor x="0" y="-220" name="bottom"/>
+  <anchor x="0" y="-220" name="cedilla"/>
+  <anchor x="0" y="-220" name="ogonek"/>
+  <anchor x="287" y="884" name="top.mkmk"/>
+  <outline>
+    <component base="longs"/>
+    <component base="dotaccentcomb.cap" xOffset="440" yOffset="36"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

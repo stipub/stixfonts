@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lmergeblack" format="2">
+  <advance width="703"/>
+  <unicode hex="26D8"/>
+  <outline>
+    <contour>
+      <point x="623" y="0" type="line"/>
+      <point x="623" y="657" type="line"/>
+      <point x="308" y="657" type="line"/>
+      <point x="308" y="513" type="line"/>
+      <point x="60" y="328" type="line"/>
+      <point x="60" y="0" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="346" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

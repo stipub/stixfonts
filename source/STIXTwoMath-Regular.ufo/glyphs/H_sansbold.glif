@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hsansbold" format="2">
+  <advance width="684"/>
+  <unicode hex="1D5DB"/>
+  <outline>
+    <contour>
+      <point x="81" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="278" type="line"/>
+      <point x="464" y="278" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="604" y="0" type="line"/>
+      <point x="604" y="657" type="line"/>
+      <point x="464" y="657" type="line"/>
+      <point x="464" y="401" type="line"/>
+      <point x="221" y="401" type="line"/>
+      <point x="221" y="657" type="line"/>
+      <point x="81" y="657" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="78.9989" x="-669" y="0"/>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w684m81,0l221,0l221,278l464,278l464,0l604,0l604,657l464,657l464,401l221,401l221,657l81,657</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 278 123</string>
+          <string>hstem 657 -20</string>
+          <string>vstem 81 140</string>
+          <string>vstem 464 140</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

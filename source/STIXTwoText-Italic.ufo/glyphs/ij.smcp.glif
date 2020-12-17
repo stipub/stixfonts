@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ij.smcp" format="2">
+  <advance width="660"/>
+  <anchor x="110" y="0" name="bottom_1"/>
+  <anchor x="379" y="0" name="bottom_2"/>
+  <anchor x="110" y="0" name="cedilla_1"/>
+  <anchor x="397" y="0" name="cedilla_2"/>
+  <anchor x="84" y="0" name="ogonek_1"/>
+  <anchor x="379" y="0" name="ogonek_2"/>
+  <anchor x="212" y="532" name="top_1"/>
+  <anchor x="568" y="532" name="top_2"/>
+  <outline>
+    <component base="I.c2sc"/>
+    <component base="J.c2sc" xOffset="316"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

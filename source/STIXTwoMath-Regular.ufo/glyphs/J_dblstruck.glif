@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jdblstruck" format="2">
+  <advance width="523"/>
+  <unicode hex="1D541"/>
+  <outline>
+    <contour>
+      <point x="415" y="199" type="curve"/>
+      <point x="415" y="615" type="line"/>
+      <point x="337" y="615" type="line"/>
+      <point x="337" y="17" type="line"/>
+      <point x="294" y="17" type="line"/>
+      <point x="294" y="657" type="line"/>
+      <point x="458" y="657" type="line"/>
+      <point x="458" y="179" type="line" smooth="yes"/>
+      <point x="458" y="32"/>
+      <point x="350" y="-12"/>
+      <point x="235" y="-12" type="curve" smooth="yes"/>
+      <point x="115" y="-12"/>
+      <point x="19" y="34"/>
+      <point x="8" y="161" type="curve"/>
+      <point x="54" y="161" type="line"/>
+      <point x="71" y="54"/>
+      <point x="155" y="31"/>
+      <point x="236" y="31" type="curve" smooth="yes"/>
+      <point x="327" y="31"/>
+      <point x="415" y="52"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

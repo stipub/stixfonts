@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rturnedraised" format="2">
+  <advance width="406"/>
+  <unicode hex="02B4"/>
+  <anchor x="220" y="255" name="bottom"/>
+  <anchor x="220" y="255" name="cedilla"/>
+  <anchor x="220" y="255" name="ogonek"/>
+  <anchor x="309" y="637" name="top"/>
+  <outline>
+    <contour>
+      <point x="83" y="244" type="curve" smooth="yes"/>
+      <point x="165" y="244"/>
+      <point x="189" y="341"/>
+      <point x="211" y="393" type="curve"/>
+      <point x="238" y="393" type="line"/>
+      <point x="253" y="572" type="line"/>
+      <point x="231" y="517"/>
+      <point x="173" y="334"/>
+      <point x="119" y="334" type="curve" smooth="yes"/>
+      <point x="116" y="334"/>
+      <point x="112" y="369"/>
+      <point x="78" y="369" type="curve" smooth="yes"/>
+      <point x="51" y="369"/>
+      <point x="19" y="346"/>
+      <point x="19" y="303" type="curve" smooth="yes"/>
+      <point x="19" y="263"/>
+      <point x="46" y="244"/>
+    </contour>
+    <contour>
+      <point x="276" y="244" type="curve" smooth="yes"/>
+      <point x="354" y="244"/>
+      <point x="389" y="289"/>
+      <point x="412" y="326" type="curve"/>
+      <point x="387" y="345" type="line"/>
+      <point x="381" y="337"/>
+      <point x="358" y="307"/>
+      <point x="330" y="307" type="curve" smooth="yes"/>
+      <point x="316" y="307"/>
+      <point x="314" y="315"/>
+      <point x="314" y="322" type="curve" smooth="yes"/>
+      <point x="314" y="332"/>
+      <point x="319" y="355"/>
+      <point x="319" y="355" type="curve"/>
+      <point x="380" y="633" type="line"/>
+      <point x="259" y="633" type="line"/>
+      <point x="234" y="515" type="line"/>
+      <point x="230" y="424" type="line"/>
+      <point x="209" y="347"/>
+      <point x="204" y="320"/>
+      <point x="204" y="301" type="curve" smooth="yes"/>
+      <point x="204" y="260"/>
+      <point x="229" y="244"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

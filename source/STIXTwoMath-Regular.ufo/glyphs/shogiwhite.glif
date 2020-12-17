@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shogiwhite" format="2">
+  <advance width="739"/>
+  <unicode hex="2616"/>
+  <outline>
+    <contour>
+      <point x="369" y="668" type="line"/>
+      <point x="112" y="480" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="626" y="480" type="line"/>
+    </contour>
+    <contour>
+      <point x="603" y="51" type="line"/>
+      <point x="135" y="51" type="line"/>
+      <point x="166" y="451" type="line"/>
+      <point x="369" y="600" type="line"/>
+      <point x="572" y="451" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="36.1855" x="0" y="329"/>
+  <guideline angle="85.5912" x="131" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="voicingmark" format="2">
+  <advance width="373"/>
+  <unicode hex="02EC"/>
+  <outline>
+    <contour>
+      <point x="121" y="-167" type="line"/>
+      <point x="328" y="87" type="line"/>
+      <point x="216" y="87" type="line"/>
+      <point x="130" y="-36" type="line"/>
+      <point x="125" y="-36" type="line"/>
+      <point x="78" y="87" type="line"/>
+      <point x="-23" y="87" type="line"/>
+      <point x="76" y="-167" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27E6.s11" format="2">
+  <advance width="819"/>
+  <outline>
+    <contour>
+      <point x="640" y="-1521" type="line"/>
+      <point x="640" y="-1467" type="line"/>
+      <point x="460" y="-1467" type="line"/>
+      <point x="460" y="2006" type="line"/>
+      <point x="640" y="2006" type="line"/>
+      <point x="640" y="2060" type="line"/>
+      <point x="136" y="2060" type="line"/>
+      <point x="136" y="-1521" type="line"/>
+    </contour>
+    <contour>
+      <point x="244" y="2006" type="line"/>
+      <point x="351" y="2006" type="line"/>
+      <point x="351" y="-1467" type="line"/>
+      <point x="244" y="-1467" type="line"/>
+    </contour>
+  </outline>
+</glyph>

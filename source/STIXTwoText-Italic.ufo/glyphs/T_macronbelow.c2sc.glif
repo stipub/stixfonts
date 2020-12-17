@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tmacronbelow.c2sc" format="2">
+  <advance width="516"/>
+  <anchor x="208" y="0" name="bottom_1"/>
+  <anchor x="178" y="-141" name="bottom_2"/>
+  <anchor x="208" y="0" name="cedilla"/>
+  <anchor x="197" y="0" name="ogonek"/>
+  <anchor x="311" y="532" name="top"/>
+  <outline>
+    <component base="T.c2sc"/>
+    <component base="macronbelowcomb" xOffset="451"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

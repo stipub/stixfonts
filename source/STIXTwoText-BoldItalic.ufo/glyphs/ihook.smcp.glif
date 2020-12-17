@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ihook.smcp" format="2">
+  <advance width="355"/>
+  <anchor x="128" y="0" name="bottom"/>
+  <anchor x="141" y="0" name="cedilla"/>
+  <anchor x="150" y="0" name="ogonek"/>
+  <anchor x="239" y="532" name="top"/>
+  <outline>
+    <component base="I.c2sc"/>
+    <component base="hookabovecomb" xOffset="469" yOffset="50"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

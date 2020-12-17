@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaabovecomb.cap" format="2">
+  <anchor x="-200" y="657" name="_top"/>
+  <anchor x="-200" y="679" name="_top.mkmk"/>
+  <anchor x="-200" y="954" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-247" y="707" type="line"/>
+      <point x="-199" y="723"/>
+      <point x="-114" y="758"/>
+      <point x="-114" y="857" type="curve" smooth="yes"/>
+      <point x="-114" y="917"/>
+      <point x="-145" y="954"/>
+      <point x="-201" y="954" type="curve" smooth="yes"/>
+      <point x="-250" y="954"/>
+      <point x="-274" y="925"/>
+      <point x="-274" y="889" type="curve" smooth="yes"/>
+      <point x="-274" y="853"/>
+      <point x="-250" y="831"/>
+      <point x="-215" y="831" type="curve" smooth="yes"/>
+      <point x="-204" y="831"/>
+      <point x="-193" y="833"/>
+      <point x="-180" y="838" type="curve"/>
+      <point x="-180" y="777"/>
+      <point x="-223" y="753"/>
+      <point x="-262" y="738" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

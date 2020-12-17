@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dsansitalic" format="2">
+  <advance width="606"/>
+  <unicode hex="1D60B"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="213" y="0" type="line" smooth="yes"/>
+      <point x="439" y="0"/>
+      <point x="575" y="169"/>
+      <point x="575" y="385" type="curve" smooth="yes"/>
+      <point x="575" y="569"/>
+      <point x="477" y="657"/>
+      <point x="291" y="657" type="curve" smooth="yes"/>
+      <point x="166" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="125" y="65" type="line"/>
+      <point x="233" y="592" type="line"/>
+      <point x="288" y="592" type="line" smooth="yes"/>
+      <point x="423" y="592"/>
+      <point x="494" y="525"/>
+      <point x="494" y="382" type="curve" smooth="yes"/>
+      <point x="494" y="206"/>
+      <point x="386" y="65"/>
+      <point x="212" y="65" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

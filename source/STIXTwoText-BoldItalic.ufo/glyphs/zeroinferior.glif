@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zeroinferior" format="2">
+  <advance width="454"/>
+  <unicode hex="2080"/>
+  <anchor x="133" y="-229" name="bottom"/>
+  <anchor x="133" y="-229" name="cedilla"/>
+  <anchor x="143" y="-229" name="ogonek"/>
+  <anchor x="231" y="245" name="top"/>
+  <outline>
+    <component base="zerosuperior" xOffset="-105" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

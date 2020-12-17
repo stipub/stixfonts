@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clickretroflex" format="2">
+  <advance width="245"/>
+  <unicode hex="01C3"/>
+  <anchor x="123" y="0" name="bottom"/>
+  <anchor x="125" y="0" name="cedilla"/>
+  <anchor x="125" y="0" name="ogonek"/>
+  <anchor x="124" y="687" name="top"/>
+  <outline>
+    <contour>
+      <point x="140" y="170" type="line"/>
+      <point x="169" y="579" type="line" smooth="yes"/>
+      <point x="171" y="602"/>
+      <point x="172" y="625"/>
+      <point x="172" y="642" type="curve" smooth="yes"/>
+      <point x="172" y="682"/>
+      <point x="163" y="704"/>
+      <point x="124" y="704" type="curve" smooth="yes"/>
+      <point x="82" y="704"/>
+      <point x="74" y="681"/>
+      <point x="74" y="644" type="curve" smooth="yes"/>
+      <point x="74" y="628"/>
+      <point x="76" y="607"/>
+      <point x="78" y="579" type="curve" smooth="yes"/>
+      <point x="105" y="170" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="-8" type="curve" smooth="yes"/>
+      <point x="159" y="-8"/>
+      <point x="180" y="17"/>
+      <point x="180" y="47" type="curve" smooth="yes"/>
+      <point x="180" y="78"/>
+      <point x="159" y="106"/>
+      <point x="123" y="106" type="curve" smooth="yes"/>
+      <point x="87" y="106"/>
+      <point x="66" y="79"/>
+      <point x="66" y="48" type="curve" smooth="yes"/>
+      <point x="66" y="15"/>
+      <point x="85" y="-8"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

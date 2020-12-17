@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abrevegrave.c2sc" format="2">
+  <advance width="590"/>
+  <anchor x="202" y="0" name="bottom"/>
+  <anchor x="203" y="0" name="cedilla"/>
+  <anchor x="296" y="0" name="ogonek"/>
+  <anchor x="365" y="532" name="top"/>
+  <outline>
+    <component base="A.c2sc"/>
+    <component base="brevegravecomb" xOffset="597" yOffset="60"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

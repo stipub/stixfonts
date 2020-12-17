@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.dzhe.smcp" format="2">
+  <advance width="669"/>
+  <anchor x="256" y="-220" name="bottom"/>
+  <anchor x="258" y="-220" name="cedilla"/>
+  <anchor x="258" y="-220" name="ogonek"/>
+  <anchor x="380" y="532" name="top"/>
+  <outline>
+    <component base="c.Dzhe.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

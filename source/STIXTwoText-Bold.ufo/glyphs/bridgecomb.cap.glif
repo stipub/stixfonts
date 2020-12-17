@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bridgecomb.cap" format="2">
+  <anchor x="-200" y="657" name="_top"/>
+  <anchor x="-200" y="686" name="_top.mkmk"/>
+  <anchor x="-200" y="873" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-272" y="700" type="line"/>
+      <point x="-272" y="789" type="line"/>
+      <point x="-127" y="789" type="line"/>
+      <point x="-127" y="700" type="line"/>
+      <point x="-40" y="700" type="line"/>
+      <point x="-40" y="873" type="line"/>
+      <point x="-361" y="873" type="line"/>
+      <point x="-361" y="700" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

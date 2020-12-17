@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2308.s8" format="2">
+  <advance width="508"/>
+  <outline>
+    <contour>
+      <point x="425" y="1654" type="line"/>
+      <point x="425" y="1702" type="line"/>
+      <point x="123" y="1702" type="line"/>
+      <point x="123" y="-1161" type="line"/>
+      <point x="224" y="-1161" type="line"/>
+      <point x="224" y="1654" type="line"/>
+    </contour>
+  </outline>
+</glyph>

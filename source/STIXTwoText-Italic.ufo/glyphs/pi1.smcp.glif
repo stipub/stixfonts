@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi1.smcp" format="2">
+  <advance width="670"/>
+  <anchor x="279" y="0" name="bottom"/>
+  <anchor x="280" y="0" name="cedilla"/>
+  <anchor x="282" y="0" name="ogonek"/>
+  <anchor x="392" y="532" name="top"/>
+  <outline>
+    <component base="Pi.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.814,1</string>
+  </dict>
+  </lib>
+</glyph>

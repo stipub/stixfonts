@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="phi1.smcp" format="2">
+  <advance width="647"/>
+  <anchor x="269" y="0" name="bottom"/>
+  <anchor x="269" y="0" name="cedilla"/>
+  <anchor x="269" y="0" name="ogonek"/>
+  <anchor x="382" y="532" name="top"/>
+  <outline>
+    <component base="Phi.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.814,1</string>
+  </dict>
+  </lib>
+</glyph>

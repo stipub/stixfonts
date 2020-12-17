@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clicklateral" format="2">
+  <advance width="423"/>
+  <unicode hex="01C1"/>
+  <anchor x="125" y="0" name="bottom_1"/>
+  <anchor x="298" y="0" name="bottom_2"/>
+  <anchor x="125" y="0" name="cedilla_1"/>
+  <anchor x="298" y="0" name="cedilla_2"/>
+  <anchor x="113" y="0" name="ogonek_1"/>
+  <anchor x="286" y="0" name="ogonek_2"/>
+  <anchor x="125" y="687" name="top_1"/>
+  <anchor x="298" y="687" name="top_2"/>
+  <outline>
+    <component base="clickdental"/>
+    <component base="clickdental" xOffset="173"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

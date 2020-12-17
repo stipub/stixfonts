@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ksansbold" format="2">
+  <advance width="622"/>
+  <unicode hex="1D5DE"/>
+  <outline>
+    <contour>
+      <point x="81" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="180" type="line"/>
+      <point x="304" y="286" type="line"/>
+      <point x="473" y="0" type="line"/>
+      <point x="626" y="0" type="line"/>
+      <point x="387" y="396" type="line"/>
+      <point x="590" y="657" type="line"/>
+      <point x="436" y="657" type="line"/>
+      <point x="224" y="381" type="line"/>
+      <point x="221" y="381" type="line"/>
+      <point x="221" y="657" type="line"/>
+      <point x="81" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

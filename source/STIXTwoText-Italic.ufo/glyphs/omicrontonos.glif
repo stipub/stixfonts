@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicrontonos" format="2">
+  <advance width="447"/>
+  <unicode hex="03CC"/>
+  <anchor x="157" y="0" name="bottom"/>
+  <anchor x="168" y="0" name="cedilla"/>
+  <anchor x="166" y="0" name="ogonek"/>
+  <anchor x="322" y="698" name="top.mkmk"/>
+  <outline>
+    <component base="omicron"/>
+    <component base="tonoscomb" xOffset="417"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

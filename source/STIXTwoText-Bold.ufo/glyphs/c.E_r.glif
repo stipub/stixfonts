@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Er" format="2">
+  <advance width="648"/>
+  <unicode hex="0420"/>
+  <anchor x="198" y="0" name="bottom"/>
+  <anchor x="211" y="0" name="cedilla"/>
+  <anchor x="220" y="0" name="ogonek"/>
+  <anchor x="324" y="657" name="top"/>
+  <outline>
+    <component base="P"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

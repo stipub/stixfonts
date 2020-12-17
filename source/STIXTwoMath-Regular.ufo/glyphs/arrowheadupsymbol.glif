@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowheadupsymbol" format="2">
+  <advance width="630"/>
+  <unicode hex="2303"/>
+  <outline>
+    <contour>
+      <point x="590" y="347" type="line"/>
+      <point x="509" y="347" type="line"/>
+      <point x="315" y="570" type="line"/>
+      <point x="121" y="347" type="line"/>
+      <point x="40" y="347" type="line"/>
+      <point x="315" y="668" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="enter" format="2">
+  <advance width="1011"/>
+  <unicode hex="2386"/>
+  <outline>
+    <contour>
+      <point x="291" y="280" type="line"/>
+      <point x="599" y="-30" type="line"/>
+      <point x="981" y="351" type="line"/>
+      <point x="599" y="731" type="line"/>
+      <point x="303" y="434" type="line"/>
+      <point x="371" y="434" type="line"/>
+      <point x="599" y="664" type="line"/>
+      <point x="913" y="351" type="line"/>
+      <point x="599" y="38" type="line"/>
+      <point x="359" y="280" type="line"/>
+    </contour>
+    <contour>
+      <point x="541" y="566" type="line"/>
+      <point x="541" y="437" type="line"/>
+      <point x="30" y="437" type="line"/>
+      <point x="30" y="262" type="line"/>
+      <point x="541" y="262" type="line"/>
+      <point x="541" y="135" type="line"/>
+      <point x="757" y="351" type="line"/>
+    </contour>
+    <contour>
+      <point x="583" y="390" type="line"/>
+      <point x="583" y="483" type="line"/>
+      <point x="555" y="482" type="line"/>
+      <point x="692" y="351" type="line"/>
+      <point x="556" y="212" type="line"/>
+      <point x="583" y="211" type="line"/>
+      <point x="583" y="309" type="line"/>
+      <point x="81" y="309" type="line"/>
+      <point x="81" y="390" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni236F" format="2">
+  <advance width="678"/>
+  <unicode hex="236F"/>
+  <outline>
+    <contour>
+      <point x="598" y="736" type="line"/>
+      <point x="80" y="736" type="line"/>
+      <point x="80" y="-196" type="line"/>
+      <point x="598" y="-196" type="line"/>
+    </contour>
+    <contour>
+      <point x="140" y="-141" type="line"/>
+      <point x="140" y="681" type="line"/>
+      <point x="538" y="681" type="line"/>
+      <point x="538" y="-141" type="line"/>
+    </contour>
+    <contour>
+      <point x="507" y="224" type="line"/>
+      <point x="171" y="224" type="line"/>
+      <point x="171" y="169" type="line"/>
+      <point x="507" y="169" type="line"/>
+    </contour>
+    <contour>
+      <point x="507" y="394" type="line"/>
+      <point x="171" y="394" type="line"/>
+      <point x="171" y="339" type="line"/>
+      <point x="507" y="339" type="line"/>
+    </contour>
+    <contour>
+      <point x="271" y="35" type="line"/>
+      <point x="471" y="528" type="line"/>
+      <point x="409" y="528" type="line"/>
+      <point x="209" y="35" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="67.3443" x="224" y="0"/>
+  <guideline angle="90" x="332" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

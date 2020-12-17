@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omacrongrave" format="2">
+  <advance width="737"/>
+  <unicode hex="1E50"/>
+  <anchor x="369" y="0" name="bottom"/>
+  <anchor x="382" y="0" name="cedilla"/>
+  <anchor x="419" y="0" name="ogonek"/>
+  <anchor x="368" y="936" name="top.mkmk"/>
+  <outline>
+    <component base="O"/>
+    <component base="macroncomb.cap" xOffset="598" yOffset="-10"/>
+    <component base="gravecomb.cap" xOffset="598" yOffset="110"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

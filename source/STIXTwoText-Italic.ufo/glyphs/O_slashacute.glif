@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslashacute" format="2">
+  <advance width="707"/>
+  <unicode hex="01FE"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="303" y="0" name="cedilla"/>
+  <anchor x="364" y="0" name="ogonek"/>
+  <anchor x="467" y="826" name="top.mkmk"/>
+  <outline>
+    <component base="Oslash"/>
+    <component base="acutecomb.cap" xOffset="535"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

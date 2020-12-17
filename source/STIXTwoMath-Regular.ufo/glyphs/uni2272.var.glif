@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2272.var" format="2">
+  <advance width="701"/>
+  <outline>
+    <contour>
+      <point x="640" y="118" type="line"/>
+      <point x="640" y="184" type="line"/>
+      <point x="197" y="404" type="line"/>
+      <point x="640" y="622" type="line"/>
+      <point x="640" y="689" type="line"/>
+      <point x="61" y="409" type="line"/>
+      <point x="61" y="399" type="line"/>
+    </contour>
+    <contour>
+      <point x="628" y="36" type="line"/>
+      <point x="591" y="-8"/>
+      <point x="541" y="-52"/>
+      <point x="491" y="-52" type="curve" smooth="yes"/>
+      <point x="366" y="-52"/>
+      <point x="370" y="240"/>
+      <point x="201" y="240" type="curve" smooth="yes"/>
+      <point x="128" y="240"/>
+      <point x="51" y="178"/>
+      <point x="10" y="107" type="curve"/>
+      <point x="29" y="98" type="line"/>
+      <point x="66" y="143"/>
+      <point x="118" y="184"/>
+      <point x="170" y="184" type="curve" smooth="yes"/>
+      <point x="300" y="184"/>
+      <point x="286" y="-106"/>
+      <point x="454" y="-106" type="curve" smooth="yes"/>
+      <point x="530" y="-106"/>
+      <point x="610" y="-34"/>
+      <point x="647" y="27" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

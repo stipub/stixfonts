@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vlinecomb.cap" format="2">
+  <anchor x="-200" y="657" name="_top"/>
+  <anchor x="-200" y="675" name="_top.mkmk"/>
+  <anchor x="-200" y="887" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-151" y="698" type="line"/>
+      <point x="-151" y="887" type="line"/>
+      <point x="-249" y="887" type="line"/>
+      <point x="-249" y="698" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

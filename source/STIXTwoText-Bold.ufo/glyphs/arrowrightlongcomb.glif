@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowrightlongcomb" format="2">
+  <unicode hex="0362"/>
+  <anchor x="0" y="-227" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="279" y="-277" type="line"/>
+      <point x="311" y="-240"/>
+      <point x="348" y="-199"/>
+      <point x="394" y="-179" type="curve"/>
+      <point x="394" y="-144" type="line"/>
+      <point x="348" y="-125"/>
+      <point x="311" y="-84"/>
+      <point x="280" y="-47" type="curve"/>
+      <point x="259" y="-66" type="line"/>
+      <point x="287" y="-100" type="line" smooth="yes"/>
+      <point x="291" y="-105"/>
+      <point x="294" y="-108"/>
+      <point x="294" y="-112" type="curve" smooth="yes"/>
+      <point x="294" y="-117"/>
+      <point x="286" y="-124"/>
+      <point x="282" y="-124" type="curve" smooth="yes"/>
+      <point x="-374" y="-124" type="line"/>
+      <point x="-374" y="-200" type="line"/>
+      <point x="281" y="-200" type="line" smooth="yes"/>
+      <point x="290" y="-200"/>
+      <point x="293" y="-205"/>
+      <point x="293" y="-209" type="curve" smooth="yes"/>
+      <point x="293" y="-213"/>
+      <point x="291" y="-218"/>
+      <point x="287" y="-223" type="curve" smooth="yes"/>
+      <point x="259" y="-257" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

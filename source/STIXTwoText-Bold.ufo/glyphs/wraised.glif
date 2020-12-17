@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wraised" format="2">
+  <advance width="727"/>
+  <unicode hex="02B7"/>
+  <anchor x="360" y="252" name="bottom"/>
+  <anchor x="360" y="252" name="cedilla"/>
+  <anchor x="360" y="252" name="ogonek"/>
+  <anchor x="384" y="633" name="top"/>
+  <outline>
+    <component base="w.sups"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

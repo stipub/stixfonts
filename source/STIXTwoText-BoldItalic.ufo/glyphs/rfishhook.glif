@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rfishhook" format="2">
+  <advance width="410"/>
+  <unicode hex="027E"/>
+  <anchor x="183" y="0" name="bottom"/>
+  <anchor x="183" y="0" name="cedilla"/>
+  <anchor x="183" y="0" name="ogonek"/>
+  <anchor x="280" y="473" name="top"/>
+  <outline>
+    <contour>
+      <point x="159" y="0" type="line"/>
+      <point x="224" y="330" type="line" smooth="yes"/>
+      <point x="239" y="405"/>
+      <point x="260" y="432"/>
+      <point x="289" y="432" type="curve" smooth="yes"/>
+      <point x="342" y="432"/>
+      <point x="328" y="337"/>
+      <point x="390" y="337" type="curve" smooth="yes"/>
+      <point x="418" y="337"/>
+      <point x="448" y="356"/>
+      <point x="448" y="396" type="curve" smooth="yes"/>
+      <point x="448" y="446"/>
+      <point x="400" y="481"/>
+      <point x="328" y="481" type="curve" smooth="yes"/>
+      <point x="213" y="481"/>
+      <point x="100" y="390"/>
+      <point x="69" y="249" type="curve" smooth="yes"/>
+      <point x="14" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

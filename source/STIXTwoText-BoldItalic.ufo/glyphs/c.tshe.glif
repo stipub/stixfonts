@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.tshe" format="2">
+  <advance width="609"/>
+  <unicode hex="045B"/>
+  <anchor x="238" y="0" name="bottom"/>
+  <anchor x="103" y="0" name="cedilla"/>
+  <anchor x="422" y="0" name="ogonek"/>
+  <anchor x="362" y="693" name="top"/>
+  <outline>
+    <component base="hbar" xOffset="-5"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

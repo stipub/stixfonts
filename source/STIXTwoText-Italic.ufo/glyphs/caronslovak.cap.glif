@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caronslovak.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-129" y="458" type="line"/>
+      <point x="-97" y="509"/>
+      <point x="-46" y="583"/>
+      <point x="-42" y="639" type="curve"/>
+      <point x="-42" y="657" type="line"/>
+      <point x="-124" y="657" type="line"/>
+      <point x="-159" y="462" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="78" x="-340" y="-465"/>
+  <guideline angle="90" x="-188" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

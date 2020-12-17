@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wsansbold" format="2">
+  <advance width="745"/>
+  <unicode hex="1D604"/>
+  <outline>
+    <contour>
+      <point x="146" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="344" y="198" type="line"/>
+      <point x="354" y="242"/>
+      <point x="361" y="285"/>
+      <point x="370" y="336" type="curve"/>
+      <point x="374" y="336" type="line"/>
+      <point x="383" y="285"/>
+      <point x="391" y="242"/>
+      <point x="400" y="198" type="curve"/>
+      <point x="447" y="0" type="line"/>
+      <point x="605" y="0" type="line"/>
+      <point x="721" y="473" type="line"/>
+      <point x="598" y="473" type="line"/>
+      <point x="549" y="246" type="line"/>
+      <point x="540" y="200"/>
+      <point x="534" y="154"/>
+      <point x="525" y="107" type="curve"/>
+      <point x="521" y="107" type="line"/>
+      <point x="512" y="154"/>
+      <point x="503" y="200"/>
+      <point x="491" y="246" type="curve"/>
+      <point x="434" y="473" type="line"/>
+      <point x="317" y="473" type="line"/>
+      <point x="261" y="246" type="line"/>
+      <point x="250" y="202"/>
+      <point x="241" y="154"/>
+      <point x="232" y="107" type="curve"/>
+      <point x="228" y="107" type="line"/>
+      <point x="221" y="154"/>
+      <point x="215" y="200"/>
+      <point x="206" y="246" type="curve"/>
+      <point x="156" y="473" type="line"/>
+      <point x="24" y="473" type="line"/>
+    </contour>
+  </outline>
+</glyph>

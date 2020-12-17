@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="epsilonlunatereversed.smcp" format="2">
+  <advance width="597"/>
+  <anchor x="273" y="0" name="bottom"/>
+  <anchor x="274" y="0" name="cedilla"/>
+  <anchor x="273" y="0" name="ogonek"/>
+  <anchor x="273" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="553" y="0" type="line"/>
+      <point x="553" y="40" type="line"/>
+      <point x="494" y="40"/>
+      <point x="473" y="49"/>
+      <point x="473" y="108" type="curve" smooth="yes"/>
+      <point x="473" y="417" type="line" smooth="yes"/>
+      <point x="473" y="478"/>
+      <point x="482" y="490"/>
+      <point x="553" y="490" type="curve"/>
+      <point x="553" y="532" type="line"/>
+      <point x="53" y="532" type="line"/>
+      <point x="48" y="386" type="line"/>
+      <point x="91" y="386" type="line"/>
+      <point x="104" y="458"/>
+      <point x="119" y="481"/>
+      <point x="216" y="481" type="curve" smooth="yes"/>
+      <point x="329" y="481" type="line"/>
+      <point x="329" y="294" type="line"/>
+      <point x="259" y="294" type="line" smooth="yes"/>
+      <point x="173" y="294"/>
+      <point x="166" y="301"/>
+      <point x="166" y="363" type="curve"/>
+      <point x="125" y="363" type="line"/>
+      <point x="125" y="176" type="line"/>
+      <point x="166" y="176" type="line"/>
+      <point x="166" y="244"/>
+      <point x="173" y="251"/>
+      <point x="259" y="251" type="curve" smooth="yes"/>
+      <point x="329" y="251" type="line"/>
+      <point x="329" y="50" type="line"/>
+      <point x="228" y="50" type="line" smooth="yes"/>
+      <point x="122" y="50"/>
+      <point x="91" y="77"/>
+      <point x="64" y="166" type="curve"/>
+      <point x="22" y="166" type="line"/>
+      <point x="44" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

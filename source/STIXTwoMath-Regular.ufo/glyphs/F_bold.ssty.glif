@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fbold.ssty" format="2">
+  <advance width="689"/>
+  <outline>
+    <contour>
+      <point x="419" y="0" type="line"/>
+      <point x="419" y="51" type="line"/>
+      <point x="319" y="51"/>
+      <point x="303" y="72"/>
+      <point x="303" y="136" type="curve" smooth="yes"/>
+      <point x="303" y="628" type="line"/>
+      <point x="442" y="628" type="line" smooth="yes"/>
+      <point x="572" y="628"/>
+      <point x="595" y="614"/>
+      <point x="617" y="499" type="curve"/>
+      <point x="671" y="499" type="line"/>
+      <point x="671" y="703" type="line"/>
+      <point x="42" y="703" type="line"/>
+      <point x="42" y="650" type="line"/>
+      <point x="135" y="650"/>
+      <point x="147" y="631"/>
+      <point x="147" y="562" type="curve" smooth="yes"/>
+      <point x="147" y="144" type="line" smooth="yes"/>
+      <point x="147" y="76"/>
+      <point x="137" y="51"/>
+      <point x="42" y="51" type="curve"/>
+      <point x="42" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="573" y="231" type="line"/>
+      <point x="573" y="482" type="line"/>
+      <point x="523" y="482" type="line"/>
+      <point x="523" y="385"/>
+      <point x="473" y="385"/>
+      <point x="395" y="385" type="curve" smooth="yes"/>
+      <point x="259" y="385" type="line"/>
+      <point x="259" y="321" type="line"/>
+      <point x="395" y="321" type="line" smooth="yes"/>
+      <point x="484" y="321"/>
+      <point x="523" y="321"/>
+      <point x="523" y="231" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

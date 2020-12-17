@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcomb" format="2">
+  <unicode hex="0331"/>
+  <anchor x="-230" y="0" name="_bottom"/>
+  <anchor x="-230" y="-43" name="_bottom.mkmk"/>
+  <anchor x="-230" y="-141" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-85" y="-141" type="line"/>
+      <point x="-85" y="-86" type="line"/>
+      <point x="-375" y="-86" type="line"/>
+      <point x="-375" y="-141" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-230" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

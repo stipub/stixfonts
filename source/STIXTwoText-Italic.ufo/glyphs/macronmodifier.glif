@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronmodifier" format="2">
+  <advance width="350"/>
+  <unicode hex="02C9"/>
+  <anchor x="249" y="610" name="top.mkmk"/>
+  <outline>
+    <component base="macroncomb" xOffset="363"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

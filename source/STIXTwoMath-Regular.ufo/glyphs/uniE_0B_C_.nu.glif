@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0BC.nu" format="2">
+  <advance width="701"/>
+  <unicode hex="E0BC"/>
+  <outline>
+    <contour>
+      <point x="650" y="5" type="line"/>
+      <point x="431" y="225" type="line"/>
+      <point x="650" y="225" type="line"/>
+      <point x="650" y="293" type="line"/>
+      <point x="431" y="293" type="line"/>
+      <point x="650" y="518" type="line"/>
+      <point x="603" y="560" type="line"/>
+      <point x="350" y="307" type="line"/>
+      <point x="96" y="560" type="line"/>
+      <point x="49" y="518" type="line"/>
+      <point x="268" y="293" type="line"/>
+      <point x="48" y="293" type="line"/>
+      <point x="48" y="225" type="line"/>
+      <point x="268" y="225" type="line"/>
+      <point x="49" y="5" type="line"/>
+      <point x="96" y="-42" type="line"/>
+      <point x="350" y="211" type="line"/>
+      <point x="603" y="-42" type="line"/>
+    </contour>
+  </outline>
+</glyph>

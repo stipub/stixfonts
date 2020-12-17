@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="primetriple" format="2">
+  <advance width="616"/>
+  <unicode hex="2034"/>
+  <outline>
+    <component base="prime"/>
+    <component base="prime" xOffset="160"/>
+    <component base="prime" xOffset="320"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

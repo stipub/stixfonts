@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="isuperior" format="2">
+  <advance width="265"/>
+  <unicode hex="2071"/>
+  <anchor x="142" y="255" name="bottom"/>
+  <anchor x="144" y="255" name="cedilla"/>
+  <anchor x="142" y="255" name="ogonek"/>
+  <anchor x="214" y="803" name="top.mkmk"/>
+  <outline>
+    <component base="i.sups"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

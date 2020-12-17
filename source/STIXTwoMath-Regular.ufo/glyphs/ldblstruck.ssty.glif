@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldblstruck.ssty" format="2">
+  <advance width="316"/>
+  <outline>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="240" y="0" type="line"/>
+      <point x="240" y="767" type="line"/>
+      <point x="192" y="767" type="line"/>
+      <point x="76" y="707" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="714" type="line"/>
+      <point x="192" y="46" type="line"/>
+      <point x="124" y="46" type="line"/>
+      <point x="124" y="679" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.968,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

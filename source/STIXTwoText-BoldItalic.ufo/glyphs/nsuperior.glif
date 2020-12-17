@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nsuperior" format="2">
+  <advance width="545"/>
+  <unicode hex="207F"/>
+  <anchor x="292" y="254" name="bottom"/>
+  <anchor x="293" y="254" name="cedilla"/>
+  <anchor x="419" y="254" name="ogonek"/>
+  <anchor x="351" y="637" name="top"/>
+  <outline>
+    <component base="n.sups"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2218.ssty2" format="2">
+  <advance width="519"/>
+  <outline>
+    <contour>
+      <point x="456" y="271" type="curve" smooth="yes"/>
+      <point x="456" y="393"/>
+      <point x="365" y="468"/>
+      <point x="258" y="468" type="curve" smooth="yes"/>
+      <point x="147" y="468"/>
+      <point x="63" y="392"/>
+      <point x="63" y="271" type="curve" smooth="yes"/>
+      <point x="63" y="150"/>
+      <point x="144" y="76"/>
+      <point x="258" y="76" type="curve" smooth="yes"/>
+      <point x="373" y="76"/>
+      <point x="456" y="151"/>
+    </contour>
+    <contour>
+      <point x="378" y="271" type="curve" smooth="yes"/>
+      <point x="378" y="188"/>
+      <point x="326" y="143"/>
+      <point x="258" y="143" type="curve" smooth="yes"/>
+      <point x="192" y="143"/>
+      <point x="141" y="189"/>
+      <point x="141" y="271" type="curve" smooth="yes"/>
+      <point x="141" y="353"/>
+      <point x="194" y="401"/>
+      <point x="258" y="401" type="curve" smooth="yes"/>
+      <point x="326" y="401"/>
+      <point x="378" y="354"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave.smcp" format="2">
+  <anchor x="-200" y="532" name="_top"/>
+  <anchor x="-200" y="545" name="_top.mkmk"/>
+  <anchor x="-200" y="720" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-121" y="572" type="line"/>
+      <point x="-200" y="720" type="line"/>
+      <point x="-313" y="720" type="line"/>
+      <point x="-313" y="688" type="line"/>
+      <point x="-170" y="572" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

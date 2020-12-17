@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saltiresquare" format="2">
+  <advance width="817"/>
+  <unicode hex="26DD"/>
+  <outline>
+    <contour>
+      <point x="737" y="0" type="line"/>
+      <point x="737" y="657" type="line"/>
+      <point x="80" y="657" type="line"/>
+      <point x="80" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="717" y="602" type="line"/>
+      <point x="679" y="639" type="line"/>
+      <point x="95" y="51" type="line"/>
+      <point x="136" y="17" type="line"/>
+    </contour>
+    <contour>
+      <point x="717" y="55" type="line"/>
+      <point x="129" y="639" type="line"/>
+      <point x="95" y="598" type="line"/>
+      <point x="680" y="17" type="line"/>
+    </contour>
+    <contour>
+      <point x="133" y="607" type="line"/>
+      <point x="684" y="607" type="line"/>
+      <point x="684" y="50" type="line"/>
+      <point x="133" y="50" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="45" x="80" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

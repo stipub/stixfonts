@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etatonos" format="2">
+  <advance width="896"/>
+  <unicode hex="0389"/>
+  <anchor x="508" y="0" name="bottom"/>
+  <anchor x="298" y="0" name="cedilla"/>
+  <anchor x="719" y="0" name="ogonek"/>
+  <anchor x="30" y="657" name="top.mkmk"/>
+  <outline>
+    <component base="H" xOffset="119"/>
+    <component base="tonoscomb" xOffset="260" yOffset="-42"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

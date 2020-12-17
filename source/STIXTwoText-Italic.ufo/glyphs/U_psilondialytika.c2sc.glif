@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilondialytika.c2sc" format="2">
+  <advance width="500"/>
+  <anchor x="204" y="0" name="bottom"/>
+  <anchor x="205" y="0" name="cedilla"/>
+  <anchor x="206" y="0" name="ogonek"/>
+  <anchor x="353" y="708" name="top.mkmk"/>
+  <outline>
+    <component base="Y.c2sc"/>
+    <component base="dialytikacomb" xOffset="456" yOffset="47"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

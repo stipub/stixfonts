@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tscript.ssty2" format="2">
+  <advance width="628"/>
+  <outline>
+    <contour>
+      <point x="303" y="-14" type="curve" smooth="yes"/>
+      <point x="407" y="-14"/>
+      <point x="526" y="80"/>
+      <point x="602" y="209" type="curve"/>
+      <point x="565" y="234" type="line"/>
+      <point x="495" y="143"/>
+      <point x="423" y="78"/>
+      <point x="368" y="78" type="curve" smooth="yes"/>
+      <point x="338" y="78"/>
+      <point x="325" y="95"/>
+      <point x="325" y="118" type="curve" smooth="yes"/>
+      <point x="325" y="131"/>
+      <point x="330" y="151"/>
+      <point x="340" y="189" type="curve" smooth="yes"/>
+      <point x="457" y="653" type="line"/>
+      <point x="411" y="662" type="line"/>
+      <point x="298" y="484" type="line"/>
+      <point x="221" y="175" type="line" smooth="yes"/>
+      <point x="205" y="112"/>
+      <point x="204" y="92"/>
+      <point x="204" y="79" type="curve" smooth="yes"/>
+      <point x="204" y="25"/>
+      <point x="239" y="-14"/>
+    </contour>
+    <contour>
+      <point x="-40" y="48" type="line"/>
+      <point x="64" y="97"/>
+      <point x="171" y="189"/>
+      <point x="241" y="277" type="curve"/>
+      <point x="289" y="277" type="line"/>
+      <point x="291" y="424" type="line"/>
+      <point x="219" y="327"/>
+      <point x="76" y="158"/>
+      <point x="-70" y="85" type="curve"/>
+    </contour>
+    <contour>
+      <point x="578" y="465" type="line"/>
+      <point x="588" y="513" type="line"/>
+      <point x="217" y="513" type="line"/>
+      <point x="207" y="465" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

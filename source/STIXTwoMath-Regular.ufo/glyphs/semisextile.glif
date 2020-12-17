@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semisextile" format="2">
+  <advance width="669"/>
+  <unicode hex="26BA"/>
+  <outline>
+    <contour>
+      <point x="336" y="140" type="line"/>
+      <point x="117" y="606" type="line"/>
+      <point x="60" y="576" type="line"/>
+      <point x="274" y="126" type="line"/>
+    </contour>
+    <contour>
+      <point x="609" y="576" type="line"/>
+      <point x="552" y="606" type="line"/>
+      <point x="333" y="140" type="line"/>
+      <point x="395" y="126" type="line"/>
+    </contour>
+    <contour>
+      <point x="602" y="89" type="line"/>
+      <point x="602" y="144" type="line"/>
+      <point x="66" y="144" type="line"/>
+      <point x="66" y="89" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

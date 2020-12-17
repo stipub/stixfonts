@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vtilde.c2sc" format="2">
+  <advance width="590"/>
+  <anchor x="299" y="0" name="bottom"/>
+  <anchor x="300" y="0" name="cedilla"/>
+  <anchor x="299" y="0" name="ogonek"/>
+  <anchor x="310" y="686" name="top.mkmk"/>
+  <outline>
+    <component base="V.c2sc"/>
+    <component base="tilde.smcp" xOffset="540"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

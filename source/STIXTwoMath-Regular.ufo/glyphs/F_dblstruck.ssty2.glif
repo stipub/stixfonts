@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fdblstruck.ssty2" format="2">
+  <advance width="685"/>
+  <outline>
+    <contour>
+      <point x="92" y="731" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="280" y="0" type="line"/>
+      <point x="280" y="336" type="line"/>
+      <point x="583" y="336" type="line"/>
+      <point x="583" y="383" type="line"/>
+      <point x="280" y="383" type="line"/>
+      <point x="280" y="684" type="line"/>
+      <point x="658" y="684" type="line"/>
+      <point x="658" y="731" type="line"/>
+    </contour>
+    <contour>
+      <point x="230" y="47" type="line"/>
+      <point x="142" y="47" type="line"/>
+      <point x="142" y="684" type="line"/>
+      <point x="230" y="684" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

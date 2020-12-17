@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Csans" format="2">
+  <advance width="584"/>
+  <unicode hex="1D5A2"/>
+  <outline>
+    <contour>
+      <point x="346" y="-12" type="curve" smooth="yes"/>
+      <point x="433" y="-12"/>
+      <point x="498" y="23"/>
+      <point x="551" y="83" type="curve"/>
+      <point x="505" y="136" type="line"/>
+      <point x="462" y="90"/>
+      <point x="413" y="63"/>
+      <point x="349" y="63" type="curve" smooth="yes"/>
+      <point x="222" y="63"/>
+      <point x="142" y="167"/>
+      <point x="142" y="328" type="curve" smooth="yes"/>
+      <point x="142" y="493"/>
+      <point x="227" y="594"/>
+      <point x="350" y="594" type="curve" smooth="yes"/>
+      <point x="405" y="594"/>
+      <point x="449" y="574"/>
+      <point x="488" y="532" type="curve"/>
+      <point x="535" y="587" type="line"/>
+      <point x="498" y="627"/>
+      <point x="440" y="668"/>
+      <point x="347" y="668" type="curve" smooth="yes"/>
+      <point x="182" y="668"/>
+      <point x="54" y="540"/>
+      <point x="54" y="326" type="curve" smooth="yes"/>
+      <point x="54" y="115"/>
+      <point x="179" y="-12"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pisansitalic" format="2">
+  <advance width="640"/>
+  <unicode hex="E1CE"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="114" y="0" type="line"/>
+      <point x="233" y="590" type="line"/>
+      <point x="537" y="590" type="line"/>
+      <point x="417" y="0" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="630" y="657" type="line"/>
+      <point x="166" y="657" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="78.6019" x="33" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

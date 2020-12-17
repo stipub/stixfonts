@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omacronacute" format="2">
+  <advance width="707"/>
+  <unicode hex="1E52"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="315" y="0" name="cedilla"/>
+  <anchor x="364" y="0" name="ogonek"/>
+  <anchor x="490" y="936" name="top.mkmk"/>
+  <outline>
+    <component base="O"/>
+    <component base="macroncomb.cap" xOffset="534" yOffset="-10"/>
+    <component base="acutecomb.cap" xOffset="558" yOffset="110"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

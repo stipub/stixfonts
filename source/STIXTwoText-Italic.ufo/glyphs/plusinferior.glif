@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plusinferior" format="2">
+  <advance width="536"/>
+  <unicode hex="208A"/>
+  <outline>
+    <component base="plussuperior" xOffset="-95" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

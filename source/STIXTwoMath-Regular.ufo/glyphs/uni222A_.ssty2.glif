@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni222A.ssty2" format="2">
+  <advance width="744"/>
+  <outline>
+    <contour>
+      <point x="680" y="631" type="line"/>
+      <point x="597" y="631" type="line"/>
+      <point x="597" y="278" type="line" smooth="yes"/>
+      <point x="597" y="117"/>
+      <point x="495" y="36"/>
+      <point x="372" y="36" type="curve" smooth="yes"/>
+      <point x="251" y="36"/>
+      <point x="147" y="116"/>
+      <point x="147" y="277" type="curve" smooth="yes"/>
+      <point x="147" y="631" type="line"/>
+      <point x="64" y="631" type="line"/>
+      <point x="64" y="277" type="line" smooth="yes"/>
+      <point x="64" y="89"/>
+      <point x="197" y="-37"/>
+      <point x="372" y="-37" type="curve" smooth="yes"/>
+      <point x="547" y="-37"/>
+      <point x="680" y="87"/>
+      <point x="680" y="274" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordfeminine" format="2">
+  <advance width="448"/>
+  <unicode hex="00AA"/>
+  <anchor x="224" y="252" name="bottom"/>
+  <anchor x="225" y="252" name="cedilla"/>
+  <anchor x="301" y="252" name="ogonek"/>
+  <anchor x="205" y="633" name="top"/>
+  <outline>
+    <component base="a.sups"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

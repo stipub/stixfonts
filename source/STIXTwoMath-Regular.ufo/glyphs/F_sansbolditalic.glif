@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fsansbolditalic" format="2">
+  <advance width="510"/>
+  <unicode hex="1D641"/>
+  <outline>
+    <contour>
+      <point x="26" y="0" type="line"/>
+      <point x="156" y="0" type="line"/>
+      <point x="212" y="268" type="line"/>
+      <point x="433" y="268" type="line"/>
+      <point x="454" y="377" type="line"/>
+      <point x="232" y="377" type="line"/>
+      <point x="266" y="547" type="line"/>
+      <point x="529" y="547" type="line"/>
+      <point x="550" y="657" type="line"/>
+      <point x="159" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

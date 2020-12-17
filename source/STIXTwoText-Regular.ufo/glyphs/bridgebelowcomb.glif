@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bridgebelowcomb" format="2">
+  <unicode hex="032A"/>
+  <anchor x="-230" y="0" name="_bottom"/>
+  <anchor x="-230" y="-27" name="_bottom.mkmk"/>
+  <anchor x="-230" y="-177" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-313" y="-178" type="line"/>
+      <point x="-313" y="-94" type="line"/>
+      <point x="-146" y="-94" type="line"/>
+      <point x="-146" y="-178" type="line"/>
+      <point x="-107" y="-178" type="line"/>
+      <point x="-107" y="-55" type="line"/>
+      <point x="-354" y="-55" type="line"/>
+      <point x="-354" y="-178" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-230" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

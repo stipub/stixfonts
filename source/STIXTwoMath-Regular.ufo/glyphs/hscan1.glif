@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hscan1" format="2">
+  <advance width="725"/>
+  <unicode hex="23BA"/>
+  <outline>
+    <contour>
+      <point x="736" y="657" type="line"/>
+      <point x="-12" y="657" type="line"/>
+      <point x="-12" y="582" type="line"/>
+      <point x="736" y="582" type="line"/>
+    </contour>
+    <contour>
+      <point x="736" y="657" type="line"/>
+      <point x="-12" y="657" type="line"/>
+      <point x="-12" y="582" type="line"/>
+      <point x="736" y="582" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

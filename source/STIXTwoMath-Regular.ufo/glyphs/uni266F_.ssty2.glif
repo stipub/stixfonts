@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni266F.ssty2" format="2">
+  <advance width="511"/>
+  <outline>
+    <contour>
+      <point x="359" y="-97" type="line"/>
+      <point x="406" y="-79" type="line"/>
+      <point x="406" y="884" type="line"/>
+      <point x="359" y="866" type="line"/>
+    </contour>
+    <contour>
+      <point x="152" y="788" type="line"/>
+      <point x="105" y="770" type="line"/>
+      <point x="105" y="-194" type="line"/>
+      <point x="152" y="-176" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="430" type="line"/>
+      <point x="466" y="587" type="line"/>
+      <point x="466" y="689" type="line"/>
+      <point x="45" y="530" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="-1" type="line"/>
+      <point x="466" y="158" type="line"/>
+      <point x="466" y="259" type="line"/>
+      <point x="45" y="100" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="20.8018" x="0" y="-233"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

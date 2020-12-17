@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="metricalpentaseme" format="2">
+  <advance width="1071"/>
+  <unicode hex="23D9"/>
+  <outline>
+    <contour>
+      <point x="1005" y="215" type="line"/>
+      <point x="1005" y="513" type="line"/>
+      <point x="950" y="513" type="line"/>
+      <point x="950" y="226" type="line"/>
+      <point x="987" y="263" type="line"/>
+      <point x="84" y="263" type="line"/>
+      <point x="121" y="226" type="line"/>
+      <point x="121" y="513" type="line"/>
+      <point x="66" y="513" type="line"/>
+      <point x="66" y="215" type="line"/>
+    </contour>
+    <contour>
+      <point x="563" y="245" type="line"/>
+      <point x="563" y="513" type="line"/>
+      <point x="508" y="513" type="line"/>
+      <point x="508" y="245" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="535" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1071m1005,215l1005,513l950,513l950,226l987,263l84,263l121,226l121,513l66,513l66,215m563,245l563,513l508,513l508,245</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 215 48</string>
+          <string>hstem 513 -20</string>
+          <string>vstem 66 55</string>
+          <string>vstem 509 55</string>
+          <string>vstem 950 55</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

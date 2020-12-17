@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tackup" format="2">
+  <advance width="373"/>
+  <unicode hex="02D4"/>
+  <outline>
+    <contour>
+      <point x="220" y="201" type="line"/>
+      <point x="255" y="368" type="line"/>
+      <point x="182" y="368" type="line"/>
+      <point x="147" y="201" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="144" type="line"/>
+      <point x="320" y="217" type="line"/>
+      <point x="53" y="217" type="line"/>
+      <point x="38" y="144" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

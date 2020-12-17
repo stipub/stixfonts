@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilontonos.smcp" format="2">
+  <advance width="500"/>
+  <anchor x="204" y="0" name="bottom"/>
+  <anchor x="205" y="0" name="cedilla"/>
+  <anchor x="206" y="0" name="ogonek"/>
+  <anchor x="387" y="748" name="top.mkmk"/>
+  <outline>
+    <component base="Y.c2sc"/>
+    <component base="tonoscomb" xOffset="482" yOffset="50"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

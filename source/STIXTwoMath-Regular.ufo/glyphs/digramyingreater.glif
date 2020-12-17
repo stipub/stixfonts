@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="digramyingreater" format="2">
+  <advance width="870"/>
+  <unicode hex="268F"/>
+  <outline>
+    <contour>
+      <point x="502" y="134" type="line"/>
+      <point x="790" y="134" type="line"/>
+      <point x="790" y="254" type="line"/>
+      <point x="502" y="254" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="134" type="line"/>
+      <point x="368" y="254" type="line"/>
+      <point x="80" y="254" type="line"/>
+      <point x="80" y="134" type="line"/>
+    </contour>
+    <contour>
+      <point x="502" y="402" type="line"/>
+      <point x="790" y="402" type="line"/>
+      <point x="790" y="522" type="line"/>
+      <point x="502" y="522" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="522" type="line"/>
+      <point x="80" y="402" type="line"/>
+      <point x="368" y="402" type="line"/>
+      <point x="368" y="522" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="328"/>
+  <guideline angle="90" x="476" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

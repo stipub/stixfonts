@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonebarXhigh" format="2">
+  <advance width="475"/>
+  <unicode hex="02E5"/>
+  <outline>
+    <contour>
+      <point x="434" y="-16" type="line"/>
+      <point x="434" y="694" type="line"/>
+      <point x="69" y="694" type="line"/>
+      <point x="69" y="610" type="line"/>
+      <point x="351" y="610" type="line"/>
+      <point x="351" y="-16" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edblstruckitalic" format="2">
+  <advance width="599"/>
+  <unicode hex="E156"/>
+  <outline>
+    <contour>
+      <point x="507" y="0" type="line"/>
+      <point x="516" y="42" type="line"/>
+      <point x="70" y="42" type="line"/>
+      <point x="192" y="615" type="line"/>
+      <point x="633" y="615" type="line"/>
+      <point x="642" y="657" type="line"/>
+      <point x="154" y="657" type="line"/>
+      <point x="14" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="190" y="31" type="line"/>
+      <point x="316" y="626" type="line"/>
+      <point x="269" y="626" type="line"/>
+      <point x="143" y="31" type="line"/>
+    </contour>
+    <contour>
+      <point x="535" y="316" type="line"/>
+      <point x="544" y="358" type="line"/>
+      <point x="244" y="358" type="line"/>
+      <point x="235" y="316" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.874,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

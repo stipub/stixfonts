@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rho" format="2">
+  <advance width="569"/>
+  <unicode hex="03A1"/>
+  <anchor x="172" y="0" name="bottom"/>
+  <anchor x="190" y="0" name="cedilla"/>
+  <anchor x="167" y="0" name="ogonek"/>
+  <anchor x="292" y="657" name="top"/>
+  <outline>
+    <component base="P"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

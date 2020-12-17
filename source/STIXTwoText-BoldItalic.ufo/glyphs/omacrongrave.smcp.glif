@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omacrongrave.smcp" format="2">
+  <advance width="638"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="272" y="0" name="cedilla"/>
+  <anchor x="322" y="0" name="ogonek"/>
+  <anchor x="441" y="845" name="top.mkmk"/>
+  <outline>
+    <component base="O.c2sc"/>
+    <component base="macron.smcp" xOffset="592" yOffset="-20"/>
+    <component base="grave.smcp" xOffset="621" yOffset="125"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.89,1,1</string>
+  </dict>
+  </lib>
+</glyph>

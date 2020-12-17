@@ -1,0 +1,6 @@
+fonttools[ufo,lxml,unicode,woff]==4.14.0
+fontmake[pathops]==2.2.0
+cffsubr==0.2.7
+psautohint==2.1.1a0
+ttfautohint-py==0.4.3
+ufoLib2==0.8.0

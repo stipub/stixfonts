@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravebelowcomb" format="2">
+  <unicode hex="0316"/>
+  <anchor x="-230" y="0" name="_bottom"/>
+  <anchor x="-230" y="-28" name="_bottom.mkmk"/>
+  <anchor x="-230" y="-212" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-176" y="-209" type="line"/>
+      <point x="-246" y="-56" type="line"/>
+      <point x="-338" y="-56" type="line"/>
+      <point x="-338" y="-74" type="line"/>
+      <point x="-215" y="-209" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-230" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.812,1,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>
