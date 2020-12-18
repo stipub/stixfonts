@@ -2,9 +2,11 @@
 <glyph name="ccedillaacute" format="2">
   <advance width="495"/>
   <unicode hex="1E09"/>
+  <anchor x="279" y="-242" name="bottom.mkmk"/>
   <anchor x="273" y="684" name="top.mkmk"/>
   <outline>
-    <component base="ccedilla"/>
+    <component base="c"/>
+    <component base="cedillacomb" xOffset="479"/>
     <component base="acutecomb" xOffset="473"/>
   </outline>
   <lib>

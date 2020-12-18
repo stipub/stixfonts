@@ -1,6 +1,6 @@
 import sys
 
-from fontTools.ttLib import TTFont
+from fontTools.ttLib import TTFont, newTable
 from fontTools.otlLib.maxContextCalc import maxCtxFont
 
 
@@ -14,6 +14,13 @@ def main():
         name.setName("Italic", 2, family.platformID, family.platEncID, family.langID)
 
     font["OS/2"].usMaxContext = maxCtxFont(font)
+
+    font["DSIG"] = DSIG = newTable("DSIG")
+    DSIG.ulVersion = 1
+    DSIG.usFlag = 0
+    DSIG.usNumSigs = 0
+    DSIG.signatureRecords = []
+
     font.save(sys.argv[1])
 
 

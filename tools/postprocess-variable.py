@@ -1,8 +1,9 @@
 import sys
 
-from fontTools.ttLib import TTFont
 from fontTools.otlLib.builder import buildStatTable
 from fontTools.otlLib.maxContextCalc import maxCtxFont
+from fontTools.ttLib import TTFont, newTable
+from fontTools.ttLib.tables import ttProgram
 
 
 def main():
@@ -40,6 +41,23 @@ def main():
 
     font["name"].names = names
     font["OS/2"].usMaxContext = maxCtxFont(font)
+
+    font["DSIG"] = DSIG = newTable("DSIG")
+    DSIG.ulVersion = 1
+    DSIG.usFlag = 0
+    DSIG.usNumSigs = 0
+    DSIG.signatureRecords = []
+
+    if "glyf" in font and "prep" not in font:
+        # Google Fonts “smart dropout control”
+        font["prep"] = prep = newTable("prep")
+        prep.program = ttProgram.Program()
+        prep.program.fromAssembly(
+            ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
+        )
+
+    if "MVAR" in font:
+        del font["MVAR"]
 
     font.save(sys.argv[1])
 

@@ -50,9 +50,12 @@ for v in $VF; do
 	cp "${SOURCE}/${DS}" "${DS}"
 
 	echo "    variable"
-	VF=${TEXT_FAMILY}VF-${v}
 	fontmake ${FMOPTS} -m "${DS}" -o variable
-	mv variable_ttf/${VF}-VF.ttf variable_ttf/${VF}.ttf
+	if [ ${v} = "Roman" ]; then
+		mv "variable_ttf/${TEXT_FAMILY}VF-${v}-VF.ttf" "variable_ttf/${TEXT_FAMILY}[wght].ttf"
+	else
+		mv "variable_ttf/${TEXT_FAMILY}VF-${v}-VF.ttf" "variable_ttf/${TEXT_FAMILY}-${v}[wght].ttf"
+	fi
 
 	echo "    masters"
 	fontmake ${FMOPTS} -m "${DS}" -o ttf otf --optimize-cff=0 --keep-overlaps

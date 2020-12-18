@@ -6,9 +6,5 @@
     <string>public.default</string>
     <string>glyphs</string>
   </array>
-  <array>
-    <string>BoldItalic</string>
-    <string>glyphs.B_oldI_talic</string>
-  </array>
 </array>
 </plist>

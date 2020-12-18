@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c.ishort.smcp" format="2">
   <advance width="693"/>
+  <anchor x="347" y="0" name="bottom"/>
+  <anchor x="347" y="0" name="cedilla"/>
+  <anchor x="350" y="0" name="ogonek"/>
+  <anchor x="346" y="759" name="top.mkmk"/>
   <outline>
-    <component base="c.Ishort.c2sc"/>
+    <component base="c.I.c2sc"/>
+    <component base="brevecomb.Cyrillic" xOffset="576" yOffset="65"/>
   </outline>
   <lib>
   <dict>

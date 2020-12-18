@@ -36,7 +36,7 @@
     <dimension name="weight" xvalue="110"/>
    </location>
   </instance>
-  <instance stylename="Semibold" familyname="STIX Two Text" name="Semibold" filename="instances/STIXTwoText-Semibold.ufo">
+  <instance stylename="Semibold" familyname="STIX Two Text" name="SemiBold" filename="instances/STIXTwoText-SemiBold.ufo">
    <location>
     <dimension name="weight" xvalue="128"/>
    </location>

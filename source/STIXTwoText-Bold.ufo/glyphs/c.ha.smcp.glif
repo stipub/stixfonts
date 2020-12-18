@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c.ha.smcp" format="2">
   <advance width="603"/>
+  <anchor x="296" y="0" name="bottom"/>
+  <anchor x="300" y="0" name="cedilla"/>
+  <anchor x="298" y="0" name="ogonek"/>
+  <anchor x="303" y="532" name="top"/>
   <outline>
-    <component base="c.Ha.c2sc"/>
+    <component base="X.c2sc"/>
   </outline>
   <lib>
   <dict>

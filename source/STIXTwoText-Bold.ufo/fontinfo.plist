@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>657</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2001-2018 by the STI Pub Companies, consisting of the American Chemical Society, the American Institute of Physics, the American Mathematical Society, the American Physical Society, Elsevier, Inc., and The Institute of Electrical and Electronic Engineers, Inc.  Portions copyright (c) 1998-2003 by MicroPress, Inc.  Portions copyright (c) 1990 by Elsevier, Inc.  All rights reserved.</string>
+  <string>Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
   <key>descender</key>
   <integer>-238</integer>
   <key>familyName</key>
@@ -32,7 +32,7 @@
     <key>x</key>
     <integer>0</integer>
     <key>y</key>
-    <integer>762</integer>
+    <integer>668</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -46,7 +46,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <integer>-0</integer>
+  <integer>0</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -62,7 +62,7 @@
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/12/11 11:27:23</string>
+  <string>2020/12/16 14:12:43</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -74,14 +74,16 @@
   <integer>-238</integer>
   <key>openTypeHheaLineGap</key>
   <integer>250</integer>
+  <key>openTypeNameDescription</key>
+  <string>The Scientific and Technical Information eXchange (STIX) fonts are intended to satisfy the demanding needs of authors, publishers, printers, and others working in the scientific, medical, and technical fields. They combine a comprehensive Unicode-based collection of mathematical symbols and alphabets with a set of text faces suitable for professional publishing. The fonts are available royalty-free under the SIL Open Font License.</string>
   <key>openTypeNameDesigner</key>
-  <string>Ross Mills, John Hudson &amp; Paul Hanslow, Tiro Typeworks Ltd; with prior portions MicroPress Inc. and Coen Hoffman, Elsevier (retired).</string>
+  <string>Ross Mills, John Hudson &amp; Paul Hanslow, Tiro Typeworks Ltd; with prior portions MicroPress Inc., and Coen Hoffman.</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://www.tiro.com</string>
   <key>openTypeNameLicense</key>
-  <string>As a condition for receiving these fonts at no charge, each person downloading the fonts must agree to some simple license terms. The license is based on the SIL Open Font License &lt;https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL&gt;. The SIL License is a free and open source license specifically designed for fonts and related software. The basic terms are that the recipient will not remove the copyright and trademark statements from the fonts and that, if the person decides to create a derivative work based on the STIX Fonts but incorporating some changes or enhancements, the derivative work (&quot;Modified Version&quot;) will carry a different name. The copyright and trademark restrictions are part of the agreement between the STI Pub companies and the typeface designer. The &quot;renaming&quot; restriction results from the desire of the STI Pub companies to assure that the STIX Fonts will continue to function in a predictable fashion for all that use them. No copy of one or more of the individual Font typefaces that form the STIX Fonts(TM) set may be sold by itself, but other than this one restriction, licensees are free to sell the fonts either separately or as part of a package that combines other software or fonts with this font set.</string>
+  <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
   <key>openTypeNameLicenseURL</key>
-  <string>https://www.stixfonts.org/user_license.html</string>
+  <string>https://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>Tiro Typeworks Ltd</string>
   <key>openTypeNameManufacturerURL</key>
@@ -91,7 +93,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.10 b154</string>
+  <string>Version 2.10 b156</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -241,7 +243,7 @@
   <key>styleName</key>
   <string>Bold</string>
   <key>trademark</key>
-  <string>STIX Fonts(TM) is a trademark of The Institute of Electrical and Electronics Engineers, Inc.</string>
+  <string>STIX Fonts and STIX Two are trademarks of The Institute of Electrical and Electronics Engineers, Inc.</string>
   <key>unitsPerEm</key>
   <integer>1000</integer>
   <key>versionMajor</key>

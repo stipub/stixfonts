@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c.Ushort.c2sc" format="2">
   <advance width="546"/>
+  <anchor x="270" y="0" name="bottom"/>
+  <anchor x="270" y="0" name="cedilla"/>
+  <anchor x="270" y="0" name="ogonek"/>
+  <anchor x="289" y="759" name="top.mkmk"/>
   <outline>
     <component base="c.U.c2sc"/>
     <component base="brevecomb.Cyrillic" xOffset="519" yOffset="65"/>

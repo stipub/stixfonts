@@ -87,7 +87,7 @@ basis of STIX as follows:
 ChangeLog
 ---------
 
-15 December 2020, STIX Two, version 2.10
+18 December 2020, STIX Two, version 2.10
 
 For compatibility with the internal major/minor versioning convention
 used by the OpenType font format, the public version number was
