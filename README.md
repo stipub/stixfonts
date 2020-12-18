@@ -6,6 +6,8 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 * See https://www.stixfonts.org/ for background on the the STIX Fonts
   project.
 
+* Download [zip files](zipfiles) with some or all of the fonts.
+
 * View [code charts](docs) for the
   * [Math](docs/STIXTwoMath-Regular.pdf),
   * [Regular text](docs/STIXTwoText-Regular.pdf),
