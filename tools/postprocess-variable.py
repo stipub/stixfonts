@@ -23,7 +23,7 @@ def main():
     if italic:
         value = dict(value=italic, name="Italic")
     else:
-        value = dict(value=italic, name="Normal", flags=0x0002, linkedValue=1)
+        value = dict(value=italic, name="Roman", flags=0x0002, linkedValue=1)
     axes.append(dict(tag="ital", name="Italic", values=[value]))
 
     buildStatTable(font, axes)

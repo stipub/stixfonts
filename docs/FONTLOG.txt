@@ -87,6 +87,16 @@ basis of STIX as follows:
 ChangeLog
 ---------
 
+13 January 2021, STIX Two, version 2.11
+
+* Changed "Semibold" to "SemiBold" in all font and file names.
+
+* Fixed various technical issues required for compatibility with the
+  Google Fonts platform.  There were no changes to font metrics or
+  glyph shapes.
+
+-----------------------------------
+
 18 December 2020, STIX Two, version 2.10
 
 For compatibility with the internal major/minor versioning convention

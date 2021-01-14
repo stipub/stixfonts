@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="wght" name="weight" default="400" maximum="700" minimum="400">
+  <axis default="400" minimum="400" tag="wght" maximum="700" name="weight">
    <labelname xml:lang="en">Weight</labelname>
    <map input="400" output="92"/>
    <map input="500" output="110"/>
@@ -10,40 +10,40 @@
   </axis>
  </axes>
  <sources>
-  <source stylename="Bold" familyname="STIX Two Text" name="Bold" filename="masters/STIXTwoText-Bold.ufo">
+  <source familyname="STIX Two Text" stylename="Bold" name="Bold" filename="masters/STIXTwoText-Bold.ufo">
    <location>
-    <dimension name="weight" xvalue="149"/>
+    <dimension xvalue="149" name="weight"/>
    </location>
   </source>
-  <source stylename="Regular" familyname="STIX Two Text" name="Regular" filename="masters/STIXTwoText-Regular.ufo">
+  <source familyname="STIX Two Text" stylename="Regular" name="Regular" filename="masters/STIXTwoText-Regular.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
    <features copy="1"/>
    <location>
-    <dimension name="weight" xvalue="92"/>
+    <dimension xvalue="92" name="weight"/>
    </location>
   </source>
  </sources>
  <instances>
-  <instance stylename="Regular" familyname="STIX Two Text" name="Regular" filename="instances/STIXTwoText-Regular.ufo">
+  <instance familyname="STIX Two Text" stylename="Regular" name="Regular" filename="instances/STIXTwoText-Regular.ufo">
    <location>
-    <dimension name="weight" xvalue="92"/>
+    <dimension xvalue="92" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Medium" familyname="STIX Two Text" name="Medium" filename="instances/STIXTwoText-Medium.ufo">
+  <instance familyname="STIX Two Text" stylename="Medium" name="Medium" filename="instances/STIXTwoText-Medium.ufo">
    <location>
-    <dimension name="weight" xvalue="110"/>
+    <dimension xvalue="110" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Semibold" familyname="STIX Two Text" name="SemiBold" filename="instances/STIXTwoText-SemiBold.ufo">
+  <instance familyname="STIX Two Text" stylename="SemiBold" name="SemiBold" filename="instances/STIXTwoText-SemiBold.ufo">
    <location>
-    <dimension name="weight" xvalue="128"/>
+    <dimension xvalue="128" name="weight"/>
    </location>
   </instance>
-  <instance stylename="Bold" familyname="STIX Two Text" name="Bold" filename="instances/STIXTwoText-Bold.ufo">
+  <instance familyname="STIX Two Text" stylename="Bold" name="Bold" filename="instances/STIXTwoText-Bold.ufo">
    <location>
-    <dimension name="weight" xvalue="149"/>
+    <dimension xvalue="149" name="weight"/>
    </location>
   </instance>
  </instances>

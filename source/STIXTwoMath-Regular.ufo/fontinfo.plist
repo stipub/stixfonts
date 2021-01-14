@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>657</integer>
   <key>copyright</key>
-  <string>Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
+  <string>Copyright 2001-2020 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
   <key>descender</key>
   <integer>-238</integer>
   <key>familyName</key>
@@ -226,7 +226,7 @@
   </dict>
   </array>
   <key>italicAngle</key>
-  <integer>0</integer>
+  <integer>-0</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -282,7 +282,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.10 b156</string>
+  <string>Version 2.11 b159</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -463,7 +463,7 @@
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>110</integer>
   <key>xHeight</key>
   <integer>473</integer>
   <key>year</key>

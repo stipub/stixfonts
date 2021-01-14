@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>657</integer>
   <key>copyright</key>
-  <string>Copyright 2001-2020 by the STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
+  <string>Copyright 2001-2020 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
   <key>descender</key>
   <integer>-238</integer>
   <key>familyName</key>
@@ -49,7 +49,7 @@
   <key>openTypeHheaAscender</key>
   <integer>762</integer>
   <key>openTypeHheaCaretOffset</key>
-  <integer>-51</integer>
+  <integer>-50</integer>
   <key>openTypeHheaDescender</key>
   <integer>-238</integer>
   <key>openTypeHheaLineGap</key>
@@ -73,7 +73,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Italic</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.10 b156</string>
+  <string>Version 2.11 b159</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -227,7 +227,7 @@
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>110</integer>
   <key>xHeight</key>
   <integer>467</integer>
 </dict>

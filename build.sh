@@ -59,7 +59,6 @@ for v in $VF; do
 
 	echo "    masters"
 	fontmake ${FMOPTS} -m "${DS}" -o ttf otf --optimize-cff=0 --keep-overlaps
-	fontmake ${FMOPTS} -m "${DS}" -o ttf otf --optimize-cff=0 --keep-overlaps
 
 	echo "    static"
 	fontmake ${FMOPTS} -m "${DS}" -o ttf --optimize-cff=0 -i --interpolate-binary-layout --output-dir static_ttf

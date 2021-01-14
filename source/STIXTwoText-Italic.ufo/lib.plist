@@ -36,7 +36,7 @@
     </dict>
   </dict>
   <key>com.typemytype.robofont.italicSlantOffset</key>
-  <real>-51</real>
+  <real>-50</real>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
