@@ -32,7 +32,7 @@ thorough revision undertaken by the renowned type house Tiro Typeworks
 Ltd. (https://www.tiro.com).  The STIX Two fonts consist of one Math
 font, two variable text fonts (STIXTwoTextVF-Roman and
 STIXTwoTextVF-Italic), and eight static text fonts (Regular, Italic,
-Medium, Medium Italic, Semibold, Semibold Italic, Bold, and Bold
+Medium, Medium Italic, SemiBold, SemiBold Italic, Bold, and Bold
 Italic) derived from the variable fonts.  Together, they provide a
 uniform set of fonts that can be used throughout the production
 process, whether that be a traditional print-only process, an entirely
