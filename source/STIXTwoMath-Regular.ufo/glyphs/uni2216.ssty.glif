@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2216.ssty" format="2">
-  <advance width="480"/>
+  <advance width="571"/>
   <outline>
     <contour>
-      <point x="454" y="113" type="line"/>
-      <point x="104" y="480" type="line"/>
-      <point x="30" y="480" type="line"/>
-      <point x="382" y="113" type="line"/>
+      <point x="516" y="-231" type="line"/>
+      <point x="132" y="778" type="line"/>
+      <point x="55" y="778" type="line"/>
+      <point x="438" y="-231" type="line"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
+  <string>0.6,1,0.602,1</string>
   </dict>
   </lib>
 </glyph>

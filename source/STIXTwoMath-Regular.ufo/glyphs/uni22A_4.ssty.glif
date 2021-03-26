@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni22A4.ssty" format="2">
-  <advance width="739"/>
+  <advance width="772"/>
   <outline>
     <contour>
-      <point x="684" y="648" type="line"/>
-      <point x="684" y="724" type="line"/>
-      <point x="55" y="724" type="line"/>
-      <point x="55" y="648" type="line"/>
-      <point x="326" y="648" type="line"/>
-      <point x="326" y="0" type="line"/>
-      <point x="413" y="0" type="line"/>
-      <point x="413" y="648" type="line"/>
+      <point x="701" y="648" type="line"/>
+      <point x="701" y="724" type="line"/>
+      <point x="72" y="724" type="line"/>
+      <point x="72" y="648" type="line"/>
+      <point x="343" y="648" type="line"/>
+      <point x="343" y="0" type="line"/>
+      <point x="430" y="0" type="line"/>
+      <point x="430" y="648" type="line"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
+  <string>0.6,1,0.602,1</string>
   </dict>
   </lib>
 </glyph>

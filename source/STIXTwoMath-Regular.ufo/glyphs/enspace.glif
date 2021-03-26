@@ -2,10 +2,4 @@
 <glyph name="enspace" format="2">
   <advance width="500"/>
   <unicode hex="2002"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
-  </dict>
-  </lib>
 </glyph>

@@ -2,10 +2,4 @@
 <glyph name="thirdemspace" format="2">
   <advance width="334"/>
   <unicode hex="2004"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
-  </dict>
-  </lib>
 </glyph>

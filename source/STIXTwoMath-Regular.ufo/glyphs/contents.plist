@@ -1412,6 +1412,8 @@
   <string>N_ablaitalic.ssty.glif</string>
   <key>Nablaitalic.ssty2</key>
   <string>N_ablaitalic.ssty2.glif</string>
+  <key>Nablasans</key>
+  <string>N_ablasans.glif</string>
   <key>Nablasansbold</key>
   <string>N_ablasansbold.glif</string>
   <key>Nablasansbolditalic</key>
@@ -8580,6 +8582,10 @@
   <string>uni2216.ssty2.glif</string>
   <key>uni2216.var</key>
   <string>uni2216.var.glif</string>
+  <key>uni2216.var.ssty</key>
+  <string>uni2216.var.ssty.glif</string>
+  <key>uni2216.var.ssty2</key>
+  <string>uni2216.var.ssty2.glif</string>
   <key>uni2217</key>
   <string>uni2217.glif</string>
   <key>uni2217.ssty</key>

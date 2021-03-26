@@ -6,6 +6,19 @@ from fontTools.ttLib import TTFont, newTable
 from fontTools.ttLib.tables import ttProgram
 
 
+WEIGHT_MAP = {
+    100: "Thin",
+    200: "ExtraLight",
+    300: "Light",
+    400: "Regular",
+    500: "Medium",
+    600: "SemiBold",
+    700: "Bold",
+    800: "ExtraBold",
+    900: "Black",
+}
+
+
 def main():
     font = TTFont(sys.argv[1])
 
@@ -18,7 +31,20 @@ def main():
     italic = bool(os2.fsSelection & (1 << 0))
 
     fvar = font["fvar"]
-    axes = [dict(tag=a.axisTag, name=a.axisNameID) for a in fvar.axes]
+    axes = [
+        dict(
+            tag=a.axisTag,
+            name=a.axisNameID,
+            values=[
+                dict(
+                    value=i.coordinates[a.axisTag],
+                    name=WEIGHT_MAP[i.coordinates[a.axisTag]],
+                )
+                for i in fvar.instances
+            ],
+        )
+        for a in fvar.axes
+    ]
 
     if italic:
         value = dict(value=italic, name="Italic")
@@ -28,18 +54,27 @@ def main():
 
     buildStatTable(font, axes)
 
-    # Prune name table
-    names = [n for n in font["name"].names if n.platformID == 3]
-
     # Drop Regular from Roman font names
-    if not italic:
-        for name in names:
+    for name in font["name"].names:
+        if name.platformID != 3:
+            continue
+        if not italic:
             if name.nameID in (3, 6):
                 name.string = str(name).replace("-Regular", "")
             if name.nameID == 4:
                 name.string = str(name).replace(" Regular", "")
+        # Adobe bug
+        if name.nameID == 1:
+            psPrefix = str(name).replace(" ", "")
+            if italic:
+                psPrefix += "Italic"
+            else:
+                psPrefix += "Roman"
+            font["name"].setName(psPrefix, 25, 3, 1, 0x409)
 
-    font["name"].names = names
+    # Prune name table
+    font["name"].names = [n for n in font["name"].names if n.platformID == 3]
+
     font["OS/2"].usMaxContext = maxCtxFont(font)
 
     font["DSIG"] = DSIG = newTable("DSIG")

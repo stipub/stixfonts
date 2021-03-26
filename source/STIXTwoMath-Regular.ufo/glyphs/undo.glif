@@ -88,8 +88,6 @@
   <guideline angle="0" x="0" y="372"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
   <key>public.postscript.hints</key>
   <dict>
     <key>formatVersion</key>

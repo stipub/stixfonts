@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2266" format="2">
-  <advance width="701"/>
+  <advance width="720"/>
   <unicode hex="2266"/>
   <outline>
     <contour>
-      <point x="637" y="164" type="line"/>
-      <point x="637" y="228" type="line"/>
-      <point x="194" y="448" type="line"/>
-      <point x="637" y="668" type="line"/>
-      <point x="637" y="735" type="line"/>
-      <point x="58" y="453" type="line"/>
-      <point x="58" y="443" type="line"/>
+      <point x="650" y="164" type="line"/>
+      <point x="650" y="228" type="line"/>
+      <point x="207" y="448" type="line"/>
+      <point x="650" y="668" type="line"/>
+      <point x="650" y="735" type="line"/>
+      <point x="71" y="453" type="line"/>
+      <point x="71" y="443" type="line"/>
     </contour>
     <contour>
-      <point x="637" y="-13" type="line"/>
-      <point x="637" y="55" type="line"/>
-      <point x="58" y="55" type="line"/>
-      <point x="58" y="-13" type="line"/>
+      <point x="650" y="-13" type="line"/>
+      <point x="650" y="55" type="line"/>
+      <point x="71" y="55" type="line"/>
+      <point x="71" y="-13" type="line"/>
     </contour>
     <contour>
-      <point x="637" y="-216" type="line"/>
-      <point x="637" y="-149" type="line"/>
-      <point x="58" y="-149" type="line"/>
-      <point x="58" y="-216" type="line"/>
+      <point x="650" y="-216" type="line"/>
+      <point x="650" y="-149" type="line"/>
+      <point x="71" y="-149" type="line"/>
+      <point x="71" y="-216" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
 </glyph>

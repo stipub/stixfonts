@@ -6,10 +6,4 @@
     <component base="period.ssty2" xOffset="468"/>
     <component base="period.ssty2" xOffset="888"/>
   </outline>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>0.972,0.6,1,1</string>
-  </dict>
-  </lib>
 </glyph>

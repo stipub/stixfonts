@@ -20,10 +20,4 @@
     </contour>
   </outline>
   <guideline angle="20.7968" x="0" y="700"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
-  </dict>
-  </lib>
 </glyph>

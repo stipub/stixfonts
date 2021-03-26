@@ -80,10 +80,4 @@
   </outline>
   <guideline angle="339.228" x="0" y="483"/>
   <guideline angle="0" x="0" y="11"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
-  </dict>
-  </lib>
 </glyph>

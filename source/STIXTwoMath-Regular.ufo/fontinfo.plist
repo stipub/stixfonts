@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>657</integer>
   <key>copyright</key>
-  <string>Copyright 2001-2020 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
+  <string>Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)</string>
   <key>descender</key>
   <integer>-238</integer>
   <key>familyName</key>
@@ -53,16 +53,6 @@
     <integer>0</integer>
     <key>y</key>
     <integer>250</integer>
-  </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>f12</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>-12</integer>
   </dict>
   <dict>
     <key>angle</key>
@@ -282,7 +272,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.11 b159</string>
+  <string>Version 2.12 b168</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -395,9 +385,9 @@
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2200</integer>
+  <integer>2627</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1700</integer>
+  <integer>1641</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -422,7 +412,7 @@
     <integer>719</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>STIXTwoMath</string>
+  <string>STIXTwoMath-Regular</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptFullName</key>
@@ -463,7 +453,7 @@
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>110</integer>
+  <integer>120</integer>
   <key>xHeight</key>
   <integer>473</integer>
   <key>year</key>

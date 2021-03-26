@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tackup.ssty" format="2">
-  <advance width="751"/>
+  <advance width="772"/>
   <outline>
     <contour>
-      <point x="677" y="0" type="line"/>
-      <point x="677" y="77" type="line"/>
-      <point x="420" y="77" type="line"/>
-      <point x="420" y="390" type="line"/>
-      <point x="342" y="390" type="line"/>
-      <point x="342" y="77" type="line"/>
+      <point x="698" y="0" type="line"/>
+      <point x="698" y="77" type="line"/>
+      <point x="425" y="77" type="line"/>
+      <point x="425" y="390" type="line"/>
+      <point x="347" y="390" type="line"/>
+      <point x="347" y="77" type="line"/>
       <point x="74" y="77" type="line"/>
       <point x="74" y="0" type="line"/>
     </contour>
@@ -16,7 +16,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
+  <string>0.6,1,0.602,1</string>
   </dict>
   </lib>
 </glyph>

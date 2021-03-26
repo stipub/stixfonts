@@ -7,10 +7,4 @@
     <component base="period.ssty" xOffset="794"/>
   </outline>
   <guideline angle="0" x="0" y="61"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>0.972,0.6,1,1</string>
-  </dict>
-  </lib>
 </glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>gamma</key>
+  <string>gamma.glif</string>
+  <key>iota</key>
+  <string>iota.glif</string>
+  <key>pertenthousand</key>
+  <string>pertenthousand.glif</string>
+  <key>perthousand</key>
+  <string>perthousand.glif</string>
+  <key>perzero</key>
+  <string>perzero.glif</string>
+</dict>
+</plist>

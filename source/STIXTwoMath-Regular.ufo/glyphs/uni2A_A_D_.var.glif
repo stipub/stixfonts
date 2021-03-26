@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2AAD.var" format="2">
-  <advance width="701"/>
+  <advance width="720"/>
   <outline>
     <contour>
-      <point x="640" y="348" type="line"/>
-      <point x="640" y="358" type="line"/>
-      <point x="61" y="640" type="line"/>
-      <point x="61" y="573" type="line"/>
-      <point x="436" y="387" type="line"/>
-      <point x="61" y="387" type="line"/>
-      <point x="61" y="319" type="line"/>
-      <point x="435" y="319" type="line"/>
-      <point x="61" y="135" type="line"/>
-      <point x="61" y="68" type="line"/>
+      <point x="650" y="348" type="line"/>
+      <point x="650" y="358" type="line"/>
+      <point x="71" y="640" type="line"/>
+      <point x="71" y="573" type="line"/>
+      <point x="446" y="387" type="line"/>
+      <point x="71" y="387" type="line"/>
+      <point x="71" y="319" type="line"/>
+      <point x="445" y="319" type="line"/>
+      <point x="71" y="135" type="line"/>
+      <point x="71" y="68" type="line"/>
     </contour>
     <contour>
-      <point x="640" y="141" type="line"/>
-      <point x="640" y="209" type="line"/>
-      <point x="61" y="-73" type="line"/>
-      <point x="61" y="-141" type="line"/>
+      <point x="650" y="141" type="line"/>
+      <point x="650" y="209" type="line"/>
+      <point x="71" y="-73" type="line"/>
+      <point x="71" y="-141" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
 </glyph>

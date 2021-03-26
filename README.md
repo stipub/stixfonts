@@ -47,11 +47,11 @@ electronic one, or a combination of the two.
 
 The [STIX project](https://www.stixfonts.org/) began through the joint
 efforts of
-the [American Mathematical Society](https://www.ams.org/) (AMS),
-the [American Institute of Physics](https://www.aip.org/) (AIP),
-the [American Physical Society](https://www.aps.org/) (APS),
-the [American Chemical Society](https://www.acs.org/) (ACS),
-the [Institute of Electrical and Electronic](https://www.ieee.org/) Engineers (IEEE),
+[American Mathematical Society](https://www.ams.org/) (AMS),
+[American Institute of Physics](https://www.aip.org/) (AIP),
+[American Physical Society](https://www.aps.org/) (APS),
+[American Chemical Society](https://www.acs.org/) (ACS),
+The [Institute of Electrical and Electronic](https://www.ieee.org/) Engineers (IEEE),
 and [Elsevier](https://www.elsevier.com/).
 These companies are collectively known as the STI Pub companies.
 
@@ -181,10 +181,13 @@ STIX Two Math implements the following font features:
     flac    Flattened accents
     ssty    Math Script style alternates
 
-and the following Character Variant (note the different meaning
-compared to the text fonts):
+and the following Character Variants (note the different meaning of
+cv03 compared to the text fonts):
 
-    cv03    Replace U2205 EMPTY SET by an oblate form
+    cv01    U+019B Lambda with horizontal, not slanted stroke -- latn only
+    cv02    U+0264 Rams horn with serifs -- latn only
+    cv03    Replace U+2205 EMPTY SET by an oblate form
+    cv04    Replace U+2216 SET MINUS by a smaller form
 
 and the following Stylistic Sets (again, note that ss01 and ss02 have
 different meanings compared to the text fonts):
@@ -209,35 +212,12 @@ different meanings compared to the text fonts):
 
 ## Build instructions
 
-### First time
+After cloning the project, the fonts can be built using the `build.sh` script (use `--verbose` option for more detailed build log):
 
-After cloning the project for first time, the following steps are needed:
+    $ ./build.sh
 
-1. Setup a virtual environment in the folder that contains the source and tools subfolders:
+This may take several minutes to complete. The first time the script is called, it will create a Python virtual environment that will be also used for subsequent builds. Each time the script is called, the fonts will be rebuilt from scratch. The built fonts will be in `build` subdirectory, and should be manually copied and committed to `fonts` subdirectory.
 
-       $ python3 -m venv venv
-
-2. Activate the environment:
-
-       $ source venv/bin/activate
-
-3. Update `pip`:
-
-       $ pip install -U pip
-
-4. Install dependencies:
-
-       $ pip install -r requirements.txt
-
-5. Build the fonts (use `--verbose` option for more detailed build log):
-
-       $ ./build.sh
-   
-   This last step may take several minutes to complete.
-
-### Subsequent builds
-
-Only steps 2 and 5 above are needed.
 
 ### Notes on source formats and build process
 

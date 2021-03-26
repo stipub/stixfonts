@@ -18,10 +18,4 @@
   <guideline angle="0" x="0" y="762"/>
   <guideline angle="0" x="0" y="2574"/>
   <guideline angle="0" x="0" y="-238"/>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>1,0.874,0.6,1</string>
-  </dict>
-  </lib>
 </glyph>

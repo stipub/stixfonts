@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2216.var" format="2">
-  <advance width="535"/>
+  <advance width="437"/>
   <outline>
     <contour>
-      <point x="489" y="-228" type="line"/>
-      <point x="121" y="727" type="line"/>
-      <point x="47" y="727" type="line"/>
-      <point x="415" y="-228" type="line"/>
+      <point x="412" y="95" type="line"/>
+      <point x="89" y="421" type="line"/>
+      <point x="25" y="421" type="line"/>
+      <point x="349" y="95" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
 </glyph>

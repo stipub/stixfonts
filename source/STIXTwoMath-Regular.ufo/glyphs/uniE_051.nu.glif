@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniE051.nu" format="2">
-  <advance width="701"/>
+  <advance width="720"/>
   <unicode hex="E051"/>
   <outline>
     <contour>
-      <point x="635" y="-27" type="line"/>
-      <point x="635" y="545" type="line"/>
-      <point x="503" y="545" type="line"/>
-      <point x="561" y="678" type="line"/>
-      <point x="506" y="678" type="line"/>
-      <point x="447" y="545" type="line"/>
-      <point x="66" y="545" type="line"/>
-      <point x="66" y="477" type="line"/>
-      <point x="418" y="477" type="line"/>
-      <point x="227" y="41" type="line"/>
-      <point x="66" y="41" type="line"/>
-      <point x="66" y="-27" type="line"/>
-      <point x="197" y="-27" type="line"/>
-      <point x="140" y="-160" type="line"/>
-      <point x="195" y="-160" type="line"/>
-      <point x="253" y="-27" type="line"/>
+      <point x="645" y="-27" type="line"/>
+      <point x="645" y="545" type="line"/>
+      <point x="513" y="545" type="line"/>
+      <point x="571" y="678" type="line"/>
+      <point x="516" y="678" type="line"/>
+      <point x="457" y="545" type="line"/>
+      <point x="76" y="545" type="line"/>
+      <point x="76" y="477" type="line"/>
+      <point x="428" y="477" type="line"/>
+      <point x="237" y="41" type="line"/>
+      <point x="76" y="41" type="line"/>
+      <point x="76" y="-27" type="line"/>
+      <point x="207" y="-27" type="line"/>
+      <point x="150" y="-160" type="line"/>
+      <point x="205" y="-160" type="line"/>
+      <point x="263" y="-27" type="line"/>
     </contour>
     <contour>
-      <point x="567" y="41" type="line"/>
-      <point x="282" y="41" type="line"/>
-      <point x="473" y="477" type="line"/>
-      <point x="567" y="477" type="line"/>
+      <point x="577" y="41" type="line"/>
+      <point x="292" y="41" type="line"/>
+      <point x="483" y="477" type="line"/>
+      <point x="577" y="477" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
 </glyph>
