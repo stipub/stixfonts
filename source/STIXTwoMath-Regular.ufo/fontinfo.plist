@@ -272,7 +272,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.12 b168</string>
+  <string>Version 2.12 b168a</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -316,6 +316,7 @@
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>283</integer>
