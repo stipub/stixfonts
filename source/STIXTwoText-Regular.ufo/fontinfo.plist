@@ -83,7 +83,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.12 b168</string>
+  <string>Version 2.13 b170</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -180,8 +180,8 @@
   <array>
     <integer>-15</integer>
     <integer>0</integer>
-    <integer>804</integer>
-    <integer>814</integer>
+    <integer>254</integer>
+    <integer>264</integer>
     <integer>700</integer>
     <integer>717</integer>
     <integer>657</integer>
@@ -237,7 +237,7 @@
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>120</integer>
+  <integer>130</integer>
   <key>xHeight</key>
   <integer>473</integer>
 </dict>

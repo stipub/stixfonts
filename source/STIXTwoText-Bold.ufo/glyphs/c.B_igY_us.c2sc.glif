@@ -12,16 +12,16 @@
       <point x="498" y="40"/>
       <point x="502" y="56"/>
       <point x="502" y="142" type="curve" smooth="yes"/>
-      <point x="502" y="254" type="line"/>
-      <point x="524" y="253" type="line"/>
+      <point x="502" y="255" type="line"/>
+      <point x="524" y="255" type="line"/>
       <point x="524" y="289" type="line"/>
       <point x="697" y="493" type="line"/>
       <point x="697" y="532" type="line"/>
       <point x="160" y="532" type="line"/>
       <point x="160" y="490" type="line"/>
       <point x="333" y="289" type="line"/>
-      <point x="333" y="253" type="line"/>
-      <point x="357" y="254" type="line"/>
+      <point x="333" y="255" type="line"/>
+      <point x="357" y="255" type="line"/>
       <point x="357" y="122" type="line" smooth="yes"/>
       <point x="357" y="50"/>
       <point x="357" y="40"/>
@@ -80,7 +80,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.812,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

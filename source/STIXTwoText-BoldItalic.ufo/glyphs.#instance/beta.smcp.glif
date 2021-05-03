@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beta.smcp" format="2">
+  <advance width="583"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.814,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -87,6 +87,10 @@ basis of STIX as follows:
 ChangeLog
 ---------
 
+28 April 2021, STIX Two, version 2.13
+
+Variable and interpolated font bug fixes.
+
 26 March 2021, STIX Two, version 2.12
 
 In addition to the changes detailed below, there have been further

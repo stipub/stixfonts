@@ -256,7 +256,7 @@
   <key>openTypeNameDescription</key>
   <string>The Scientific and Technical Information eXchange (STIX) fonts are intended to satisfy the demanding needs of authors, publishers, printers, and others working in the scientific, medical, and technical fields. They combine a comprehensive Unicode-based collection of mathematical symbols and alphabets with a set of text faces suitable for professional publishing. The fonts are available royalty-free under the SIL Open Font License.</string>
   <key>openTypeNameDesigner</key>
-  <string>Ross Mills, John Hudson &amp; Paul Hanslow, Tiro Typeworks Ltd; with prior portions MicroPress Inc., and Coen Hoffman.</string>
+  <string>Ross Mills, John Hudson &amp; Paul Hanslow, Tiro Typeworks Ltd; with prior portions MicroPress Inc., and Coen Hoffman. Math alphanumeric sans derived from Source Sans, designed by Paul Hunt.</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://www.tiro.com</string>
   <key>openTypeNameLicense</key>
@@ -272,7 +272,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.12 b168a</string>
+  <string>Version 2.13 b170</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -454,7 +454,7 @@
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>120</integer>
+  <integer>130</integer>
   <key>xHeight</key>
   <integer>473</integer>
   <key>year</key>

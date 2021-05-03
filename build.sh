@@ -26,12 +26,12 @@ if ! test -d ${VENV}; then
 	rm -rf ${VENV}
 	python3 -m venv ${VENV}
 	source ${VENV}/bin/activate
-	pip install ${PIPOPTS} -U pip
+	python3 -m pip install ${PIPOPTS} -U pip
 fi
 
 source ${VENV}/bin/activate
 echo "Installing Python requirements"
-pip install ${PIPOPTS} -r requirements.txt
+python3 -m pip install ${PIPOPTS} -r requirements.txt
 
 rm -rf ${BUILD}
 mkdir -p ${BUILD}/masters

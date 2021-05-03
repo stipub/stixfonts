@@ -16,7 +16,7 @@ fontmath==0.6.0           # via fontmake
 fonttools[lxml,ufo,unicode,woff]==4.18.0  # via -r requirements.ini, booleanoperations, cffsubr, compreffor, cu2qu, fontmake, fontmath, glyphslib, psautohint, ufo2ft, ufolib2
 fs==2.4.11                # via fonttools
 glyphslib==5.3.0          # via fontmake
-lxml==4.6.3               # via fonttools
+lxml==4.6.2               # via fonttools
 psautohint==2.1.1a0       # via -r requirements.ini
 pyclipper==1.2.0          # via booleanoperations
 pytz==2020.4              # via fs

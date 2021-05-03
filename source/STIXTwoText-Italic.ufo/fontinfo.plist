@@ -73,7 +73,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Italic</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.12 b168</string>
+  <string>Version 2.13 b170</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -227,7 +227,7 @@
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>120</integer>
+  <integer>130</integer>
   <key>xHeight</key>
   <integer>467</integer>
 </dict>

@@ -1,4 +1,20 @@
-Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts), with Reserved Font Name "TM Math". STIX Fonts™ is a trademark of The Institute of Electrical and Electronics Engineers, Inc.
+Copyright 2001-2021 The STIX Fonts Project Authors (https://github.com/stipub/stixfonts)
+
+STIX Fonts™ is a trademark of The Institute of Electrical and
+Electronics Engineers, Inc.
+
+Portions copyright © 1998–2003 by MicroPress, Inc.
+(www.micropress-inc.com), with Reserved Font Name TM Math.
+To obtain additional mathematical fonts, please contact
+    MicroPress, Inc.,
+    68-30 Harrow Street,
+    Forest Hills, NY 11375,
+    USA
+    Phone: (718) 575-1816.  
+
+Portions copyright © 1990 by Elsevier, Inc.  
+
+Portions copyright © 2010, 2012, 2014 Adobe Systems Incorporated.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

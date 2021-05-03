@@ -90,16 +90,16 @@
       <point x="290" y="197"/>
     </contour>
     <contour>
-      <point x="522" y="404" type="line"/>
       <point x="522" y="466" type="line"/>
       <point x="381" y="466" type="line"/>
       <point x="413" y="404" type="line"/>
+      <point x="522" y="404" type="line"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.812,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>

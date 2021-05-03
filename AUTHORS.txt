@@ -11,7 +11,3 @@ The STI Pub Companies <stix@aip.org>
 # American Chemical Society, American Mathematical Society, American
 # Physical Society, Elsevier, Inc., and The Institute of Electrical
 # and Electronic Engineers, Inc.
-
-MicroPress, Inc. <www.micropress-inc.com>, with Reserved Font Name TM Math.
-Elsevier, Inc.  
-Adobe Systems Incorporated.

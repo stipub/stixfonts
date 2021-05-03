@@ -19,6 +19,13 @@ WEIGHT_MAP = {
 }
 
 
+def axisValue(instance, axis, italic):
+    weight = instance.coordinates[axis.axisTag]
+    name = WEIGHT_MAP[weight]
+    flags = 0x0002 if italic and name == "Regular" else 0x0
+    return dict(value=weight, name=name, flags=flags)
+
+
 def main():
     font = TTFont(sys.argv[1])
 
@@ -35,13 +42,7 @@ def main():
         dict(
             tag=a.axisTag,
             name=a.axisNameID,
-            values=[
-                dict(
-                    value=i.coordinates[a.axisTag],
-                    name=WEIGHT_MAP[i.coordinates[a.axisTag]],
-                )
-                for i in fvar.instances
-            ],
+            values=[axisValue(i, a, italic) for i in fvar.instances],
         )
         for a in fvar.axes
     ]

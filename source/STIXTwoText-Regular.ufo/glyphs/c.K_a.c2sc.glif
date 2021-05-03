@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="c.Ka.c2sc" format="2">
   <advance width="586"/>
-  <anchor x="284" y="0" name="bottom"/>
-  <anchor x="283" y="0" name="cedilla"/>
+  <anchor x="294" y="0" name="bottom"/>
+  <anchor x="293" y="0" name="cedilla"/>
   <anchor x="477" y="0" name="ogonek"/>
-  <anchor x="280" y="532" name="top"/>
+  <anchor x="300" y="532" name="top"/>
   <outline>
     <contour>
       <point x="284" y="0" type="line"/>
@@ -71,7 +71,7 @@
   <lib>
   <dict>
   <key>public.markColor</key>
-  <string>0.812,1,0.6,1</string>
+  <string>1,0.801,0.6,1</string>
   </dict>
   </lib>
 </glyph>
