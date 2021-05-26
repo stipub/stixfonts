@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildelongcomb.cap" format="2">
-  <anchor x="-200" y="657" name="_top"/>
-  <anchor x="-200" y="678" name="_top.mkmk"/>
   <anchor x="0" y="826" name="top.mkmk"/>
   <outline>
     <contour>

@@ -20,7 +20,7 @@
       <point x="217" y="372" type="line"/>
       <point x="223" y="372" type="line"/>
       <point x="241" y="314" type="line"/>
-      <point x="322" y="95" type="line" smooth="yes"/>
+      <point x="322" y="95" type="line"/>
       <point x="327" y="80"/>
       <point x="331" y="66"/>
       <point x="331" y="54" type="curve" smooth="yes"/>

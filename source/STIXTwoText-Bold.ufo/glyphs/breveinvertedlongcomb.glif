@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvertedlongcomb" format="2">
   <unicode hex="0361"/>
-  <anchor x="-200" y="473" name="_top"/>
-  <anchor x="-200" y="492" name="_top.mkmk"/>
   <anchor x="-2" y="700" name="top.mkmk"/>
   <outline>
     <contour>

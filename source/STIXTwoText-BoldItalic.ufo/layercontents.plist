@@ -6,9 +6,5 @@
     <string>public.default</string>
     <string>glyphs</string>
   </array>
-  <array>
-    <string>#instance</string>
-    <string>glyphs.#instance</string>
-  </array>
 </array>
 </plist>
