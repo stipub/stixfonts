@@ -47,7 +47,7 @@ fs==2.4.13
     # via fonttools
 glyphslib==5.3.2
     # via fontmake
-lxml==4.6.3
+lxml==4.6.5
     # via fonttools
 psautohint==2.3.0
     # via -r requirements.in
