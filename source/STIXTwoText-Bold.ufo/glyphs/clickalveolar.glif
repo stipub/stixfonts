@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clickalveolar" format="2">
+  <advance width="446"/>
+  <unicode hex="01C2"/>
+  <anchor x="222" y="0" name="bottom"/>
+  <anchor x="221" y="0" name="cedilla"/>
+  <anchor x="220" y="0" name="ogonek"/>
+  <anchor x="222" y="687" name="top"/>
+  <outline>
+    <contour>
+      <point x="283" y="0" type="line"/>
+      <point x="283" y="239" type="line"/>
+      <point x="413" y="239" type="line"/>
+      <point x="413" y="316" type="line"/>
+      <point x="283" y="316" type="line"/>
+      <point x="283" y="402" type="line"/>
+      <point x="413" y="402" type="line"/>
+      <point x="413" y="479" type="line"/>
+      <point x="283" y="479" type="line"/>
+      <point x="283" y="706" type="line"/>
+      <point x="163" y="706" type="line"/>
+      <point x="163" y="479" type="line"/>
+      <point x="33" y="479" type="line"/>
+      <point x="33" y="402" type="line"/>
+      <point x="163" y="402" type="line"/>
+      <point x="163" y="316" type="line"/>
+      <point x="33" y="316" type="line"/>
+      <point x="33" y="239" type="line"/>
+      <point x="163" y="239" type="line"/>
+      <point x="163" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

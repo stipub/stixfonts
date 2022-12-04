@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s.sups" format="2">
+  <advance width="406"/>
+  <anchor x="228" y="255" name="bottom"/>
+  <anchor x="231" y="255" name="cedilla"/>
+  <anchor x="239" y="255" name="ogonek"/>
+  <anchor x="266" y="637" name="top"/>
+  <outline>
+    <contour>
+      <point x="217" y="241" type="curve" smooth="yes"/>
+      <point x="299" y="241"/>
+      <point x="381" y="273"/>
+      <point x="381" y="358" type="curve" smooth="yes"/>
+      <point x="381" y="451"/>
+      <point x="250" y="510"/>
+      <point x="250" y="572" type="curve" smooth="yes"/>
+      <point x="250" y="594"/>
+      <point x="261" y="606"/>
+      <point x="291" y="606" type="curve" smooth="yes"/>
+      <point x="341" y="606"/>
+      <point x="358" y="571"/>
+      <point x="363" y="510" type="curve"/>
+      <point x="398" y="510" type="line"/>
+      <point x="416" y="642" type="line"/>
+      <point x="388" y="642" type="line"/>
+      <point x="367" y="618" type="line"/>
+      <point x="363" y="618" type="line"/>
+      <point x="338" y="635"/>
+      <point x="302" y="644"/>
+      <point x="266" y="644" type="curve" smooth="yes"/>
+      <point x="196" y="644"/>
+      <point x="136" y="615"/>
+      <point x="136" y="550" type="curve" smooth="yes"/>
+      <point x="136" y="449"/>
+      <point x="263" y="395"/>
+      <point x="263" y="323" type="curve" smooth="yes"/>
+      <point x="263" y="291"/>
+      <point x="240" y="281"/>
+      <point x="207" y="281" type="curve" smooth="yes"/>
+      <point x="157" y="281"/>
+      <point x="145" y="319"/>
+      <point x="136" y="396" type="curve"/>
+      <point x="103" y="396" type="line"/>
+      <point x="73" y="245" type="line"/>
+      <point x="102" y="245" type="line"/>
+      <point x="117" y="265" type="line"/>
+      <point x="122" y="265" type="line"/>
+      <point x="149" y="250"/>
+      <point x="180" y="241"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

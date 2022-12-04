@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.gje" format="2">
+  <advance width="429"/>
+  <unicode hex="0453"/>
+  <outline>
+    <component base="c.ghe"/>
+    <component base="acutecomb" xOffset="445"/>
+  </outline>
+</glyph>

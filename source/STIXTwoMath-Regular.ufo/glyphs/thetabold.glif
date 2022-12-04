@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thetabold" format="2">
+  <advance width="518"/>
+  <unicode hex="1D6C9"/>
+  <outline>
+    <contour>
+      <point x="473" y="356" type="curve" smooth="yes"/>
+      <point x="473" y="544"/>
+      <point x="409" y="712"/>
+      <point x="271" y="712" type="curve" smooth="yes"/>
+      <point x="120" y="712"/>
+      <point x="47" y="531"/>
+      <point x="47" y="340" type="curve" smooth="yes"/>
+      <point x="47" y="117"/>
+      <point x="129" y="-15"/>
+      <point x="261" y="-15" type="curve" smooth="yes"/>
+      <point x="386" y="-15"/>
+      <point x="473" y="113"/>
+    </contour>
+    <contour>
+      <point x="262" y="122" type="curve" smooth="yes"/>
+      <point x="151" y="122"/>
+      <point x="108" y="224"/>
+      <point x="104" y="330" type="curve"/>
+      <point x="414" y="330" type="line"/>
+      <point x="418" y="197"/>
+      <point x="355" y="122"/>
+    </contour>
+    <contour>
+      <point x="268" y="576" type="curve" smooth="yes"/>
+      <point x="372" y="576"/>
+      <point x="407" y="476"/>
+      <point x="413" y="389" type="curve"/>
+      <point x="104" y="389" type="line"/>
+      <point x="110" y="499"/>
+      <point x="171" y="576"/>
+    </contour>
+  </outline>
+</glyph>

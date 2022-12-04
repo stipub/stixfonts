@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ZWJ" format="2">
+  <unicode hex="200D"/>
+  <outline>
+    <contour>
+      <point x="89" y="717" type="line"/>
+      <point x="-119" y="-262" type="line"/>
+      <point x="-91" y="-262" type="line"/>
+      <point x="117" y="717" type="line"/>
+    </contour>
+    <contour>
+      <point x="-24" y="703" type="line"/>
+      <point x="-8" y="682" type="line"/>
+      <point x="118" y="780" type="line"/>
+      <point x="200" y="682" type="line"/>
+      <point x="221" y="701" type="line"/>
+      <point x="153" y="782" type="line"/>
+      <point x="260" y="867" type="line"/>
+      <point x="245" y="888" type="line"/>
+      <point x="119" y="790" type="line"/>
+      <point x="37" y="888" type="line"/>
+      <point x="15" y="869" type="line"/>
+      <point x="84" y="788" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

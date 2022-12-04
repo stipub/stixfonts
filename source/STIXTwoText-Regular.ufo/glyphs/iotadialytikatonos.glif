@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotadialytikatonos" format="2">
+  <advance width="259"/>
+  <unicode hex="0390"/>
+  <anchor x="142" y="0" name="bottom"/>
+  <anchor x="152" y="0" name="cedilla"/>
+  <anchor x="145" y="0" name="ogonek"/>
+  <anchor x="125" y="699" name="top.mkmk"/>
+  <outline>
+    <component base="iota"/>
+    <component base="dialytikatonoscomb" xOffset="355"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni20EB" format="2">
+  <unicode hex="20EB"/>
+  <outline>
+    <contour>
+      <point x="-284" y="-222" type="line"/>
+      <point x="128" y="774" type="line"/>
+      <point x="73" y="774" type="line"/>
+      <point x="-340" y="-222" type="line"/>
+    </contour>
+    <contour>
+      <point x="-472" y="-222" type="line"/>
+      <point x="-60" y="774" type="line"/>
+      <point x="-115" y="774" type="line"/>
+      <point x="-528" y="-222" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

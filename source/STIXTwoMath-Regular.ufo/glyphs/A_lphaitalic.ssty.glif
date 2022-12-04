@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Alphaitalic.ssty" format="2">
+  <advance width="792"/>
+  <outline>
+    <component base="Aitalic.ssty"/>
+  </outline>
+</glyph>

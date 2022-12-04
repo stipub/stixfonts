@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildelongcomb.cap" format="2">
+  <anchor x="122" y="825" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="219" y="688" type="curve" smooth="yes"/>
+      <point x="310" y="688"/>
+      <point x="367" y="734"/>
+      <point x="395" y="811" type="curve"/>
+      <point x="354" y="811" type="line"/>
+      <point x="335" y="783"/>
+      <point x="306" y="774"/>
+      <point x="266" y="774" type="curve" smooth="yes"/>
+      <point x="190" y="774"/>
+      <point x="97" y="825"/>
+      <point x="9" y="825" type="curve" smooth="yes"/>
+      <point x="-76" y="825"/>
+      <point x="-138" y="777"/>
+      <point x="-166" y="700" type="curve"/>
+      <point x="-126" y="700" type="line"/>
+      <point x="-109" y="729"/>
+      <point x="-75" y="739"/>
+      <point x="-29" y="739" type="curve" smooth="yes"/>
+      <point x="44" y="739"/>
+      <point x="125" y="688"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <guideline angle="78" x="-152" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

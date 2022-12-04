@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.ieUkr" format="2">
+  <advance width="427"/>
+  <unicode hex="0454"/>
+  <anchor x="174" y="0" name="bottom"/>
+  <anchor x="203" y="0" name="cedilla"/>
+  <anchor x="201" y="0" name="ogonek"/>
+  <anchor x="272" y="467" name="top"/>
+  <outline>
+    <contour>
+      <point x="194" y="-12" type="curve" smooth="yes"/>
+      <point x="289" y="-12"/>
+      <point x="349" y="37"/>
+      <point x="390" y="98" type="curve"/>
+      <point x="371" y="112" type="line"/>
+      <point x="336" y="73"/>
+      <point x="291" y="48"/>
+      <point x="229" y="48" type="curve" smooth="yes"/>
+      <point x="168" y="48"/>
+      <point x="118" y="75"/>
+      <point x="118" y="178" type="curve" smooth="yes"/>
+      <point x="118" y="184"/>
+      <point x="118" y="185"/>
+      <point x="118" y="191" type="curve" smooth="yes"/>
+      <point x="118" y="337"/>
+      <point x="201" y="446"/>
+      <point x="293" y="446" type="curve" smooth="yes"/>
+      <point x="326" y="446"/>
+      <point x="344" y="434"/>
+      <point x="344" y="419" type="curve" smooth="yes"/>
+      <point x="344" y="403"/>
+      <point x="325" y="378"/>
+      <point x="325" y="352" type="curve" smooth="yes"/>
+      <point x="325" y="331"/>
+      <point x="339" y="318"/>
+      <point x="363" y="318" type="curve" smooth="yes"/>
+      <point x="399" y="318"/>
+      <point x="419" y="346"/>
+      <point x="419" y="386" type="curve" smooth="yes"/>
+      <point x="419" y="450"/>
+      <point x="369" y="479"/>
+      <point x="300" y="479" type="curve" smooth="yes"/>
+      <point x="150" y="479"/>
+      <point x="35" y="337"/>
+      <point x="35" y="165" type="curve" smooth="yes"/>
+      <point x="35" y="47"/>
+      <point x="94" y="-12"/>
+    </contour>
+    <contour>
+      <point x="330" y="224" type="line"/>
+      <point x="338" y="263" type="line"/>
+      <point x="117" y="263" type="line"/>
+      <point x="111" y="224" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

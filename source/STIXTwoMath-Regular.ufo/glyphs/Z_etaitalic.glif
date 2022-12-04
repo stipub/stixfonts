@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zetaitalic" format="2">
+  <advance width="606"/>
+  <unicode hex="1D6E7"/>
+  <outline>
+    <component base="Zitalic"/>
+  </outline>
+</glyph>

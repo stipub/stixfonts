@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six.subs" format="2">
+  <advance width="434"/>
+  <anchor x="224" y="-229" name="bottom"/>
+  <anchor x="232" y="245" name="top"/>
+  <outline>
+    <component base="sixsuperior" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

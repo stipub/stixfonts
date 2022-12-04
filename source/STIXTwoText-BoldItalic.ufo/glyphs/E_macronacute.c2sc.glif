@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacronacute.c2sc" format="2">
+  <advance width="572"/>
+  <anchor x="247" y="0" name="bottom"/>
+  <anchor x="247" y="0" name="cedilla"/>
+  <anchor x="365" y="0" name="ogonek"/>
+  <anchor x="415" y="845" name="top.mkmk"/>
+  <outline>
+    <component base="E.c2sc"/>
+    <component base="macron.smcp" xOffset="566" yOffset="-20"/>
+    <component base="acute.smcp" xOffset="595" yOffset="125"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

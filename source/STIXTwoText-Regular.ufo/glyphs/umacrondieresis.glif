@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacrondieresis" format="2">
+  <advance width="570"/>
+  <unicode hex="1E7B"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="276" y="0" name="cedilla"/>
+  <anchor x="411" y="0" name="ogonek"/>
+  <anchor x="275" y="782" name="top.mkmk"/>
+  <outline>
+    <component base="u"/>
+    <component base="macroncomb" xOffset="505"/>
+    <component base="dieresiscomb" xOffset="505" yOffset="110"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="openboxshourldered" format="2">
+  <advance width="747"/>
+  <unicode hex="237D"/>
+  <outline>
+    <contour>
+      <point x="717" y="186" type="line"/>
+      <point x="717" y="245" type="line"/>
+      <point x="514" y="245" type="line"/>
+      <point x="514" y="59" type="line"/>
+      <point x="233" y="59" type="line"/>
+      <point x="233" y="245" type="line"/>
+      <point x="30" y="245" type="line"/>
+      <point x="30" y="186" type="line"/>
+      <point x="169" y="186" type="line"/>
+      <point x="169" y="0" type="line"/>
+      <point x="579" y="0" type="line"/>
+      <point x="579" y="186" type="line"/>
+    </contour>
+  </outline>
+</glyph>

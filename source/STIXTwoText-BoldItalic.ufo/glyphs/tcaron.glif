@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron" format="2">
+  <advance width="450"/>
+  <unicode hex="0165"/>
+  <anchor x="152" y="0" name="bottom"/>
+  <anchor x="152" y="0" name="cedilla"/>
+  <anchor x="152" y="0" name="ogonek"/>
+  <anchor x="244" y="563" name="top"/>
+  <outline>
+    <component base="t" xOffset="-3"/>
+    <component base="caronslovak" xOffset="621"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

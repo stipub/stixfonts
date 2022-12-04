@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nablaitalic.ssty" format="2">
+  <advance width="716"/>
+  <outline>
+    <contour>
+      <point x="123" y="703" type="line"/>
+      <point x="116" y="664" type="line"/>
+      <point x="276" y="-6" type="line"/>
+      <point x="325" y="-6" type="line"/>
+      <point x="767" y="664" type="line"/>
+      <point x="774" y="703" type="line"/>
+    </contour>
+    <contour>
+      <point x="242" y="614" type="line"/>
+      <point x="668" y="614" type="line"/>
+      <point x="354" y="127" type="line"/>
+      <point x="348" y="127" type="line"/>
+    </contour>
+  </outline>
+</glyph>

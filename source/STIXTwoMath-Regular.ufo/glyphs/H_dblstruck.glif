@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hdblstruck" format="2">
+  <advance width="715"/>
+  <unicode hex="210D"/>
+  <outline>
+    <contour>
+      <point x="480" y="657" type="line"/>
+      <point x="480" y="348" type="line"/>
+      <point x="236" y="348" type="line"/>
+      <point x="236" y="657" type="line"/>
+      <point x="72" y="657" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="236" y="0" type="line"/>
+      <point x="236" y="306" type="line"/>
+      <point x="480" y="306" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="643" y="0" type="line"/>
+      <point x="643" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="523" y="615" type="line"/>
+      <point x="600" y="615" type="line"/>
+      <point x="600" y="42" type="line"/>
+      <point x="523" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="615" type="line"/>
+      <point x="193" y="615" type="line"/>
+      <point x="193" y="42" type="line"/>
+      <point x="115" y="42" type="line"/>
+    </contour>
+  </outline>
+</glyph>

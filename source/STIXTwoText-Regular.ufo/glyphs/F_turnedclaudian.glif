@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fturnedclaudian" format="2">
+  <advance width="588"/>
+  <unicode hex="2132"/>
+  <anchor x="271" y="0" name="bottom"/>
+  <anchor x="271" y="0" name="cedilla"/>
+  <anchor x="273" y="0" name="ogonek"/>
+  <anchor x="413" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="552" y="0" type="line"/>
+      <point x="552" y="30" type="line"/>
+      <point x="480" y="30"/>
+      <point x="455" y="44"/>
+      <point x="455" y="113" type="curve" smooth="yes"/>
+      <point x="455" y="541" type="line" smooth="yes"/>
+      <point x="455" y="615"/>
+      <point x="471" y="627"/>
+      <point x="552" y="627" type="curve"/>
+      <point x="552" y="657" type="line"/>
+      <point x="259" y="657" type="line"/>
+      <point x="259" y="627" type="line"/>
+      <point x="337" y="627"/>
+      <point x="363" y="615"/>
+      <point x="363" y="547" type="curve" smooth="yes"/>
+      <point x="363" y="337" type="line"/>
+      <point x="245" y="337" type="line" smooth="yes"/>
+      <point x="159" y="337"/>
+      <point x="139" y="350"/>
+      <point x="139" y="431" type="curve"/>
+      <point x="105" y="431" type="line"/>
+      <point x="105" y="199" type="line"/>
+      <point x="139" y="199" type="line"/>
+      <point x="139" y="280"/>
+      <point x="159" y="298"/>
+      <point x="245" y="298" type="curve" smooth="yes"/>
+      <point x="363" y="298" type="line"/>
+      <point x="363" y="45" type="line"/>
+      <point x="204" y="45" type="line" smooth="yes"/>
+      <point x="73" y="45"/>
+      <point x="64" y="69"/>
+      <point x="46" y="164" type="curve"/>
+      <point x="14" y="164" type="line"/>
+      <point x="20" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="unaspiratedmark" format="2">
+  <advance width="380"/>
+  <unicode hex="02ED"/>
+  <outline>
+    <contour>
+      <point x="426" y="655" type="line"/>
+      <point x="438" y="711" type="line"/>
+      <point x="134" y="711" type="line"/>
+      <point x="122" y="655" type="line"/>
+    </contour>
+    <contour>
+      <point x="402" y="539" type="line"/>
+      <point x="413" y="594" type="line"/>
+      <point x="109" y="594" type="line"/>
+      <point x="98" y="539" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

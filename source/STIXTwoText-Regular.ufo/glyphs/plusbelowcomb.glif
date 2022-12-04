@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plusbelowcomb" format="2">
+  <unicode hex="031F"/>
+  <anchor x="-230" y="0" name="_bottom"/>
+  <anchor x="-230" y="-27" name="_bottom.mkmk"/>
+  <anchor x="-230" y="-252" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-211" y="-252" type="line"/>
+      <point x="-211" y="-172" type="line"/>
+      <point x="-132" y="-172" type="line"/>
+      <point x="-132" y="-135" type="line"/>
+      <point x="-211" y="-135" type="line"/>
+      <point x="-211" y="-55" type="line"/>
+      <point x="-250" y="-55" type="line"/>
+      <point x="-250" y="-135" type="line"/>
+      <point x="-329" y="-135" type="line"/>
+      <point x="-329" y="-172" type="line"/>
+      <point x="-250" y="-172" type="line"/>
+      <point x="-250" y="-252" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-230" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

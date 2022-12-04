@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Mdblstruck.ssty" format="2">
+  <advance width="967"/>
+  <outline>
+    <contour>
+      <point x="91" y="0" type="line"/>
+      <point x="139" y="0" type="line"/>
+      <point x="139" y="508" type="line"/>
+      <point x="142" y="508" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="508" y="0" type="line"/>
+      <point x="692" y="512" type="line"/>
+      <point x="695" y="512" type="line"/>
+      <point x="695" y="0" type="line"/>
+      <point x="876" y="0" type="line"/>
+      <point x="876" y="703" type="line"/>
+      <point x="716" y="703" type="line"/>
+      <point x="487" y="82" type="line"/>
+      <point x="484" y="82" type="line"/>
+      <point x="261" y="703" type="line"/>
+      <point x="91" y="703" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="45" type="line"/>
+      <point x="135" y="658" type="line"/>
+      <point x="225" y="658" type="line"/>
+      <point x="446" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="742" y="45" type="line"/>
+      <point x="742" y="658" type="line"/>
+      <point x="828" y="658" type="line"/>
+      <point x="828" y="45" type="line"/>
+    </contour>
+  </outline>
+</glyph>

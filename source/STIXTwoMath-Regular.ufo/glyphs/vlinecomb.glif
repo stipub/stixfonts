@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vlinecomb" format="2">
+  <unicode hex="030D"/>
+  <outline>
+    <contour>
+      <point x="-202" y="512" type="line"/>
+      <point x="-202" y="717" type="line"/>
+      <point x="-258" y="717" type="line"/>
+      <point x="-258" y="512" type="line"/>
+    </contour>
+  </outline>
+</glyph>

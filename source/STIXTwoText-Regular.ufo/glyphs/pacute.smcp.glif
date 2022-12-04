@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pacute.smcp" format="2">
+  <advance width="506"/>
+  <anchor x="155" y="0" name="bottom"/>
+  <anchor x="156" y="0" name="cedilla"/>
+  <anchor x="161" y="0" name="ogonek"/>
+  <anchor x="263" y="713" name="top.mkmk"/>
+  <outline>
+    <component base="P.c2sc"/>
+    <component base="acute.smcp" xOffset="493"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

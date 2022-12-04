@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commarevabovecomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-170" y="737" type="line"/>
+      <point x="-206" y="750"/>
+      <point x="-248" y="774"/>
+      <point x="-248" y="831" type="curve"/>
+      <point x="-237" y="827"/>
+      <point x="-227" y="825"/>
+      <point x="-217" y="825" type="curve" smooth="yes"/>
+      <point x="-188" y="825"/>
+      <point x="-167" y="843"/>
+      <point x="-167" y="875" type="curve" smooth="yes"/>
+      <point x="-167" y="905"/>
+      <point x="-186" y="929"/>
+      <point x="-228" y="929" type="curve" smooth="yes"/>
+      <point x="-276" y="929"/>
+      <point x="-298" y="897"/>
+      <point x="-298" y="847" type="curve" smooth="yes"/>
+      <point x="-298" y="753"/>
+      <point x="-221" y="726"/>
+      <point x="-180" y="712" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

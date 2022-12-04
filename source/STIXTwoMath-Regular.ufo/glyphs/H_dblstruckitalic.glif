@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hdblstruckitalic" format="2">
+  <advance width="717"/>
+  <unicode hex="E1B5"/>
+  <outline>
+    <contour>
+      <point x="560" y="657" type="line"/>
+      <point x="420" y="0" type="line"/>
+      <point x="589" y="0" type="line"/>
+      <point x="729" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="152" y="657" type="line"/>
+      <point x="12" y="0" type="line"/>
+      <point x="181" y="0" type="line"/>
+      <point x="321" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="143" y="42" type="line"/>
+      <point x="68" y="42" type="line"/>
+      <point x="190" y="615" type="line"/>
+      <point x="265" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="226" y="348" type="line"/>
+      <point x="226" y="306" type="line"/>
+      <point x="525" y="306" type="line"/>
+      <point x="525" y="348" type="line"/>
+    </contour>
+    <contour>
+      <point x="551" y="42" type="line"/>
+      <point x="476" y="42" type="line"/>
+      <point x="598" y="615" type="line"/>
+      <point x="673" y="615" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve.smcp" format="2">
+  <anchor x="-200" y="532" name="_top"/>
+  <anchor x="-200" y="553" name="_top.mkmk"/>
+  <anchor x="-200" y="736" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-200" y="583" type="curve" smooth="yes"/>
+      <point x="-108" y="583"/>
+      <point x="-52" y="630"/>
+      <point x="-41" y="736" type="curve"/>
+      <point x="-81" y="736" type="line"/>
+      <point x="-100" y="674"/>
+      <point x="-139" y="666"/>
+      <point x="-200" y="666" type="curve" smooth="yes"/>
+      <point x="-261" y="666"/>
+      <point x="-306" y="674"/>
+      <point x="-320" y="736" type="curve"/>
+      <point x="-360" y="736" type="line"/>
+      <point x="-356" y="630"/>
+      <point x="-293" y="583"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

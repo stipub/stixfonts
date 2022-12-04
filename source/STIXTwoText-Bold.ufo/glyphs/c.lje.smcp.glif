@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.lje.smcp" format="2">
+  <advance width="909"/>
+  <anchor x="455" y="0" name="bottom"/>
+  <anchor x="456" y="0" name="cedilla"/>
+  <anchor x="631" y="0" name="ogonek"/>
+  <anchor x="455" y="532" name="top"/>
+  <outline>
+    <component base="c.Lje.c2sc"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

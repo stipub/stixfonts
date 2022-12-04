@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.kje" format="2">
+  <advance width="593"/>
+  <unicode hex="045C"/>
+  <anchor x="307" y="0" name="bottom"/>
+  <anchor x="299" y="0" name="cedilla"/>
+  <anchor x="490" y="0" name="ogonek"/>
+  <anchor x="338" y="684" name="top.mkmk"/>
+  <outline>
+    <component base="c.ka"/>
+    <component base="acutecomb" xOffset="538"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

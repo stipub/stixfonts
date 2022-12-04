@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresisacute.smcp" format="2">
+  <advance width="316"/>
+  <anchor x="110" y="0" name="bottom"/>
+  <anchor x="110" y="0" name="cedilla"/>
+  <anchor x="84" y="0" name="ogonek"/>
+  <anchor x="282" y="863" name="top.mkmk"/>
+  <outline>
+    <component base="I.c2sc"/>
+    <component base="dieresis.smcp" xOffset="341" yOffset="-10"/>
+    <component base="acute.smcp" xOffset="373" yOffset="150"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

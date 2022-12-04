@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tsansbold" format="2">
+  <advance width="365"/>
+  <unicode hex="1D601"/>
+  <outline>
+    <contour>
+      <point x="246" y="-12" type="curve" smooth="yes"/>
+      <point x="290" y="-12"/>
+      <point x="323" y="-2"/>
+      <point x="349" y="6" type="curve"/>
+      <point x="328" y="102" type="line"/>
+      <point x="315" y="97"/>
+      <point x="298" y="92"/>
+      <point x="280" y="92" type="curve" smooth="yes"/>
+      <point x="241" y="92"/>
+      <point x="217" y="116"/>
+      <point x="217" y="170" type="curve" smooth="yes"/>
+      <point x="217" y="364" type="line"/>
+      <point x="334" y="364" type="line"/>
+      <point x="334" y="468" type="line"/>
+      <point x="217" y="468" type="line"/>
+      <point x="217" y="607" type="line"/>
+      <point x="107" y="607" type="line"/>
+      <point x="91" y="468" type="line"/>
+      <point x="17" y="463" type="line"/>
+      <point x="17" y="364" type="line"/>
+      <point x="84" y="364" type="line"/>
+      <point x="84" y="168" type="line" smooth="yes"/>
+      <point x="84" y="60"/>
+      <point x="129" y="-12"/>
+    </contour>
+  </outline>
+</glyph>

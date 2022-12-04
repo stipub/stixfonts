@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etasansitalic" format="2">
+  <advance width="637"/>
+  <unicode hex="E1C5"/>
+  <outline>
+    <component base="Hsansitalic"/>
+  </outline>
+</glyph>

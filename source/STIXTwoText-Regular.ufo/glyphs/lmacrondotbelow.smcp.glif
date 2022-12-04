@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lmacrondotbelow.smcp" format="2">
+  <advance width="513"/>
+  <anchor x="269" y="-181" name="bottom.mkmk"/>
+  <anchor x="270" y="0" name="cedilla"/>
+  <anchor x="269" y="0" name="ogonek"/>
+  <anchor x="164" y="657" name="top.mkmk"/>
+  <outline>
+    <component base="L.c2sc"/>
+    <component base="macron.smcp" xOffset="394"/>
+    <component base="dotbelowcomb" xOffset="499"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

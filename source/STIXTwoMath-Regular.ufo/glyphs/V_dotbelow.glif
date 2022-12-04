@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vdotbelow" format="2">
+  <advance width="680"/>
+  <unicode hex="1E7E"/>
+  <outline>
+    <component base="V"/>
+    <component base="dotbelowcomb" xOffset="573"/>
+  </outline>
+</glyph>

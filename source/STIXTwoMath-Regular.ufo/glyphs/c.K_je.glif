@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Kje" format="2">
+  <advance width="658"/>
+  <unicode hex="040C"/>
+  <outline>
+    <component base="c.Ka"/>
+    <component base="acutecomb.cap" xOffset="595"/>
+  </outline>
+</glyph>

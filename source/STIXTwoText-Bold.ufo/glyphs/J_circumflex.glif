@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jcircumflex" format="2">
+  <advance width="470"/>
+  <unicode hex="0134"/>
+  <anchor x="170" y="0" name="bottom"/>
+  <anchor x="179" y="0" name="cedilla"/>
+  <anchor x="192" y="0" name="ogonek"/>
+  <anchor x="283" y="836" name="top.mkmk"/>
+  <outline>
+    <component base="J"/>
+    <component base="circumflexcomb.cap" xOffset="483"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

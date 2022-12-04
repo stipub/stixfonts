@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.smcp" format="2">
+  <anchor x="-130" y="532" name="_top"/>
+  <anchor x="-122" y="570" name="_top.mkmk"/>
+  <anchor x="-104" y="657" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="35" y="603" type="line"/>
+      <point x="47" y="657" type="line"/>
+      <point x="-245" y="657" type="line"/>
+      <point x="-257" y="603" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

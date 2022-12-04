@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sdotaccentdotbelow.c2sc" format="2">
+  <advance width="461"/>
+  <anchor x="139" y="-179" name="bottom.mkmk"/>
+  <anchor x="177" y="0" name="cedilla"/>
+  <anchor x="176" y="0" name="ogonek"/>
+  <anchor x="321" y="702" name="top.mkmk"/>
+  <outline>
+    <component base="S.c2sc"/>
+    <component base="dotaccent.smcp" xOffset="415"/>
+    <component base="dotbelowcomb" xOffset="420"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

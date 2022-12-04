@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Delta.ssty2" format="2">
+  <advance width="794"/>
+  <outline>
+    <contour>
+      <point x="743" y="0" type="line"/>
+      <point x="743" y="45" type="line"/>
+      <point x="438" y="738" type="line"/>
+      <point x="372" y="738" type="line"/>
+      <point x="44" y="45" type="line"/>
+      <point x="44" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="577" y="102" type="line"/>
+      <point x="146" y="102" type="line"/>
+      <point x="372" y="596" type="line"/>
+      <point x="379" y="596" type="line"/>
+    </contour>
+  </outline>
+</glyph>

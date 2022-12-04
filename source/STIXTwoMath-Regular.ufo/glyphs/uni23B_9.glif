@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni23B9" format="2">
+  <advance width="495"/>
+  <unicode hex="23B9"/>
+  <outline>
+    <contour>
+      <point x="495" y="-363" type="line"/>
+      <point x="495" y="887" type="line"/>
+      <point x="435" y="887" type="line"/>
+      <point x="435" y="-363" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="762"/>
+  <guideline angle="0" x="0" y="2574"/>
+  <guideline angle="0" x="0" y="-238"/>
+</glyph>

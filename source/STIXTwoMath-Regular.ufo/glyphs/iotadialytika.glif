@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotadialytika" format="2">
+  <advance width="259"/>
+  <unicode hex="03CA"/>
+  <outline>
+    <component base="iota"/>
+    <component base="dialytikacomb" xOffset="355"/>
+  </outline>
+</glyph>

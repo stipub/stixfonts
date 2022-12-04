@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scarondotaccent.smcp" format="2">
+  <advance width="474"/>
+  <anchor x="187" y="0" name="bottom"/>
+  <anchor x="187" y="0" name="cedilla"/>
+  <anchor x="210" y="0" name="ogonek"/>
+  <anchor x="359" y="862" name="top.mkmk"/>
+  <outline>
+    <component base="S.c2sc"/>
+    <component base="caron.smcp" xOffset="515"/>
+    <component base="dotaccent.smcp" xScale="0.8896" yScale="0.9396" xOffset="516" yOffset="170"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

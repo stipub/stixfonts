@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sacute" format="2">
+  <advance width="504"/>
+  <unicode hex="015A"/>
+  <anchor x="245" y="0" name="bottom"/>
+  <anchor x="250" y="0" name="cedilla"/>
+  <anchor x="250" y="0" name="ogonek"/>
+  <anchor x="250" y="826" name="top.mkmk"/>
+  <outline>
+    <component base="S"/>
+    <component base="acutecomb.cap" xOffset="480"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

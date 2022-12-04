@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lowlinedblcomb" format="2">
+  <unicode hex="0333"/>
+  <anchor x="-200" y="0" name="_bottom"/>
+  <anchor x="-200" y="-28" name="_bottom.mkmk"/>
+  <anchor x="-200" y="-278" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="56" y="-141" type="line"/>
+      <point x="56" y="-66" type="line"/>
+      <point x="-456" y="-66" type="line"/>
+      <point x="-456" y="-141" type="line"/>
+    </contour>
+    <contour>
+      <point x="56" y="-278" type="line"/>
+      <point x="56" y="-203" type="line"/>
+      <point x="-456" y="-203" type="line"/>
+      <point x="-456" y="-278" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f_l" format="2">
+  <advance width="565"/>
+  <unicode hex="FB02"/>
+  <anchor x="-8" y="-220" name="bottom_1"/>
+  <anchor x="398" y="0" name="bottom_2"/>
+  <anchor x="-42" y="-220" name="cedilla_1"/>
+  <anchor x="398" y="0" name="cedilla_2"/>
+  <anchor x="-42" y="-220" name="ogonek_1"/>
+  <anchor x="399" y="0" name="ogonek_2"/>
+  <anchor x="233" y="693" name="top_1"/>
+  <anchor x="487" y="693" name="top_2"/>
+  <outline>
+    <component base="f._asc"/>
+    <component base="l.f_" xOffset="309"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

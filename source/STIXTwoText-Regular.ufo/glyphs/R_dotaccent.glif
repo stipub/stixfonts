@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rdotaccent" format="2">
+  <advance width="659"/>
+  <unicode hex="1E58"/>
+  <anchor x="332" y="0" name="bottom"/>
+  <anchor x="346" y="0" name="cedilla"/>
+  <anchor x="348" y="0" name="ogonek"/>
+  <anchor x="312" y="817" name="top.mkmk"/>
+  <outline>
+    <component base="R"/>
+    <component base="dotaccentcomb.cap" xOffset="542"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hcedilla" format="2">
+  <advance width="549"/>
+  <unicode hex="1E29"/>
+  <anchor x="47" y="-215" name="bottom.mkmk"/>
+  <anchor x="77" y="0" name="cedilla"/>
+  <anchor x="354" y="0" name="ogonek"/>
+  <anchor x="336" y="693" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="cedillacomb" xOffset="320"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

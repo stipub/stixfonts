@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron" format="2">
+  <advance width="742"/>
+  <unicode hex="0147"/>
+  <anchor x="357" y="0" name="bottom"/>
+  <anchor x="358" y="0" name="cedilla"/>
+  <anchor x="357" y="0" name="ogonek"/>
+  <anchor x="379" y="836" name="top.mkmk"/>
+  <outline>
+    <component base="N"/>
+    <component base="caroncomb.cap" xOffset="609"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

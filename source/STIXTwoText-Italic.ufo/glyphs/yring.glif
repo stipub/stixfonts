@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yring" format="2">
+  <advance width="446"/>
+  <unicode hex="1E99"/>
+  <anchor x="132" y="-220" name="bottom"/>
+  <anchor x="132" y="-220" name="cedilla"/>
+  <anchor x="132" y="-220" name="ogonek"/>
+  <anchor x="304" y="728" name="top.mkmk"/>
+  <outline>
+    <component base="y"/>
+    <component base="ringcomb" xOffset="392"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

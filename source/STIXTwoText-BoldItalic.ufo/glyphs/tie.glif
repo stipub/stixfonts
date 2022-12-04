@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tie" format="2">
+  <advance width="837"/>
+  <unicode hex="2040"/>
+  <outline>
+    <contour>
+      <point x="837" y="543" type="line"/>
+      <point x="766" y="704"/>
+      <point x="616" y="762"/>
+      <point x="489" y="762" type="curve" smooth="yes"/>
+      <point x="374" y="762"/>
+      <point x="212" y="706"/>
+      <point x="140" y="542" type="curve"/>
+      <point x="173" y="523" type="line"/>
+      <point x="282" y="648"/>
+      <point x="405" y="662"/>
+      <point x="491" y="662" type="curve" smooth="yes"/>
+      <point x="566" y="662"/>
+      <point x="695" y="647"/>
+      <point x="808" y="522" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

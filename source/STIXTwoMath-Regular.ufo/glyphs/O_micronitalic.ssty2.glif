@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronitalic.ssty2" format="2">
+  <advance width="884"/>
+  <outline>
+    <component base="Oitalic.ssty2"/>
+  </outline>
+</glyph>

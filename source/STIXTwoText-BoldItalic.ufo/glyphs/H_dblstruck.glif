@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hdblstruck" format="2">
+  <advance width="716"/>
+  <unicode hex="210D"/>
+  <anchor x="357" y="0" name="bottom"/>
+  <anchor x="357" y="0" name="cedilla"/>
+  <anchor x="357" y="0" name="ogonek"/>
+  <anchor x="358" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="236" y="0" type="line"/>
+      <point x="236" y="306" type="line"/>
+      <point x="480" y="306" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="644" y="0" type="line"/>
+      <point x="644" y="655" type="line"/>
+      <point x="480" y="655" type="line"/>
+      <point x="480" y="348" type="line"/>
+      <point x="236" y="348" type="line"/>
+      <point x="236" y="655" type="line"/>
+      <point x="72" y="655" type="line"/>
+      <point x="72" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="613" type="line"/>
+      <point x="193" y="613" type="line"/>
+      <point x="193" y="42" type="line"/>
+      <point x="115" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="523" y="613" type="line"/>
+      <point x="600" y="613" type="line"/>
+      <point x="600" y="42" type="line"/>
+      <point x="523" y="42" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

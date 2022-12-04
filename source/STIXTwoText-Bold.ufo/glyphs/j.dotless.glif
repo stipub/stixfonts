@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j.dotless" format="2">
+  <advance width="309"/>
+  <anchor x="59" y="-220" name="bottom"/>
+  <anchor x="60" y="-220" name="cedilla"/>
+  <anchor x="59" y="-220" name="ogonek"/>
+  <anchor x="148" y="473" name="top"/>
+  <outline>
+    <contour>
+      <point x="23" y="-235" type="curve" smooth="yes"/>
+      <point x="140" y="-235"/>
+      <point x="232" y="-164"/>
+      <point x="232" y="-2" type="curve" smooth="yes"/>
+      <point x="232" y="482" type="line"/>
+      <point x="164" y="482" type="line"/>
+      <point x="15" y="454" type="line"/>
+      <point x="15" y="412" type="line"/>
+      <point x="15" y="412"/>
+      <point x="30" y="414"/>
+      <point x="46" y="414" type="curve" smooth="yes"/>
+      <point x="80" y="414"/>
+      <point x="92" y="404"/>
+      <point x="92" y="360" type="curve" smooth="yes"/>
+      <point x="92" y="-25" type="line" smooth="yes"/>
+      <point x="92" y="-134"/>
+      <point x="91" y="-179"/>
+      <point x="49" y="-179" type="curve" smooth="yes"/>
+      <point x="2" y="-179"/>
+      <point x="9" y="-87"/>
+      <point x="-60" y="-87" type="curve" smooth="yes"/>
+      <point x="-91" y="-87"/>
+      <point x="-114" y="-109"/>
+      <point x="-114" y="-142" type="curve" smooth="yes"/>
+      <point x="-114" y="-210"/>
+      <point x="-53" y="-235"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

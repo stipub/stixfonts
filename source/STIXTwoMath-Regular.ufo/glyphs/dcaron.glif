@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="2">
+  <advance width="626"/>
+  <unicode hex="010F"/>
+  <outline>
+    <component base="d"/>
+    <component base="caronslovak" xOffset="756"/>
+  </outline>
+  <guideline angle="90" x="614" y="0"/>
+  <guideline angle="90" x="432" y="0"/>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Digamma" format="2">
+  <advance width="611"/>
+  <unicode hex="03DC"/>
+  <anchor x="148" y="0" name="bottom"/>
+  <anchor x="148" y="0" name="cedilla"/>
+  <anchor x="148" y="0" name="ogonek"/>
+  <anchor x="411" y="657" name="top"/>
+  <outline>
+    <component base="F"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ysansbolditalic" format="2">
+  <advance width="512"/>
+  <unicode hex="1D654"/>
+  <outline>
+    <contour>
+      <point x="137" y="0" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="316" y="240" type="line"/>
+      <point x="597" y="657" type="line"/>
+      <point x="457" y="657" type="line"/>
+      <point x="358" y="497" type="line"/>
+      <point x="329" y="447"/>
+      <point x="303" y="402"/>
+      <point x="275" y="350" type="curve"/>
+      <point x="271" y="350" type="line"/>
+      <point x="261" y="402"/>
+      <point x="254" y="445"/>
+      <point x="244" y="495" type="curve" smooth="yes"/>
+      <point x="213" y="657" type="line"/>
+      <point x="78" y="657" type="line"/>
+      <point x="185" y="240" type="line"/>
+    </contour>
+  </outline>
+</glyph>

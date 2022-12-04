@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.s5" format="2">
+  <advance width="2384"/>
+  <outline>
+    <contour>
+      <point x="2378" y="756" type="line"/>
+      <point x="1192" y="599" type="line"/>
+      <point x="5" y="756" type="line"/>
+      <point x="0" y="730" type="line"/>
+      <point x="1169" y="536" type="line"/>
+      <point x="1218" y="536" type="line"/>
+      <point x="2384" y="729" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="1192" y="0"/>
+</glyph>

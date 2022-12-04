@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vlinedblcomb" format="2">
+  <unicode hex="030E"/>
+  <anchor x="-234" y="473" name="_top"/>
+  <anchor x="-233" y="483" name="_top.mkmk"/>
+  <anchor x="-180" y="731" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-90" y="526" type="line"/>
+      <point x="-47" y="731" type="line"/>
+      <point x="-145" y="731" type="line"/>
+      <point x="-188" y="526" type="line"/>
+    </contour>
+    <contour>
+      <point x="-254" y="526" type="line"/>
+      <point x="-211" y="731" type="line"/>
+      <point x="-309" y="731" type="line"/>
+      <point x="-352" y="526" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

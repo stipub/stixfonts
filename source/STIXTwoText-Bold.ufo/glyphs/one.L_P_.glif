@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.LP" format="2">
+  <advance width="468"/>
+  <anchor x="240" y="0" name="bottom"/>
+  <anchor x="240" y="0" name="cedilla"/>
+  <anchor x="255" y="0" name="ogonek"/>
+  <anchor x="240" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="430" y="0" type="line"/>
+      <point x="430" y="43" type="line"/>
+      <point x="338" y="43"/>
+      <point x="315" y="61"/>
+      <point x="315" y="110" type="curve" smooth="yes"/>
+      <point x="315" y="639" type="line"/>
+      <point x="249" y="639" type="line"/>
+      <point x="47" y="584" type="line"/>
+      <point x="47" y="535" type="line"/>
+      <point x="79" y="542"/>
+      <point x="114" y="547"/>
+      <point x="134" y="547" type="curve" smooth="yes"/>
+      <point x="159" y="547"/>
+      <point x="167" y="533"/>
+      <point x="167" y="498" type="curve" smooth="yes"/>
+      <point x="167" y="110" type="line" smooth="yes"/>
+      <point x="167" y="60"/>
+      <point x="147" y="43"/>
+      <point x="53" y="43" type="curve"/>
+      <point x="53" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

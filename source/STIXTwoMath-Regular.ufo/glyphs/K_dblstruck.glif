@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kdblstruck" format="2">
+  <advance width="718"/>
+  <unicode hex="1D542"/>
+  <outline>
+    <contour>
+      <point x="235" y="276" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="72" y="657" type="line"/>
+      <point x="235" y="657" type="line"/>
+      <point x="235" y="333" type="line"/>
+      <point x="587" y="657" type="line"/>
+      <point x="652" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="42" type="line"/>
+      <point x="192" y="615" type="line"/>
+      <point x="115" y="615" type="line"/>
+      <point x="115" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="317" y="371" type="line"/>
+      <point x="546" y="42" type="line"/>
+      <point x="642" y="42" type="line"/>
+      <point x="370" y="426" type="line"/>
+      <point x="405" y="450" type="line"/>
+      <point x="725" y="0" type="line"/>
+      <point x="523" y="0" type="line"/>
+      <point x="283" y="345" type="line"/>
+    </contour>
+  </outline>
+</glyph>

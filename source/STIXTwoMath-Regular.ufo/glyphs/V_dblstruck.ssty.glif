@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vdblstruck.ssty" format="2">
+  <advance width="763"/>
+  <outline>
+    <contour>
+      <point x="475" y="0" type="line"/>
+      <point x="733" y="703" type="line"/>
+      <point x="682" y="703" type="line"/>
+      <point x="454" y="73" type="line"/>
+      <point x="451" y="73" type="line"/>
+      <point x="220" y="703" type="line"/>
+      <point x="30" y="703" type="line"/>
+      <point x="290" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="187" y="658" type="line"/>
+      <point x="413" y="45" type="line"/>
+      <point x="323" y="45" type="line"/>
+      <point x="97" y="658" type="line"/>
+    </contour>
+  </outline>
+</glyph>

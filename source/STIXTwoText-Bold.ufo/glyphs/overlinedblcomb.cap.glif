@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="overlinedblcomb.cap" format="2">
+  <anchor x="-200" y="657" name="_top"/>
+  <anchor x="-200" y="685" name="_top.mkmk"/>
+  <anchor x="-200" y="933" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="0" y="859" type="line"/>
+      <point x="0" y="933" type="line"/>
+      <point x="-400" y="933" type="line"/>
+      <point x="-400" y="859" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="721" type="line"/>
+      <point x="0" y="795" type="line"/>
+      <point x="-400" y="795" type="line"/>
+      <point x="-400" y="721" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

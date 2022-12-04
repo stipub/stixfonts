@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ihook" format="2">
+  <advance width="326"/>
+  <unicode hex="1EC9"/>
+  <anchor x="163" y="0" name="bottom"/>
+  <anchor x="169" y="0" name="cedilla"/>
+  <anchor x="183" y="0" name="ogonek"/>
+  <anchor x="151" y="473" name="top"/>
+  <outline>
+    <component base="i.dotless"/>
+    <component base="hookabovecomb" xOffset="351"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

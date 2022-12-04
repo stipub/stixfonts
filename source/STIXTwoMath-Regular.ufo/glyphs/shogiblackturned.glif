@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shogiblackturned" format="2">
+  <advance width="739"/>
+  <unicode hex="26CA"/>
+  <outline>
+    <contour>
+      <point x="369" y="-11" type="line"/>
+      <point x="112" y="177" type="line"/>
+      <point x="75" y="657" type="line"/>
+      <point x="664" y="657" type="line"/>
+      <point x="626" y="177" type="line"/>
+    </contour>
+  </outline>
+</glyph>

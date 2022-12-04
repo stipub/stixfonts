@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Sha.c2sc" format="2">
+  <advance width="996"/>
+  <anchor x="437" y="0" name="bottom"/>
+  <anchor x="437" y="0" name="cedilla"/>
+  <anchor x="438" y="0" name="ogonek"/>
+  <anchor x="548" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="915" y="0" type="line"/>
+      <point x="922" y="38" type="line"/>
+      <point x="855" y="38"/>
+      <point x="845" y="53"/>
+      <point x="860" y="120" type="curve" smooth="yes"/>
+      <point x="924" y="411" type="line"/>
+      <point x="940" y="474"/>
+      <point x="949" y="494"/>
+      <point x="1024" y="494" type="curve"/>
+      <point x="1031" y="532" type="line"/>
+      <point x="739" y="532" type="line"/>
+      <point x="732" y="494" type="line"/>
+      <point x="804" y="494"/>
+      <point x="807" y="474"/>
+      <point x="791" y="411" type="curve"/>
+      <point x="706" y="51" type="line"/>
+      <point x="523" y="51" type="line"/>
+      <point x="603" y="411" type="line"/>
+      <point x="616" y="474"/>
+      <point x="622" y="494"/>
+      <point x="690" y="494" type="curve"/>
+      <point x="697" y="532" type="line"/>
+      <point x="429" y="532" type="line"/>
+      <point x="421" y="494" type="line"/>
+      <point x="488" y="494"/>
+      <point x="486" y="474"/>
+      <point x="473" y="411" type="curve"/>
+      <point x="388" y="50" type="line"/>
+      <point x="201" y="50" type="line"/>
+      <point x="281" y="411" type="line"/>
+      <point x="297" y="474"/>
+      <point x="305" y="494"/>
+      <point x="381" y="494" type="curve"/>
+      <point x="389" y="532" type="line"/>
+      <point x="89" y="532" type="line"/>
+      <point x="82" y="494" type="line"/>
+      <point x="157" y="494"/>
+      <point x="160" y="474"/>
+      <point x="146" y="411" type="curve" smooth="yes"/>
+      <point x="84" y="120" type="line"/>
+      <point x="66" y="50"/>
+      <point x="59" y="38"/>
+      <point x="-14" y="38" type="curve"/>
+      <point x="-22" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

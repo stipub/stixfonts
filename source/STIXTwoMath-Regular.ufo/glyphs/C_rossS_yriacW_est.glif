@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CrossSyriacWest" format="2">
+  <advance width="577"/>
+  <unicode hex="2670"/>
+  <outline>
+    <contour>
+      <point x="410" y="641" type="line"/>
+      <point x="392" y="665" type="line"/>
+      <point x="288" y="626" type="line"/>
+      <point x="184" y="665" type="line"/>
+      <point x="166" y="641" type="line"/>
+      <point x="288" y="547" type="line"/>
+    </contour>
+    <contour>
+      <point x="329" y="49" type="line"/>
+      <point x="329" y="621" type="line"/>
+      <point x="248" y="621" type="line"/>
+      <point x="248" y="49" type="line"/>
+    </contour>
+    <contour>
+      <point x="469" y="375" type="line"/>
+      <point x="469" y="447" type="line"/>
+      <point x="108" y="447" type="line"/>
+      <point x="108" y="375" type="line"/>
+    </contour>
+    <contour>
+      <point x="64" y="523" type="line"/>
+      <point x="40" y="505" type="line"/>
+      <point x="79" y="411" type="line"/>
+      <point x="40" y="317" type="line"/>
+      <point x="64" y="299" type="line"/>
+      <point x="151" y="411" type="line"/>
+    </contour>
+    <contour>
+      <point x="288" y="108" type="line"/>
+      <point x="166" y="14" type="line"/>
+      <point x="184" y="-10" type="line"/>
+      <point x="288" y="29" type="line"/>
+      <point x="392" y="-10" type="line"/>
+      <point x="410" y="14" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="411" type="line"/>
+      <point x="513" y="299" type="line"/>
+      <point x="537" y="317" type="line"/>
+      <point x="498" y="411" type="line"/>
+      <point x="537" y="505" type="line"/>
+      <point x="513" y="523" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="425"/>
+  <guideline angle="0" x="0" y="411"/>
+  <guideline angle="90" x="288" y="0"/>
+</glyph>

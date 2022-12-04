@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sextile" format="2">
+  <advance width="630"/>
+  <unicode hex="26B9"/>
+  <outline>
+    <contour>
+      <point x="508" y="560" type="line"/>
+      <point x="459" y="595" type="line"/>
+      <point x="122" y="114" type="line"/>
+      <point x="170" y="79" type="line"/>
+    </contour>
+    <contour>
+      <point x="590" y="307" type="line"/>
+      <point x="590" y="362" type="line"/>
+      <point x="40" y="362" type="line"/>
+      <point x="40" y="307" type="line"/>
+    </contour>
+    <contour>
+      <point x="508" y="114" type="line"/>
+      <point x="170" y="595" type="line"/>
+      <point x="122" y="560" type="line"/>
+      <point x="459" y="79" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="577"/>
+  <guideline angle="0" x="0" y="61"/>
+</glyph>

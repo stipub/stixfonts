@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clickdental" format="2">
+  <advance width="252"/>
+  <unicode hex="01C0"/>
+  <anchor x="73" y="0" name="bottom"/>
+  <anchor x="93" y="0" name="cedilla"/>
+  <anchor x="68" y="0" name="ogonek"/>
+  <anchor x="215" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="135" y="0" type="line"/>
+      <point x="283" y="705" type="line"/>
+      <point x="166" y="705" type="line"/>
+      <point x="18" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

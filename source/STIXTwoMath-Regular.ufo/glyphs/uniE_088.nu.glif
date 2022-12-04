@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE088.nu" format="2">
+  <advance width="720"/>
+  <unicode hex="E088"/>
+  <outline>
+    <contour>
+      <point x="650" y="-226" type="line"/>
+      <point x="650" y="-159" type="line"/>
+      <point x="382" y="-26" type="line"/>
+      <point x="382" y="148" type="line"/>
+      <point x="650" y="281" type="line"/>
+      <point x="650" y="346" type="line"/>
+      <point x="382" y="217" type="line"/>
+      <point x="382" y="454" type="line"/>
+      <point x="650" y="454" type="line"/>
+      <point x="650" y="522" type="line"/>
+      <point x="382" y="522" type="line"/>
+      <point x="382" y="659" type="line"/>
+      <point x="650" y="659" type="line"/>
+      <point x="650" y="727" type="line"/>
+      <point x="382" y="727" type="line"/>
+      <point x="382" y="837" type="line"/>
+      <point x="326" y="837" type="line"/>
+      <point x="326" y="727" type="line"/>
+      <point x="71" y="727" type="line"/>
+      <point x="71" y="659" type="line"/>
+      <point x="326" y="659" type="line"/>
+      <point x="326" y="522" type="line"/>
+      <point x="71" y="522" type="line"/>
+      <point x="71" y="454" type="line"/>
+      <point x="326" y="454" type="line"/>
+      <point x="326" y="189" type="line"/>
+      <point x="71" y="66" type="line"/>
+      <point x="71" y="56" type="line"/>
+      <point x="326" y="-68" type="line"/>
+      <point x="326" y="-319" type="line"/>
+      <point x="382" y="-319" type="line"/>
+      <point x="382" y="-95" type="line"/>
+    </contour>
+    <contour>
+      <point x="326" y="2" type="line"/>
+      <point x="207" y="61" type="line"/>
+      <point x="326" y="120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

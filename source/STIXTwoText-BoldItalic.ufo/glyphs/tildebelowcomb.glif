@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildebelowcomb" format="2">
+  <unicode hex="0330"/>
+  <anchor x="-335" y="0" name="_bottom"/>
+  <anchor x="-340" y="-22" name="_bottom.mkmk"/>
+  <anchor x="-371" y="-166" name="bottom.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-500" y="-169" type="line"/>
+      <point x="-484" y="-139"/>
+      <point x="-462" y="-127"/>
+      <point x="-436" y="-127" type="curve" smooth="yes"/>
+      <point x="-389" y="-127"/>
+      <point x="-368" y="-166"/>
+      <point x="-313" y="-166" type="curve" smooth="yes"/>
+      <point x="-255" y="-166"/>
+      <point x="-214" y="-122"/>
+      <point x="-182" y="-45" type="curve"/>
+      <point x="-220" y="-45" type="line"/>
+      <point x="-236" y="-75"/>
+      <point x="-260" y="-88"/>
+      <point x="-285" y="-88" type="curve" smooth="yes"/>
+      <point x="-329" y="-88"/>
+      <point x="-355" y="-49"/>
+      <point x="-405" y="-49" type="curve" smooth="yes"/>
+      <point x="-466" y="-49"/>
+      <point x="-514" y="-105"/>
+      <point x="-539" y="-169" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

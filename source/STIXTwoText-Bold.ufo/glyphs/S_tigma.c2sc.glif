@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Stigma.c2sc" format="2">
+  <advance width="548"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="297" y="0" name="cedilla"/>
+  <anchor x="371" y="0" name="ogonek"/>
+  <anchor x="297" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="513" y="0" type="line"/>
+      <point x="513" y="40" type="line"/>
+      <point x="438" y="40"/>
+      <point x="429" y="53"/>
+      <point x="429" y="119" type="curve" smooth="yes"/>
+      <point x="429" y="143" type="line"/>
+      <point x="431" y="194" type="line"/>
+      <point x="424" y="194"/>
+      <point x="404" y="191"/>
+      <point x="387" y="191" type="curve" smooth="yes"/>
+      <point x="275" y="191"/>
+      <point x="178" y="220"/>
+      <point x="178" y="351" type="curve" smooth="yes"/>
+      <point x="178" y="447"/>
+      <point x="207" y="504"/>
+      <point x="297" y="504" type="curve" smooth="yes"/>
+      <point x="370" y="504"/>
+      <point x="425" y="466"/>
+      <point x="440" y="359" type="curve"/>
+      <point x="484" y="359" type="line"/>
+      <point x="484" y="551" type="line"/>
+      <point x="450" y="551" type="line"/>
+      <point x="440" y="534"/>
+      <point x="434" y="521"/>
+      <point x="421" y="521" type="curve" smooth="yes"/>
+      <point x="399" y="521"/>
+      <point x="371" y="551"/>
+      <point x="282" y="551" type="curve" smooth="yes"/>
+      <point x="124" y="551"/>
+      <point x="30" y="470"/>
+      <point x="30" y="334" type="curve" smooth="yes"/>
+      <point x="30" y="208"/>
+      <point x="128" y="142"/>
+      <point x="284" y="140" type="curve"/>
+      <point x="284" y="120" type="line" smooth="yes"/>
+      <point x="284" y="53"/>
+      <point x="268" y="40"/>
+      <point x="191" y="40" type="curve"/>
+      <point x="191" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

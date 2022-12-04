@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="etilde.smcp" format="2">
+  <advance width="549"/>
+  <anchor x="285" y="0" name="bottom"/>
+  <anchor x="290" y="0" name="cedilla"/>
+  <anchor x="388" y="0" name="ogonek"/>
+  <anchor x="273" y="686" name="top.mkmk"/>
+  <outline>
+    <component base="E.c2sc"/>
+    <component base="tilde.smcp" xOffset="503"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

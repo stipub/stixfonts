@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pidblstruck" format="2">
+  <advance width="715"/>
+  <unicode hex="213F"/>
+  <anchor x="357" y="0" name="bottom"/>
+  <anchor x="357" y="0" name="cedilla"/>
+  <anchor x="357" y="0" name="ogonek"/>
+  <anchor x="358" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="236" y="0" type="line"/>
+      <point x="236" y="615" type="line"/>
+      <point x="479" y="615" type="line"/>
+      <point x="479" y="0" type="line"/>
+      <point x="643" y="0" type="line"/>
+      <point x="643" y="657" type="line"/>
+      <point x="72" y="657" type="line"/>
+      <point x="72" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="115" y="615" type="line"/>
+      <point x="193" y="615" type="line"/>
+      <point x="193" y="42" type="line"/>
+      <point x="115" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="522" y="615" type="line"/>
+      <point x="599" y="615" type="line"/>
+      <point x="599" y="42" type="line"/>
+      <point x="522" y="42" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etabolditalic" format="2">
+  <advance width="818"/>
+  <unicode hex="1D722"/>
+  <outline>
+    <component base="Hbolditalic"/>
+  </outline>
+</glyph>

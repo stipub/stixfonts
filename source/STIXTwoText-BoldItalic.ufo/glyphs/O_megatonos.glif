@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omegatonos" format="2">
+  <advance width="922"/>
+  <unicode hex="038F"/>
+  <anchor x="448" y="0" name="bottom"/>
+  <anchor x="448" y="0" name="cedilla"/>
+  <anchor x="448" y="0" name="ogonek"/>
+  <anchor x="128" y="657" name="top.mkmk"/>
+  <outline>
+    <component base="Omega" xOffset="85"/>
+    <component base="tonoscomb" xOffset="312" yOffset="-47"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

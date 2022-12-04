@@ -1,0 +1,308 @@
+                   STIX Font Release Documentation
+                         OpenType/WOFF/WOFF2
+
+                      https://www.stixfonts.org/
+
+                            Version 2.0.2
+
+                             18 June 2019
+
+                  WHAT IS PROVIDED IN THIS RELEASE?
+
+The contents of this distribution are
+
+    Fonts/
+        OTF/
+            STIX2Math.otf
+            STIX2Text-BoldItalic.otf
+            STIX2Text-Bold.otf
+            STIX2Text-Italic.otf
+            STIX2Text-Regular.otf
+        WOFF/
+            STIX2Math.woff
+            STIX2Text-BoldItalic.woff
+            STIX2Text-Bold.woff
+            STIX2Text-Italic.woff
+            STIX2Text-Regular.woff
+        WOFF2/
+            STIX2Math.woff2
+            STIX2Text-BoldItalic.woff2
+            STIX2Text-Bold.woff2
+            STIX2Text-Italic.woff2
+            STIX2Text-Regular.woff2
+    docs/
+        STIX_2.0.2_license.pdf
+        STIX_2.0.2_release_notes.txt
+        charts/
+            StixTwoBold.pdf
+            StixTwoBoldItalic.pdf
+            StixTwoItalic.pdf
+            StixTwoMath.pdf
+            StixTwoRegular.pdf
+
+The STIX font is distributed under the SIL Open Font License, Version
+1.1, a copy of which is included in the docs folder.
+
+FEEDBACK
+
+Please direct any questions or general comments to the STIX Fonts
+project.  Bug reports and technical support issues should be submitted
+through
+
+    https://github.com/stipub/stixfonts
+
+where you can also find a list of known issues.
+
+
+                         WHAT'S NEW IN 2.0.2?
+
+This release fixes a glitch in the OS/2 tables: Bit 8 (WWS) of the
+fsSelection field has been set and the OS/2 table version has been
+updated to 4.  No changes were made to any glyphs or metrics.
+
+                         WHAT'S NEW IN 2.0.1?
+
+COMPATIBILITY BETWEEN 2.0.1 AND 2.0.0
+
+There have been numerous improvements to the design of individual
+glyphs and to the placement of various accents.  Since these don't
+affect character metrics, they should not affect the layout of
+documents that used v2.0.0 of the fonts.
+
+Users upgrading existing documents from 2.0.0 to 2.0.1 should be aware
+of the following potential incompatibilities:
+
+* Character metrics for some glyphs, especially Mathematical
+  Alphanumeric Symbols and APL functional symbols, have changed.
+
+* Kerning between z and following punctuation has been improved.
+
+* In STIX2Math, Stylistic Set 7 (ss07) no longer includes U+2205
+
+* U+2202 PARTIAL DIFFERENTIAL and U+1D6DB MATHEMATICAL BOLD PARTIAL
+  DIFFERENTIAL are now upright by default.
+
+See below for further details.
+
+TEXT FONTS
+
+* Added U+2423 OPEN BOX to all faces.
+
+* Added Stylistic Set ss02 to select upright parentheses, brackets,
+  and braces in Italic and BoldItalic faces.
+
+* Harmonized design of smallcap U+02A9 LATIN SMALL LETTER FENG DIGRAPH
+  between Regular and Bold faces.
+
+* Improved design of extended Latin and IPA character glyphs.
+
+* Improved kerning of selected character pairs.
+
+* Improved design and placement of U+0307 COMBINING DOT ABOVE and
+  U+0308 COMBINING DIAERESIS.
+
+MATH FONTS
+
+* The following Mathematical Alphanumeric Symbols have been improved.
+  Note that in some case this has necessitated changes to the
+  character metrics.
+
+      U+1D504..1D537 Fraktur symbols
+      U+1D538..1D56B Double-struck symbols
+      U+1D56C..1D59F Bold Fraktur symbols
+      U+1D5A0..1D5D3 Sans-serif symbols             [SSP]
+      U+1D5D4..1D607 Sans-serif bold symbols        [SSP]
+      U+1D608..1D63B Sans-serif italic symbols      [SSP]
+      U+1D63C..1D66F Sans-serif bold italic symbols [SSP]
+      U+1D670..1D6A3 Monospace symbols
+      U+1D756..1D78F Sans-serif bold Greek
+      U+1D790..1D7C9 Sans-serif bold italic Greek
+      U+1D7D8..1D7E1 Double-struck digits
+      U+1D7E2..1D7EB Sans-serif digits              [SSP]
+      U+1D7EC..1D7F5 Sans-serif bold digits         [SSP]
+      U+1D7F6..1D7FF Monospace digits
+
+  Note: The ranges marked "[SSP]" are derived from the Source Sans Pro
+  fonts, with proportions and weight modified to harmonize with the
+  STIX design.
+
+* Added support for Unicode Standard Mathematical Standardized Variants.
+
+* Removed variant form of U+2205 EMPTY SET from Stylistic Set 7 to
+  Character Variant 3.  NOTE: For most users, the "variant" form will
+  be the preferred shape, but the default shape has been left as-is
+  for backwards compatibility.
+
+* Improved proportions of existing APL symbols and added an additional
+  16 symbols (see below).
+
+* Corrected glyph for U+1D752 MATHEMATICAL BOLD ITALIC KAPPA SYMBOL.
+
+* Improved positioning of tilde math accent.
+
+* Added dotless variants of U+2148 DOUBLE-STRUCK ITALIC SMALL I and
+  U_2149 DOUBLE-STRUCK ITALIC SMALL J.
+
+* Made U+2202 PARTIAL DIFFERENTIAL and U+1D6DB MATHEMATICAL BOLD
+  PARTIAL DIFFERENTIAL upright rather than italic.
+
+* Revised and extended coverage of Enclosed Alphanumeric block
+  (U+2460-24FF).
+
+* U+20E1 COMBINING LEFT RIGHT ARROW ABOVE is now extensible.
+
+* Corrected vertical placement of U+00B1 PLUS-MINUS SIGN
+
+* The following delimiters now have a full set of 12 growing form
+  variants.
+
+      U+2308 LEFT CEILING
+      U+2309 RIGHT CEILING
+
+      U+230A LEFT FLOOR
+      U+230B RIGHT FLOOR
+
+      U+2772 LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
+      U+2773 LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
+
+      U+27E6 LEFT WHITE SQUARE BRACKET
+      U+27E7 MATHEMATICAL RIGHT WHITE SQUARE BRACKET
+
+      U+27E8 MATHEMATICAL LEFT ANGLE BRACKET
+      U+27E9 MATHEMATICAL RIGHT ANGLE BRACKET
+
+      U+27EA MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
+      U+27EB MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
+
+      U+2983 WHITE CURLY BRACKET
+      U+2984 RIGHT WHITE CURLY BRACKET
+
+      U+2985 LEFT WHITE PARENTHESIS
+      U+2986 RIGHT WHITE PARENTHESIS
+
+* New characters
+
+    General Punctuation
+        U+2061 FUNCTION APPLICATION
+        U+2062 INVISIBLE TIMES
+        U+2063 INVISIBLE SEPARATOR
+        U+2064 INVISIBLE PLUS
+
+    Miscellaneous Technical
+        U+2338 APL FUNCTIONAL SYMBOL QUAD EQUAL
+        U+233A APL FUNCTIONAL SYMBOL QUAD DIAMOND
+        U+233E APL FUNCTIONAL SYMBOL CIRCLE JOT
+        U+2341 APL FUNCTIONAL SYMBOL QUAD SLASH
+        U+2342 APL FUNCTIONAL SYMBOL QUAD BACKSLASH
+        U+2347 APL FUNCTIONAL SYMBOL QUAD LEFTWARDS ARROW
+        U+2348 APL FUNCTIONAL SYMBOL QUAD RIGHTWARDS ARROW
+        U+2350 APL FUNCTIONAL SYMBOL QUAD UPWARDS ARROW
+        U+2357 APL FUNCTIONAL SYMBOL QUAD DOWNWARDS ARROW
+        U+2360 APL FUNCTIONAL SYMBOL QUAD COLON
+        U+2364 APL FUNCTIONAL SYMBOL JOT DIAERESIS
+        U+2365 APL FUNCTIONAL SYMBOL CIRCLE DIAERESIS
+        U+2366 APL FUNCTIONAL SYMBOL DOWN SHOE STILE
+        U+236D APL FUNCTIONAL SYMBOL STILE TILDE
+        U+2378 APL FUNCTIONAL SYMBOL IOTA UNDERBAR
+        U+2395 APL FUNCTIONAL SYMBOL QUAD
+        U+23B7 RADICAL SYMBOL BOTTOM
+        U+23B8 LEFT VERTICAL BOX LINE
+        U+23B9 RIGHT VERTICAL BOX LINE
+
+    Control Pictures
+        U+2422 BLANK SYMBOL
+
+    Enclosed Alphanumerics
+        U+2469..24B5 
+        U+24EB..24FF 
+
+    Dingbats
+        U+2776 DINGBAT NEGATIVE CIRCLED DIGIT ONE
+        U+2777 DINGBAT NEGATIVE CIRCLED DIGIT TWO
+        U+2778 DINGBAT NEGATIVE CIRCLED DIGIT THREE
+        U+2779 DINGBAT NEGATIVE CIRCLED DIGIT FOUR
+        U+277A DINGBAT NEGATIVE CIRCLED DIGIT FIVE
+        U+277B DINGBAT NEGATIVE CIRCLED DIGIT SIX
+        U+277C DINGBAT NEGATIVE CIRCLED DIGIT SEVEN
+        U+277D DINGBAT NEGATIVE CIRCLED DIGIT EIGHT
+        U+277E DINGBAT NEGATIVE CIRCLED DIGIT NINE
+        U+277F DINGBAT NEGATIVE CIRCLED NUMBER TEN
+
+    Arabic Mathematical Alphabetic Symbols
+        U+1EEF0 ARABIC MATHEMATICAL OPERATOR MEEM WITH HAH WITH TATWEEL
+        U+1EEF1 ARABIC MATHEMATICAL OPERATOR HAH WITH DAL
+
+        Note: These two characters were added for compatibility with
+        the LaTeX unicode-math package.  There are no plans to include
+        further support for Arabic typesetting.
+    
+
+                         WHAT'S NEW IN 2.0.0?
+
+In addition to the overall visual redesign, STIX Two incorporates a
+number of significant improvements and additions.  Special attention
+has been given to implementing accepted best practices for OpenType
+fonts, such as the use of font features to access variant glyph shapes
+that were previously only available via the Unicode Private Use Areas.
+
+The letterspacing and kerning of the text fonts have been
+significantly improved.
+
+True small capital variants (Latin, Cyrillic, and Greek), accessible
+via the OpenType font feature smcp, have been added for all text
+fonts.
+
+Text (lowercase or oldstyle) numerals, available via the font features
+pnum and onum, have been added, in addition to natural-spacing
+figures.
+
+Alphabetic superscripts and numeric sub- and superscripts, accessible
+via the subs and sups font features, have been added.
+
+Fractions are available via the frac feature, as well as numerators
+(numr) and denominators (dnom).
+
+The OpenType MATH table has been completely rewritten and extended.
+
+Additions have been made to these Unicode blocks:
+    Latin-1 Supplement          U+0080 - U+00FF
+    Latin Extended-A            U+0100 - U+017F
+    Latin Extended Additional   U+0180 - U+024F
+    Cyrillic                    U+0400 - U+04FF
+    Greek and Coptic            U+0370 - U+03FF
+    IPA blocks                  U+0250 - U+02AF
+
+BACKWARDS COMPATIBILITY
+
+Because of the scope of the changes, especially to the text fonts,
+STIX Two is not a drop-in replacement for earlier versions.  While we
+understand and sympathize with the difficulties caused by the
+incompatibilities we have introduced, we nevertheless felt they were
+necessary to address some of the shortcomings of earlier versions of
+the fonts and to position us to respond to the needs of modern
+publishing.
+
+Earlier versions of the STIX fonts are deprecated and no longer
+supported.  We urge all users of the STIX fonts to upgrade to the new
+versions as soon as possible.
+
+To enable the new and old versions of the fonts to coexist during the
+transition phase, the fonts have been renamed as follows:
+
+    STIX 1.1.0              STIX 2.0.0
+
+    STIX-Regular            STIX Two Text
+    STIX-Italic             STIX Two Text Italic
+    STIX-Bold               STIX Two Text Bold
+    STIX-BoldItalic         STIX Two Text Bold Italic
+
+    STIX Math Regular       STIX Two Math 
+
+The four text fonts contain glyphs from Unicode text blocks only.  For
+example, all characters from the range U+2190 to U+3063 and U+E000 to
+U+E368 and all plane 1 characters have been removed from the text
+fonts and are now found only in STIX Two Math.  Whenever possible,
+characters have been removed from the Private Use Area (U+E000-U+F8FF)
+and made available via font features instead.
+
+The STIX-General packaging of the fonts is no longer supported.

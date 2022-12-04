@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicronitalic" format="2">
+  <advance width="707"/>
+  <unicode hex="1D6F0"/>
+  <outline>
+    <component base="Oitalic"/>
+  </outline>
+</glyph>

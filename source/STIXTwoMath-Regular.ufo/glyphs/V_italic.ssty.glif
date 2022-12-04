@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Vitalic.ssty" format="2">
+  <advance width="729"/>
+  <outline>
+    <contour>
+      <point x="271" y="139" type="line"/>
+      <point x="263" y="139" type="line"/>
+      <point x="269" y="250" type="line"/>
+      <point x="265" y="556" type="line"/>
+      <point x="265" y="577" type="line" smooth="yes"/>
+      <point x="265" y="631"/>
+      <point x="300" y="663"/>
+      <point x="356" y="663" type="curve"/>
+      <point x="362" y="703" type="line"/>
+      <point x="95" y="703" type="line"/>
+      <point x="88" y="663" type="line"/>
+      <point x="142" y="663"/>
+      <point x="159" y="636"/>
+      <point x="161" y="564" type="curve"/>
+      <point x="169" y="-6" type="line"/>
+      <point x="213" y="-6" type="line"/>
+      <point x="667" y="560" type="line" smooth="yes"/>
+      <point x="738" y="649"/>
+      <point x="760" y="663"/>
+      <point x="818" y="663" type="curve"/>
+      <point x="823" y="703" type="line"/>
+      <point x="580" y="703" type="line"/>
+      <point x="575" y="663" type="line"/>
+      <point x="619" y="663"/>
+      <point x="638" y="658"/>
+      <point x="638" y="639" type="curve" smooth="yes"/>
+      <point x="638" y="621"/>
+      <point x="622" y="599"/>
+      <point x="599" y="568" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

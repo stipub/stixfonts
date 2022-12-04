@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omegatonos.c2sc" format="2">
+  <advance width="698"/>
+  <anchor x="303" y="0" name="bottom"/>
+  <anchor x="303" y="0" name="cedilla"/>
+  <anchor x="303" y="0" name="ogonek"/>
+  <anchor x="469" y="754" name="top.mkmk"/>
+  <outline>
+    <component base="Omega.c2sc"/>
+    <component base="tonoscomb" xOffset="653" yOffset="50"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="2">
+  <advance width="844"/>
+  <unicode hex="0149"/>
+  <anchor x="526" y="0" name="bottom"/>
+  <anchor x="527" y="0" name="cedilla"/>
+  <anchor x="704" y="0" name="ogonek"/>
+  <anchor x="516" y="473" name="top"/>
+  <outline>
+    <component base="n" xOffset="198"/>
+    <component base="quoteright"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

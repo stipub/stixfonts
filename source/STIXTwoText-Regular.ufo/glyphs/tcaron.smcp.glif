@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron.smcp" format="2">
+  <advance width="531"/>
+  <anchor x="265" y="0" name="bottom"/>
+  <anchor x="270" y="0" name="cedilla"/>
+  <anchor x="266" y="0" name="ogonek"/>
+  <anchor x="265" y="720" name="top.mkmk"/>
+  <outline>
+    <component base="T.c2sc"/>
+    <component base="caron.smcp" xOffset="495"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

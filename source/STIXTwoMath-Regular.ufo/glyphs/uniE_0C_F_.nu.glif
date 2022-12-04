@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0CF.nu" format="2">
+  <advance width="651"/>
+  <unicode hex="E0CF"/>
+  <outline>
+    <contour>
+      <point x="600" y="506" type="line"/>
+      <point x="81" y="856" type="line"/>
+      <point x="51" y="808" type="line"/>
+      <point x="570" y="457" type="line"/>
+    </contour>
+    <contour>
+      <point x="590" y="278" type="line"/>
+      <point x="590" y="336" type="line"/>
+      <point x="61" y="336" type="line"/>
+      <point x="61" y="278" type="line"/>
+    </contour>
+    <contour>
+      <point x="600" y="108" type="line"/>
+      <point x="570" y="156" type="line"/>
+      <point x="51" y="-194" type="line"/>
+      <point x="81" y="-242" type="line"/>
+    </contour>
+  </outline>
+</glyph>

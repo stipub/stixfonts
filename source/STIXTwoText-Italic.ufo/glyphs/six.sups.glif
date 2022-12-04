@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six.sups" format="2">
+  <advance width="390"/>
+  <anchor x="207" y="252" name="bottom"/>
+  <anchor x="206" y="252" name="cedilla"/>
+  <anchor x="206" y="252" name="ogonek"/>
+  <anchor x="290" y="726" name="top"/>
+  <outline>
+    <component base="sixsuperior"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

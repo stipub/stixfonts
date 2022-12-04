@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kappasansitalic" format="2">
+  <advance width="572"/>
+  <unicode hex="E1C8"/>
+  <outline>
+    <component base="Ksansitalic"/>
+  </outline>
+</glyph>

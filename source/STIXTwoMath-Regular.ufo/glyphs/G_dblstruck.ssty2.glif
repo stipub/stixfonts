@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gdblstruck.ssty2" format="2">
+  <advance width="835"/>
+  <outline>
+    <contour>
+      <point x="611" y="333" type="line"/>
+      <point x="611" y="32" type="line"/>
+      <point x="561" y="28" type="line"/>
+      <point x="561" y="333" type="line"/>
+    </contour>
+    <contour>
+      <point x="248" y="78" type="line"/>
+      <point x="198" y="99" type="line"/>
+      <point x="198" y="641" type="line"/>
+      <point x="248" y="667" type="line"/>
+    </contour>
+    <contour>
+      <point x="700" y="121" type="curve"/>
+      <point x="700" y="315" type="line"/>
+      <point x="411" y="315" type="line"/>
+      <point x="411" y="362" type="line"/>
+      <point x="750" y="362" type="line"/>
+      <point x="750" y="98" type="line"/>
+      <point x="675" y="30"/>
+      <point x="563" y="-13"/>
+      <point x="441" y="-13" type="curve" smooth="yes"/>
+      <point x="215" y="-13"/>
+      <point x="56" y="155"/>
+      <point x="56" y="367" type="curve" smooth="yes"/>
+      <point x="56" y="579"/>
+      <point x="210" y="745"/>
+      <point x="444" y="745" type="curve" smooth="yes"/>
+      <point x="617" y="745"/>
+      <point x="710" y="653"/>
+      <point x="754" y="588" type="curve"/>
+      <point x="713" y="555" type="line"/>
+      <point x="664" y="626"/>
+      <point x="581" y="697"/>
+      <point x="436" y="697" type="curve" smooth="yes"/>
+      <point x="236" y="697"/>
+      <point x="109" y="561"/>
+      <point x="109" y="367" type="curve" smooth="yes"/>
+      <point x="109" y="187"/>
+      <point x="234" y="35"/>
+      <point x="439" y="35" type="curve" smooth="yes"/>
+      <point x="559" y="35"/>
+      <point x="644" y="71"/>
+    </contour>
+  </outline>
+</glyph>

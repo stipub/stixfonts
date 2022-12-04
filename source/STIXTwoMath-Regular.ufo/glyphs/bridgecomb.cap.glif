@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bridgecomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-86" y="704" type="line"/>
+      <point x="-86" y="844" type="line"/>
+      <point x="-375" y="844" type="line"/>
+      <point x="-375" y="704" type="line"/>
+      <point x="-318" y="704" type="line"/>
+      <point x="-318" y="791" type="line"/>
+      <point x="-141" y="791" type="line"/>
+      <point x="-141" y="704" type="line"/>
+    </contour>
+  </outline>
+</glyph>

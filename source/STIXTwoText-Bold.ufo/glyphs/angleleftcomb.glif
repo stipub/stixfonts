@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="angleleftcomb" format="2">
+  <unicode hex="031A"/>
+  <anchor x="-200" y="473" name="_top"/>
+  <anchor x="-200" y="492" name="_top.mkmk"/>
+  <anchor x="-200" y="768" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-46" y="527" type="line"/>
+      <point x="-46" y="768" type="line"/>
+      <point x="-355" y="768" type="line"/>
+      <point x="-355" y="683" type="line"/>
+      <point x="-137" y="683" type="line"/>
+      <point x="-137" y="527" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

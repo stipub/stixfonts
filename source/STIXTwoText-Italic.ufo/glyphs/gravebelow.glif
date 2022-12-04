@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravebelow" format="2">
+  <advance width="223"/>
+  <unicode hex="02CE"/>
+  <anchor x="40" y="-189" name="bottom"/>
+  <outline>
+    <component base="gravebelowcomb" xOffset="328" yOffset="20"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

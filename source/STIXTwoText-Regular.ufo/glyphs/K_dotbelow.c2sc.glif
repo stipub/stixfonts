@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kdotbelow.c2sc" format="2">
+  <advance width="618"/>
+  <anchor x="320" y="-181" name="bottom.mkmk"/>
+  <anchor x="321" y="0" name="cedilla"/>
+  <anchor x="320" y="0" name="ogonek"/>
+  <anchor x="310" y="532" name="top"/>
+  <outline>
+    <component base="K.c2sc"/>
+    <component base="dotbelowcomb" xOffset="550"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bidentalpercussive" format="2">
+  <advance width="479"/>
+  <unicode hex="02AD"/>
+  <anchor x="239" y="0" name="bottom"/>
+  <anchor x="239" y="0" name="cedilla"/>
+  <anchor x="237" y="0" name="ogonek"/>
+  <anchor x="239" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="126" y="357" type="line"/>
+      <point x="126" y="585" type="line"/>
+      <point x="353" y="585" type="line"/>
+      <point x="353" y="357" type="line"/>
+      <point x="409" y="357" type="line"/>
+      <point x="409" y="657" type="line"/>
+      <point x="70" y="657" type="line"/>
+      <point x="70" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="126" y="-6" type="line"/>
+      <point x="126" y="222" type="line"/>
+      <point x="353" y="222" type="line"/>
+      <point x="353" y="-6" type="line"/>
+      <point x="409" y="-6" type="line"/>
+      <point x="409" y="294" type="line"/>
+      <point x="70" y="294" type="line"/>
+      <point x="70" y="-6" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0AB.nu" format="2">
+  <advance width="508"/>
+  <unicode hex="E0AB"/>
+  <outline>
+    <contour>
+      <point x="380" y="-160" type="line"/>
+      <point x="380" y="678" type="line"/>
+      <point x="323" y="678" type="line"/>
+      <point x="323" y="167" type="line"/>
+      <point x="322" y="168" type="line"/>
+      <point x="116" y="-125" type="line"/>
+      <point x="154" y="-156" type="line"/>
+      <point x="323" y="86" type="line"/>
+      <point x="323" y="-160" type="line"/>
+    </contour>
+  </outline>
+</glyph>

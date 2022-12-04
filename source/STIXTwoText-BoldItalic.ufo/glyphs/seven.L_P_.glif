@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.LP" format="2">
+  <advance width="483"/>
+  <anchor x="192" y="0" name="bottom"/>
+  <anchor x="192" y="0" name="cedilla"/>
+  <anchor x="192" y="0" name="ogonek"/>
+  <anchor x="321" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="181" y="-8" type="line"/>
+      <point x="530" y="561" type="line"/>
+      <point x="545" y="630" type="line"/>
+      <point x="143" y="630" type="line"/>
+      <point x="69" y="442" type="line"/>
+      <point x="109" y="439" type="line"/>
+      <point x="150" y="504"/>
+      <point x="158" y="514"/>
+      <point x="209" y="514" type="curve" smooth="yes"/>
+      <point x="428" y="514" type="line"/>
+      <point x="57" y="-8" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

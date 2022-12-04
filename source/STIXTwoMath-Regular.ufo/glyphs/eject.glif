@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eject" format="2">
+  <advance width="634"/>
+  <unicode hex="23CF"/>
+  <outline>
+    <contour>
+      <point x="70" y="108" type="line"/>
+      <point x="564" y="108" type="line"/>
+      <point x="564" y="259" type="line"/>
+      <point x="70" y="259" type="line"/>
+    </contour>
+    <contour>
+      <point x="564" y="370" type="line"/>
+      <point x="319" y="723" type="line"/>
+      <point x="70" y="370" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="108"/>
+</glyph>

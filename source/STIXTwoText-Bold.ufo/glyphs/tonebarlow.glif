@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonebarlow" format="2">
+  <advance width="446"/>
+  <unicode hex="02E8"/>
+  <outline>
+    <contour>
+      <point x="406" y="-16" type="line"/>
+      <point x="406" y="694" type="line"/>
+      <point x="322" y="694" type="line"/>
+      <point x="322" y="252" type="line"/>
+      <point x="41" y="252" type="line"/>
+      <point x="41" y="169" type="line"/>
+      <point x="322" y="169" type="line"/>
+      <point x="322" y="-16" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

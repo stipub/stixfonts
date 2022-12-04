@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="itildebelow" format="2">
+  <advance width="329"/>
+  <unicode hex="1E2D"/>
+  <anchor x="165" y="-166" name="bottom.mkmk"/>
+  <anchor x="171" y="0" name="cedilla"/>
+  <anchor x="183" y="0" name="ogonek"/>
+  <anchor x="162" y="700" name="top.mkmk"/>
+  <outline>
+    <component base="i"/>
+    <component base="tildebelowcomb" xOffset="365"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

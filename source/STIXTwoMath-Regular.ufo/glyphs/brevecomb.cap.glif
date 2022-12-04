@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-111" y="865" type="line"/>
+      <point x="-136" y="793"/>
+      <point x="-163" y="776"/>
+      <point x="-230" y="776" type="curve" smooth="yes"/>
+      <point x="-296" y="776"/>
+      <point x="-329" y="793"/>
+      <point x="-348" y="865" type="curve"/>
+      <point x="-378" y="865" type="line"/>
+      <point x="-374" y="761"/>
+      <point x="-322" y="712"/>
+      <point x="-230" y="712" type="curve" smooth="yes"/>
+      <point x="-137" y="712"/>
+      <point x="-93" y="761"/>
+      <point x="-82" y="865" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

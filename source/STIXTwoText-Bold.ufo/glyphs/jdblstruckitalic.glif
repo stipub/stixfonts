@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdblstruckitalic" format="2">
+  <advance width="287"/>
+  <unicode hex="2149"/>
+  <anchor x="49" y="-220" name="bottom"/>
+  <anchor x="223" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="-50" y="-222" type="curve" smooth="yes"/>
+      <point x="58" y="-222"/>
+      <point x="136" y="-149"/>
+      <point x="159" y="-42" type="curve" smooth="yes"/>
+      <point x="266" y="456" type="line"/>
+      <point x="109" y="456" type="line"/>
+      <point x="-29" y="-201" type="line"/>
+      <point x="20" y="-184" type="line"/>
+      <point x="147" y="414" type="line"/>
+      <point x="210" y="414" type="line"/>
+      <point x="115" y="-30" type="line" smooth="yes"/>
+      <point x="90" y="-147"/>
+      <point x="13" y="-180"/>
+      <point x="-56" y="-180" type="curve" smooth="yes"/>
+      <point x="-85" y="-180"/>
+      <point x="-107" y="-174"/>
+      <point x="-131" y="-165" type="curve"/>
+      <point x="-149" y="-203" type="line"/>
+      <point x="-122" y="-214"/>
+      <point x="-86" y="-222"/>
+    </contour>
+    <contour>
+      <point x="281" y="539" type="line"/>
+      <point x="311" y="683" type="line"/>
+      <point x="154" y="683" type="line"/>
+      <point x="123" y="539" type="line"/>
+    </contour>
+    <contour>
+      <point x="190" y="643" type="line"/>
+      <point x="258" y="643" type="line"/>
+      <point x="245" y="579" type="line"/>
+      <point x="176" y="579" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

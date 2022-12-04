@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" minimum="400" tag="wght" maximum="700" name="weight">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="400" output="92"/>
+   <map input="500" output="110"/>
+   <map input="600" output="128"/>
+   <map input="700" output="149"/>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="STIX Two Text" stylename="Bold Italic" name="BoldItalic" filename="masters/STIXTwoText-BoldItalic.ufo">
+   <location>
+    <dimension xvalue="149" name="weight"/>
+   </location>
+  </source>
+  <source familyname="STIX Two Text" stylename="Italic" name="Italic" filename="masters/STIXTwoText-Italic.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="92" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="STIX Two Text" stylename="Italic" name="Italic" filename="instances/STIXTwoText-Italic.ufo">
+   <location>
+    <dimension xvalue="92" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="STIX Two Text" stylename="Medium Italic" name="Medium Italic" filename="instances/STIXTwoText-MediumItalic.ufo">
+   <location>
+    <dimension xvalue="110" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="STIX Two Text" stylename="SemiBold Italic" name="SemiBold Italic" filename="instances/STIXTwoText-SemiBoldItalic.ufo">
+   <location>
+    <dimension xvalue="128" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="STIX Two Text" stylename="Bold Italic" name="Bold Italic" filename="instances/STIXTwoText-BoldItalic.ufo">
+   <location>
+    <dimension xvalue="149" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kdblstruck.ssty2" format="2">
+  <advance width="835"/>
+  <outline>
+    <contour>
+      <point x="760" y="732" type="line"/>
+      <point x="281" y="307" type="line"/>
+      <point x="281" y="0" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="92" y="732" type="line"/>
+      <point x="281" y="732" type="line"/>
+      <point x="281" y="371" type="line"/>
+      <point x="686" y="732" type="line"/>
+    </contour>
+    <contour>
+      <point x="142" y="47" type="line"/>
+      <point x="231" y="47" type="line"/>
+      <point x="231" y="685" type="line"/>
+      <point x="142" y="685" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="384" type="line"/>
+      <point x="375" y="413" type="line"/>
+      <point x="638" y="47" type="line"/>
+      <point x="749" y="47" type="line"/>
+      <point x="436" y="475" type="line"/>
+      <point x="476" y="501" type="line"/>
+      <point x="844" y="0" type="line"/>
+      <point x="612" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

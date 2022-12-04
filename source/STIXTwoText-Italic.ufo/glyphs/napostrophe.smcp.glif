@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe.smcp" format="2">
+  <advance width="821"/>
+  <anchor x="444" y="0" name="bottom"/>
+  <anchor x="444" y="0" name="cedilla"/>
+  <anchor x="444" y="0" name="ogonek"/>
+  <anchor x="562" y="532" name="top"/>
+  <outline>
+    <component base="N.c2sc" xOffset="186"/>
+    <component base="quoteright" xOffset="-34" yOffset="-167"/>
+  </outline>
+  <guideline angle="90" x="-457" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.997,1,1</string>
+  </dict>
+  </lib>
+</glyph>

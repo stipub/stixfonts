@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Esansitalic" format="2">
+  <advance width="515"/>
+  <unicode hex="1D60C"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="411" y="0" type="line"/>
+      <point x="425" y="67" type="line"/>
+      <point x="125" y="67" type="line"/>
+      <point x="177" y="312" type="line"/>
+      <point x="422" y="312" type="line"/>
+      <point x="435" y="379" type="line"/>
+      <point x="189" y="379" type="line"/>
+      <point x="232" y="590" type="line"/>
+      <point x="523" y="590" type="line"/>
+      <point x="536" y="657" type="line"/>
+      <point x="166" y="657" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="78.6019" x="33" y="0"/>
+</glyph>

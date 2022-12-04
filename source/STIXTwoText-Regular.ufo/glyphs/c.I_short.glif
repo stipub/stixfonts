@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Ishort" format="2">
+  <advance width="780"/>
+  <unicode hex="0419"/>
+  <anchor x="384" y="0" name="bottom"/>
+  <anchor x="384" y="0" name="cedilla"/>
+  <anchor x="384" y="0" name="ogonek"/>
+  <anchor x="390" y="874" name="top.mkmk"/>
+  <outline>
+    <component base="c.I"/>
+    <component base="brevecomb.Cyrillic.cap" xOffset="620"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

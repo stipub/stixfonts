@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE116.nu" format="2">
+  <advance width="523"/>
+  <unicode hex="E116"/>
+  <outline>
+    <contour>
+      <point x="296" y="109" type="line"/>
+      <point x="296" y="219" type="line"/>
+      <point x="228" y="219" type="line"/>
+      <point x="228" y="109" type="line"/>
+    </contour>
+  </outline>
+</glyph>

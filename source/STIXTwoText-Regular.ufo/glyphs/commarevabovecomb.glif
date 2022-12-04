@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commarevabovecomb" format="2">
+  <unicode hex="0314"/>
+  <anchor x="-230" y="473" name="_top"/>
+  <anchor x="-230" y="486" name="_top.mkmk"/>
+  <anchor x="-229" y="737" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-170" y="538" type="line"/>
+      <point x="-206" y="551"/>
+      <point x="-248" y="576"/>
+      <point x="-248" y="634" type="curve"/>
+      <point x="-237" y="630"/>
+      <point x="-227" y="628"/>
+      <point x="-217" y="628" type="curve" smooth="yes"/>
+      <point x="-188" y="628"/>
+      <point x="-167" y="647"/>
+      <point x="-167" y="680" type="curve" smooth="yes"/>
+      <point x="-167" y="712"/>
+      <point x="-186" y="737"/>
+      <point x="-228" y="737" type="curve" smooth="yes"/>
+      <point x="-276" y="737"/>
+      <point x="-298" y="704"/>
+      <point x="-298" y="652" type="curve" smooth="yes"/>
+      <point x="-298" y="555"/>
+      <point x="-221" y="527"/>
+      <point x="-180" y="513" type="curve"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-230" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

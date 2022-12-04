@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fdblstruck" format="2">
+  <advance width="585"/>
+  <unicode hex="1D53D"/>
+  <outline>
+    <contour>
+      <point x="564" y="615" type="line"/>
+      <point x="564" y="657" type="line"/>
+      <point x="72" y="657" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="235" y="302" type="line"/>
+      <point x="499" y="302" type="line"/>
+      <point x="499" y="344" type="line"/>
+      <point x="235" y="344" type="line"/>
+      <point x="235" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="42" type="line"/>
+      <point x="115" y="42" type="line"/>
+      <point x="115" y="615" type="line"/>
+      <point x="192" y="615" type="line"/>
+    </contour>
+  </outline>
+</glyph>

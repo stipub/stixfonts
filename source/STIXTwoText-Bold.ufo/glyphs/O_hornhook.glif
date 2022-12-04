@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohornhook" format="2">
+  <advance width="749"/>
+  <unicode hex="1EDE"/>
+  <anchor x="375" y="0" name="bottom"/>
+  <anchor x="376" y="0" name="cedilla"/>
+  <anchor x="442" y="0" name="ogonek"/>
+  <anchor x="375" y="657" name="top"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="hookabovecomb.cap" xOffset="574"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

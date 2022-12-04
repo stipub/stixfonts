@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotbelow.smcp" format="2">
+  <advance width="318"/>
+  <anchor x="159" y="-181" name="bottom.mkmk"/>
+  <anchor x="159" y="0" name="cedilla"/>
+  <anchor x="156" y="0" name="ogonek"/>
+  <anchor x="159" y="532" name="top"/>
+  <outline>
+    <component base="I.c2sc"/>
+    <component base="dotbelowcomb" xOffset="389"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

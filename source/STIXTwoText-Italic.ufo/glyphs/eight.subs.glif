@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight.subs" format="2">
+  <advance width="374"/>
+  <anchor x="94" y="-229" name="bottom"/>
+  <anchor x="96" y="-229" name="cedilla"/>
+  <anchor x="94" y="-229" name="ogonek"/>
+  <anchor x="183" y="245" name="top"/>
+  <outline>
+    <component base="eightsuperior" xOffset="-95" yOffset="-481"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

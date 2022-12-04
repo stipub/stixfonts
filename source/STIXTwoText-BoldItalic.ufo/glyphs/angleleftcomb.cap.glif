@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="angleleftcomb.cap" format="2">
+  <anchor x="-196" y="657" name="_top"/>
+  <anchor x="-192" y="676" name="_top.mkmk"/>
+  <anchor x="-137" y="933" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-29" y="700" type="line"/>
+      <point x="20" y="933" type="line"/>
+      <point x="-289" y="933" type="line"/>
+      <point x="-308" y="850" type="line"/>
+      <point x="-89" y="850" type="line"/>
+      <point x="-119" y="700" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilondialytikatonos" format="2">
+  <advance width="510"/>
+  <unicode hex="03B0"/>
+  <anchor x="212" y="0" name="bottom"/>
+  <anchor x="211" y="0" name="cedilla"/>
+  <anchor x="211" y="0" name="ogonek"/>
+  <anchor x="321" y="704" name="top.mkmk"/>
+  <outline>
+    <component base="upsilon"/>
+    <component base="dialytikatonoscomb" xOffset="505"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

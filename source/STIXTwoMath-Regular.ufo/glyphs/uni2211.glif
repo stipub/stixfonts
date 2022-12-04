@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2211" format="2">
+  <advance width="936"/>
+  <unicode hex="2211"/>
+  <outline>
+    <contour>
+      <point x="861" y="70" type="line"/>
+      <point x="821" y="70" type="line"/>
+      <point x="781" y="-66"/>
+      <point x="746" y="-150"/>
+      <point x="621" y="-150" type="curve" smooth="yes"/>
+      <point x="196" y="-150" type="line"/>
+      <point x="196" y="-145" type="line"/>
+      <point x="545" y="315" type="line"/>
+      <point x="545" y="334" type="line"/>
+      <point x="237" y="725" type="line"/>
+      <point x="237" y="729" type="line"/>
+      <point x="566" y="729" type="line" smooth="yes"/>
+      <point x="700" y="729"/>
+      <point x="766" y="699"/>
+      <point x="789" y="532" type="curve"/>
+      <point x="828" y="532" type="line"/>
+      <point x="817" y="782" type="line"/>
+      <point x="69" y="782" type="line"/>
+      <point x="69" y="758" type="line"/>
+      <point x="449" y="282" type="line"/>
+      <point x="62" y="-224" type="line"/>
+      <point x="62" y="-248" type="line"/>
+      <point x="800" y="-248" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>note</key>
+  <string>Summation too big/re-designed and scaled down</string>
+  </dict>
+  </lib>
+</glyph>

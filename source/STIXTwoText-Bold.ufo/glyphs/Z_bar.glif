@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zbar" format="2">
+  <advance width="628"/>
+  <unicode hex="01B5"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="296" y="0" name="cedilla"/>
+  <anchor x="321" y="0" name="ogonek"/>
+  <anchor x="328" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="571" y="0" type="line"/>
+      <point x="595" y="209" type="line"/>
+      <point x="540" y="209" type="line"/>
+      <point x="516" y="103"/>
+      <point x="490" y="61"/>
+      <point x="364" y="61" type="curve" smooth="yes"/>
+      <point x="220" y="61" type="line"/>
+      <point x="220" y="67" type="line"/>
+      <point x="592" y="602" type="line"/>
+      <point x="592" y="657" type="line"/>
+      <point x="69" y="657" type="line"/>
+      <point x="56" y="463" type="line"/>
+      <point x="109" y="463" type="line"/>
+      <point x="129" y="574"/>
+      <point x="168" y="594"/>
+      <point x="259" y="594" type="curve" smooth="yes"/>
+      <point x="409" y="594" type="line"/>
+      <point x="409" y="589" type="line"/>
+      <point x="33" y="55" type="line"/>
+      <point x="33" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="557" y="316" type="line"/>
+      <point x="557" y="378" type="line"/>
+      <point x="95" y="378" type="line"/>
+      <point x="95" y="316" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

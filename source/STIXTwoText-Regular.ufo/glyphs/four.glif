@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four" format="2">
+  <advance width="495"/>
+  <unicode hex="0034"/>
+  <anchor x="257" y="0" name="bottom"/>
+  <anchor x="258" y="0" name="cedilla"/>
+  <anchor x="258" y="0" name="ogonek"/>
+  <anchor x="260" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="379" y="0" type="line"/>
+      <point x="379" y="158" type="line"/>
+      <point x="481" y="158" type="line"/>
+      <point x="481" y="227" type="line"/>
+      <point x="379" y="227" type="line"/>
+      <point x="379" y="645" type="line"/>
+      <point x="318" y="645" type="line"/>
+      <point x="13" y="221" type="line"/>
+      <point x="13" y="158" type="line"/>
+      <point x="290" y="158" type="line"/>
+      <point x="290" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="68" y="231" type="line"/>
+      <point x="286" y="536" type="line"/>
+      <point x="290" y="536" type="line"/>
+      <point x="290" y="227" type="line"/>
+      <point x="68" y="227" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

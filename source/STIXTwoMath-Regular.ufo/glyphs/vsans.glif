@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vsans" format="2">
+  <advance width="453"/>
+  <unicode hex="1D5CF"/>
+  <outline>
+    <contour>
+      <point x="181" y="0" type="line"/>
+      <point x="274" y="0" type="line"/>
+      <point x="441" y="474" type="line"/>
+      <point x="362" y="474" type="line"/>
+      <point x="273" y="205" type="line"/>
+      <point x="260" y="159"/>
+      <point x="244" y="110"/>
+      <point x="230" y="65" type="curve"/>
+      <point x="226" y="65" type="line"/>
+      <point x="212" y="110"/>
+      <point x="197" y="159"/>
+      <point x="183" y="205" type="curve"/>
+      <point x="94" y="474" type="line"/>
+      <point x="12" y="474" type="line"/>
+    </contour>
+  </outline>
+</glyph>

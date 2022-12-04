@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacrondieresis.smcp" format="2">
+  <advance width="682"/>
+  <anchor x="341" y="0" name="bottom"/>
+  <anchor x="341" y="0" name="cedilla"/>
+  <anchor x="390" y="0" name="ogonek"/>
+  <anchor x="369" y="848" name="top.mkmk"/>
+  <outline>
+    <component base="U.c2sc"/>
+    <component base="macron.smcp" xOffset="569" yOffset="-20"/>
+    <component base="dieresis.smcp" xOffset="569" yOffset="120"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

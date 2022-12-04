@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27E6" format="2">
+  <advance width="504"/>
+  <unicode hex="27E6"/>
+  <outline>
+    <contour>
+      <point x="454" y="-190" type="line"/>
+      <point x="454" y="-158" type="line"/>
+      <point x="324" y="-158" type="line"/>
+      <point x="324" y="704" type="line"/>
+      <point x="454" y="704" type="line"/>
+      <point x="454" y="736" type="line"/>
+      <point x="90" y="736" type="line"/>
+      <point x="90" y="-190" type="line"/>
+    </contour>
+    <contour>
+      <point x="169" y="704" type="line"/>
+      <point x="245" y="704" type="line"/>
+      <point x="245" y="-158" type="line"/>
+      <point x="169" y="-158" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>note</key>
+  <string>Harmonize sizes with other fences</string>
+  </dict>
+  </lib>
+</glyph>

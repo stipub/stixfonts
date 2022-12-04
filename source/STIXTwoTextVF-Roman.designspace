@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" minimum="400" tag="wght" maximum="700" name="weight">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="400" output="92"/>
+   <map input="500" output="110"/>
+   <map input="600" output="128"/>
+   <map input="700" output="149"/>
+  </axis>
+ </axes>
+ <sources>
+  <source familyname="STIX Two Text" stylename="Bold" name="Bold" filename="masters/STIXTwoText-Bold.ufo">
+   <location>
+    <dimension xvalue="149" name="weight"/>
+   </location>
+  </source>
+  <source familyname="STIX Two Text" stylename="Regular" name="Regular" filename="masters/STIXTwoText-Regular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="92" name="weight"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance familyname="STIX Two Text" stylename="Regular" name="Regular" filename="instances/STIXTwoText-Regular.ufo">
+   <location>
+    <dimension xvalue="92" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="STIX Two Text" stylename="Medium" name="Medium" filename="instances/STIXTwoText-Medium.ufo">
+   <location>
+    <dimension xvalue="110" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="STIX Two Text" stylename="SemiBold" name="SemiBold" filename="instances/STIXTwoText-SemiBold.ufo">
+   <location>
+    <dimension xvalue="128" name="weight"/>
+   </location>
+  </instance>
+  <instance familyname="STIX Two Text" stylename="Bold" name="Bold" filename="instances/STIXTwoText-Bold.ufo">
+   <location>
+    <dimension xvalue="149" name="weight"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

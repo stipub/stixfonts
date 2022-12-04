@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="clickalveolar" format="2">
+  <advance width="421"/>
+  <unicode hex="01C2"/>
+  <anchor x="157" y="0" name="bottom"/>
+  <anchor x="171" y="0" name="cedilla"/>
+  <anchor x="148" y="0" name="ogonek"/>
+  <anchor x="290" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="215" y="0" type="line"/>
+      <point x="363" y="705" type="line"/>
+      <point x="245" y="705" type="line"/>
+      <point x="97" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="391" y="239" type="line"/>
+      <point x="408" y="316" type="line"/>
+      <point x="43" y="316" type="line"/>
+      <point x="26" y="239" type="line"/>
+    </contour>
+    <contour>
+      <point x="423" y="402" type="line"/>
+      <point x="440" y="479" type="line"/>
+      <point x="75" y="479" type="line"/>
+      <point x="58" y="402" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

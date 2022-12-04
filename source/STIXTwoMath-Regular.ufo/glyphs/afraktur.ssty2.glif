@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afraktur.ssty2" format="2">
+  <advance width="628"/>
+  <outline>
+    <contour>
+      <point x="182" y="-23" type="line"/>
+      <point x="243" y="12"/>
+      <point x="314" y="49"/>
+      <point x="388" y="87" type="curve"/>
+      <point x="381" y="141" type="line"/>
+      <point x="242" y="76" type="line"/>
+      <point x="193" y="128"/>
+      <point x="177" y="164"/>
+      <point x="177" y="258" type="curve" smooth="yes"/>
+      <point x="177" y="320"/>
+      <point x="195" y="410"/>
+      <point x="268" y="473" type="curve"/>
+      <point x="369" y="414" type="line"/>
+      <point x="369" y="93" type="line"/>
+      <point x="371" y="49"/>
+      <point x="407" y="-7"/>
+      <point x="437" y="-23" type="curve"/>
+      <point x="452" y="-23" type="line"/>
+      <point x="575" y="72" type="line"/>
+      <point x="560" y="98" type="line"/>
+      <point x="502" y="70" type="line"/>
+      <point x="495" y="74"/>
+      <point x="483" y="92"/>
+      <point x="483" y="108" type="curve" smooth="yes"/>
+      <point x="483" y="383" type="line" smooth="yes"/>
+      <point x="483" y="417"/>
+      <point x="507" y="442"/>
+      <point x="539" y="445" type="curve"/>
+      <point x="539" y="464" type="line"/>
+      <point x="452" y="487"/>
+      <point x="387" y="535"/>
+      <point x="335" y="565" type="curve"/>
+      <point x="319" y="565" type="line"/>
+      <point x="257" y="507"/>
+      <point x="190" y="479"/>
+      <point x="141" y="433" type="curve" smooth="yes"/>
+      <point x="95" y="391"/>
+      <point x="64" y="334"/>
+      <point x="64" y="224" type="curve" smooth="yes"/>
+      <point x="64" y="115"/>
+      <point x="96" y="41"/>
+      <point x="169" y="-23" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

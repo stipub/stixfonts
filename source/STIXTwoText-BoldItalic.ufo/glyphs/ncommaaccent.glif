@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ncommaaccent" format="2">
+  <advance width="618"/>
+  <unicode hex="0146"/>
+  <anchor x="193" y="-302" name="bottom.mkmk"/>
+  <anchor x="258" y="0" name="cedilla"/>
+  <anchor x="441" y="0" name="ogonek"/>
+  <anchor x="352" y="473" name="top"/>
+  <outline>
+    <component base="n"/>
+    <component base="commaaccentcomb" xOffset="590"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

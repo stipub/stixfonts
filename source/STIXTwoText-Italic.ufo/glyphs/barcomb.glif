@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="barcomb" format="2">
+  <unicode hex="0335"/>
+  <outline>
+    <contour>
+      <point x="-32" y="236" type="line"/>
+      <point x="-22" y="281" type="line"/>
+      <point x="-335" y="281" type="line"/>
+      <point x="-345" y="236" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

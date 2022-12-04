@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.De" format="2">
+  <advance width="759"/>
+  <unicode hex="0414"/>
+  <anchor x="339" y="0" name="bottom"/>
+  <anchor x="340" y="0" name="cedilla"/>
+  <anchor x="341" y="0" name="ogonek"/>
+  <anchor x="490" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="-9" y="-191" type="line"/>
+      <point x="58" y="-33"/>
+      <point x="76" y="0"/>
+      <point x="152" y="0" type="curve" smooth="yes"/>
+      <point x="500" y="0" type="line" smooth="yes"/>
+      <point x="576" y="0"/>
+      <point x="576" y="-45"/>
+      <point x="576" y="-191" type="curve"/>
+      <point x="629" y="-191" type="line"/>
+      <point x="688" y="53" type="line"/>
+      <point x="636" y="53" type="line" smooth="yes"/>
+      <point x="606" y="53"/>
+      <point x="592" y="61"/>
+      <point x="591" y="86" type="curve"/>
+      <point x="591" y="96"/>
+      <point x="593" y="108"/>
+      <point x="596" y="122" type="curve" smooth="yes"/>
+      <point x="688" y="540" type="line" smooth="yes"/>
+      <point x="701" y="602"/>
+      <point x="722" y="614"/>
+      <point x="804" y="614" type="curve"/>
+      <point x="814" y="657" type="line"/>
+      <point x="253" y="657" type="line"/>
+      <point x="244" y="614" type="line"/>
+      <point x="305" y="614"/>
+      <point x="322" y="603"/>
+      <point x="322" y="572" type="curve" smooth="yes"/>
+      <point x="322" y="476"/>
+      <point x="165" y="86"/>
+      <point x="31" y="58" type="curve" smooth="yes"/>
+      <point x="22" y="56"/>
+      <point x="4" y="54"/>
+      <point x="-11" y="53" type="curve"/>
+      <point x="-62" y="-191" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="61" type="line"/>
+      <point x="270" y="191"/>
+      <point x="361" y="409"/>
+      <point x="407" y="600" type="curve"/>
+      <point x="558" y="600" type="line"/>
+      <point x="439" y="55" type="line"/>
+      <point x="143" y="55" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

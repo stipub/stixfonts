@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb.cap" format="2">
+  <anchor x="-200" y="657" name="_top"/>
+  <anchor x="-200" y="670" name="_top.mkmk"/>
+  <anchor x="-200" y="831" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-95" y="698" type="line"/>
+      <point x="-196" y="831" type="line"/>
+      <point x="-317" y="831" type="line"/>
+      <point x="-317" y="799" type="line"/>
+      <point x="-160" y="698" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

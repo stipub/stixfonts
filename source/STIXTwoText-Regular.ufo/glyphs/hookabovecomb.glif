@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="-230" y="473" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-211" y="521" type="line"/>
+      <point x="-211" y="561" type="line"/>
+      <point x="-180" y="567"/>
+      <point x="-125" y="585"/>
+      <point x="-125" y="648" type="curve" smooth="yes"/>
+      <point x="-125" y="692"/>
+      <point x="-154" y="729"/>
+      <point x="-218" y="729" type="curve" smooth="yes"/>
+      <point x="-262" y="729"/>
+      <point x="-307" y="712"/>
+      <point x="-307" y="679" type="curve" smooth="yes"/>
+      <point x="-307" y="663"/>
+      <point x="-297" y="650"/>
+      <point x="-280" y="650" type="curve" smooth="yes"/>
+      <point x="-247" y="650"/>
+      <point x="-263" y="699"/>
+      <point x="-217" y="699" type="curve" smooth="yes"/>
+      <point x="-202" y="699"/>
+      <point x="-187" y="694"/>
+      <point x="-187" y="650" type="curve" smooth="yes"/>
+      <point x="-187" y="606"/>
+      <point x="-201" y="581"/>
+      <point x="-252" y="579" type="curve"/>
+      <point x="-252" y="521" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-230" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

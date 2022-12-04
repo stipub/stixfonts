@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="monogramyang" format="2">
+  <advance width="870"/>
+  <unicode hex="268A"/>
+  <outline>
+    <contour>
+      <point x="790" y="268" type="line"/>
+      <point x="790" y="388" type="line"/>
+      <point x="80" y="388" type="line"/>
+      <point x="80" y="268" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="476" y="0"/>
+</glyph>

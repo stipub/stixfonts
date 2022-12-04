@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jscript.dotless.ss01" format="2">
+  <advance width="501"/>
+  <outline>
+    <contour>
+      <point x="-29" y="-229" type="curve" smooth="yes"/>
+      <point x="116" y="-229"/>
+      <point x="204" y="-100"/>
+      <point x="260" y="76" type="curve" smooth="yes"/>
+      <point x="376" y="440" type="line"/>
+      <point x="297" y="440" type="line"/>
+      <point x="155" y="-9" type="line" smooth="yes"/>
+      <point x="133" y="-78"/>
+      <point x="78" y="-198"/>
+      <point x="-26" y="-198" type="curve" smooth="yes"/>
+      <point x="-72" y="-198"/>
+      <point x="-90" y="-174"/>
+      <point x="-90" y="-144" type="curve" smooth="yes"/>
+      <point x="-90" y="-93"/>
+      <point x="-40" y="-38"/>
+      <point x="170" y="1" type="curve"/>
+      <point x="175" y="34" type="line"/>
+      <point x="-7" y="0"/>
+      <point x="-135" y="-54"/>
+      <point x="-135" y="-148" type="curve" smooth="yes"/>
+      <point x="-135" y="-194"/>
+      <point x="-104" y="-229"/>
+    </contour>
+    <contour>
+      <point x="-25" y="40" type="line"/>
+      <point x="58" y="83"/>
+      <point x="165" y="179"/>
+      <point x="245" y="288" type="curve"/>
+      <point x="306" y="288" type="line"/>
+      <point x="297" y="440" type="line"/>
+      <point x="221" y="266"/>
+      <point x="56" y="120"/>
+      <point x="-40" y="64" type="curve"/>
+    </contour>
+    <contour>
+      <point x="202" y="2" type="line"/>
+      <point x="321" y="31"/>
+      <point x="414" y="82"/>
+      <point x="481" y="238" type="curve"/>
+      <point x="452" y="249" type="line"/>
+      <point x="393" y="114"/>
+      <point x="319" y="60"/>
+      <point x="202" y="32" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

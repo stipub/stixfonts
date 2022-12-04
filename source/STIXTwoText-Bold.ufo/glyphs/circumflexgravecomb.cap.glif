@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexgravecomb.cap" format="2">
+  <anchor x="-200" y="657" name="_top"/>
+  <outline>
+    <contour>
+      <point x="-302" y="693" type="line"/>
+      <point x="-200" y="762" type="line"/>
+      <point x="-96" y="693" type="line"/>
+      <point x="-34" y="693" type="line"/>
+      <point x="-155" y="827" type="line"/>
+      <point x="-246" y="827" type="line"/>
+      <point x="-365" y="693" type="line"/>
+    </contour>
+    <contour>
+      <point x="59" y="763" type="line"/>
+      <point x="-42" y="886" type="line"/>
+      <point x="-135" y="886" type="line"/>
+      <point x="-135" y="854" type="line"/>
+      <point x="0" y="763" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-200" y="0"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

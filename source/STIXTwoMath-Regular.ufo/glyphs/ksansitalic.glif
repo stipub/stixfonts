@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ksansitalic" format="2">
+  <advance width="461"/>
+  <unicode hex="1D62C"/>
+  <outline>
+    <contour>
+      <point x="26" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="124" y="120" type="line"/>
+      <point x="233" y="230" type="line"/>
+      <point x="324" y="0" type="line"/>
+      <point x="399" y="0" type="line"/>
+      <point x="285" y="276" type="line"/>
+      <point x="473" y="474" type="line"/>
+      <point x="388" y="474" type="line"/>
+      <point x="148" y="223" type="line"/>
+      <point x="145" y="223" type="line"/>
+      <point x="240" y="706" type="line"/>
+      <point x="166" y="706" type="line"/>
+    </contour>
+  </outline>
+</glyph>

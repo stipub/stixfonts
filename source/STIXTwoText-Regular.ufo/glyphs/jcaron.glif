@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jcaron" format="2">
+  <advance width="263"/>
+  <unicode hex="01F0"/>
+  <anchor x="36" y="-220" name="bottom"/>
+  <anchor x="36" y="-220" name="cedilla"/>
+  <anchor x="36" y="-220" name="ogonek"/>
+  <anchor x="129" y="678" name="top.mkmk"/>
+  <outline>
+    <component base="j.dotless"/>
+    <component base="caroncomb" xOffset="359"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

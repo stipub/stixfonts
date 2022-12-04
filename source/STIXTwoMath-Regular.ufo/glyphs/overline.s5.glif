@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="overline.s5" format="2">
+  <advance width="3072"/>
+  <outline>
+    <contour>
+      <point x="3072" y="722" type="line"/>
+      <point x="3072" y="769" type="line"/>
+      <point x="0" y="769" type="line"/>
+      <point x="0" y="722" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Bdblstruck.ssty" format="2">
+  <advance width="765"/>
+  <outline>
+    <contour>
+      <point x="91" y="0" type="line"/>
+      <point x="440" y="0" type="line" smooth="yes"/>
+      <point x="582" y="0"/>
+      <point x="701" y="45"/>
+      <point x="701" y="202" type="curve" smooth="yes"/>
+      <point x="701" y="290"/>
+      <point x="641" y="370"/>
+      <point x="539" y="376" type="curve"/>
+      <point x="536" y="357" type="line"/>
+      <point x="627" y="375"/>
+      <point x="680" y="427"/>
+      <point x="680" y="519" type="curve" smooth="yes"/>
+      <point x="680" y="673"/>
+      <point x="530" y="703"/>
+      <point x="413" y="703" type="curve" smooth="yes"/>
+      <point x="91" y="703" type="line"/>
+    </contour>
+    <contour>
+      <point x="139" y="45" type="line"/>
+      <point x="139" y="658" type="line"/>
+      <point x="225" y="658" type="line"/>
+      <point x="225" y="45" type="line"/>
+    </contour>
+    <contour>
+      <point x="272" y="45" type="line"/>
+      <point x="272" y="343" type="line"/>
+      <point x="489" y="343" type="line" smooth="yes"/>
+      <point x="594" y="343"/>
+      <point x="649" y="282"/>
+      <point x="649" y="200" type="curve" smooth="yes"/>
+      <point x="649" y="90"/>
+      <point x="577" y="45"/>
+      <point x="444" y="45" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="504" y="35" type="line"/>
+      <point x="552" y="35" type="line"/>
+      <point x="552" y="663" type="line"/>
+      <point x="504" y="661" type="line"/>
+    </contour>
+    <contour>
+      <point x="272" y="387" type="line"/>
+      <point x="272" y="658" type="line"/>
+      <point x="409" y="658" type="line" smooth="yes"/>
+      <point x="539" y="658"/>
+      <point x="628" y="621"/>
+      <point x="628" y="517" type="curve" smooth="yes"/>
+      <point x="628" y="417"/>
+      <point x="544" y="387"/>
+      <point x="486" y="387" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

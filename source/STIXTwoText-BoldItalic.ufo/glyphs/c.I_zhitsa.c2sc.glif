@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="c.Izhitsa.c2sc" format="2">
+  <advance width="624"/>
+  <anchor x="222" y="0" name="bottom"/>
+  <anchor x="223" y="0" name="cedilla"/>
+  <anchor x="203" y="0" name="ogonek"/>
+  <anchor x="368" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="256" y="-4" type="line"/>
+      <point x="468" y="313" type="line"/>
+      <point x="555" y="448"/>
+      <point x="563" y="455"/>
+      <point x="588" y="455" type="curve" smooth="yes"/>
+      <point x="609" y="455"/>
+      <point x="624" y="427"/>
+      <point x="658" y="427" type="curve" smooth="yes"/>
+      <point x="693" y="427"/>
+      <point x="718" y="445"/>
+      <point x="718" y="483" type="curve" smooth="yes"/>
+      <point x="718" y="527"/>
+      <point x="682" y="543"/>
+      <point x="650" y="543" type="curve" smooth="yes"/>
+      <point x="557" y="543"/>
+      <point x="523" y="490"/>
+      <point x="412" y="329" type="curve" smooth="yes"/>
+      <point x="334" y="214" type="line"/>
+      <point x="292" y="136" type="line"/>
+      <point x="284" y="136" type="line"/>
+      <point x="280" y="215" type="line"/>
+      <point x="252" y="405" type="line"/>
+      <point x="250" y="415"/>
+      <point x="250" y="424"/>
+      <point x="250" y="432" type="curve" smooth="yes"/>
+      <point x="250" y="484"/>
+      <point x="281" y="494"/>
+      <point x="323" y="494" type="curve"/>
+      <point x="330" y="532" type="line"/>
+      <point x="51" y="532" type="line"/>
+      <point x="44" y="494" type="line"/>
+      <point x="95" y="494"/>
+      <point x="99" y="476"/>
+      <point x="107" y="422" type="curve" smooth="yes"/>
+      <point x="172" y="-4" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

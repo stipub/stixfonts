@@ -1,0 +1,17 @@
+# This is the official list of project authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS.txt file.
+# See the latter for an explanation.
+#
+# Names should be added to this file as:
+# Name or Organization <email address>
+
+The STI Pub Companies <stix@aip.org>
+
+# The STI Pub Companies is a consortium consisting of AIP Publishing,
+# American Chemical Society, American Mathematical Society, American
+# Physical Society, Elsevier, Inc., and The Institute of Electrical
+# and Electronic Engineers, Inc.
+
+MicroPress, Inc. <www.micropress-inc.com>, with Reserved Font Name TM Math.
+Elsevier, Inc.  
+Adobe Systems Incorporated.

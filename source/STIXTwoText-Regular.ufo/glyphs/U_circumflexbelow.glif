@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ucircumflexbelow" format="2">
+  <advance width="752"/>
+  <unicode hex="1E76"/>
+  <anchor x="379" y="-203" name="bottom.mkmk"/>
+  <anchor x="381" y="0" name="cedilla"/>
+  <anchor x="435" y="0" name="ogonek"/>
+  <anchor x="399" y="657" name="top"/>
+  <outline>
+    <component base="U"/>
+    <component base="circumflexbelowcomb" xOffset="609"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

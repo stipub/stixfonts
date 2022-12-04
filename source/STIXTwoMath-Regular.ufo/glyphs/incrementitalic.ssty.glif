@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="incrementitalic.ssty" format="2">
+  <advance width="729"/>
+  <outline>
+    <contour>
+      <point x="634" y="0" type="line"/>
+      <point x="642" y="38" type="line"/>
+      <point x="481" y="709" type="line"/>
+      <point x="432" y="709" type="line"/>
+      <point x="-9" y="39" type="line"/>
+      <point x="-16" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="515" y="89" type="line"/>
+      <point x="90" y="89" type="line"/>
+      <point x="405" y="574" type="line"/>
+      <point x="411" y="574" type="line"/>
+    </contour>
+  </outline>
+</glyph>

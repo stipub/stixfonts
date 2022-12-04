@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Bdotaccent" format="2">
+  <advance width="593"/>
+  <unicode hex="1E02"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="224" y="0" name="cedilla"/>
+  <anchor x="223" y="0" name="ogonek"/>
+  <anchor x="396" y="817" name="top.mkmk"/>
+  <outline>
+    <component base="B"/>
+    <component base="dotaccentcomb.cap" xOffset="466"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

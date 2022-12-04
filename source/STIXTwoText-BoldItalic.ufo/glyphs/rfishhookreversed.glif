@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rfishhookreversed" format="2">
+  <advance width="408"/>
+  <unicode hex="027F"/>
+  <anchor x="175" y="0" name="bottom"/>
+  <anchor x="173" y="0" name="cedilla"/>
+  <anchor x="238" y="0" name="ogonek"/>
+  <anchor x="246" y="473" name="top"/>
+  <outline>
+    <contour>
+      <point x="226" y="-12" type="curve" smooth="yes"/>
+      <point x="327" y="-12"/>
+      <point x="368" y="42"/>
+      <point x="400" y="89" type="curve"/>
+      <point x="369" y="112" type="line"/>
+      <point x="354" y="93"/>
+      <point x="331" y="65"/>
+      <point x="299" y="65" type="curve" smooth="yes"/>
+      <point x="284" y="65"/>
+      <point x="279" y="71"/>
+      <point x="279" y="86" type="curve" smooth="yes"/>
+      <point x="279" y="97"/>
+      <point x="282" y="115"/>
+      <point x="285" y="126" type="curve" smooth="yes"/>
+      <point x="320" y="262" type="line" smooth="yes"/>
+      <point x="326" y="287"/>
+      <point x="331" y="320"/>
+      <point x="331" y="346" type="curve" smooth="yes"/>
+      <point x="331" y="449"/>
+      <point x="251" y="481"/>
+      <point x="166" y="481" type="curve" smooth="yes"/>
+      <point x="79" y="481"/>
+      <point x="8" y="447"/>
+      <point x="8" y="386" type="curve" smooth="yes"/>
+      <point x="8" y="350"/>
+      <point x="32" y="338"/>
+      <point x="54" y="338" type="curve" smooth="yes"/>
+      <point x="117" y="338"/>
+      <point x="125" y="432"/>
+      <point x="177" y="432" type="curve" smooth="yes"/>
+      <point x="196" y="432"/>
+      <point x="206" y="419"/>
+      <point x="206" y="395" type="curve" smooth="yes"/>
+      <point x="206" y="379"/>
+      <point x="202" y="356"/>
+      <point x="195" y="327" type="curve" smooth="yes"/>
+      <point x="142" y="115" type="line" smooth="yes"/>
+      <point x="137" y="95"/>
+      <point x="133" y="77"/>
+      <point x="133" y="58" type="curve" smooth="yes"/>
+      <point x="133" y="15"/>
+      <point x="154" y="-12"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

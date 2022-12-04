@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+  <advance width="749"/>
+  <unicode hex="00D8"/>
+  <anchor x="327" y="0" name="bottom"/>
+  <anchor x="326" y="0" name="cedilla"/>
+  <anchor x="396" y="0" name="ogonek"/>
+  <anchor x="466" y="657" name="top"/>
+  <outline>
+    <contour>
+      <point x="176" y="79" type="line"/>
+      <point x="189" y="92" type="line"/>
+      <point x="622" y="549" type="line"/>
+      <point x="632" y="560" type="line"/>
+      <point x="711" y="643" type="line"/>
+      <point x="669" y="679" type="line"/>
+      <point x="599" y="605" type="line"/>
+      <point x="588" y="594" type="line"/>
+      <point x="158" y="139" type="line"/>
+      <point x="148" y="129" type="line"/>
+      <point x="39" y="14" type="line"/>
+      <point x="80" y="-22" type="line"/>
+    </contour>
+    <contour>
+      <point x="322" y="-14" type="curve" smooth="yes"/>
+      <point x="575" y="-14"/>
+      <point x="729" y="169"/>
+      <point x="729" y="415" type="curve" smooth="yes"/>
+      <point x="729" y="579"/>
+      <point x="628" y="669"/>
+      <point x="465" y="669" type="curve" smooth="yes"/>
+      <point x="222" y="669"/>
+      <point x="61" y="494"/>
+      <point x="61" y="244" type="curve" smooth="yes"/>
+      <point x="61" y="76"/>
+      <point x="154" y="-14"/>
+    </contour>
+    <contour>
+      <point x="335" y="38" type="curve" smooth="yes"/>
+      <point x="241" y="38"/>
+      <point x="210" y="122"/>
+      <point x="210" y="225" type="curve" smooth="yes"/>
+      <point x="210" y="452"/>
+      <point x="310" y="619"/>
+      <point x="452" y="619" type="curve" smooth="yes"/>
+      <point x="542" y="619"/>
+      <point x="578" y="531"/>
+      <point x="578" y="430" type="curve" smooth="yes"/>
+      <point x="578" y="276"/>
+      <point x="535" y="38"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

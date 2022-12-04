@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f._asc" format="2">
+  <advance width="346"/>
+  <anchor x="159" y="0" name="bottom"/>
+  <anchor x="179" y="0" name="cedilla"/>
+  <anchor x="196" y="0" name="ogonek"/>
+  <anchor x="173" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="320" y="0" type="line"/>
+      <point x="320" y="40" type="line"/>
+      <point x="257" y="40"/>
+      <point x="237" y="52"/>
+      <point x="237" y="130" type="curve" smooth="yes"/>
+      <point x="237" y="407" type="line"/>
+      <point x="348" y="407" type="line"/>
+      <point x="348" y="468" type="line"/>
+      <point x="237" y="468" type="line"/>
+      <point x="237" y="530" type="line" smooth="yes"/>
+      <point x="237" y="642"/>
+      <point x="273" y="669"/>
+      <point x="341" y="669" type="curve" smooth="yes"/>
+      <point x="396" y="669"/>
+      <point x="427" y="643"/>
+      <point x="441" y="598" type="curve"/>
+      <point x="509" y="598" type="line"/>
+      <point x="509" y="673" type="line"/>
+      <point x="483" y="694"/>
+      <point x="416" y="717"/>
+      <point x="347" y="717" type="curve" smooth="yes"/>
+      <point x="268" y="717"/>
+      <point x="194" y="697"/>
+      <point x="150" y="650" type="curve" smooth="yes"/>
+      <point x="99" y="596"/>
+      <point x="94" y="551"/>
+      <point x="94" y="468" type="curve"/>
+      <point x="13" y="468" type="line"/>
+      <point x="13" y="407" type="line"/>
+      <point x="94" y="407" type="line"/>
+      <point x="94" y="130" type="line" smooth="yes"/>
+      <point x="94" y="52"/>
+      <point x="79" y="40"/>
+      <point x="6" y="40" type="curve"/>
+      <point x="6" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

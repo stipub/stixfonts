@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Nsansitalic" format="2">
+  <advance width="633"/>
+  <unicode hex="1D615"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="180" y="351" type="line" smooth="yes"/>
+      <point x="194" y="417"/>
+      <point x="204" y="490"/>
+      <point x="213" y="559" type="curve"/>
+      <point x="217" y="559" type="line"/>
+      <point x="261" y="417" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="490" y="0" type="line"/>
+      <point x="624" y="657" type="line"/>
+      <point x="548" y="657" type="line"/>
+      <point x="476" y="311" type="line"/>
+      <point x="463" y="242"/>
+      <point x="455" y="166"/>
+      <point x="447" y="101" type="curve"/>
+      <point x="443" y="101" type="line"/>
+      <point x="399" y="238" type="line"/>
+      <point x="247" y="657" type="line"/>
+      <point x="166" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

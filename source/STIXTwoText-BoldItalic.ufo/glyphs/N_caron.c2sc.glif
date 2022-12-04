@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron.c2sc" format="2">
+  <advance width="658"/>
+  <anchor x="267" y="0" name="bottom"/>
+  <anchor x="268" y="0" name="cedilla"/>
+  <anchor x="267" y="0" name="ogonek"/>
+  <anchor x="430" y="720" name="top.mkmk"/>
+  <outline>
+    <component base="N.c2sc"/>
+    <component base="caron.smcp" xOffset="610"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.604,0.6,1,1</string>
+  </dict>
+  </lib>
+</glyph>

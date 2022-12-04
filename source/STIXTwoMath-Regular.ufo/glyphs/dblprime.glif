@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblprime" format="2">
+  <advance width="456"/>
+  <unicode hex="02BA"/>
+  <outline>
+    <component base="prime"/>
+    <component base="prime" xOffset="160"/>
+  </outline>
+</glyph>

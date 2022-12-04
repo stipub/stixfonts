@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.smcp" format="2">
+  <anchor x="-130" y="532" name="_top"/>
+  <anchor x="-128" y="544" name="_top.mkmk"/>
+  <anchor x="-91" y="713" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-147" y="572" type="line"/>
+      <point x="2" y="695" type="line"/>
+      <point x="5" y="713" type="line"/>
+      <point x="-90" y="713" type="line"/>
+      <point x="-186" y="572" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

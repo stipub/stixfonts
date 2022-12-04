@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="highvoltage" format="2">
+  <advance width="520"/>
+  <unicode hex="26A1"/>
+  <outline>
+    <contour>
+      <point x="416" y="654" type="line"/>
+      <point x="60" y="319" type="line"/>
+      <point x="60" y="307" type="line"/>
+      <point x="271" y="276" type="line"/>
+      <point x="102" y="-19" type="line"/>
+      <point x="103" y="-20" type="line"/>
+      <point x="460" y="331" type="line"/>
+      <point x="460" y="343" type="line"/>
+      <point x="254" y="372" type="line"/>
+      <point x="418" y="653" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="479"/>
+  <guideline angle="0" x="0" y="386"/>
+  <guideline angle="90" x="10" y="0"/>
+  <guideline angle="90" x="509" y="0"/>
+</glyph>

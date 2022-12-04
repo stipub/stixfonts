@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni221A.x" format="2">
+  <advance width="1212"/>
+  <outline>
+    <contour>
+      <point x="916" y="0" type="line"/>
+      <point x="916" y="650" type="line"/>
+      <point x="849" y="650" type="line"/>
+      <point x="849" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

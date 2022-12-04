@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idblstruckitalic" format="2">
+  <advance width="285"/>
+  <unicode hex="2148"/>
+  <outline>
+    <contour>
+      <point x="117" y="539" type="line"/>
+      <point x="275" y="539" type="line"/>
+      <point x="305" y="683" type="line"/>
+      <point x="148" y="683" type="line"/>
+    </contour>
+    <contour>
+      <point x="170" y="579" type="line"/>
+      <point x="184" y="643" type="line"/>
+      <point x="252" y="643" type="line"/>
+      <point x="239" y="579" type="line"/>
+    </contour>
+    <contour>
+      <point x="8" y="0" type="line"/>
+      <point x="164" y="0" type="line"/>
+      <point x="260" y="456" type="line"/>
+      <point x="103" y="456" type="line"/>
+    </contour>
+    <contour>
+      <point x="63" y="42" type="line"/>
+      <point x="141" y="414" type="line"/>
+      <point x="204" y="414" type="line"/>
+      <point x="126" y="42" type="line"/>
+    </contour>
+  </outline>
+</glyph>

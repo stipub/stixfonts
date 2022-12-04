@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE290.nu" format="2">
+  <advance width="648"/>
+  <unicode hex="E290"/>
+  <outline>
+    <contour>
+      <point x="649" y="0" type="line"/>
+      <point x="649" y="138" type="line"/>
+      <point x="-1" y="138" type="line"/>
+      <point x="-1" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

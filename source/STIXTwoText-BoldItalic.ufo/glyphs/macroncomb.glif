@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <anchor x="-234" y="473" name="_top"/>
+  <anchor x="-227" y="507" name="_top.mkmk"/>
+  <anchor x="-201" y="630" name="top.mkmk"/>
+  <outline>
+    <contour>
+      <point x="-70" y="555" type="line"/>
+      <point x="-54" y="630" type="line"/>
+      <point x="-344" y="630" type="line"/>
+      <point x="-360" y="555" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="-282" y="0"/>
+  <guideline angle="78" x="-434" y="-465"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

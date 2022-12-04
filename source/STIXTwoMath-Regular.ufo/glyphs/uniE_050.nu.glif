@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE050.nu" format="2">
+  <advance width="720"/>
+  <unicode hex="E050"/>
+  <outline>
+    <contour>
+      <point x="645" y="-27" type="line"/>
+      <point x="645" y="41" type="line"/>
+      <point x="293" y="41" type="line"/>
+      <point x="484" y="477" type="line"/>
+      <point x="645" y="477" type="line"/>
+      <point x="645" y="545" type="line"/>
+      <point x="514" y="545" type="line"/>
+      <point x="572" y="678" type="line"/>
+      <point x="517" y="678" type="line"/>
+      <point x="458" y="545" type="line"/>
+      <point x="76" y="545" type="line"/>
+      <point x="76" y="-27" type="line"/>
+      <point x="208" y="-27" type="line"/>
+      <point x="151" y="-160" type="line"/>
+      <point x="206" y="-160" type="line"/>
+      <point x="264" y="-27" type="line"/>
+    </contour>
+    <contour>
+      <point x="429" y="477" type="line"/>
+      <point x="238" y="41" type="line"/>
+      <point x="144" y="41" type="line"/>
+      <point x="144" y="477" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

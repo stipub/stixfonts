@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tretroflex.smcp" format="2">
+  <advance width="531"/>
+  <anchor x="265" y="-220" name="bottom"/>
+  <anchor x="265" y="-220" name="cedilla"/>
+  <anchor x="265" y="-220" name="ogonek"/>
+  <anchor x="265" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="392" y="-235" type="curve" smooth="yes"/>
+      <point x="457" y="-235"/>
+      <point x="499" y="-207"/>
+      <point x="499" y="-163" type="curve" smooth="yes"/>
+      <point x="499" y="-138"/>
+      <point x="482" y="-121"/>
+      <point x="455" y="-121" type="curve" smooth="yes"/>
+      <point x="407" y="-121"/>
+      <point x="406" y="-191"/>
+      <point x="361" y="-191" type="curve" smooth="yes"/>
+      <point x="312" y="-191"/>
+      <point x="309" y="-139"/>
+      <point x="309" y="-32" type="curve" smooth="yes"/>
+      <point x="309" y="493" type="line"/>
+      <point x="365" y="493" type="line" smooth="yes"/>
+      <point x="463" y="493"/>
+      <point x="472" y="471"/>
+      <point x="491" y="383" type="curve"/>
+      <point x="522" y="383" type="line"/>
+      <point x="514" y="532" type="line"/>
+      <point x="17" y="532" type="line"/>
+      <point x="8" y="383" type="line"/>
+      <point x="38" y="383" type="line"/>
+      <point x="57" y="471"/>
+      <point x="69" y="493"/>
+      <point x="165" y="493" type="curve" smooth="yes"/>
+      <point x="222" y="493" type="line"/>
+      <point x="222" y="-24" type="line" smooth="yes"/>
+      <point x="222" y="-167"/>
+      <point x="278" y="-235"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

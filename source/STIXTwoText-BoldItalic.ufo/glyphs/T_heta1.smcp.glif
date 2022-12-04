@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Theta1.smcp" format="2">
+  <advance width="638"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="271" y="0" name="cedilla"/>
+  <anchor x="270" y="0" name="ogonek"/>
+  <anchor x="376" y="532" name="top"/>
+  <outline>
+    <contour>
+      <point x="261" y="-11" type="curve" smooth="yes"/>
+      <point x="477" y="-11"/>
+      <point x="610" y="138"/>
+      <point x="610" y="336" type="curve" smooth="yes"/>
+      <point x="610" y="465"/>
+      <point x="529" y="542"/>
+      <point x="383" y="542" type="curve" smooth="yes"/>
+      <point x="177" y="542"/>
+      <point x="38" y="400"/>
+      <point x="38" y="198" type="curve" smooth="yes"/>
+      <point x="38" y="66"/>
+      <point x="116" y="-11"/>
+    </contour>
+    <contour>
+      <point x="276" y="35" type="curve" smooth="yes"/>
+      <point x="211" y="35"/>
+      <point x="179" y="88"/>
+      <point x="179" y="182" type="curve" smooth="yes"/>
+      <point x="179" y="335"/>
+      <point x="241" y="497"/>
+      <point x="367" y="497" type="curve" smooth="yes"/>
+      <point x="431" y="497"/>
+      <point x="467" y="446"/>
+      <point x="467" y="348" type="curve" smooth="yes"/>
+      <point x="467" y="185"/>
+      <point x="411" y="35"/>
+    </contour>
+    <contour>
+      <point x="469" y="248" type="line"/>
+      <point x="475" y="291" type="line"/>
+      <point x="178" y="291" type="line"/>
+      <point x="171" y="248" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

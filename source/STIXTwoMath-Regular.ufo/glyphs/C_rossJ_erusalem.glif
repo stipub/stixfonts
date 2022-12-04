@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CrossJerusalem" format="2">
+  <advance width="731"/>
+  <unicode hex="2629"/>
+  <outline>
+    <contour>
+      <point x="398" y="40" type="line"/>
+      <point x="398" y="617" type="line"/>
+      <point x="333" y="617" type="line"/>
+      <point x="333" y="40" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="599" type="line"/>
+      <point x="478" y="657" type="line"/>
+      <point x="253" y="657" type="line"/>
+      <point x="253" y="599" type="line"/>
+    </contour>
+    <contour>
+      <point x="81" y="300" type="line"/>
+      <point x="674" y="300" type="line"/>
+      <point x="674" y="358" type="line"/>
+      <point x="81" y="358" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="0" type="line"/>
+      <point x="478" y="58" type="line"/>
+      <point x="253" y="58" type="line"/>
+      <point x="253" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="624" y="216" type="line"/>
+      <point x="686" y="216" type="line"/>
+      <point x="686" y="441" type="line"/>
+      <point x="624" y="441" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="216" type="line"/>
+      <point x="107" y="216" type="line"/>
+      <point x="107" y="441" type="line"/>
+      <point x="45" y="441" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="323"/>
+  <guideline angle="90" x="366" y="0"/>
+</glyph>
