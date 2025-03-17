@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gammasansbolditalic" format="2">
+  <advance width="504"/>
+  <unicode hex="1D792"/>
+  <outline>
+    <contour>
+      <point x="26" y="0" type="line"/>
+      <point x="158" y="0" type="line"/>
+      <point x="267" y="548" type="line"/>
+      <point x="535" y="548" type="line"/>
+      <point x="556" y="657" type="line"/>
+      <point x="159" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

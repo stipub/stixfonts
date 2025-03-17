@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27E8.ssty" format="2">
+  <advance width="370"/>
+  <outline>
+    <contour>
+      <point x="321" y="-197" type="line"/>
+      <point x="130" y="314" type="line"/>
+      <point x="318" y="824" type="line"/>
+      <point x="274" y="824" type="line"/>
+      <point x="42" y="324" type="line"/>
+      <point x="42" y="303" type="line"/>
+      <point x="274" y="-197" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="824"/>
+  <guideline angle="0" x="0" y="-197"/>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pbold.ssty" format="2">
+  <advance width="715"/>
+  <outline>
+    <contour>
+      <point x="426" y="0" type="line"/>
+      <point x="426" y="51" type="line"/>
+      <point x="305" y="51"/>
+      <point x="302" y="73"/>
+      <point x="302" y="151" type="curve" smooth="yes"/>
+      <point x="302" y="300" type="line"/>
+      <point x="327" y="295"/>
+      <point x="356" y="286"/>
+      <point x="383" y="286" type="curve" smooth="yes"/>
+      <point x="539" y="286"/>
+      <point x="681" y="337"/>
+      <point x="681" y="512" type="curve" smooth="yes"/>
+      <point x="681" y="694"/>
+      <point x="497" y="703"/>
+      <point x="391" y="703" type="curve" smooth="yes"/>
+      <point x="42" y="703" type="line"/>
+      <point x="42" y="652" type="line"/>
+      <point x="127" y="652"/>
+      <point x="145" y="629"/>
+      <point x="145" y="564" type="curve" smooth="yes"/>
+      <point x="145" y="154" type="line" smooth="yes"/>
+      <point x="145" y="74"/>
+      <point x="143" y="51"/>
+      <point x="42" y="51" type="curve"/>
+      <point x="42" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="366" y="359" type="curve" smooth="yes"/>
+      <point x="333" y="359"/>
+      <point x="312" y="363"/>
+      <point x="302" y="364" type="curve"/>
+      <point x="302" y="637" type="line"/>
+      <point x="325" y="640"/>
+      <point x="338" y="640"/>
+      <point x="358" y="640" type="curve" smooth="yes"/>
+      <point x="473" y="640"/>
+      <point x="519" y="598"/>
+      <point x="519" y="507" type="curve" smooth="yes"/>
+      <point x="519" y="383"/>
+      <point x="466" y="359"/>
+    </contour>
+  </outline>
+</glyph>

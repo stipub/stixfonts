@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shogiwhiteturned" format="2">
+  <advance width="739"/>
+  <unicode hex="26C9"/>
+  <outline>
+    <contour>
+      <point x="370" y="-11" type="line"/>
+      <point x="627" y="177" type="line"/>
+      <point x="664" y="657" type="line"/>
+      <point x="75" y="657" type="line"/>
+      <point x="113" y="177" type="line"/>
+    </contour>
+    <contour>
+      <point x="136" y="606" type="line"/>
+      <point x="604" y="606" type="line"/>
+      <point x="573" y="206" type="line"/>
+      <point x="370" y="57" type="line"/>
+      <point x="167" y="206" type="line"/>
+    </contour>
+  </outline>
+</glyph>

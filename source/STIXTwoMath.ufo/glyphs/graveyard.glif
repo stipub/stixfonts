@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="graveyard" format="2">
+  <advance width="784"/>
+  <unicode hex="26FC"/>
+  <outline>
+    <contour>
+      <point x="155" y="46" type="line"/>
+      <point x="229" y="46" type="line"/>
+      <point x="229" y="292" type="line"/>
+      <point x="155" y="292" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="68" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="334" y="0" type="line"/>
+      <point x="334" y="68" type="line"/>
+    </contour>
+    <contour>
+      <point x="555" y="46" type="line"/>
+      <point x="629" y="46" type="line"/>
+      <point x="629" y="292" type="line"/>
+      <point x="555" y="292" type="line"/>
+    </contour>
+    <contour>
+      <point x="450" y="68" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="734" y="0" type="line"/>
+      <point x="734" y="68" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="410" type="line"/>
+      <point x="428" y="410" type="line"/>
+      <point x="428" y="657" type="line"/>
+      <point x="354" y="657" type="line"/>
+    </contour>
+    <contour>
+      <point x="249" y="433" type="line"/>
+      <point x="249" y="365" type="line"/>
+      <point x="533" y="365" type="line"/>
+      <point x="533" y="433" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="90" x="417" y="0"/>
+</glyph>

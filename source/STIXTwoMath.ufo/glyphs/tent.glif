@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tent" format="2">
+  <advance width="823"/>
+  <unicode hex="26FA"/>
+  <outline>
+    <contour>
+      <point x="20" y="43" type="line"/>
+      <point x="261" y="20" type="line"/>
+      <point x="278" y="200" type="line"/>
+      <point x="415" y="188" type="line"/>
+      <point x="397" y="6" type="line"/>
+      <point x="614" y="-15" type="line"/>
+      <point x="417" y="677" type="line"/>
+    </contour>
+    <contour>
+      <point x="793" y="251" type="line"/>
+      <point x="417" y="677" type="line"/>
+      <point x="398" y="627" type="line"/>
+      <point x="761" y="211" type="line"/>
+      <point x="751" y="273" type="line"/>
+      <point x="578" y="21" type="line"/>
+      <point x="614" y="-15" type="line"/>
+    </contour>
+  </outline>
+</glyph>

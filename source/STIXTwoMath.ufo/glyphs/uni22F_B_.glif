@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni22FB" format="2">
+  <advance width="720"/>
+  <unicode hex="22FB"/>
+  <outline>
+    <contour>
+      <point x="75" y="408" type="line"/>
+      <point x="75" y="109" type="line"/>
+      <point x="143" y="109" type="line"/>
+      <point x="143" y="224" type="line"/>
+      <point x="593" y="224" type="line"/>
+      <point x="593" y="292" type="line"/>
+      <point x="143" y="292" type="line"/>
+      <point x="143" y="408" type="line"/>
+    </contour>
+    <contour>
+      <point x="75" y="543" type="line"/>
+      <point x="75" y="475" type="line"/>
+      <point x="368" y="475" type="line" smooth="yes"/>
+      <point x="485" y="475"/>
+      <point x="568" y="367"/>
+      <point x="568" y="257" type="curve" smooth="yes"/>
+      <point x="568" y="148"/>
+      <point x="486" y="41"/>
+      <point x="369" y="41" type="curve" smooth="yes"/>
+      <point x="75" y="41" type="line"/>
+      <point x="75" y="-26" type="line"/>
+      <point x="369" y="-26" type="line" smooth="yes"/>
+      <point x="533" y="-26"/>
+      <point x="646" y="106"/>
+      <point x="646" y="257" type="curve" smooth="yes"/>
+      <point x="646" y="409"/>
+      <point x="535" y="543"/>
+      <point x="372" y="543" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

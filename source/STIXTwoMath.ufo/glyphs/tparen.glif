@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tparen" format="2">
+  <advance width="969"/>
+  <unicode hex="24AF"/>
+  <outline>
+    <component base="t" xOffset="327"/>
+    <component base="parenleft"/>
+    <component base="parenright" xOffset="612"/>
+  </outline>
+</glyph>

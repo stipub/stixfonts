@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Etasansbolditalic" format="2">
-  <advance width="661"/>
-  <unicode hex="1D796"/>
-  <outline>
-    <component base="Hsansbolditalic"/>
-  </outline>
-</glyph>

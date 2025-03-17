@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Chibolditalic" format="2">
+  <advance width="654"/>
+  <unicode hex="1D732"/>
+  <outline>
+    <component base="Xbolditalic"/>
+  </outline>
+</glyph>

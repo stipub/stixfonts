@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xdblstruck" format="2">
+  <advance width="518"/>
+  <unicode hex="1D569"/>
+  <outline>
+    <contour>
+      <point x="513" y="0" type="line"/>
+      <point x="320" y="274" type="line"/>
+      <point x="489" y="456" type="line"/>
+      <point x="429" y="456" type="line"/>
+      <point x="294" y="311" type="line"/>
+      <point x="193" y="455" type="line"/>
+      <point x="11" y="455" type="line"/>
+      <point x="191" y="198" type="line"/>
+      <point x="5" y="0" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="217" y="161" type="line"/>
+      <point x="331" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="428" y="43" type="line"/>
+      <point x="353" y="43" type="line"/>
+      <point x="93" y="412" type="line"/>
+      <point x="168" y="412" type="line"/>
+    </contour>
+  </outline>
+</glyph>

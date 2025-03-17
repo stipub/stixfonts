@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caronslovak.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-244" y="463" type="line"/>
+      <point x="-214" y="459" type="line"/>
+      <point x="-182" y="510"/>
+      <point x="-154" y="583"/>
+      <point x="-150" y="639" type="curve"/>
+      <point x="-150" y="657" type="line"/>
+      <point x="-232" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

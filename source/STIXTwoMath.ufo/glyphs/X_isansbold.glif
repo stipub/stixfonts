@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Xisansbold" format="2">
+  <advance width="577"/>
+  <unicode hex="1D763"/>
+  <outline>
+    <contour>
+      <point x="53" y="0" type="line"/>
+      <point x="524" y="0" type="line"/>
+      <point x="524" y="118" type="line"/>
+      <point x="53" y="118" type="line"/>
+    </contour>
+    <contour>
+      <point x="124" y="280" type="line"/>
+      <point x="453" y="280" type="line"/>
+      <point x="453" y="398" type="line"/>
+      <point x="124" y="398" type="line"/>
+    </contour>
+    <contour>
+      <point x="63" y="539" type="line"/>
+      <point x="514" y="539" type="line"/>
+      <point x="514" y="657" type="line"/>
+      <point x="63" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

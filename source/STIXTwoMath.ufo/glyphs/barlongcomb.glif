@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="barlongcomb" format="2">
+  <unicode hex="0336"/>
+  <outline>
+    <contour>
+      <point x="26" y="236" type="line"/>
+      <point x="26" y="281" type="line"/>
+      <point x="-486" y="281" type="line"/>
+      <point x="-486" y="236" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sigmasansbold" format="2">
+  <advance width="559"/>
+  <unicode hex="1D768"/>
+  <outline>
+    <contour>
+      <point x="40" y="0" type="line"/>
+      <point x="524" y="0" type="line"/>
+      <point x="524" y="118" type="line"/>
+      <point x="215" y="118" type="line"/>
+      <point x="390" y="336" type="line"/>
+      <point x="217" y="539" type="line"/>
+      <point x="495" y="539" type="line"/>
+      <point x="495" y="657" type="line"/>
+      <point x="43" y="657" type="line"/>
+      <point x="43" y="573" type="line"/>
+      <point x="250" y="332" type="line"/>
+      <point x="40" y="85" type="line"/>
+    </contour>
+  </outline>
+</glyph>

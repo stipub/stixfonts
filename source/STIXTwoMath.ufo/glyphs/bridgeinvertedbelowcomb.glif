@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bridgeinvertedbelowcomb" format="2">
+  <unicode hex="033A"/>
+  <outline>
+    <contour>
+      <point x="-146" y="-55" type="line"/>
+      <point x="-146" y="-139" type="line"/>
+      <point x="-313" y="-139" type="line"/>
+      <point x="-313" y="-55" type="line"/>
+      <point x="-354" y="-55" type="line"/>
+      <point x="-354" y="-178" type="line"/>
+      <point x="-107" y="-178" type="line"/>
+      <point x="-107" y="-55" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="isansbold.dotless" format="2">
+  <advance width="264"/>
+  <outline>
+    <contour>
+      <point x="65" y="0" type="line"/>
+      <point x="199" y="0" type="line"/>
+      <point x="199" y="473" type="line"/>
+      <point x="65" y="473" type="line"/>
+    </contour>
+  </outline>
+</glyph>

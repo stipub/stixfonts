@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gammasans" format="2">
+  <advance width="508"/>
+  <unicode hex="E17F"/>
+  <outline>
+    <contour>
+      <point x="90" y="0" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="176" y="585" type="line"/>
+      <point x="477" y="585" type="line"/>
+      <point x="477" y="657" type="line"/>
+      <point x="90" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

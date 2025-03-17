@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kappasansbolditalic" format="2">
+  <advance width="488"/>
+  <unicode hex="1D7B3"/>
+  <outline>
+    <contour>
+      <point x="9" y="0" type="line"/>
+      <point x="126" y="0" type="line"/>
+      <point x="132" y="29" type="line" smooth="yes"/>
+      <point x="147" y="103"/>
+      <point x="168" y="143"/>
+      <point x="203" y="176" type="curve" smooth="yes"/>
+      <point x="329" y="296"/>
+      <point x="418" y="359"/>
+      <point x="494" y="386" type="curve"/>
+      <point x="449" y="487" type="line"/>
+      <point x="357" y="444"/>
+      <point x="264" y="363"/>
+      <point x="186" y="253" type="curve"/>
+      <point x="182" y="253" type="line"/>
+      <point x="203" y="358" type="line" smooth="yes"/>
+      <point x="211" y="398"/>
+      <point x="217" y="444"/>
+      <point x="217" y="474" type="curve"/>
+      <point x="93" y="474" type="line"/>
+      <point x="93" y="426"/>
+      <point x="85" y="369"/>
+      <point x="77" y="331" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="316" y="-9" type="curve"/>
+      <point x="454" y="0" type="line"/>
+      <point x="411" y="64"/>
+      <point x="350" y="175"/>
+      <point x="332" y="294" type="curve"/>
+      <point x="235" y="222" type="line"/>
+      <point x="254" y="121"/>
+      <point x="291" y="35"/>
+    </contour>
+  </outline>
+</glyph>

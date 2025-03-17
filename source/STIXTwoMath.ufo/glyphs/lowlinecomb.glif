@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lowlinecomb" format="2">
+  <unicode hex="0332"/>
+  <outline>
+    <contour>
+      <point x="26" y="-137" type="line"/>
+      <point x="26" y="-86" type="line"/>
+      <point x="-486" y="-86" type="line"/>
+      <point x="-486" y="-137" type="line"/>
+    </contour>
+  </outline>
+</glyph>

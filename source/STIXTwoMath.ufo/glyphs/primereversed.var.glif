@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="primereversed.var" format="2">
+  <advance width="348"/>
+  <outline>
+    <contour>
+      <point x="303" y="41" type="line"/>
+      <point x="276" y="167"/>
+      <point x="212" y="455"/>
+      <point x="193" y="515" type="curve" smooth="yes"/>
+      <point x="177" y="567"/>
+      <point x="146" y="578"/>
+      <point x="115" y="578" type="curve" smooth="yes"/>
+      <point x="79" y="578"/>
+      <point x="46" y="556"/>
+      <point x="46" y="506" type="curve" smooth="yes"/>
+      <point x="46" y="494"/>
+      <point x="51" y="470"/>
+      <point x="56" y="457" type="curve" smooth="yes"/>
+      <point x="78" y="399"/>
+      <point x="206" y="144"/>
+      <point x="268" y="28" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

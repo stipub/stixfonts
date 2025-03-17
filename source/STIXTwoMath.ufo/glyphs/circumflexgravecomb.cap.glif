@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexgravecomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-83" y="693" type="line"/>
+      <point x="-193" y="826" type="line"/>
+      <point x="-265" y="826" type="line"/>
+      <point x="-377" y="693" type="line"/>
+      <point x="-335" y="693" type="line"/>
+      <point x="-230" y="774" type="line"/>
+      <point x="-123" y="693" type="line"/>
+    </contour>
+    <contour>
+      <point x="-95" y="881" type="line"/>
+      <point x="-183" y="881" type="line"/>
+      <point x="-183" y="860" type="line"/>
+      <point x="-39" y="763" type="line"/>
+      <point x="2" y="763" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omicron.ssty" format="2">
-  <advance width="835"/>
-  <outline>
-    <component base="O.ssty"/>
-  </outline>
-</glyph>

@@ -6,7 +6,7 @@ OpenType Unicode fonts for Scientific, Technical, and Mathematical texts
 * See https://www.stixfonts.org/ for background on the the STIX Fonts
   project.
 
-* Download [zip files](zipfiles) with some or all of the fonts.
+* Download [latest release version](https://github.com/stipub/stixfonts/releases/latest) of the fonts.
 
 * View [code charts](docs) for the
   * [Math](docs/STIXTwoMath-Regular.pdf),
@@ -212,18 +212,37 @@ different meanings compared to the text fonts):
 
 ## Build instructions
 
-After cloning the project, the fonts can be built using the `build.sh` script (use `--verbose` option for more detailed build log):
+After cloning the project, the fonts can be built using the Tiro builder tool. From the top level folder:
 
-    $ ./build.sh
+```
+# Create a new virtualenv
+# Known issues with python3.13: use python3.12 or earlier
+python3 -m venv venv
 
-This may take several minutes to complete. The first time the script is called, it will create a Python virtual environment that will be also used for subsequent builds. Each time the script is called, the fonts will be rebuilt from scratch. The built fonts will be in `build` subdirectory, and should be manually copied and committed to `fonts` subdirectory.
+# Activate env
+source venv/bin/activate
+
+# Optional: update pip
+pip3 install --upgrade pip
+
+# Install dependencies
+pip3 install -r requirements.txt
+```
+
+For subsequent use (presuming the requirements have not changed), only the second of those steps will be required.
+
+Run the build script indicating the YAML configuration file:
+```
+python tools/tirobuild.py STIXbuild.yml
+```
+
 
 
 ### Notes on source formats and build process
 
-The design masters for the STIX Two Text fonts are the **.vfj** files, a json source format used by FontLab 7. These files contain the glyph outlines, spacing, mark anchors, kerning and associated classes, font info, and variable design space info. Changes or additions to any of these things should be made in the .vfj files.
+The design masters for the STIX Two Text fonts are the **.vfj** files, a json source format used by FontLab 7 and later. These files contain the glyph outlines, spacing, mark anchors, kerning and associated classes, font info, and variable design space info. Changes or additions to any of these things should be made in the .vfj files.
 
-The build script used to generate font files uses the **.ufo** and **.designspace** files, not the .vfj sources directly. These files can be exported from FontLab 7 using the default export profile for ‘DesignSpace + UFO’.
+The build tool used to generate font files uses the **.ufo** and **.designspace** files, not the .vfj sources directly. These files can be exported from FontLab using the default export profile for ‘DesignSpace + UFO’.
 
 The **.ren** files are glyph name management files used by the build script to manage the relationship of development names in the sources to the build names used in the post or CFF tables of the fonts.
 
@@ -237,11 +256,11 @@ The revised .vtp files should then be exported for future use, and the .input.tt
 
 **IMPORTANT** : the STIXTwoMath-Regular.input.ttf file is also the source for the MATH table and cmap table in the final font build. Care must be taken to preserve or extend these as necessary in this file when updating OpenType Layout or other aspects of the font.
 
-Once all the source files are ready, run the **build.sh** as described above. The build script describes what it is doing as it runs, and verbose mode can be used to get more detail. In overview, this is what it does:
+Once all the source files are ready, run the build tool as described above. The build tool describes what it is doing as it runs. In overview, this is what it does:
 
 1. Pre-process the UFO files to:
 a) remove all features and kerning groups from the UFOs; b) rename the glyphs to match the TTFs (otherwise the binary tables can’t be grafted in with FontTools easily); c) extract the binary tables and add them under data/com.github.fonttools.ttx/ in the UFO font where ufo2ft expects them; d) save the modified files in build/masters to keep the sources unchanged.
 1. Build variable font with fontmake from build/masters UFOs.
 1. Build binary masters with fontmake (needed for the next step) from UFOs.
-1. Build static fonts with fontmake from UFOs, but telling it to interpolate OTL tables from the binary masters.
+1. Instantiate static fonts with fontmake from UFOs, but telling it to interpolate OTL tables from the binary masters.
 1. Post-process the fonts to fix the name tables and other final touchups.

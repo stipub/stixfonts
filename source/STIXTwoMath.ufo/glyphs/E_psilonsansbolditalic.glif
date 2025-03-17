@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilonsansbolditalic" format="2">
+  <advance width="534"/>
+  <unicode hex="1D794"/>
+  <outline>
+    <component base="Esansbolditalic"/>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2264.ssty" format="2">
+  <advance width="772"/>
+  <outline>
+    <contour>
+      <point x="689" y="130" type="line"/>
+      <point x="215" y="367" type="line"/>
+      <point x="689" y="595" type="line"/>
+      <point x="689" y="675" type="line"/>
+      <point x="82" y="377" type="line"/>
+      <point x="82" y="357" type="line"/>
+      <point x="689" y="50" type="line"/>
+    </contour>
+    <contour>
+      <point x="689" y="-117" type="line"/>
+      <point x="689" y="-39" type="line"/>
+      <point x="82" y="-39" type="line"/>
+      <point x="82" y="-117" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

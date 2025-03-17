@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xrectbox" format="2">
+  <advance width="934"/>
+  <unicode hex="2327"/>
+  <outline>
+    <contour>
+      <point x="814" y="0" type="line"/>
+      <point x="814" y="657" type="line"/>
+      <point x="120" y="657" type="line"/>
+      <point x="120" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="239" y="-131" type="line"/>
+      <point x="735" y="764" type="line"/>
+      <point x="694" y="788" type="line"/>
+      <point x="198" y="-107" type="line"/>
+    </contour>
+    <contour>
+      <point x="165" y="614" type="line"/>
+      <point x="769" y="614" type="line"/>
+      <point x="769" y="43" type="line"/>
+      <point x="165" y="43" type="line"/>
+    </contour>
+    <contour>
+      <point x="736" y="-107" type="line"/>
+      <point x="240" y="787" type="line"/>
+      <point x="197" y="764" type="line"/>
+      <point x="693" y="-130" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="328"/>
+  <guideline angle="90" x="467" y="0"/>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sparen" format="2">
+  <advance width="1049"/>
+  <unicode hex="24AE"/>
+  <outline>
+    <component base="s" xOffset="327"/>
+    <component base="parenleft"/>
+    <component base="parenright" xOffset="692"/>
+  </outline>
+</glyph>

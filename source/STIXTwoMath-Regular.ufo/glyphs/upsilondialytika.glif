@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="upsilondialytika" format="2">
-  <advance width="491"/>
-  <unicode hex="03CB"/>
-  <outline>
-    <component base="upsilon"/>
-    <component base="dialytikacomb" xOffset="455"/>
-  </outline>
-</glyph>

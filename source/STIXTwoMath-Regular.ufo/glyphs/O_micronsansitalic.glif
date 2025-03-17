@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omicronsansitalic" format="2">
-  <advance width="648"/>
-  <unicode hex="E1CD"/>
-  <outline>
-    <component base="Osansitalic"/>
-  </outline>
-</glyph>

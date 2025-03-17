@@ -1,6 +1,10 @@
-fonttools[woff]
-fontmake[pathops]
+axisregistry
 cffsubr
+fontTools[woff]
 psautohint
+pyyaml
+skia-pathops
 ttfautohint-py
+ufo2ft
 ufoLib2
+uharfbuzz

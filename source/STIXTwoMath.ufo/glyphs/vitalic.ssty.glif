@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vitalic.ssty" format="2">
+  <advance width="597"/>
+  <outline>
+    <contour>
+      <point x="242" y="515" type="line"/>
+      <point x="77" y="504" type="line"/>
+      <point x="77" y="469" type="line"/>
+      <point x="77" y="469"/>
+      <point x="110" y="472"/>
+      <point x="128" y="472" type="curve" smooth="yes"/>
+      <point x="148" y="472"/>
+      <point x="155" y="457"/>
+      <point x="155" y="439" type="curve" smooth="yes"/>
+      <point x="155" y="417"/>
+      <point x="147" y="391"/>
+      <point x="144" y="379" type="curve" smooth="yes"/>
+      <point x="122" y="297" type="line" smooth="yes"/>
+      <point x="110" y="251"/>
+      <point x="97" y="199"/>
+      <point x="97" y="144" type="curve" smooth="yes"/>
+      <point x="97" y="64"/>
+      <point x="130" y="-9"/>
+      <point x="242" y="-9" type="curve" smooth="yes"/>
+      <point x="443" y="-9"/>
+      <point x="554" y="224"/>
+      <point x="554" y="388" type="curve" smooth="yes"/>
+      <point x="554" y="465"/>
+      <point x="524" y="517"/>
+      <point x="473" y="517" type="curve" smooth="yes"/>
+      <point x="450" y="517"/>
+      <point x="425" y="503"/>
+      <point x="425" y="474" type="curve" smooth="yes"/>
+      <point x="425" y="426"/>
+      <point x="493" y="407"/>
+      <point x="493" y="332" type="curve" smooth="yes"/>
+      <point x="493" y="231"/>
+      <point x="423" y="63"/>
+      <point x="283" y="63" type="curve" smooth="yes"/>
+      <point x="214" y="63"/>
+      <point x="197" y="108"/>
+      <point x="197" y="164" type="curve" smooth="yes"/>
+      <point x="197" y="213"/>
+      <point x="210" y="270"/>
+      <point x="220" y="308" type="curve" smooth="yes"/>
+      <point x="273" y="515" type="line"/>
+    </contour>
+  </outline>
+</glyph>

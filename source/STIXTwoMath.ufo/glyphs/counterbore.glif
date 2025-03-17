@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="counterbore" format="2">
+  <advance width="657"/>
+  <unicode hex="2334"/>
+  <outline>
+    <contour>
+      <point x="500" y="77" type="line"/>
+      <point x="537" y="114" type="line"/>
+      <point x="120" y="114" type="line"/>
+      <point x="157" y="77" type="line"/>
+      <point x="157" y="409" type="line"/>
+      <point x="100" y="409" type="line"/>
+      <point x="100" y="62" type="line"/>
+      <point x="557" y="62" type="line"/>
+      <point x="557" y="409" type="line"/>
+      <point x="500" y="409" type="line"/>
+    </contour>
+  </outline>
+</glyph>

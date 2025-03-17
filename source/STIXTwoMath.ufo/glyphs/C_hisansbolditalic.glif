@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Chisansbolditalic" format="2">
+  <advance width="555"/>
+  <unicode hex="1D7A6"/>
+  <outline>
+    <component base="Xsansbolditalic"/>
+  </outline>
+</glyph>

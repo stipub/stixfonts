@@ -1,0 +1,210 @@
+names:
+  5: Version 2.14 
+
+DSIG: dummy
+
+fonts:
+  STIXTwoText[wght]:
+    source: source/STIXTwoTextVF-Roman.designspace
+    names:
+      25: STIX Two Text
+    meta:
+      slng: [Latn, Cyrl, Grek]
+      dlng: [Latn, Cyrl, Grek]
+    glyphnames: source/STIX2-Dev2Post.ren
+    ttf:
+      source:
+        - source/STIXTwoText-Bold.input.ttf
+        - source/STIXTwoText-Regular.input.ttf
+      tables: [GDEF, GSUB, GPOS]
+    featureparams:
+      cv01:
+        label: Barred-lambda
+        tooltip: Horizontal barred-lambda
+        characters: [0x019B]
+      cv02:
+        label: Ramshorn
+        tooltip: Serifed ramshorn letter
+        characters: [0x0264]
+      cv03:
+        label: Open box tie
+        tooltip: Curved form of open box tie
+        characters: [0x2423]
+    STAT:
+      axes:
+      - name: Weight
+        tag: wght
+        values:
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 0x2 # ElidableAxisValueName
+        - name: Medium
+          value: 500
+        - name: Semibold
+          value: 600
+        - name: Bold
+          value: 700
+      - name: Italic
+        tag: ital
+        values:
+        - name: Roman
+          value: 0
+          linkedValue: 1
+          flags: 0x2 # ElidableAxisValueName
+      elidedFallbackName: Roman
+    instances:
+      STIXTwoText-Regular:
+        coordinates:
+          wght: 400
+        names:
+          1: STIX Two Text
+          2: Regular
+          4: STIX Two Text
+          6: STIXTwoText-Roman
+      STIXTwoText-Medium:
+        coordinates:
+          wght: 500
+        names:
+          1: STIX Two Text Medium
+          2: Regular
+          4: STIX Two Text Medium
+          6: BrillMedium-Regular
+          16: STIX Two Text
+          17: Medium
+      STIXTwoText-Semibold:
+        coordinates:
+          wght: 600
+        names:
+          1: STIX Two Text SemiBold
+          2: Regular
+          4: STIX Two Text SemiBold
+          6: BrillSemiBold-Regular
+          16: STIX Two Text
+          17: SemiBold
+      STIXTwoText-Bold:
+        coordinates:
+          wght: 700
+        names:
+          1: STIX Two Text
+          2: Bold
+          4: STIX Two Text Bold
+          6: STIXTwoText-Bold
+
+  STIXTwoText-Italic[wght]:
+    source: source/STIXTwoTextVF-Italic.designspace
+    names:
+      25: STIX Two Text Italic
+    meta:
+      slng: [Latn, Cyrl, Grek]
+      dlng: [Latn, Cyrl, Grek]
+    glyphnames: source/STIX2-Dev2Post.ren
+    ttf:
+      source:
+        - source/STIXTwoText-BoldItalic.input.ttf
+        - source/STIXTwoText-Italic.input.ttf
+      tables: [GDEF, GSUB, GPOS]
+    glyphnames: source/STIX2-Dev2Post.ren
+    featureparams:
+      ss01: Hooked g form
+      ss02: Upright parenthetical punctuation
+      cv01:
+        label: Barred-lambda
+        tooltip: Horizontal barred-lambda
+        characters: [0x019B]
+      cv02:
+        label: Ramshorn
+        tooltip: Serifed ramshorn letter
+        characters: [0x0264]
+      cv03:
+        label: Open box tie
+        tooltip: Curved form of open box tie
+        characters: [0x2423]
+    STAT:
+      axes:
+      - name: Weight
+        tag: wght
+        values:
+        - name: Italic
+          value: 400
+          linkedValue: 700
+          flags: 0x2 # ElidableAxisValueName
+        - name: Medium
+          value: 500
+        - name: Semibold
+          value: 600
+        - name: Bold
+          value: 700
+      - name: Italic
+        tag: ital
+        values:
+        - name: Italic
+          value: 1
+      elidedFallbackName: Italic
+    instances:
+      STIXTwoText-Italic:
+        coordinates:
+          wght: 400
+        names:
+          1: STIX Two Text
+          2: Italic
+          4: STIX Two Text Italic
+          6: STIXTwoText-Italic
+      STIXTwoText-MediumItalic:
+        coordinates:
+          wght: 500
+        names:
+          1: STIX Two Text Medium
+          2: Italic
+          4: STIX Two Text Medium Italic
+          6: BrillMedium-Italic
+          16: STIX Two Text
+          17: Medium Italic
+      STIXTwoText-SemiboldItalic:
+        coordinates:
+          wght: 600
+        names:
+          1: STIX Two Text SemiBold
+          2: Italic
+          4: STIX Two Text SemiBold Italic
+          6: BrillSemiBold-Italic
+          16: STIX Two Text
+          17: SemiBold Italic
+      STIXTwoText-BoldItalic:
+        coordinates:
+          wght: 700
+        names:
+          1: STIX Two Text
+          2: Bold Italic
+          4: STIX Two Text Bold Italic
+          6: STIXTwoText-BoldItalic
+
+  STIXTwoMath:
+    source: source/STIXTwoMath.ufo
+    meta:
+      slng: [Latn, Cyrl, Grek]
+      dlng: [Latn, Cyrl, Grek]
+    glyphnames: source/STIX2-Dev2Post.ren
+    ttf:
+      source: source/STIXTwoMath.input.ttf
+      tables: [GDEF, GSUB, GPOS, MATH]
+    names:
+      4: STIX Two Math
+    featureparams:
+      ss01: Roundhand script style (\mathcal -> \mathscr)
+      ss02: Alternate italic forms (g u v w z)
+      ss03: Horizontal crossbar variants
+      ss04: Long minute, second and primes variants
+      ss05: Small arrow variants
+      ss06: Miscellaneous small variants
+      ss07: Small math symbols (product, summation, etc.)
+      ss08: Upright integral variants (XITS compatible)
+      ss09: Vertical slash variants; (XITS compatible)
+      ss10: Diagonal greater/lesser combination variants
+      ss11: Long-slash not-equal combination variants
+      ss12: Low contrast (sans-like) variants
+      ss13: Horizontally-flipped sine wave
+      ss14: Tall variants
+      ss15: Slab serif symbol variants
+      ss16: Circled operator variants
+      ss20: Miscellaneous variants

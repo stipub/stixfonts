@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblleftreversed" format="2">
-  <advance width="434"/>
-  <unicode hex="201F"/>
-  <outline>
-    <component base="quotereversed" xOffset="1"/>
-    <component base="quotereversed" xOffset="191"/>
-  </outline>
-</glyph>

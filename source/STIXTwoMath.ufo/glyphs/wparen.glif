@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wparen" format="2">
+  <advance width="1403"/>
+  <unicode hex="24B2"/>
+  <outline>
+    <component base="w" xOffset="327"/>
+    <component base="parenleft"/>
+    <component base="parenright" xOffset="1046"/>
+  </outline>
+</glyph>

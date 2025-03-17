@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2223.var" format="2">
+  <advance width="272"/>
+  <outline>
+    <contour>
+      <point x="170" y="-20" type="line"/>
+      <point x="170" y="462" type="line"/>
+      <point x="102" y="462" type="line"/>
+      <point x="102" y="-20" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni266F.ssty" format="2">
+  <advance width="473"/>
+  <outline>
+    <contour>
+      <point x="430" y="543" type="line"/>
+      <point x="430" y="638" type="line"/>
+      <point x="43" y="491" type="line"/>
+      <point x="43" y="399" type="line"/>
+    </contour>
+    <contour>
+      <point x="430" y="145" type="line"/>
+      <point x="430" y="238" type="line"/>
+      <point x="43" y="92" type="line"/>
+      <point x="43" y="-2" type="line"/>
+    </contour>
+    <contour>
+      <point x="142" y="-159" type="line"/>
+      <point x="142" y="727" type="line"/>
+      <point x="98" y="710" type="line"/>
+      <point x="98" y="-176" type="line"/>
+    </contour>
+    <contour>
+      <point x="375" y="-70" type="line"/>
+      <point x="375" y="815" type="line"/>
+      <point x="331" y="799" type="line"/>
+      <point x="331" y="-87" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="786"/>
+  <guideline angle="0" x="0" y="-187"/>
+  <guideline angle="20.7968" x="0" y="-217"/>
+  <guideline angle="90" x="25" y="0"/>
+  <guideline angle="90" x="416" y="0"/>
+</glyph>

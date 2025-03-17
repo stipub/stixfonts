@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27EA.s8" format="2">
+  <advance width="887"/>
+  <outline>
+    <contour>
+      <point x="530" y="1703" type="line"/>
+      <point x="483" y="1703" type="line"/>
+      <point x="63" y="285" type="line"/>
+      <point x="63" y="255" type="line"/>
+      <point x="483" y="-1163" type="line"/>
+      <point x="530" y="-1163" type="line"/>
+      <point x="161" y="270" type="line"/>
+    </contour>
+    <contour>
+      <point x="854" y="1703" type="line"/>
+      <point x="806" y="1703" type="line"/>
+      <point x="387" y="285" type="line"/>
+      <point x="387" y="255" type="line"/>
+      <point x="806" y="-1163" type="line"/>
+      <point x="854" y="-1163" type="line"/>
+      <point x="485" y="270" type="line"/>
+    </contour>
+  </outline>
+</glyph>

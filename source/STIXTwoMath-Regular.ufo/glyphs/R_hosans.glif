@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Rhosans" format="2">
-  <advance width="578"/>
-  <unicode hex="E18D"/>
-  <outline>
-    <component base="Psans" xOffset="-2"/>
-  </outline>
-</glyph>

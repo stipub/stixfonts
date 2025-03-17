@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE046.nu" format="2">
+  <advance width="720"/>
+  <unicode hex="E046"/>
+  <outline>
+    <contour>
+      <point x="650" y="55" type="line"/>
+      <point x="650" y="65" type="line"/>
+      <point x="388" y="191" type="line"/>
+      <point x="415" y="309" type="line"/>
+      <point x="650" y="195" type="line"/>
+      <point x="650" y="263" type="line"/>
+      <point x="429" y="369" type="line"/>
+      <point x="456" y="488" type="line"/>
+      <point x="650" y="394" type="line"/>
+      <point x="650" y="462" type="line"/>
+      <point x="470" y="549" type="line"/>
+      <point x="537" y="837" type="line"/>
+      <point x="483" y="837" type="line"/>
+      <point x="421" y="572" type="line"/>
+      <point x="71" y="743" type="line"/>
+      <point x="71" y="676" type="line"/>
+      <point x="408" y="512" type="line"/>
+      <point x="380" y="393" type="line"/>
+      <point x="71" y="545" type="line"/>
+      <point x="71" y="477" type="line"/>
+      <point x="367" y="333" type="line"/>
+      <point x="339" y="215" type="line"/>
+      <point x="71" y="346" type="line"/>
+      <point x="71" y="279" type="line"/>
+      <point x="325" y="153" type="line"/>
+      <point x="277" y="-57" type="line"/>
+      <point x="71" y="-159" type="line"/>
+      <point x="71" y="-226" type="line"/>
+      <point x="259" y="-134" type="line"/>
+      <point x="217" y="-319" type="line"/>
+      <point x="271" y="-319" type="line"/>
+      <point x="320" y="-105" type="line"/>
+    </contour>
+    <contour>
+      <point x="514" y="60" type="line"/>
+      <point x="337" y="-27" type="line"/>
+      <point x="373" y="129" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,1</string>
+  </dict>
+  </lib>
+</glyph>

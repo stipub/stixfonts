@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2AFC.s1" format="2">
+  <advance width="665"/>
+  <outline>
+    <contour>
+      <point x="366" y="-307" type="line"/>
+      <point x="366" y="852" type="line"/>
+      <point x="299" y="852" type="line"/>
+      <point x="299" y="-307" type="line"/>
+    </contour>
+    <contour>
+      <point x="162" y="-307" type="line"/>
+      <point x="162" y="852" type="line"/>
+      <point x="95" y="852" type="line"/>
+      <point x="95" y="-307" type="line"/>
+    </contour>
+    <contour>
+      <point x="570" y="-307" type="line"/>
+      <point x="570" y="852" type="line"/>
+      <point x="503" y="852" type="line"/>
+      <point x="503" y="-307" type="line"/>
+    </contour>
+  </outline>
+</glyph>

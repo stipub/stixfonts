@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Upsilonitalic.ssty2" format="2">
-  <advance width="808"/>
-  <outline>
-    <component base="Yitalic.ssty2"/>
-  </outline>
-</glyph>

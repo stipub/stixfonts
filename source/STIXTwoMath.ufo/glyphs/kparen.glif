@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kparen" format="2">
+  <advance width="1196"/>
+  <unicode hex="24A6"/>
+  <outline>
+    <component base="k" xOffset="327"/>
+    <component base="parenleft"/>
+    <component base="parenright" xOffset="839"/>
+  </outline>
+</glyph>

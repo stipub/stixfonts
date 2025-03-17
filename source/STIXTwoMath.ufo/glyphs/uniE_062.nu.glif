@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE062.nu" format="2">
+  <unicode hex="E062"/>
+  <outline>
+    <contour>
+      <point x="-71" y="-200" type="line"/>
+      <point x="-71" y="-145" type="line"/>
+      <point x="-389" y="-145" type="line"/>
+      <point x="-389" y="-200" type="line"/>
+    </contour>
+    <contour>
+      <point x="-71" y="-299" type="line"/>
+      <point x="-71" y="-244" type="line"/>
+      <point x="-389" y="-244" type="line"/>
+      <point x="-389" y="-299" type="line"/>
+    </contour>
+    <contour>
+      <point x="-71" y="-400" type="line"/>
+      <point x="-71" y="-344" type="line"/>
+      <point x="-389" y="-344" type="line"/>
+      <point x="-389" y="-400" type="line"/>
+    </contour>
+    <contour>
+      <point x="-71" y="-498" type="line"/>
+      <point x="-71" y="-443" type="line"/>
+      <point x="-389" y="-443" type="line"/>
+      <point x="-389" y="-498" type="line"/>
+    </contour>
+  </outline>
+</glyph>

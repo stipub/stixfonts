@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="overlinedblcomb" format="2">
+  <unicode hex="033F"/>
+  <outline>
+    <contour>
+      <point x="-31" y="619" type="line"/>
+      <point x="-31" y="670" type="line"/>
+      <point x="-427" y="670" type="line"/>
+      <point x="-427" y="619" type="line"/>
+    </contour>
+    <contour>
+      <point x="-31" y="508" type="line"/>
+      <point x="-31" y="559" type="line"/>
+      <point x="-427" y="559" type="line"/>
+      <point x="-427" y="508" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="980"/>
+</glyph>

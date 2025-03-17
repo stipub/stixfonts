@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="isans" format="2">
+  <advance width="239"/>
+  <unicode hex="1D5C2"/>
+  <outline>
+    <contour>
+      <point x="79" y="0" type="line"/>
+      <point x="159" y="0" type="line"/>
+      <point x="159" y="474" type="line"/>
+      <point x="79" y="474" type="line"/>
+    </contour>
+    <contour>
+      <point x="120" y="571" type="curve" smooth="yes"/>
+      <point x="151" y="571"/>
+      <point x="175" y="593"/>
+      <point x="175" y="623" type="curve" smooth="yes"/>
+      <point x="175" y="654"/>
+      <point x="151" y="675"/>
+      <point x="120" y="675" type="curve" smooth="yes"/>
+      <point x="89" y="675"/>
+      <point x="65" y="654"/>
+      <point x="65" y="623" type="curve" smooth="yes"/>
+      <point x="65" y="593"/>
+      <point x="89" y="571"/>
+    </contour>
+  </outline>
+</glyph>

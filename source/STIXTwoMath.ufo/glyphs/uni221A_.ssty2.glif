@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni221A.ssty2" format="2">
+  <advance width="901"/>
+  <outline>
+    <contour>
+      <point x="936" y="1005" type="line"/>
+      <point x="740" y="1005" type="line"/>
+      <point x="453" y="-81" type="line"/>
+      <point x="449" y="-81" type="line"/>
+      <point x="229" y="484" type="line"/>
+      <point x="206" y="484" type="line"/>
+      <point x="23" y="357" type="line"/>
+      <point x="41" y="325" type="line"/>
+      <point x="161" y="371" type="line"/>
+      <point x="421" y="-279" type="line"/>
+      <point x="469" y="-279" type="line"/>
+      <point x="793" y="927" type="line"/>
+      <point x="936" y="927" type="line"/>
+    </contour>
+  </outline>
+</glyph>

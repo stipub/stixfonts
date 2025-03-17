@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni27EB.s7" format="2">
+  <advance width="845"/>
+  <outline>
+    <contour>
+      <point x="380" y="270" type="line"/>
+      <point x="34" y="-1043" type="line"/>
+      <point x="80" y="-1043" type="line"/>
+      <point x="475" y="255" type="line"/>
+      <point x="475" y="285" type="line"/>
+      <point x="80" y="1583" type="line"/>
+      <point x="34" y="1583" type="line"/>
+    </contour>
+    <contour>
+      <point x="690" y="270" type="line"/>
+      <point x="343" y="-1043" type="line"/>
+      <point x="390" y="-1043" type="line"/>
+      <point x="785" y="255" type="line"/>
+      <point x="785" y="285" type="line"/>
+      <point x="390" y="1583" type="line"/>
+      <point x="343" y="1583" type="line"/>
+    </contour>
+  </outline>
+</glyph>

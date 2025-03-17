@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bardbl" format="2">
+  <advance width="427"/>
+  <unicode hex="2016"/>
+  <outline>
+    <component base="bar"/>
+    <component base="bar" xOffset="160"/>
+  </outline>
+</glyph>

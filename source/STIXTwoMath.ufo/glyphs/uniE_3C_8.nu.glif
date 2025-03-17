@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE3C8.nu" format="2">
+  <advance width="923"/>
+  <unicode hex="E3C8"/>
+  <outline>
+    <contour>
+      <point x="210" y="541" type="line"/>
+      <point x="79" y="678" type="line"/>
+      <point x="0" y="678" type="line"/>
+      <point x="131" y="541" type="line"/>
+    </contour>
+    <contour>
+      <point x="433" y="309" type="line"/>
+      <point x="302" y="445" type="line"/>
+      <point x="223" y="445" type="line"/>
+      <point x="354" y="309" type="line"/>
+    </contour>
+    <contour>
+      <point x="654" y="78" type="line"/>
+      <point x="523" y="214" type="line"/>
+      <point x="444" y="214" type="line"/>
+      <point x="575" y="78" type="line"/>
+    </contour>
+    <contour>
+      <point x="883" y="-160" type="line"/>
+      <point x="752" y="-24" type="line"/>
+      <point x="674" y="-24" type="line"/>
+      <point x="805" y="-160" type="line"/>
+    </contour>
+  </outline>
+</glyph>

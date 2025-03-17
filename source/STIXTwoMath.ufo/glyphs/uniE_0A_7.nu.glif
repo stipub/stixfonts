@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0A7.nu" format="2">
+  <advance width="385"/>
+  <unicode hex="E0A7"/>
+  <outline>
+    <contour>
+      <point x="354" y="687" type="line"/>
+      <point x="309" y="719" type="line"/>
+      <point x="207" y="573" type="line"/>
+      <point x="30" y="573" type="line"/>
+      <point x="30" y="518" type="line"/>
+      <point x="236" y="518" type="line"/>
+    </contour>
+  </outline>
+</glyph>

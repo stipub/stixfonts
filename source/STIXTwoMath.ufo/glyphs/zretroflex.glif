@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zretroflex" format="2">
+  <advance width="458"/>
+  <unicode hex="0290"/>
+  <outline>
+    <contour>
+      <point x="425" y="160" type="line"/>
+      <point x="392" y="160" type="line"/>
+      <point x="372" y="67"/>
+      <point x="351" y="41"/>
+      <point x="265" y="41" type="curve" smooth="yes"/>
+      <point x="140" y="41" type="line"/>
+      <point x="140" y="44" type="line"/>
+      <point x="421" y="444" type="line"/>
+      <point x="421" y="473" type="line"/>
+      <point x="52" y="473" type="line"/>
+      <point x="47" y="326" type="line"/>
+      <point x="78" y="326" type="line"/>
+      <point x="87" y="393"/>
+      <point x="103" y="431"/>
+      <point x="177" y="431" type="curve" smooth="yes"/>
+      <point x="312" y="431" type="line"/>
+      <point x="312" y="428" type="line"/>
+      <point x="31" y="29" type="line"/>
+      <point x="31" y="0" type="line"/>
+      <point x="371" y="0" type="line"/>
+      <point x="371" y="-60" type="line" smooth="yes"/>
+      <point x="371" y="-153"/>
+      <point x="396" y="-235"/>
+      <point x="494" y="-235" type="curve" smooth="yes"/>
+      <point x="550" y="-235"/>
+      <point x="583" y="-204"/>
+      <point x="583" y="-166" type="curve" smooth="yes"/>
+      <point x="583" y="-141"/>
+      <point x="567" y="-131"/>
+      <point x="550" y="-131" type="curve" smooth="yes"/>
+      <point x="505" y="-131"/>
+      <point x="509" y="-198"/>
+      <point x="474" y="-198" type="curve" smooth="yes"/>
+      <point x="445" y="-198"/>
+      <point x="415" y="-170"/>
+      <point x="415" y="-79" type="curve" smooth="yes"/>
+      <point x="415" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

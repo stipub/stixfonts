@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chiitalic.ssty" format="2">
+  <advance width="752"/>
+  <outline>
+    <contour>
+      <point x="736" y="500" type="line"/>
+      <point x="736" y="518" type="line"/>
+      <point x="618" y="517" type="line"/>
+      <point x="414" y="257" type="line"/>
+      <point x="408" y="257" type="line"/>
+      <point x="408" y="370"/>
+      <point x="406" y="523"/>
+      <point x="300" y="523" type="curve" smooth="yes"/>
+      <point x="241" y="523"/>
+      <point x="183" y="475"/>
+      <point x="148" y="415" type="curve"/>
+      <point x="174" y="396" type="line"/>
+      <point x="197" y="418"/>
+      <point x="217" y="441"/>
+      <point x="265" y="441" type="curve" smooth="yes"/>
+      <point x="333" y="441"/>
+      <point x="351" y="381"/>
+      <point x="352" y="263" type="curve" smooth="yes"/>
+      <point x="353" y="223"/>
+      <point x="353" y="200"/>
+      <point x="353" y="198" type="curve"/>
+      <point x="-4" y="-194" type="line"/>
+      <point x="-4" y="-216" type="line"/>
+      <point x="114" y="-216" type="line"/>
+      <point x="355" y="99" type="line"/>
+      <point x="363" y="99" type="line"/>
+      <point x="363" y="-6" type="line" smooth="yes"/>
+      <point x="363" y="-169"/>
+      <point x="384" y="-215"/>
+      <point x="459" y="-215" type="curve" smooth="yes"/>
+      <point x="520" y="-215"/>
+      <point x="569" y="-172"/>
+      <point x="601" y="-111" type="curve"/>
+      <point x="578" y="-92" type="line"/>
+      <point x="555" y="-116"/>
+      <point x="526" y="-131"/>
+      <point x="496" y="-131" type="curve" smooth="yes"/>
+      <point x="441" y="-131"/>
+      <point x="418" y="-62"/>
+      <point x="415" y="136" type="curve"/>
+      <point x="415" y="165" type="line"/>
+    </contour>
+  </outline>
+</glyph>

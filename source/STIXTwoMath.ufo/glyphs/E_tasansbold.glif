@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etasansbold" format="2">
+  <advance width="684"/>
+  <unicode hex="1D75C"/>
+  <outline>
+    <contour>
+      <point x="81" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="278" type="line"/>
+      <point x="464" y="278" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="604" y="0" type="line"/>
+      <point x="604" y="657" type="line"/>
+      <point x="464" y="657" type="line"/>
+      <point x="464" y="401" type="line"/>
+      <point x="221" y="401" type="line"/>
+      <point x="221" y="657" type="line"/>
+      <point x="81" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>

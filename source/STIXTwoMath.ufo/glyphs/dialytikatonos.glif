@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dialytikatonos" format="2">
+  <advance width="426"/>
+  <unicode hex="0385"/>
+  <outline>
+    <contour>
+      <point x="135" y="604" type="curve" smooth="yes"/>
+      <point x="135" y="633"/>
+      <point x="115" y="655"/>
+      <point x="82" y="655" type="curve" smooth="yes"/>
+      <point x="49" y="655"/>
+      <point x="30" y="634"/>
+      <point x="30" y="604" type="curve" smooth="yes"/>
+      <point x="30" y="573"/>
+      <point x="48" y="551"/>
+      <point x="82" y="551" type="curve" smooth="yes"/>
+      <point x="116" y="551"/>
+      <point x="135" y="574"/>
+    </contour>
+    <contour>
+      <point x="170" y="521" type="line"/>
+      <point x="208" y="521" type="line"/>
+      <point x="274" y="671" type="line"/>
+      <point x="274" y="689" type="line"/>
+      <point x="182" y="689" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="604" type="curve" smooth="yes"/>
+      <point x="396" y="633"/>
+      <point x="376" y="655"/>
+      <point x="343" y="655" type="curve" smooth="yes"/>
+      <point x="310" y="655"/>
+      <point x="291" y="634"/>
+      <point x="291" y="604" type="curve" smooth="yes"/>
+      <point x="291" y="573"/>
+      <point x="309" y="551"/>
+      <point x="343" y="551" type="curve" smooth="yes"/>
+      <point x="377" y="551"/>
+      <point x="396" y="574"/>
+    </contour>
+  </outline>
+</glyph>

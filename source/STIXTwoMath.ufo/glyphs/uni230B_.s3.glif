@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni230B.s3" format="2">
+  <advance width="409"/>
+  <outline>
+    <contour>
+      <point x="50" y="-521" type="line"/>
+      <point x="50" y="-559" type="line"/>
+      <point x="306" y="-559" type="line"/>
+      <point x="306" y="1103" type="line"/>
+      <point x="219" y="1103" type="line"/>
+      <point x="219" y="-521" type="line"/>
+    </contour>
+  </outline>
+</glyph>

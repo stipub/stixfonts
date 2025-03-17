@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idblstruck.ssty2" format="2">
+  <advance width="378"/>
+  <outline>
+    <contour>
+      <point x="96" y="0" type="line"/>
+      <point x="282" y="0" type="line"/>
+      <point x="282" y="731" type="line"/>
+      <point x="96" y="731" type="line"/>
+    </contour>
+    <contour>
+      <point x="232" y="684" type="line"/>
+      <point x="232" y="47" type="line"/>
+      <point x="146" y="47" type="line"/>
+      <point x="146" y="684" type="line"/>
+    </contour>
+  </outline>
+</glyph>

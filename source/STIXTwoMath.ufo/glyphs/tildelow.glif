@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildelow" format="2">
+  <advance width="381"/>
+  <unicode hex="02F7"/>
+  <outline>
+    <component base="tildebelowcomb" xOffset="426"/>
+  </outline>
+</glyph>

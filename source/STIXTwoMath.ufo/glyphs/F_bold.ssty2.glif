@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Fbold.ssty2" format="2">
+  <advance width="719"/>
+  <outline>
+    <contour>
+      <point x="437" y="0" type="line"/>
+      <point x="437" y="53" type="line"/>
+      <point x="345" y="53"/>
+      <point x="316" y="66"/>
+      <point x="316" y="142" type="curve" smooth="yes"/>
+      <point x="316" y="653" type="line"/>
+      <point x="461" y="653" type="line" smooth="yes"/>
+      <point x="613" y="653"/>
+      <point x="623" y="624"/>
+      <point x="643" y="518" type="curve"/>
+      <point x="700" y="518" type="line"/>
+      <point x="700" y="731" type="line"/>
+      <point x="45" y="731" type="line"/>
+      <point x="45" y="676" type="line"/>
+      <point x="133" y="676"/>
+      <point x="154" y="664"/>
+      <point x="154" y="584" type="curve" smooth="yes"/>
+      <point x="154" y="150" type="line" smooth="yes"/>
+      <point x="154" y="68"/>
+      <point x="133" y="53"/>
+      <point x="45" y="53" type="curve"/>
+      <point x="45" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="598" y="240" type="line"/>
+      <point x="598" y="501" type="line"/>
+      <point x="545" y="501" type="line"/>
+      <point x="545" y="411"/>
+      <point x="512" y="400"/>
+      <point x="412" y="400" type="curve" smooth="yes"/>
+      <point x="270" y="400" type="line"/>
+      <point x="270" y="334" type="line"/>
+      <point x="412" y="334" type="line" smooth="yes"/>
+      <point x="512" y="334"/>
+      <point x="545" y="330"/>
+      <point x="545" y="240" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

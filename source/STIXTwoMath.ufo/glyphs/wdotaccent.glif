@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wdotaccent" format="2">
+  <advance width="749"/>
+  <unicode hex="1E87"/>
+  <outline>
+    <component base="w"/>
+    <component base="dotaccentcomb" xOffset="604"/>
+  </outline>
+</glyph>

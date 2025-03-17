@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pentagramRinterlaced" format="2">
+  <advance width="788"/>
+  <unicode hex="26E5"/>
+  <outline>
+    <contour>
+      <point x="503" y="194" type="line"/>
+      <point x="531" y="104" type="line"/>
+      <point x="328" y="254" type="line"/>
+      <point x="313" y="203" type="line"/>
+      <point x="629" y="-32" type="line"/>
+      <point x="547" y="226" type="line"/>
+    </contour>
+    <contour>
+      <point x="246" y="315" type="line"/>
+      <point x="166" y="374" type="line"/>
+      <point x="423" y="374" type="line"/>
+      <point x="405" y="428" type="line"/>
+      <point x="10" y="428" type="line"/>
+      <point x="230" y="265" type="line"/>
+    </contour>
+    <contour>
+      <point x="456" y="188" type="line"/>
+      <point x="778" y="428" type="line"/>
+      <point x="507" y="428" type="line"/>
+      <point x="525" y="374" type="line"/>
+      <point x="623" y="374" type="line"/>
+      <point x="415" y="220" type="line"/>
+    </contour>
+    <contour>
+      <point x="282" y="351" type="line"/>
+      <point x="160" y="-32" type="line"/>
+      <point x="375" y="128" type="line"/>
+      <point x="333" y="159" type="line"/>
+      <point x="255" y="101" type="line"/>
+      <point x="335" y="351" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="452" type="line"/>
+      <point x="395" y="540" type="line"/>
+      <point x="472" y="292" type="line"/>
+      <point x="515" y="324" type="line"/>
+      <point x="394" y="706" type="line"/>
+      <point x="313" y="452" type="line"/>
+    </contour>
+  </outline>
+</glyph>

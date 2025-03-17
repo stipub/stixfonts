@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Alphabolditalic" format="2">
-  <advance width="709"/>
-  <unicode hex="1D71C"/>
-  <outline>
-    <component base="Abolditalic"/>
-  </outline>
-</glyph>

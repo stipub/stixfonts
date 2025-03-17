@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Epsilon.ssty" format="2">
+  <advance width="710"/>
+  <outline>
+    <component base="E.ssty"/>
+  </outline>
+</glyph>

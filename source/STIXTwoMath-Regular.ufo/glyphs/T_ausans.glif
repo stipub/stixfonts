@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tausans" format="2">
-  <advance width="547"/>
-  <unicode hex="E190"/>
-  <outline>
-    <component base="Tsans" xOffset="-2"/>
-  </outline>
-</glyph>

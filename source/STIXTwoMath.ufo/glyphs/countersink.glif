@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="countersink" format="2">
+  <advance width="577"/>
+  <unicode hex="2335"/>
+  <outline>
+    <contour>
+      <point x="288" y="147" type="line"/>
+      <point x="123" y="409" type="line"/>
+      <point x="55" y="409" type="line"/>
+      <point x="288" y="45" type="line"/>
+      <point x="522" y="409" type="line"/>
+      <point x="454" y="409" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="0" x="0" y="62"/>
+</glyph>

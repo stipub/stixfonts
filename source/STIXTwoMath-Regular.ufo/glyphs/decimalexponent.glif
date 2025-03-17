@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="decimalexponent" format="2">
-  <advance width="725"/>
-  <unicode hex="23E8"/>
-  <outline>
-    <component base="onesuperior" yOffset="-481"/>
-    <component base="zerosuperior" xOffset="313" yOffset="-481"/>
-  </outline>
-</glyph>

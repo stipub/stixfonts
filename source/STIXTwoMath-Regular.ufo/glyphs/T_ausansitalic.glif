@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tausansitalic" format="2">
-  <advance width="522"/>
-  <unicode hex="E1D2"/>
-  <outline>
-    <component base="Tsansitalic"/>
-  </outline>
-</glyph>

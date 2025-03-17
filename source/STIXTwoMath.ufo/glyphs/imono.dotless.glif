@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imono.dotless" format="2">
+  <advance width="540"/>
+  <outline>
+    <contour>
+      <point x="106" y="0" type="curve" smooth="yes"/>
+      <point x="168" y="0"/>
+      <point x="215" y="2"/>
+      <point x="299" y="2" type="curve" smooth="yes"/>
+      <point x="352" y="2"/>
+      <point x="402" y="0"/>
+      <point x="480" y="0" type="curve" smooth="yes"/>
+      <point x="484" y="0"/>
+      <point x="486" y="2"/>
+      <point x="486" y="6" type="curve" smooth="yes"/>
+      <point x="486" y="40" type="line" smooth="yes"/>
+      <point x="486" y="45"/>
+      <point x="484" y="46"/>
+      <point x="481" y="46" type="curve"/>
+      <point x="346" y="58" type="line" smooth="yes"/>
+      <point x="330" y="59"/>
+      <point x="328" y="66"/>
+      <point x="328" y="74" type="curve" smooth="yes"/>
+      <point x="328" y="448" type="line" smooth="yes"/>
+      <point x="328" y="454"/>
+      <point x="327" y="456"/>
+      <point x="319" y="456" type="curve" smooth="yes"/>
+      <point x="109" y="451" type="line" smooth="yes"/>
+      <point x="102" y="451"/>
+      <point x="100" y="450"/>
+      <point x="100" y="443" type="curve" smooth="yes"/>
+      <point x="100" y="413" type="line" smooth="yes"/>
+      <point x="100" y="404"/>
+      <point x="102" y="404"/>
+      <point x="109" y="403" type="curve" smooth="yes"/>
+      <point x="246" y="393" type="line" smooth="yes"/>
+      <point x="263" y="392"/>
+      <point x="268" y="391"/>
+      <point x="268" y="372" type="curve" smooth="yes"/>
+      <point x="268" y="74" type="line" smooth="yes"/>
+      <point x="268" y="65"/>
+      <point x="261" y="59"/>
+      <point x="248" y="58" type="curve" smooth="yes"/>
+      <point x="106" y="46" type="line"/>
+      <point x="102" y="46"/>
+      <point x="100" y="44"/>
+      <point x="100" y="40" type="curve" smooth="yes"/>
+      <point x="100" y="6" type="line" smooth="yes"/>
+      <point x="100" y="2"/>
+      <point x="102" y="0"/>
+    </contour>
+  </outline>
+</glyph>

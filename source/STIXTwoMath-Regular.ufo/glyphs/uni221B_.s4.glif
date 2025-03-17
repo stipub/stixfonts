@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni221B.s4" format="2">
-  <advance width="1212"/>
-  <outline>
-    <component base="uni221A.s4"/>
-    <component base="three.ssty2" xScale="0.65" yScale="0.65" xOffset="111" yOffset="1745"/>
-  </outline>
-</glyph>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon.ssty" format="2">
+  <advance width="293"/>
+  <outline>
+    <component base="comma.ssty"/>
+    <component base="period.ssty" yOffset="377"/>
+  </outline>
+</glyph>

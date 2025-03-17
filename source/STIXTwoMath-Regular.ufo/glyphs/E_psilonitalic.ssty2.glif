@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Epsilonitalic.ssty2" format="2">
-  <advance width="768"/>
-  <outline>
-    <component base="Eitalic.ssty2"/>
-  </outline>
-</glyph>

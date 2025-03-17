@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrowelectric" format="2">
+  <advance width="598"/>
+  <unicode hex="2301"/>
+  <outline>
+    <contour>
+      <point x="40" y="389" type="line"/>
+      <point x="264" y="250" type="line"/>
+      <point x="264" y="396" type="line"/>
+      <point x="558" y="215" type="line"/>
+      <point x="558" y="132" type="line"/>
+      <point x="334" y="271" type="line"/>
+      <point x="334" y="124" type="line"/>
+      <point x="40" y="306" type="line"/>
+    </contour>
+  </outline>
+  <guideline angle="339.048" x="0" y="539"/>
+  <guideline angle="328.168" x="0" y="499"/>
+</glyph>

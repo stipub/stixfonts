@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="decimalsepkey" format="2">
+  <advance width="545"/>
+  <unicode hex="2396"/>
+  <outline>
+    <contour>
+      <point x="101" y="0" type="line"/>
+      <point x="515" y="657" type="line"/>
+      <point x="100" y="657" type="line"/>
+      <point x="100" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

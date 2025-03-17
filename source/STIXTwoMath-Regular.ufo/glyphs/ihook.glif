@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ihook" format="2">
-  <advance width="285"/>
-  <unicode hex="1EC9"/>
-  <outline>
-    <component base="i.dotless"/>
-    <component base="hookabovecomb" xOffset="355"/>
-  </outline>
-</glyph>

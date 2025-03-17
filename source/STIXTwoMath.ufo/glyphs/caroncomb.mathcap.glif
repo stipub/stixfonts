@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caroncomb.mathcap" format="2">
+  <outline>
+    <contour>
+      <point x="-377" y="659" type="line"/>
+      <point x="-265" y="521" type="line"/>
+      <point x="-194" y="521" type="line"/>
+      <point x="-83" y="659" type="line"/>
+      <point x="-123" y="659" type="line"/>
+      <point x="-229" y="578" type="line"/>
+      <point x="-335" y="659" type="line"/>
+    </contour>
+  </outline>
+</glyph>

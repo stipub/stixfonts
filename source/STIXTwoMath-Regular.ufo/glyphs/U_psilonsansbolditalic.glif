@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Upsilonsansbolditalic" format="2">
-  <advance width="512"/>
-  <unicode hex="1D7A4"/>
-  <outline>
-    <component base="Ysansbolditalic"/>
-  </outline>
-</glyph>

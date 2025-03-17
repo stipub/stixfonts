@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldblstruck" format="2">
+  <advance width="572"/>
+  <unicode hex="1D543"/>
+  <outline>
+    <contour>
+      <point x="551" y="0" type="line"/>
+      <point x="551" y="42" type="line"/>
+      <point x="235" y="42" type="line"/>
+      <point x="235" y="657" type="line"/>
+      <point x="72" y="657" type="line"/>
+      <point x="72" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="42" type="line"/>
+      <point x="115" y="42" type="line"/>
+      <point x="115" y="615" type="line"/>
+      <point x="192" y="615" type="line"/>
+    </contour>
+  </outline>
+</glyph>

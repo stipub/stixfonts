@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2213.ssty2" format="2">
+  <advance width="800"/>
+  <outline>
+    <contour>
+      <point x="80" y="550" type="line"/>
+      <point x="80" y="463" type="line"/>
+      <point x="720" y="463" type="line"/>
+      <point x="720" y="550" type="line"/>
+    </contour>
+    <contour>
+      <point x="80" y="204" type="line"/>
+      <point x="80" y="117" type="line"/>
+      <point x="720" y="117" type="line"/>
+      <point x="720" y="204" type="line"/>
+    </contour>
+    <contour>
+      <point x="354" y="401" type="line"/>
+      <point x="354" y="-79" type="line"/>
+      <point x="445" y="-79" type="line"/>
+      <point x="445" y="401" type="line"/>
+    </contour>
+  </outline>
+</glyph>

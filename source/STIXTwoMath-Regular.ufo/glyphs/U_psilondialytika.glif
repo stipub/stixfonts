@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Upsilondialytika" format="2">
-  <advance width="647"/>
-  <unicode hex="03AB"/>
-  <outline>
-    <component base="Y"/>
-    <component base="dieresiscomb.cap" xOffset="570"/>
-  </outline>
-</glyph>

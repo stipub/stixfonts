@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="abrevehook" format="2">
-  <advance width="480"/>
-  <unicode hex="1EB3"/>
-  <outline>
-    <component base="a"/>
-    <component base="brevehookcomb" xOffset="461"/>
-  </outline>
-</glyph>

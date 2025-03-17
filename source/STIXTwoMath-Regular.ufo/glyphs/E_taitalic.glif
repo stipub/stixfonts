@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Etaitalic" format="2">
-  <advance width="757"/>
-  <unicode hex="1D6E8"/>
-  <outline>
-    <component base="Hitalic"/>
-  </outline>
-</glyph>

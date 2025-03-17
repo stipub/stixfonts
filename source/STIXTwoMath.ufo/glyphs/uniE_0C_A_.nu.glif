@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE0CA.nu" format="2">
+  <advance width="1024"/>
+  <unicode hex="E0CA"/>
+  <outline>
+    <contour>
+      <point x="973" y="489" type="line"/>
+      <point x="973" y="557" type="line"/>
+      <point x="51" y="557" type="line"/>
+      <point x="51" y="489" type="line"/>
+    </contour>
+    <contour>
+      <point x="973" y="313" type="line"/>
+      <point x="973" y="381" type="line"/>
+      <point x="51" y="381" type="line"/>
+      <point x="51" y="313" type="line"/>
+    </contour>
+    <contour>
+      <point x="973" y="137" type="line"/>
+      <point x="973" y="205" type="line"/>
+      <point x="51" y="205" type="line"/>
+      <point x="51" y="137" type="line"/>
+    </contour>
+    <contour>
+      <point x="973" y="-39" type="line"/>
+      <point x="973" y="28" type="line"/>
+      <point x="51" y="28" type="line"/>
+      <point x="51" y="-39" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Betasansitalic" format="2">
-  <advance width="596"/>
-  <unicode hex="E1C0"/>
-  <outline>
-    <component base="Bsansitalic"/>
-  </outline>
-</glyph>

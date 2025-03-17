@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2140.var" format="2">
+  <advance width="735"/>
+  <outline>
+    <contour>
+      <point x="684" y="0" type="line"/>
+      <point x="684" y="45" type="line"/>
+      <point x="258" y="45" type="line"/>
+      <point x="486" y="352" type="line"/>
+      <point x="281" y="633" type="line"/>
+      <point x="659" y="633" type="line"/>
+      <point x="659" y="678" type="line"/>
+      <point x="68" y="678" type="line"/>
+      <point x="68" y="633" type="line"/>
+      <point x="276" y="352" type="line"/>
+      <point x="51" y="45" type="line"/>
+      <point x="51" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="430" y="353" type="line"/>
+      <point x="205" y="45" type="line"/>
+      <point x="105" y="45" type="line"/>
+      <point x="332" y="354" type="line"/>
+      <point x="127" y="633" type="line"/>
+      <point x="225" y="633" type="line"/>
+    </contour>
+  </outline>
+</glyph>

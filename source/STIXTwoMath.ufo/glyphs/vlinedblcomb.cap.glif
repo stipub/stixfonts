@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vlinedblcomb.cap" format="2">
+  <outline>
+    <contour>
+      <point x="-131" y="686" type="line"/>
+      <point x="-131" y="891" type="line"/>
+      <point x="-188" y="891" type="line"/>
+      <point x="-188" y="686" type="line"/>
+    </contour>
+    <contour>
+      <point x="-274" y="686" type="line"/>
+      <point x="-274" y="891" type="line"/>
+      <point x="-329" y="891" type="line"/>
+      <point x="-329" y="686" type="line"/>
+    </contour>
+  </outline>
+</glyph>

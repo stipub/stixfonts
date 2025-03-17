@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idblstruck" format="2">
+  <advance width="280"/>
+  <unicode hex="1D55A"/>
+  <outline>
+    <contour>
+      <point x="214" y="0" type="line"/>
+      <point x="214" y="456" type="line"/>
+      <point x="66" y="456" type="line"/>
+      <point x="66" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="42" type="line"/>
+      <point x="109" y="42" type="line"/>
+      <point x="109" y="414" type="line"/>
+      <point x="171" y="414" type="line"/>
+    </contour>
+    <contour>
+      <point x="214" y="539" type="line"/>
+      <point x="214" y="688" type="line"/>
+      <point x="66" y="688" type="line"/>
+      <point x="66" y="539" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="581" type="line"/>
+      <point x="109" y="581" type="line"/>
+      <point x="109" y="646" type="line"/>
+      <point x="171" y="646" type="line"/>
+    </contour>
+  </outline>
+</glyph>

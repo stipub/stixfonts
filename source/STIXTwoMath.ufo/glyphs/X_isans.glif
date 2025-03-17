@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Xisans" format="2">
+  <advance width="543"/>
+  <unicode hex="E18A"/>
+  <outline>
+    <contour>
+      <point x="49" y="0" type="line"/>
+      <point x="493" y="0" type="line"/>
+      <point x="493" y="73" type="line"/>
+      <point x="49" y="73" type="line"/>
+    </contour>
+    <contour>
+      <point x="126" y="309" type="line"/>
+      <point x="417" y="309" type="line"/>
+      <point x="417" y="380" type="line"/>
+      <point x="126" y="380" type="line"/>
+    </contour>
+    <contour>
+      <point x="59" y="585" type="line"/>
+      <point x="484" y="585" type="line"/>
+      <point x="484" y="657" type="line"/>
+      <point x="59" y="657" type="line"/>
+    </contour>
+  </outline>
+</glyph>
