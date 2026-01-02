@@ -20,7 +20,7 @@ cffsubr==0.2.8
     # via
     #   -r requirements.in
     #   ufo2ft
-compreffor==0.5.1
+compreffor==0.6.0
     # via ufo2ft
 cu2qu==1.6.7
     # via
@@ -47,17 +47,17 @@ fs==2.4.13
     # via fonttools
 glyphslib==5.3.2
     # via fontmake
-lxml==4.9.1
+lxml==6.0.2
     # via fonttools
 psautohint==2.3.0
     # via -r requirements.in
-pyclipper==1.2.1
+pyclipper==1.4.0
     # via booleanoperations
 pytz==2021.1
     # via fs
-six==1.15.0
+six==1.17.0
     # via fs
-skia-pathops==0.6.0.post2
+skia-pathops==0.9.1
     # via fontmake
 ttfautohint-py==0.4.3
     # via -r requirements.in
@@ -72,4 +72,5 @@ zopfli==0.1.8
     # via fonttools
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools
+# Uncomment bellow in build fails
+# setuptools==80.9.0
