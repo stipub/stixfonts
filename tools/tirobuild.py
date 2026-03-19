@@ -647,7 +647,7 @@ class Font:
 
         logger.info(f"Removing overlaps from {self.filename}")
         try:
-            removeOverlaps(otf)
+            removeOverlaps(otf, removeHinting=False)
         except NotImplementedError:
             pass
         return otf
