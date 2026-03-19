@@ -258,9 +258,9 @@ The revised .vtp files should then be exported for future use, and the .input.tt
 
 Once all the source files are ready, run the build tool as described above. The build tool describes what it is doing as it runs. In overview, this is what it does:
 
-1. Pre-process the UFO files to:
-a) remove all features and kerning groups from the UFOs; b) rename the glyphs to match the TTFs (otherwise the binary tables can’t be grafted in with FontTools easily); c) extract the binary tables and add them under data/com.github.fonttools.ttx/ in the UFO font where ufo2ft expects them; d) save the modified files in build/masters to keep the sources unchanged.
-1. Build variable font with fontmake from build/masters UFOs.
-1. Build binary masters with fontmake (needed for the next step) from UFOs.
-1. Instantiate static fonts with fontmake from UFOs, but telling it to interpolate OTL tables from the binary masters.
-1. Post-process the fonts to fix the name tables and other final touchups.
+1. Pre-process the UFO files to confirm glyph names match the input TTFs (otherwise the binary tables can’t be grafted in with FontTools easily).
+1. Build variable font masters using ufo2ft, skipping building layout tables.
+1. Copy the binary tables from source TTFs to the built masters.
+1. Build variable font with fontTools.varLib from built masters.
+1. Add any table data specified in the YAML file (name, DSIG, meta, STAT, etc), as well as featureParams.
+1. Instantiate static fonts with fontTools.varLib.mutator from built variable font.
